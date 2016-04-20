@@ -1,0 +1,132 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ExtensionDelegate"
+provides-nominal:
+- "C24Vague_WatchKit_Extension17ExtensionDelegate"
+provides-member:
+- ["C24Vague_WatchKit_Extension17ExtensionDelegate", ""]
+provides-dynamic-lookup:
+- "applicationWillResignActive"
+- "applicationDidBecomeActive"
+- "applicationDidFinishLaunching"
+depends-top-level:
+- "ExtensionDelegate"
+- "NSObject"
+- "WKExtensionDelegate"
+depends-member:
+- ["Ps9AnyObject", "applicationDidBecomeActive"]
+- ["Ps9AnyObject", "applicationDidFinishLaunching"]
+- ["Ps9AnyObject", "applicationWillResignActive"]
+- ["Ps9AnyObject", "didReceiveLocalNotification"]
+- ["Ps9AnyObject", "didReceiveRemoteNotification"]
+- ["Ps9AnyObject", "handleActionWithIdentifier"]
+- ["Ps9AnyObject", "handleUserActivity"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", ""]
+- ["Ps11CVarArgType", "applicationDidBecomeActive"]
+- ["Ps11CVarArgType", "applicationDidFinishLaunching"]
+- ["Ps11CVarArgType", "applicationWillResignActive"]
+- ["Ps11CVarArgType", "didReceiveLocalNotification"]
+- ["Ps11CVarArgType", "didReceiveRemoteNotification"]
+- ["Ps11CVarArgType", "handleActionWithIdentifier"]
+- ["Ps11CVarArgType", "handleUserActivity"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "applicationDidBecomeActive"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidFinishLaunching"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillResignActive"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveLocalNotification"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveRemoteNotification"]
+- ["Ps28CustomDebugStringConvertible", "handleActionWithIdentifier"]
+- ["Ps28CustomDebugStringConvertible", "handleUserActivity"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "applicationDidBecomeActive"]
+- ["Ps23CustomStringConvertible", "applicationDidFinishLaunching"]
+- ["Ps23CustomStringConvertible", "applicationWillResignActive"]
+- ["Ps23CustomStringConvertible", "didReceiveLocalNotification"]
+- ["Ps23CustomStringConvertible", "didReceiveRemoteNotification"]
+- ["Ps23CustomStringConvertible", "handleActionWithIdentifier"]
+- ["Ps23CustomStringConvertible", "handleUserActivity"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "applicationDidBecomeActive"]
+- ["Ps9Equatable", "applicationDidFinishLaunching"]
+- ["Ps9Equatable", "applicationWillResignActive"]
+- ["Ps9Equatable", "didReceiveLocalNotification"]
+- ["Ps9Equatable", "didReceiveRemoteNotification"]
+- ["Ps9Equatable", "handleActionWithIdentifier"]
+- ["Ps9Equatable", "handleUserActivity"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", ""]
+- ["C24Vague_WatchKit_Extension17ExtensionDelegate", "applicationDidBecomeActive"]
+- ["C24Vague_WatchKit_Extension17ExtensionDelegate", "applicationDidFinishLaunching"]
+- ["C24Vague_WatchKit_Extension17ExtensionDelegate", "applicationWillResignActive"]
+- ["C24Vague_WatchKit_Extension17ExtensionDelegate", "deinit"]
+- ["C24Vague_WatchKit_Extension17ExtensionDelegate", "didReceiveLocalNotification"]
+- ["C24Vague_WatchKit_Extension17ExtensionDelegate", "didReceiveRemoteNotification"]
+- ["C24Vague_WatchKit_Extension17ExtensionDelegate", "handleActionWithIdentifier"]
+- ["C24Vague_WatchKit_Extension17ExtensionDelegate", "handleUserActivity"]
+- ["C24Vague_WatchKit_Extension17ExtensionDelegate", "init"]
+- ["Ps8Hashable", "applicationDidBecomeActive"]
+- ["Ps8Hashable", "applicationDidFinishLaunching"]
+- ["Ps8Hashable", "applicationWillResignActive"]
+- ["Ps8Hashable", "didReceiveLocalNotification"]
+- ["Ps8Hashable", "didReceiveRemoteNotification"]
+- ["Ps8Hashable", "handleActionWithIdentifier"]
+- ["Ps8Hashable", "handleUserActivity"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", ""]
+- ["CSo8NSObject", "applicationDidBecomeActive"]
+- ["CSo8NSObject", "applicationDidFinishLaunching"]
+- ["CSo8NSObject", "applicationWillResignActive"]
+- ["CSo8NSObject", "didReceiveLocalNotification"]
+- ["CSo8NSObject", "didReceiveRemoteNotification"]
+- ["CSo8NSObject", "handleActionWithIdentifier"]
+- ["CSo8NSObject", "handleUserActivity"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
+- ["PSo16NSObjectProtocol", "applicationDidFinishLaunching"]
+- ["PSo16NSObjectProtocol", "applicationWillResignActive"]
+- ["PSo16NSObjectProtocol", "didReceiveLocalNotification"]
+- ["PSo16NSObjectProtocol", "didReceiveRemoteNotification"]
+- ["PSo16NSObjectProtocol", "handleActionWithIdentifier"]
+- ["PSo16NSObjectProtocol", "handleUserActivity"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo19WKExtensionDelegate", "applicationDidBecomeActive"]
+- ["PSo19WKExtensionDelegate", "applicationDidFinishLaunching"]
+- ["PSo19WKExtensionDelegate", "applicationWillResignActive"]
+- ["PSo19WKExtensionDelegate", "didReceiveLocalNotification"]
+- ["PSo19WKExtensionDelegate", "didReceiveRemoteNotification"]
+- ["PSo19WKExtensionDelegate", "handleActionWithIdentifier"]
+- ["PSo19WKExtensionDelegate", "handleUserActivity"]
+- ["PSo19WKExtensionDelegate", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "C24Vague_WatchKit_Extension17ExtensionDelegate"
+- "Ps8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo19WKExtensionDelegate"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/WatchKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/CoreLocation.swiftmodule"
+- "/Users/Akash/Desktop/Vague/build/Debug-watchsimulator/SigmaSwiftStatistics.framework/Modules/SigmaSwiftStatistics.swiftmodule/i386.swiftmodule"
+- "/Users/Akash/Desktop/Vague/build/Debug-watchsimulator/SigmaSwiftStatistics.framework/Headers/SigmaSwiftStatistics-Swift.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-watchsimulator/SigmaSwiftStatistics.framework/Headers/SigmaSwiftStatistics-umbrella.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-watchsimulator/SigmaSwiftStatistics.framework/Modules/module.modulemap"
+interface-hash: "c11a0d38216cfa27c8eae29ae4caceda"

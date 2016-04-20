@@ -1,0 +1,664 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "iosViewController"
+provides-nominal:
+- "C5Vague17iosViewController"
+provides-member:
+- ["C5Vague17iosViewController", ""]
+provides-dynamic-lookup:
+- "session"
+- "session"
+- "received"
+- "iCloudUpdated"
+- "iCloud"
+- "viewWillAppear"
+- "viewDidLoad"
+- "setCountInIcloud"
+depends-top-level:
+- "WCSessionDelegate"
+- "Bool"
+- "iCloudUpdateDelegate"
+- "WCSession"
+- !private "StringLiteralType"
+- "UIViewController"
+- "UILabel"
+- "iosViewController"
+- !private "dispatch_get_main_queue"
+- "iCloudManager"
+- "String"
+- !private "dispatch_async"
+- "AnyObject"
+depends-member:
+- !private ["Ps9AnyObject", "WCSession"]
+- !private ["Ps9AnyObject", "activateSession"]
+- !private ["Ps9AnyObject", "defaultSession"]
+- !private ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "dispatch_async"]
+- !private ["Ps9AnyObject", "dispatch_get_main_queue"]
+- !private ["Ps9AnyObject", "getiCloudData"]
+- ["Ps9AnyObject", "iCloud"]
+- ["Ps9AnyObject", "iCloudManager"]
+- ["Ps9AnyObject", "iCloudUpdated"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isSupported"]
+- ["Ps9AnyObject", "received"]
+- ["Ps9AnyObject", "session"]
+- ["Ps9AnyObject", "sessionDidBecomeInactive"]
+- ["Ps9AnyObject", "sessionDidDeactivate"]
+- ["Ps9AnyObject", "sessionReachabilityDidChange"]
+- ["Ps9AnyObject", "sessionWatchStateDidChange"]
+- ["Ps9AnyObject", "setCountInIcloud"]
+- !private ["Ps9AnyObject", "setiCloudData"]
+- !private ["Ps9AnyObject", "text"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", "viewWillAppear"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "WCSession"]
+- !private ["Ps11CVarArgType", "activateSession"]
+- !private ["Ps11CVarArgType", "defaultSession"]
+- !private ["Ps11CVarArgType", "delegate"]
+- !private ["Ps11CVarArgType", "dispatch_async"]
+- !private ["Ps11CVarArgType", "dispatch_get_main_queue"]
+- !private ["Ps11CVarArgType", "getiCloudData"]
+- ["Ps11CVarArgType", "iCloud"]
+- ["Ps11CVarArgType", "iCloudManager"]
+- ["Ps11CVarArgType", "iCloudUpdated"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "isSupported"]
+- ["Ps11CVarArgType", "received"]
+- ["Ps11CVarArgType", "session"]
+- ["Ps11CVarArgType", "sessionDidBecomeInactive"]
+- ["Ps11CVarArgType", "sessionDidDeactivate"]
+- ["Ps11CVarArgType", "sessionReachabilityDidChange"]
+- ["Ps11CVarArgType", "sessionWatchStateDidChange"]
+- ["Ps11CVarArgType", "setCountInIcloud"]
+- !private ["Ps11CVarArgType", "setiCloudData"]
+- !private ["Ps11CVarArgType", "text"]
+- ["Ps11CVarArgType", "viewDidLoad"]
+- ["Ps11CVarArgType", "viewWillAppear"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "WCSession"]
+- !private ["Ps28CustomDebugStringConvertible", "activateSession"]
+- !private ["Ps28CustomDebugStringConvertible", "defaultSession"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "dispatch_async"]
+- !private ["Ps28CustomDebugStringConvertible", "dispatch_get_main_queue"]
+- !private ["Ps28CustomDebugStringConvertible", "getiCloudData"]
+- ["Ps28CustomDebugStringConvertible", "iCloud"]
+- ["Ps28CustomDebugStringConvertible", "iCloudManager"]
+- ["Ps28CustomDebugStringConvertible", "iCloudUpdated"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isSupported"]
+- ["Ps28CustomDebugStringConvertible", "received"]
+- ["Ps28CustomDebugStringConvertible", "session"]
+- ["Ps28CustomDebugStringConvertible", "sessionDidBecomeInactive"]
+- ["Ps28CustomDebugStringConvertible", "sessionDidDeactivate"]
+- ["Ps28CustomDebugStringConvertible", "sessionReachabilityDidChange"]
+- ["Ps28CustomDebugStringConvertible", "sessionWatchStateDidChange"]
+- ["Ps28CustomDebugStringConvertible", "setCountInIcloud"]
+- !private ["Ps28CustomDebugStringConvertible", "setiCloudData"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", "viewWillAppear"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "WCSession"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "activateSession"]
+- !private ["Ps23CustomStringConvertible", "defaultSession"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "dispatch_async"]
+- !private ["Ps23CustomStringConvertible", "dispatch_get_main_queue"]
+- !private ["Ps23CustomStringConvertible", "getiCloudData"]
+- ["Ps23CustomStringConvertible", "iCloud"]
+- ["Ps23CustomStringConvertible", "iCloudManager"]
+- ["Ps23CustomStringConvertible", "iCloudUpdated"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isSupported"]
+- ["Ps23CustomStringConvertible", "received"]
+- ["Ps23CustomStringConvertible", "session"]
+- ["Ps23CustomStringConvertible", "sessionDidBecomeInactive"]
+- ["Ps23CustomStringConvertible", "sessionDidDeactivate"]
+- ["Ps23CustomStringConvertible", "sessionReachabilityDidChange"]
+- ["Ps23CustomStringConvertible", "sessionWatchStateDidChange"]
+- ["Ps23CustomStringConvertible", "setCountInIcloud"]
+- !private ["Ps23CustomStringConvertible", "setiCloudData"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", "viewWillAppear"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "Index"]
+- !private ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Ps28DictionaryLiteralConvertible", "Index"]
+- !private ["Ps28DictionaryLiteralConvertible", "subscript"]
+- !private ["Ps9Equatable", "WCSession"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "activateSession"]
+- !private ["Ps9Equatable", "defaultSession"]
+- !private ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "dispatch_async"]
+- !private ["Ps9Equatable", "dispatch_get_main_queue"]
+- !private ["Ps9Equatable", "getiCloudData"]
+- ["Ps9Equatable", "iCloud"]
+- ["Ps9Equatable", "iCloudManager"]
+- ["Ps9Equatable", "iCloudUpdated"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isSupported"]
+- ["Ps9Equatable", "received"]
+- ["Ps9Equatable", "session"]
+- ["Ps9Equatable", "sessionDidBecomeInactive"]
+- ["Ps9Equatable", "sessionDidDeactivate"]
+- ["Ps9Equatable", "sessionReachabilityDidChange"]
+- ["Ps9Equatable", "sessionWatchStateDidChange"]
+- ["Ps9Equatable", "setCountInIcloud"]
+- !private ["Ps9Equatable", "setiCloudData"]
+- !private ["Ps9Equatable", "text"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", "viewWillAppear"]
+- ["Ps9Equatable", ""]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "WCSession"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "activateSession"]
+- !private ["Ps8Hashable", "defaultSession"]
+- !private ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "dispatch_async"]
+- !private ["Ps8Hashable", "dispatch_get_main_queue"]
+- !private ["Ps8Hashable", "getiCloudData"]
+- ["Ps8Hashable", "iCloud"]
+- ["Ps8Hashable", "iCloudManager"]
+- ["Ps8Hashable", "iCloudUpdated"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isSupported"]
+- ["Ps8Hashable", "received"]
+- ["Ps8Hashable", "session"]
+- ["Ps8Hashable", "sessionDidBecomeInactive"]
+- ["Ps8Hashable", "sessionDidDeactivate"]
+- ["Ps8Hashable", "sessionReachabilityDidChange"]
+- ["Ps8Hashable", "sessionWatchStateDidChange"]
+- ["Ps8Hashable", "setCountInIcloud"]
+- !private ["Ps8Hashable", "setiCloudData"]
+- !private ["Ps8Hashable", "text"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", "viewWillAppear"]
+- ["Ps8Hashable", ""]
+- !private ["SQ", "deinit"]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["PSo8NSCoding", "WCSession"]
+- !private ["PSo8NSCoding", "dispatch_async"]
+- !private ["PSo8NSCoding", "dispatch_get_main_queue"]
+- ["PSo8NSCoding", "iCloud"]
+- ["PSo8NSCoding", "iCloudManager"]
+- ["PSo8NSCoding", "iCloudUpdated"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "received"]
+- ["PSo8NSCoding", "session"]
+- ["PSo8NSCoding", "sessionDidBecomeInactive"]
+- ["PSo8NSCoding", "sessionDidDeactivate"]
+- ["PSo8NSCoding", "sessionReachabilityDidChange"]
+- ["PSo8NSCoding", "sessionWatchStateDidChange"]
+- ["PSo8NSCoding", "setCountInIcloud"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", "viewWillAppear"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo26NSExtensionRequestHandling", "WCSession"]
+- !private ["PSo26NSExtensionRequestHandling", "dispatch_async"]
+- !private ["PSo26NSExtensionRequestHandling", "dispatch_get_main_queue"]
+- ["PSo26NSExtensionRequestHandling", "iCloud"]
+- ["PSo26NSExtensionRequestHandling", "iCloudManager"]
+- ["PSo26NSExtensionRequestHandling", "iCloudUpdated"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "received"]
+- ["PSo26NSExtensionRequestHandling", "session"]
+- ["PSo26NSExtensionRequestHandling", "sessionDidBecomeInactive"]
+- ["PSo26NSExtensionRequestHandling", "sessionDidDeactivate"]
+- ["PSo26NSExtensionRequestHandling", "sessionReachabilityDidChange"]
+- ["PSo26NSExtensionRequestHandling", "sessionWatchStateDidChange"]
+- ["PSo26NSExtensionRequestHandling", "setCountInIcloud"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", "viewWillAppear"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "WCSession"]
+- !private ["CSo8NSObject", "activateSession"]
+- !private ["CSo8NSObject", "defaultSession"]
+- !private ["CSo8NSObject", "delegate"]
+- !private ["CSo8NSObject", "dispatch_async"]
+- !private ["CSo8NSObject", "dispatch_get_main_queue"]
+- !private ["CSo8NSObject", "getiCloudData"]
+- ["CSo8NSObject", "iCloud"]
+- ["CSo8NSObject", "iCloudManager"]
+- ["CSo8NSObject", "iCloudUpdated"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isSupported"]
+- ["CSo8NSObject", "received"]
+- ["CSo8NSObject", "session"]
+- ["CSo8NSObject", "sessionDidBecomeInactive"]
+- ["CSo8NSObject", "sessionDidDeactivate"]
+- ["CSo8NSObject", "sessionReachabilityDidChange"]
+- ["CSo8NSObject", "sessionWatchStateDidChange"]
+- ["CSo8NSObject", "setCountInIcloud"]
+- !private ["CSo8NSObject", "setiCloudData"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["CSo8NSObject", "viewWillAppear"]
+- !private ["PSo16NSObjectProtocol", "WCSession"]
+- !private ["PSo16NSObjectProtocol", "activateSession"]
+- !private ["PSo16NSObjectProtocol", "defaultSession"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "dispatch_async"]
+- !private ["PSo16NSObjectProtocol", "dispatch_get_main_queue"]
+- !private ["PSo16NSObjectProtocol", "getiCloudData"]
+- ["PSo16NSObjectProtocol", "iCloud"]
+- ["PSo16NSObjectProtocol", "iCloudManager"]
+- ["PSo16NSObjectProtocol", "iCloudUpdated"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isSupported"]
+- ["PSo16NSObjectProtocol", "received"]
+- ["PSo16NSObjectProtocol", "session"]
+- ["PSo16NSObjectProtocol", "sessionDidBecomeInactive"]
+- ["PSo16NSObjectProtocol", "sessionDidDeactivate"]
+- ["PSo16NSObjectProtocol", "sessionReachabilityDidChange"]
+- ["PSo16NSObjectProtocol", "sessionWatchStateDidChange"]
+- ["PSo16NSObjectProtocol", "setCountInIcloud"]
+- !private ["PSo16NSObjectProtocol", "setiCloudData"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "viewWillAppear"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Sq", "deinit"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "subscript"]
+- !private ["Vs5Slice", "Generator"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "WCSession"]
+- !private ["PSo21UIAppearanceContainer", "dispatch_async"]
+- !private ["PSo21UIAppearanceContainer", "dispatch_get_main_queue"]
+- ["PSo21UIAppearanceContainer", "iCloud"]
+- ["PSo21UIAppearanceContainer", "iCloudManager"]
+- ["PSo21UIAppearanceContainer", "iCloudUpdated"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "received"]
+- ["PSo21UIAppearanceContainer", "session"]
+- ["PSo21UIAppearanceContainer", "sessionDidBecomeInactive"]
+- ["PSo21UIAppearanceContainer", "sessionDidDeactivate"]
+- ["PSo21UIAppearanceContainer", "sessionReachabilityDidChange"]
+- ["PSo21UIAppearanceContainer", "sessionWatchStateDidChange"]
+- ["PSo21UIAppearanceContainer", "setCountInIcloud"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", "viewWillAppear"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "WCSession"]
+- !private ["PSo18UIContentContainer", "dispatch_async"]
+- !private ["PSo18UIContentContainer", "dispatch_get_main_queue"]
+- ["PSo18UIContentContainer", "iCloud"]
+- ["PSo18UIContentContainer", "iCloudManager"]
+- ["PSo18UIContentContainer", "iCloudUpdated"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "received"]
+- ["PSo18UIContentContainer", "session"]
+- ["PSo18UIContentContainer", "sessionDidBecomeInactive"]
+- ["PSo18UIContentContainer", "sessionDidDeactivate"]
+- ["PSo18UIContentContainer", "sessionReachabilityDidChange"]
+- ["PSo18UIContentContainer", "sessionWatchStateDidChange"]
+- ["PSo18UIContentContainer", "setCountInIcloud"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", "viewWillAppear"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "WCSession"]
+- !private ["PSo18UIFocusEnvironment", "dispatch_async"]
+- !private ["PSo18UIFocusEnvironment", "dispatch_get_main_queue"]
+- ["PSo18UIFocusEnvironment", "iCloud"]
+- ["PSo18UIFocusEnvironment", "iCloudManager"]
+- ["PSo18UIFocusEnvironment", "iCloudUpdated"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "received"]
+- ["PSo18UIFocusEnvironment", "session"]
+- ["PSo18UIFocusEnvironment", "sessionDidBecomeInactive"]
+- ["PSo18UIFocusEnvironment", "sessionDidDeactivate"]
+- ["PSo18UIFocusEnvironment", "sessionReachabilityDidChange"]
+- ["PSo18UIFocusEnvironment", "sessionWatchStateDidChange"]
+- ["PSo18UIFocusEnvironment", "setCountInIcloud"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", "viewWillAppear"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "WCSession"]
+- !private ["CSo11UIResponder", "dispatch_async"]
+- !private ["CSo11UIResponder", "dispatch_get_main_queue"]
+- ["CSo11UIResponder", "iCloud"]
+- ["CSo11UIResponder", "iCloudManager"]
+- ["CSo11UIResponder", "iCloudUpdated"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "received"]
+- ["CSo11UIResponder", "session"]
+- ["CSo11UIResponder", "sessionDidBecomeInactive"]
+- ["CSo11UIResponder", "sessionDidDeactivate"]
+- ["CSo11UIResponder", "sessionReachabilityDidChange"]
+- ["CSo11UIResponder", "sessionWatchStateDidChange"]
+- ["CSo11UIResponder", "setCountInIcloud"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["CSo11UIResponder", "viewWillAppear"]
+- !private ["PSo16UIStateRestoring", "WCSession"]
+- !private ["PSo16UIStateRestoring", "dispatch_async"]
+- !private ["PSo16UIStateRestoring", "dispatch_get_main_queue"]
+- ["PSo16UIStateRestoring", "iCloud"]
+- ["PSo16UIStateRestoring", "iCloudManager"]
+- ["PSo16UIStateRestoring", "iCloudUpdated"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "received"]
+- ["PSo16UIStateRestoring", "session"]
+- ["PSo16UIStateRestoring", "sessionDidBecomeInactive"]
+- ["PSo16UIStateRestoring", "sessionDidDeactivate"]
+- ["PSo16UIStateRestoring", "sessionReachabilityDidChange"]
+- ["PSo16UIStateRestoring", "sessionWatchStateDidChange"]
+- ["PSo16UIStateRestoring", "setCountInIcloud"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "viewWillAppear"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "WCSession"]
+- !private ["PSo18UITraitEnvironment", "dispatch_async"]
+- !private ["PSo18UITraitEnvironment", "dispatch_get_main_queue"]
+- ["PSo18UITraitEnvironment", "iCloud"]
+- ["PSo18UITraitEnvironment", "iCloudManager"]
+- ["PSo18UITraitEnvironment", "iCloudUpdated"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "received"]
+- ["PSo18UITraitEnvironment", "session"]
+- ["PSo18UITraitEnvironment", "sessionDidBecomeInactive"]
+- ["PSo18UITraitEnvironment", "sessionDidDeactivate"]
+- ["PSo18UITraitEnvironment", "sessionReachabilityDidChange"]
+- ["PSo18UITraitEnvironment", "sessionWatchStateDidChange"]
+- ["PSo18UITraitEnvironment", "setCountInIcloud"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", "viewWillAppear"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "Bool"]
+- ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "UILabel"]
+- ["CSo16UIViewController", "WCSession"]
+- !private ["CSo16UIViewController", "dispatch_async"]
+- !private ["CSo16UIViewController", "dispatch_get_main_queue"]
+- ["CSo16UIViewController", "iCloud"]
+- ["CSo16UIViewController", "iCloudManager"]
+- ["CSo16UIViewController", "iCloudUpdated"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "received"]
+- ["CSo16UIViewController", "session"]
+- ["CSo16UIViewController", "sessionDidBecomeInactive"]
+- ["CSo16UIViewController", "sessionDidDeactivate"]
+- ["CSo16UIViewController", "sessionReachabilityDidChange"]
+- ["CSo16UIViewController", "sessionWatchStateDidChange"]
+- ["CSo16UIViewController", "setCountInIcloud"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", "viewWillAppear"]
+- ["CSo16UIViewController", ""]
+- !private ["CSo9WCSession", "activateSession"]
+- !private ["CSo9WCSession", "defaultSession"]
+- !private ["CSo9WCSession", "delegate"]
+- !private ["CSo9WCSession", "isSupported"]
+- !private ["PSo17WCSessionDelegate", "WCSession"]
+- !private ["PSo17WCSessionDelegate", "dispatch_async"]
+- !private ["PSo17WCSessionDelegate", "dispatch_get_main_queue"]
+- !private ["PSo17WCSessionDelegate", "iCloud"]
+- ["PSo17WCSessionDelegate", "iCloudManager"]
+- ["PSo17WCSessionDelegate", "iCloudUpdated"]
+- !private ["PSo17WCSessionDelegate", "received"]
+- ["PSo17WCSessionDelegate", "session"]
+- ["PSo17WCSessionDelegate", "sessionDidBecomeInactive"]
+- ["PSo17WCSessionDelegate", "sessionDidDeactivate"]
+- ["PSo17WCSessionDelegate", "sessionReachabilityDidChange"]
+- ["PSo17WCSessionDelegate", "sessionWatchStateDidChange"]
+- !private ["PSo17WCSessionDelegate", "setCountInIcloud"]
+- ["PSo17WCSessionDelegate", ""]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "subscript"]
+- !private ["Ps12_Reflectable", "text"]
+- !private ["C5Vague13iCloudManager", "getiCloudData"]
+- ["C5Vague13iCloudManager", "init"]
+- !private ["C5Vague13iCloudManager", "setiCloudData"]
+- !private ["P5Vague20iCloudUpdateDelegate", "WCSession"]
+- !private ["P5Vague20iCloudUpdateDelegate", "dispatch_async"]
+- !private ["P5Vague20iCloudUpdateDelegate", "dispatch_get_main_queue"]
+- !private ["P5Vague20iCloudUpdateDelegate", "iCloud"]
+- ["P5Vague20iCloudUpdateDelegate", "iCloudManager"]
+- ["P5Vague20iCloudUpdateDelegate", "iCloudUpdated"]
+- !private ["P5Vague20iCloudUpdateDelegate", "received"]
+- ["P5Vague20iCloudUpdateDelegate", "session"]
+- ["P5Vague20iCloudUpdateDelegate", "sessionDidBecomeInactive"]
+- ["P5Vague20iCloudUpdateDelegate", "sessionDidDeactivate"]
+- ["P5Vague20iCloudUpdateDelegate", "sessionReachabilityDidChange"]
+- ["P5Vague20iCloudUpdateDelegate", "sessionWatchStateDidChange"]
+- !private ["P5Vague20iCloudUpdateDelegate", "setCountInIcloud"]
+- ["P5Vague20iCloudUpdateDelegate", ""]
+- ["C5Vague17iosViewController", "AnyObject"]
+- ["C5Vague17iosViewController", "Bool"]
+- ["C5Vague17iosViewController", "String"]
+- ["C5Vague17iosViewController", "UILabel"]
+- ["C5Vague17iosViewController", "WCSession"]
+- ["C5Vague17iosViewController", "deinit"]
+- !private ["C5Vague17iosViewController", "dispatch_async"]
+- !private ["C5Vague17iosViewController", "dispatch_get_main_queue"]
+- ["C5Vague17iosViewController", "iCloud"]
+- ["C5Vague17iosViewController", "iCloudManager"]
+- ["C5Vague17iosViewController", "iCloudUpdated"]
+- ["C5Vague17iosViewController", "init"]
+- ["C5Vague17iosViewController", "received"]
+- ["C5Vague17iosViewController", "session"]
+- ["C5Vague17iosViewController", "sessionDidBecomeInactive"]
+- ["C5Vague17iosViewController", "sessionDidDeactivate"]
+- ["C5Vague17iosViewController", "sessionReachabilityDidChange"]
+- ["C5Vague17iosViewController", "sessionWatchStateDidChange"]
+- ["C5Vague17iosViewController", "setCountInIcloud"]
+- ["C5Vague17iosViewController", "viewDidLoad"]
+- ["C5Vague17iosViewController", "viewWillAppear"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- !private "Ps14CollectionType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "Ps28DictionaryLiteralConvertible"
+- "Ps9Equatable"
+- !private "Ps13GeneratorType"
+- "Ps8Hashable"
+- !private "SQ"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Sq"
+- !private "Ps12SequenceType"
+- !private "Vs5Slice"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "CSo9WCSession"
+- "PSo17WCSessionDelegate"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps12_Reflectable"
+- "C5Vague13iCloudManager"
+- "P5Vague20iCloudUpdateDelegate"
+- "C5Vague17iosViewController"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/Akash/Desktop/Vague/Vague/Vague-Bridging-Header.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSUICKeyChainStore.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSTMCacheBackgroundTaskManager.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSTMMemoryCache.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSTMDiskCache.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSTMCache.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSSTSResources.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSValidation.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSURLResponseSerialization.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSURLRequestSerialization.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSURLRequestRetryHandler.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSSerialization.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSReachability.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSURLSessionManager.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/NSError+AWSMTLModelException.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSMTLReflection.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSCognitoIdentityResources.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSCognitoIdentityModel.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSCognitoIdentityService.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSCognitoIdentity.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSSTSModel.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSSTSService.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSSTS.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSFMDatabaseQueue.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSFMDatabaseAdditions.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSFMDatabasePool.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSFMResultSet.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSFMDatabase.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSFMDB.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSGZIP.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSTaskCompletionSource.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSTask.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSExecutor.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSCancellationTokenSource.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSCancellationTokenRegistration.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSCancellationToken.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSBoltsVersion.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSBolts.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSSignature.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSSynchronizedMutableDictionary.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSClientContext.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSLogging.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSCategory.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSIdentityProvider.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSCredentialsProvider.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/NSValueTransformer+AWSMTLInversionAdditions.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/NSObject+AWSMTLComparisonAdditions.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/NSDictionary+AWSMTLManipulationAdditions.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/NSArray+AWSMTLManipulationAdditions.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSMTLValueTransformer.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSMTLModel+NSCoding.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSMTLModel.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSMTLManagedObjectAdapter.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSMTLJSONAdapter.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSMantle.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSModel.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSNetworking.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSService.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSServiceEnum.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSCore.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Headers/AWSCore-umbrella.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCore.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSS3.framework/Headers/AWSS3Resources.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSS3.framework/Headers/AWSS3TransferUtility.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSS3.framework/Headers/AWSS3PreSignedURL.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSS3.framework/Headers/AWSS3TransferManager.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSS3.framework/Headers/AWSS3Model.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSS3.framework/Headers/AWSS3Service.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSS3.framework/Headers/AWSS3.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSS3.framework/Headers/AWSS3-umbrella.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSS3.framework/Modules/module.modulemap"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSDynamoDB.framework/Headers/AWSDynamoDBResources.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSDynamoDB.framework/Headers/AWSDynamoDBObjectMapper.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSDynamoDB.framework/Headers/AWSDynamoDBModel.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSDynamoDB.framework/Headers/AWSDynamoDBService.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSDynamoDB.framework/Headers/AWSDynamoDB.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSDynamoDB.framework/Headers/AWSDynamoDB-umbrella.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSDynamoDB.framework/Modules/module.modulemap"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSSQS.framework/Headers/AWSSQSResources.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSSQS.framework/Headers/AWSSQSModel.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSSQS.framework/Headers/AWSSQSService.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSSQS.framework/Headers/AWSSQS.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSSQS.framework/Headers/AWSSQS-umbrella.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSSQS.framework/Modules/module.modulemap"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSSNS.framework/Headers/AWSSNSResources.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSSNS.framework/Headers/AWSSNSModel.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSSNS.framework/Headers/AWSSNSService.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSSNS.framework/Headers/AWSSNS.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSSNS.framework/Headers/AWSSNS-umbrella.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSSNS.framework/Modules/module.modulemap"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCognito.framework/Headers/AWSCognitoSyncResources.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCognito.framework/Headers/AWSCognitoSync.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCognito.framework/Headers/AWSCognitoConflict.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCognito.framework/Headers/AWSCognitoRecord.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCognito.framework/Headers/AWSCognitoDataset.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCognito.framework/Headers/AWSCognitoSyncModel.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCognito.framework/Headers/AWSCognitoSyncService.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCognito.framework/Headers/AWSCognitoHandlers.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCognito.framework/Headers/AWSCognitoService.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCognito.framework/Headers/AWSCognito.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCognito.framework/Headers/AWSCognito-umbrella.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphonesimulator/AWSCognito.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/WatchConnectivity.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CloudKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "4e4855684898d91d191c322cdeb434c6"

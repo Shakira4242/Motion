@@ -1,0 +1,9 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "db995ca4c15bc5b0822d93db28eddded"
+build_time: [514232141, 692265000]
+inputs:
+  "/Users/Akash/Desktop/Vague/VagueTV/ViewController.swift": [514232122, 0]
+  "/Users/Akash/Desktop/Vague/VagueTV/PushupViewController.swift": [514218139, 0]
+  "/Users/Akash/Desktop/Vague/iCloudManager.swift": [514231983, 0]
+  "/Users/Akash/Desktop/Vague/VagueTV/AppDelegate.swift": [514227632, 0]
+  "/Users/Akash/Desktop/Vague/VagueTV/CrunchesViewController.swift": [514218143, 0]

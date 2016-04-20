@@ -1,0 +1,305 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "iCloudUpdateDelegate"
+- "iCloudManager"
+provides-nominal:
+- "P5Vague20iCloudUpdateDelegate"
+- "C5Vague13iCloudManager"
+provides-member:
+- ["P5Vague20iCloudUpdateDelegate", ""]
+- ["C5Vague13iCloudManager", ""]
+provides-dynamic-lookup:
+- "setiCloudData"
+- "iCloudChanged"
+- "getiCloudData"
+depends-top-level:
+- "Void"
+- "NSObject"
+- !private "NSUbiquitousKeyValueStore"
+- !private "NSUbiquitousKeyValueStoreDidChangeExternallyNotification"
+- "iCloudUpdateDelegate"
+- !private "StringLiteralType"
+- "String"
+- "iCloudManager"
+- !private "UnicodeScalarType"
+- "NSNotification"
+- !private "NSNotificationCenter"
+depends-member:
+- !private ["Ps9AnyObject", "NSNotificationCenter"]
+- !private ["Ps9AnyObject", "NSUbiquitousKeyValueStore"]
+- !private ["Ps9AnyObject", "NSUbiquitousKeyValueStoreDidChangeExternallyNotification"]
+- !private ["Ps9AnyObject", "addObserver"]
+- !private ["Ps9AnyObject", "defaultCenter"]
+- !private ["Ps9AnyObject", "defaultStore"]
+- ["Ps9AnyObject", "getiCloudData"]
+- ["Ps9AnyObject", "iCloudChanged"]
+- ["Ps9AnyObject", "iCloudDelegate"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "objectForKey"]
+- !private ["Ps9AnyObject", "setObject"]
+- ["Ps9AnyObject", "setiCloudData"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps11CVarArgType", "NSNotificationCenter"]
+- !private ["Ps11CVarArgType", "NSUbiquitousKeyValueStore"]
+- !private ["Ps11CVarArgType", "NSUbiquitousKeyValueStoreDidChangeExternallyNotification"]
+- !private ["Ps11CVarArgType", "addObserver"]
+- !private ["Ps11CVarArgType", "defaultCenter"]
+- !private ["Ps11CVarArgType", "defaultStore"]
+- ["Ps11CVarArgType", "getiCloudData"]
+- ["Ps11CVarArgType", "iCloudChanged"]
+- ["Ps11CVarArgType", "iCloudDelegate"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "objectForKey"]
+- !private ["Ps11CVarArgType", "setObject"]
+- ["Ps11CVarArgType", "setiCloudData"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps28CustomDebugStringConvertible", "NSNotificationCenter"]
+- !private ["Ps28CustomDebugStringConvertible", "NSUbiquitousKeyValueStore"]
+- !private ["Ps28CustomDebugStringConvertible", "NSUbiquitousKeyValueStoreDidChangeExternallyNotification"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "addObserver"]
+- !private ["Ps28CustomDebugStringConvertible", "defaultCenter"]
+- !private ["Ps28CustomDebugStringConvertible", "defaultStore"]
+- ["Ps28CustomDebugStringConvertible", "getiCloudData"]
+- ["Ps28CustomDebugStringConvertible", "iCloudChanged"]
+- ["Ps28CustomDebugStringConvertible", "iCloudDelegate"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "objectForKey"]
+- !private ["Ps28CustomDebugStringConvertible", "setObject"]
+- ["Ps28CustomDebugStringConvertible", "setiCloudData"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "NSNotificationCenter"]
+- !private ["Ps23CustomStringConvertible", "NSUbiquitousKeyValueStore"]
+- !private ["Ps23CustomStringConvertible", "NSUbiquitousKeyValueStoreDidChangeExternallyNotification"]
+- !private ["Ps23CustomStringConvertible", "addObserver"]
+- !private ["Ps23CustomStringConvertible", "defaultCenter"]
+- !private ["Ps23CustomStringConvertible", "defaultStore"]
+- ["Ps23CustomStringConvertible", "getiCloudData"]
+- ["Ps23CustomStringConvertible", "iCloudChanged"]
+- ["Ps23CustomStringConvertible", "iCloudDelegate"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "objectForKey"]
+- !private ["Ps23CustomStringConvertible", "setObject"]
+- ["Ps23CustomStringConvertible", "setiCloudData"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "NSNotificationCenter"]
+- !private ["Ps9Equatable", "NSUbiquitousKeyValueStore"]
+- !private ["Ps9Equatable", "NSUbiquitousKeyValueStoreDidChangeExternallyNotification"]
+- !private ["Ps9Equatable", "addObserver"]
+- !private ["Ps9Equatable", "defaultCenter"]
+- !private ["Ps9Equatable", "defaultStore"]
+- ["Ps9Equatable", "getiCloudData"]
+- ["Ps9Equatable", "iCloudChanged"]
+- ["Ps9Equatable", "iCloudDelegate"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "objectForKey"]
+- !private ["Ps9Equatable", "setObject"]
+- ["Ps9Equatable", "setiCloudData"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "NSNotificationCenter"]
+- !private ["Ps8Hashable", "NSUbiquitousKeyValueStore"]
+- !private ["Ps8Hashable", "NSUbiquitousKeyValueStoreDidChangeExternallyNotification"]
+- !private ["Ps8Hashable", "addObserver"]
+- !private ["Ps8Hashable", "defaultCenter"]
+- !private ["Ps8Hashable", "defaultStore"]
+- ["Ps8Hashable", "getiCloudData"]
+- ["Ps8Hashable", "iCloudChanged"]
+- ["Ps8Hashable", "iCloudDelegate"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "objectForKey"]
+- !private ["Ps8Hashable", "setObject"]
+- ["Ps8Hashable", "setiCloudData"]
+- ["Ps8Hashable", ""]
+- !private ["CSo20NSNotificationCenter", "addObserver"]
+- !private ["CSo20NSNotificationCenter", "defaultCenter"]
+- ["CSo8NSObject", "NSNotification"]
+- !private ["CSo8NSObject", "NSNotificationCenter"]
+- !private ["CSo8NSObject", "NSUbiquitousKeyValueStore"]
+- !private ["CSo8NSObject", "NSUbiquitousKeyValueStoreDidChangeExternallyNotification"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "addObserver"]
+- !private ["CSo8NSObject", "defaultCenter"]
+- !private ["CSo8NSObject", "defaultStore"]
+- ["CSo8NSObject", "getiCloudData"]
+- ["CSo8NSObject", "iCloudChanged"]
+- ["CSo8NSObject", "iCloudDelegate"]
+- ["CSo8NSObject", "iCloudUpdateDelegate"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "objectForKey"]
+- !private ["CSo8NSObject", "setObject"]
+- ["CSo8NSObject", "setiCloudData"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "NSNotificationCenter"]
+- !private ["PSo16NSObjectProtocol", "NSUbiquitousKeyValueStore"]
+- !private ["PSo16NSObjectProtocol", "NSUbiquitousKeyValueStoreDidChangeExternallyNotification"]
+- !private ["PSo16NSObjectProtocol", "addObserver"]
+- !private ["PSo16NSObjectProtocol", "defaultCenter"]
+- !private ["PSo16NSObjectProtocol", "defaultStore"]
+- ["PSo16NSObjectProtocol", "getiCloudData"]
+- ["PSo16NSObjectProtocol", "iCloudChanged"]
+- ["PSo16NSObjectProtocol", "iCloudDelegate"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "objectForKey"]
+- !private ["PSo16NSObjectProtocol", "setObject"]
+- ["PSo16NSObjectProtocol", "setiCloudData"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["CSo25NSUbiquitousKeyValueStore", "defaultStore"]
+- !private ["CSo25NSUbiquitousKeyValueStore", "objectForKey"]
+- !private ["CSo25NSUbiquitousKeyValueStore", "setObject"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["SS", "deinit"]
+- ["Ps12_Reflectable", "Some"]
+- ["C5Vague13iCloudManager", "NSNotification"]
+- !private ["C5Vague13iCloudManager", "NSNotificationCenter"]
+- !private ["C5Vague13iCloudManager", "NSUbiquitousKeyValueStore"]
+- !private ["C5Vague13iCloudManager", "NSUbiquitousKeyValueStoreDidChangeExternallyNotification"]
+- ["C5Vague13iCloudManager", "String"]
+- ["C5Vague13iCloudManager", "Void"]
+- ["C5Vague13iCloudManager", "deinit"]
+- ["C5Vague13iCloudManager", "getiCloudData"]
+- ["C5Vague13iCloudManager", "iCloudChanged"]
+- ["C5Vague13iCloudManager", "iCloudDelegate"]
+- ["C5Vague13iCloudManager", "iCloudUpdateDelegate"]
+- ["C5Vague13iCloudManager", "init"]
+- ["C5Vague13iCloudManager", "setiCloudData"]
+- ["P5Vague20iCloudUpdateDelegate", "Void"]
+- ["P5Vague20iCloudUpdateDelegate", "iCloudUpdated"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- !private "CSo20NSNotificationCenter"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "CSo25NSUbiquitousKeyValueStore"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- !private "SS"
+- "Ps12_Reflectable"
+- "C5Vague13iCloudManager"
+- "P5Vague20iCloudUpdateDelegate"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/Akash/Desktop/Vague/Vague/Vague-Bridging-Header.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSUICKeyChainStore.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSTMCacheBackgroundTaskManager.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSTMMemoryCache.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSTMDiskCache.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSTMCache.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSSTSResources.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSValidation.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSURLResponseSerialization.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSURLRequestSerialization.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSURLRequestRetryHandler.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSSerialization.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSReachability.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSURLSessionManager.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/NSError+AWSMTLModelException.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSMTLReflection.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCognitoIdentityResources.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCognitoIdentityModel.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCognitoIdentityService.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCognitoIdentity.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSSTSModel.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSSTSService.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSSTS.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSFMDatabaseQueue.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSFMDatabaseAdditions.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSFMDatabasePool.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSFMResultSet.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSFMDatabase.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSFMDB.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSGZIP.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSTaskCompletionSource.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSTask.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSExecutor.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCancellationTokenSource.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCancellationTokenRegistration.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCancellationToken.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSBoltsVersion.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSBolts.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSSignature.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSSynchronizedMutableDictionary.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSClientContext.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSLogging.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCategory.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSIdentityProvider.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCredentialsProvider.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/NSValueTransformer+AWSMTLInversionAdditions.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/NSObject+AWSMTLComparisonAdditions.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/NSDictionary+AWSMTLManipulationAdditions.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/NSArray+AWSMTLManipulationAdditions.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSMTLValueTransformer.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSMTLModel+NSCoding.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSMTLModel.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSMTLManagedObjectAdapter.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSMTLJSONAdapter.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSMantle.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSModel.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSNetworking.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSService.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSServiceEnum.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCore.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCore-umbrella.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSS3.framework/Headers/AWSS3Resources.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSS3.framework/Headers/AWSS3TransferUtility.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSS3.framework/Headers/AWSS3PreSignedURL.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSS3.framework/Headers/AWSS3TransferManager.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSS3.framework/Headers/AWSS3Model.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSS3.framework/Headers/AWSS3Service.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSS3.framework/Headers/AWSS3.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSS3.framework/Headers/AWSS3-umbrella.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSS3.framework/Modules/module.modulemap"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSDynamoDB.framework/Headers/AWSDynamoDBResources.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSDynamoDB.framework/Headers/AWSDynamoDBObjectMapper.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSDynamoDB.framework/Headers/AWSDynamoDBModel.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSDynamoDB.framework/Headers/AWSDynamoDBService.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSDynamoDB.framework/Headers/AWSDynamoDB.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSDynamoDB.framework/Headers/AWSDynamoDB-umbrella.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSDynamoDB.framework/Modules/module.modulemap"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSSQS.framework/Headers/AWSSQSResources.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSSQS.framework/Headers/AWSSQSModel.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSSQS.framework/Headers/AWSSQSService.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSSQS.framework/Headers/AWSSQS.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSSQS.framework/Headers/AWSSQS-umbrella.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSSQS.framework/Modules/module.modulemap"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSSNS.framework/Headers/AWSSNSResources.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSSNS.framework/Headers/AWSSNSModel.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSSNS.framework/Headers/AWSSNSService.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSSNS.framework/Headers/AWSSNS.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSSNS.framework/Headers/AWSSNS-umbrella.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSSNS.framework/Modules/module.modulemap"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCognito.framework/Headers/AWSCognitoSyncResources.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCognito.framework/Headers/AWSCognitoSync.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCognito.framework/Headers/AWSCognitoConflict.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCognito.framework/Headers/AWSCognitoRecord.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCognito.framework/Headers/AWSCognitoDataset.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCognito.framework/Headers/AWSCognitoSyncModel.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCognito.framework/Headers/AWSCognitoSyncService.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCognito.framework/Headers/AWSCognitoHandlers.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCognito.framework/Headers/AWSCognitoService.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCognito.framework/Headers/AWSCognito.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCognito.framework/Headers/AWSCognito-umbrella.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCognito.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/WatchConnectivity.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CloudKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Contacts.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+interface-hash: "a00e9d787a9ec13b35bf9522683895ea"

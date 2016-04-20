@@ -1,0 +1,295 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C14Strict_Fitness14ViewController"
+provides-member:
+- ["C14Strict_Fitness14ViewController", ""]
+provides-dynamic-lookup:
+- "motivationalQuotes"
+- "iCloudUpdated"
+- "didReceiveMemoryWarning"
+- "count"
+- "setCountInIcloud"
+- "viewDidLoad"
+- "iCloud"
+depends-top-level:
+- "UIViewController"
+- "iCloudUpdateDelegate"
+- "iCloudManager"
+- "ViewController"
+- "UILabel"
+- "StringLiteralType"
+- "String"
+depends-member:
+- ["Ps9AnyObject", "count"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "getiCloudData"]
+- ["Ps9AnyObject", "iCloud"]
+- ["Ps9AnyObject", "iCloudManager"]
+- ["Ps9AnyObject", "iCloudUpdated"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "motivationalQuotes"]
+- ["Ps9AnyObject", "setCountInIcloud"]
+- !private ["Ps9AnyObject", "setiCloudData"]
+- !private ["Ps9AnyObject", "text"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- ["Ps11CVarArgType", "count"]
+- ["Ps11CVarArgType", "didReceiveMemoryWarning"]
+- !private ["Ps11CVarArgType", "getiCloudData"]
+- ["Ps11CVarArgType", "iCloud"]
+- ["Ps11CVarArgType", "iCloudManager"]
+- ["Ps11CVarArgType", "iCloudUpdated"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "motivationalQuotes"]
+- ["Ps11CVarArgType", "setCountInIcloud"]
+- !private ["Ps11CVarArgType", "setiCloudData"]
+- !private ["Ps11CVarArgType", "text"]
+- ["Ps11CVarArgType", "viewDidLoad"]
+- ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "count"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "getiCloudData"]
+- ["Ps28CustomDebugStringConvertible", "iCloud"]
+- ["Ps28CustomDebugStringConvertible", "iCloudManager"]
+- ["Ps28CustomDebugStringConvertible", "iCloudUpdated"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "motivationalQuotes"]
+- ["Ps28CustomDebugStringConvertible", "setCountInIcloud"]
+- !private ["Ps28CustomDebugStringConvertible", "setiCloudData"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "count"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps23CustomStringConvertible", "getiCloudData"]
+- ["Ps23CustomStringConvertible", "iCloud"]
+- ["Ps23CustomStringConvertible", "iCloudManager"]
+- ["Ps23CustomStringConvertible", "iCloudUpdated"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "motivationalQuotes"]
+- ["Ps23CustomStringConvertible", "setCountInIcloud"]
+- !private ["Ps23CustomStringConvertible", "setiCloudData"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "count"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "getiCloudData"]
+- ["Ps9Equatable", "iCloud"]
+- ["Ps9Equatable", "iCloudManager"]
+- ["Ps9Equatable", "iCloudUpdated"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "motivationalQuotes"]
+- ["Ps9Equatable", "setCountInIcloud"]
+- !private ["Ps9Equatable", "setiCloudData"]
+- !private ["Ps9Equatable", "text"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "count"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "getiCloudData"]
+- ["Ps8Hashable", "iCloud"]
+- ["Ps8Hashable", "iCloudManager"]
+- ["Ps8Hashable", "iCloudUpdated"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "motivationalQuotes"]
+- ["Ps8Hashable", "setCountInIcloud"]
+- !private ["Ps8Hashable", "setiCloudData"]
+- !private ["Ps8Hashable", "text"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- ["PSo8NSCoding", "count"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "iCloud"]
+- ["PSo8NSCoding", "iCloudManager"]
+- ["PSo8NSCoding", "iCloudUpdated"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "motivationalQuotes"]
+- ["PSo8NSCoding", "setCountInIcloud"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- ["PSo26NSExtensionRequestHandling", "count"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "iCloud"]
+- ["PSo26NSExtensionRequestHandling", "iCloudManager"]
+- ["PSo26NSExtensionRequestHandling", "iCloudUpdated"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "motivationalQuotes"]
+- ["PSo26NSExtensionRequestHandling", "setCountInIcloud"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "count"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "getiCloudData"]
+- ["CSo8NSObject", "iCloud"]
+- ["CSo8NSObject", "iCloudManager"]
+- ["CSo8NSObject", "iCloudUpdated"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "motivationalQuotes"]
+- ["CSo8NSObject", "setCountInIcloud"]
+- !private ["CSo8NSObject", "setiCloudData"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "count"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "getiCloudData"]
+- ["PSo16NSObjectProtocol", "iCloud"]
+- ["PSo16NSObjectProtocol", "iCloudManager"]
+- ["PSo16NSObjectProtocol", "iCloudUpdated"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "motivationalQuotes"]
+- ["PSo16NSObjectProtocol", "setCountInIcloud"]
+- !private ["PSo16NSObjectProtocol", "setiCloudData"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "text"]
+- ["PSo21UIAppearanceContainer", "count"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "iCloud"]
+- ["PSo21UIAppearanceContainer", "iCloudManager"]
+- ["PSo21UIAppearanceContainer", "iCloudUpdated"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "motivationalQuotes"]
+- ["PSo21UIAppearanceContainer", "setCountInIcloud"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo18UIContentContainer", "count"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "iCloud"]
+- ["PSo18UIContentContainer", "iCloudManager"]
+- ["PSo18UIContentContainer", "iCloudUpdated"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "motivationalQuotes"]
+- ["PSo18UIContentContainer", "setCountInIcloud"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "text"]
+- ["PSo18UIFocusEnvironment", "count"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UIFocusEnvironment", "iCloud"]
+- ["PSo18UIFocusEnvironment", "iCloudManager"]
+- ["PSo18UIFocusEnvironment", "iCloudUpdated"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "motivationalQuotes"]
+- ["PSo18UIFocusEnvironment", "setCountInIcloud"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "count"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "iCloud"]
+- ["CSo11UIResponder", "iCloudManager"]
+- ["CSo11UIResponder", "iCloudUpdated"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "motivationalQuotes"]
+- ["CSo11UIResponder", "setCountInIcloud"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "count"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "iCloud"]
+- ["PSo16UIStateRestoring", "iCloudManager"]
+- ["PSo16UIStateRestoring", "iCloudUpdated"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "motivationalQuotes"]
+- ["PSo16UIStateRestoring", "setCountInIcloud"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- ["PSo18UITraitEnvironment", "count"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "iCloud"]
+- ["PSo18UITraitEnvironment", "iCloudManager"]
+- ["PSo18UITraitEnvironment", "iCloudUpdated"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "motivationalQuotes"]
+- ["PSo18UITraitEnvironment", "setCountInIcloud"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "UILabel"]
+- ["CSo16UIViewController", "count"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "iCloud"]
+- ["CSo16UIViewController", "iCloudManager"]
+- ["CSo16UIViewController", "iCloudUpdated"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "motivationalQuotes"]
+- ["CSo16UIViewController", "setCountInIcloud"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- ["C14Strict_Fitness14ViewController", "String"]
+- ["C14Strict_Fitness14ViewController", "UILabel"]
+- ["C14Strict_Fitness14ViewController", "count"]
+- ["C14Strict_Fitness14ViewController", "deinit"]
+- ["C14Strict_Fitness14ViewController", "didReceiveMemoryWarning"]
+- ["C14Strict_Fitness14ViewController", "iCloud"]
+- ["C14Strict_Fitness14ViewController", "iCloudManager"]
+- ["C14Strict_Fitness14ViewController", "iCloudUpdated"]
+- ["C14Strict_Fitness14ViewController", "init"]
+- ["C14Strict_Fitness14ViewController", "motivationalQuotes"]
+- ["C14Strict_Fitness14ViewController", "setCountInIcloud"]
+- ["C14Strict_Fitness14ViewController", "viewDidLoad"]
+- !private ["Ps12_Reflectable", "text"]
+- !private ["C14Strict_Fitness13iCloudManager", "getiCloudData"]
+- ["C14Strict_Fitness13iCloudManager", "init"]
+- !private ["C14Strict_Fitness13iCloudManager", "setiCloudData"]
+- !private ["P14Strict_Fitness20iCloudUpdateDelegate", "count"]
+- !private ["P14Strict_Fitness20iCloudUpdateDelegate", "iCloud"]
+- ["P14Strict_Fitness20iCloudUpdateDelegate", "iCloudManager"]
+- ["P14Strict_Fitness20iCloudUpdateDelegate", "iCloudUpdated"]
+- ["P14Strict_Fitness20iCloudUpdateDelegate", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- "C14Strict_Fitness14ViewController"
+- !private "Ps12_Reflectable"
+- "C14Strict_Fitness13iCloudManager"
+- "P14Strict_Fitness20iCloudUpdateDelegate"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/appletvos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/appletvos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/appletvos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/appletvos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/appletvos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/appletvos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/appletvos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/appletvos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/appletvos/arm64/CloudKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/appletvos/arm64/CoreLocation.swiftmodule"
+interface-hash: "5ca9b5ea6892677a86f25ea09f6f6e05"

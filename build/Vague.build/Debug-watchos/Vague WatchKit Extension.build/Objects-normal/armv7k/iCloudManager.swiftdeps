@@ -1,0 +1,202 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "iCloudUpdateDelegate"
+- "iCloudManager"
+provides-nominal:
+- "P24Vague_WatchKit_Extension20iCloudUpdateDelegate"
+- "C24Vague_WatchKit_Extension13iCloudManager"
+provides-member:
+- ["P24Vague_WatchKit_Extension20iCloudUpdateDelegate", ""]
+- ["C24Vague_WatchKit_Extension13iCloudManager", ""]
+provides-dynamic-lookup:
+- "getiCloudData"
+- "setiCloudData"
+- "iCloudChanged"
+depends-top-level:
+- !private "NSNotificationCenter"
+- !private "UnicodeScalarType"
+- "String"
+- !private "NSUbiquitousKeyValueStoreDidChangeExternallyNotification"
+- "Void"
+- !private "StringLiteralType"
+- "NSNotification"
+- "iCloudUpdateDelegate"
+- !private "NSUbiquitousKeyValueStore"
+- "NSObject"
+- "iCloudManager"
+depends-member:
+- !private ["Ps9AnyObject", "NSNotificationCenter"]
+- !private ["Ps9AnyObject", "NSUbiquitousKeyValueStore"]
+- !private ["Ps9AnyObject", "NSUbiquitousKeyValueStoreDidChangeExternallyNotification"]
+- !private ["Ps9AnyObject", "addObserver"]
+- !private ["Ps9AnyObject", "defaultCenter"]
+- !private ["Ps9AnyObject", "defaultStore"]
+- ["Ps9AnyObject", "getiCloudData"]
+- ["Ps9AnyObject", "iCloudChanged"]
+- ["Ps9AnyObject", "iCloudDelegate"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "objectForKey"]
+- !private ["Ps9AnyObject", "setObject"]
+- ["Ps9AnyObject", "setiCloudData"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps11CVarArgType", "NSNotificationCenter"]
+- !private ["Ps11CVarArgType", "NSUbiquitousKeyValueStore"]
+- !private ["Ps11CVarArgType", "NSUbiquitousKeyValueStoreDidChangeExternallyNotification"]
+- !private ["Ps11CVarArgType", "addObserver"]
+- !private ["Ps11CVarArgType", "defaultCenter"]
+- !private ["Ps11CVarArgType", "defaultStore"]
+- ["Ps11CVarArgType", "getiCloudData"]
+- ["Ps11CVarArgType", "iCloudChanged"]
+- ["Ps11CVarArgType", "iCloudDelegate"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "objectForKey"]
+- !private ["Ps11CVarArgType", "setObject"]
+- ["Ps11CVarArgType", "setiCloudData"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps28CustomDebugStringConvertible", "NSNotificationCenter"]
+- !private ["Ps28CustomDebugStringConvertible", "NSUbiquitousKeyValueStore"]
+- !private ["Ps28CustomDebugStringConvertible", "NSUbiquitousKeyValueStoreDidChangeExternallyNotification"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "addObserver"]
+- !private ["Ps28CustomDebugStringConvertible", "defaultCenter"]
+- !private ["Ps28CustomDebugStringConvertible", "defaultStore"]
+- ["Ps28CustomDebugStringConvertible", "getiCloudData"]
+- ["Ps28CustomDebugStringConvertible", "iCloudChanged"]
+- ["Ps28CustomDebugStringConvertible", "iCloudDelegate"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "objectForKey"]
+- !private ["Ps28CustomDebugStringConvertible", "setObject"]
+- ["Ps28CustomDebugStringConvertible", "setiCloudData"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "NSNotificationCenter"]
+- !private ["Ps23CustomStringConvertible", "NSUbiquitousKeyValueStore"]
+- !private ["Ps23CustomStringConvertible", "NSUbiquitousKeyValueStoreDidChangeExternallyNotification"]
+- !private ["Ps23CustomStringConvertible", "addObserver"]
+- !private ["Ps23CustomStringConvertible", "defaultCenter"]
+- !private ["Ps23CustomStringConvertible", "defaultStore"]
+- ["Ps23CustomStringConvertible", "getiCloudData"]
+- ["Ps23CustomStringConvertible", "iCloudChanged"]
+- ["Ps23CustomStringConvertible", "iCloudDelegate"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "objectForKey"]
+- !private ["Ps23CustomStringConvertible", "setObject"]
+- ["Ps23CustomStringConvertible", "setiCloudData"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "NSNotificationCenter"]
+- !private ["Ps9Equatable", "NSUbiquitousKeyValueStore"]
+- !private ["Ps9Equatable", "NSUbiquitousKeyValueStoreDidChangeExternallyNotification"]
+- !private ["Ps9Equatable", "addObserver"]
+- !private ["Ps9Equatable", "defaultCenter"]
+- !private ["Ps9Equatable", "defaultStore"]
+- ["Ps9Equatable", "getiCloudData"]
+- ["Ps9Equatable", "iCloudChanged"]
+- ["Ps9Equatable", "iCloudDelegate"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "objectForKey"]
+- !private ["Ps9Equatable", "setObject"]
+- ["Ps9Equatable", "setiCloudData"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "NSNotificationCenter"]
+- !private ["Ps8Hashable", "NSUbiquitousKeyValueStore"]
+- !private ["Ps8Hashable", "NSUbiquitousKeyValueStoreDidChangeExternallyNotification"]
+- !private ["Ps8Hashable", "addObserver"]
+- !private ["Ps8Hashable", "defaultCenter"]
+- !private ["Ps8Hashable", "defaultStore"]
+- ["Ps8Hashable", "getiCloudData"]
+- ["Ps8Hashable", "iCloudChanged"]
+- ["Ps8Hashable", "iCloudDelegate"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "objectForKey"]
+- !private ["Ps8Hashable", "setObject"]
+- ["Ps8Hashable", "setiCloudData"]
+- ["Ps8Hashable", ""]
+- !private ["CSo20NSNotificationCenter", "addObserver"]
+- !private ["CSo20NSNotificationCenter", "defaultCenter"]
+- ["CSo8NSObject", "NSNotification"]
+- !private ["CSo8NSObject", "NSNotificationCenter"]
+- !private ["CSo8NSObject", "NSUbiquitousKeyValueStore"]
+- !private ["CSo8NSObject", "NSUbiquitousKeyValueStoreDidChangeExternallyNotification"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "addObserver"]
+- !private ["CSo8NSObject", "defaultCenter"]
+- !private ["CSo8NSObject", "defaultStore"]
+- ["CSo8NSObject", "getiCloudData"]
+- ["CSo8NSObject", "iCloudChanged"]
+- ["CSo8NSObject", "iCloudDelegate"]
+- ["CSo8NSObject", "iCloudUpdateDelegate"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "objectForKey"]
+- !private ["CSo8NSObject", "setObject"]
+- ["CSo8NSObject", "setiCloudData"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "NSNotificationCenter"]
+- !private ["PSo16NSObjectProtocol", "NSUbiquitousKeyValueStore"]
+- !private ["PSo16NSObjectProtocol", "NSUbiquitousKeyValueStoreDidChangeExternallyNotification"]
+- !private ["PSo16NSObjectProtocol", "addObserver"]
+- !private ["PSo16NSObjectProtocol", "defaultCenter"]
+- !private ["PSo16NSObjectProtocol", "defaultStore"]
+- ["PSo16NSObjectProtocol", "getiCloudData"]
+- ["PSo16NSObjectProtocol", "iCloudChanged"]
+- ["PSo16NSObjectProtocol", "iCloudDelegate"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "objectForKey"]
+- !private ["PSo16NSObjectProtocol", "setObject"]
+- ["PSo16NSObjectProtocol", "setiCloudData"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["CSo25NSUbiquitousKeyValueStore", "defaultStore"]
+- !private ["CSo25NSUbiquitousKeyValueStore", "objectForKey"]
+- !private ["CSo25NSUbiquitousKeyValueStore", "setObject"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["SS", "deinit"]
+- ["Ps12_Reflectable", "Some"]
+- ["C24Vague_WatchKit_Extension13iCloudManager", "NSNotification"]
+- !private ["C24Vague_WatchKit_Extension13iCloudManager", "NSNotificationCenter"]
+- !private ["C24Vague_WatchKit_Extension13iCloudManager", "NSUbiquitousKeyValueStore"]
+- !private ["C24Vague_WatchKit_Extension13iCloudManager", "NSUbiquitousKeyValueStoreDidChangeExternallyNotification"]
+- ["C24Vague_WatchKit_Extension13iCloudManager", "String"]
+- ["C24Vague_WatchKit_Extension13iCloudManager", "Void"]
+- ["C24Vague_WatchKit_Extension13iCloudManager", "deinit"]
+- ["C24Vague_WatchKit_Extension13iCloudManager", "getiCloudData"]
+- ["C24Vague_WatchKit_Extension13iCloudManager", "iCloudChanged"]
+- ["C24Vague_WatchKit_Extension13iCloudManager", "iCloudDelegate"]
+- ["C24Vague_WatchKit_Extension13iCloudManager", "iCloudUpdateDelegate"]
+- ["C24Vague_WatchKit_Extension13iCloudManager", "init"]
+- ["C24Vague_WatchKit_Extension13iCloudManager", "setiCloudData"]
+- ["P24Vague_WatchKit_Extension20iCloudUpdateDelegate", "Void"]
+- ["P24Vague_WatchKit_Extension20iCloudUpdateDelegate", "iCloudUpdated"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- !private "CSo20NSNotificationCenter"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "CSo25NSUbiquitousKeyValueStore"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- !private "SS"
+- "Ps12_Reflectable"
+- "C24Vague_WatchKit_Extension13iCloudManager"
+- "P24Vague_WatchKit_Extension20iCloudUpdateDelegate"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/WatchKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/CoreLocation.swiftmodule"
+- "/Users/Akash/Desktop/Vague/build/Debug-watchos/SigmaSwiftStatistics.framework/Modules/SigmaSwiftStatistics.swiftmodule/arm.swiftmodule"
+- "/Users/Akash/Desktop/Vague/build/Debug-watchos/SigmaSwiftStatistics.framework/Headers/SigmaSwiftStatistics-Swift.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-watchos/SigmaSwiftStatistics.framework/Headers/SigmaSwiftStatistics-umbrella.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-watchos/SigmaSwiftStatistics.framework/Modules/module.modulemap"
+interface-hash: "a00e9d787a9ec13b35bf9522683895ea"

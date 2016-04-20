@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/Akash/Desktop/Vague/build/Debug-watchsimulator/SigmaSwiftStatistics.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/Akash/Desktop/Vague/build/Pods.build/Debug-watchsimulator/SigmaSwiftStatistics.build/unextended-module.modulemap',
+    }]
+  }]
+}

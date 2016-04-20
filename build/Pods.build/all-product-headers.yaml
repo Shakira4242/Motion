@@ -1,0 +1,1754 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSAutoScaling.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AWSAutoScaling-Swift.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSAutoScaling.framework/Headers/AWSAutoScaling-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSAutoScaling-umbrella.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/Target Support Files/AWSAutoScaling/AWSAutoScaling-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSAutoScaling.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSAutoScaling/AWSAutoScaling/AWSAutoScaling.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSAutoScalingModel.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSAutoScaling/AWSAutoScaling/AWSAutoScalingModel.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSAutoScalingResources.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSAutoScaling/AWSAutoScaling/AWSAutoScalingResources.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSAutoScalingService.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSAutoScaling/AWSAutoScaling/AWSAutoScalingService.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSAutoScaling.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Pods.build/Debug-iphoneos/AWSAutoScaling.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCloudWatch.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AWSCloudWatch-Swift.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCloudWatch.framework/Headers/AWSCloudWatch-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCloudWatch-umbrella.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/Target Support Files/AWSCloudWatch/AWSCloudWatch-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCloudWatch.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCloudWatch/AWSCloudWatch/AWSCloudWatch.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCloudWatchModel.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCloudWatch/AWSCloudWatch/AWSCloudWatchModel.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCloudWatchResources.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCloudWatch/AWSCloudWatch/AWSCloudWatchResources.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCloudWatchService.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCloudWatch/AWSCloudWatch/AWSCloudWatchService.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCloudWatch.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Pods.build/Debug-iphoneos/AWSCloudWatch.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCognito.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AWSCognito-Swift.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCognito.framework/Headers/AWSCognito-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCognito-umbrella.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/Target Support Files/AWSCognito/AWSCognito-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCognito.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCognito/Cognito/AWSCognito.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCognitoConflict.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCognito/Cognito/AWSCognitoConflict.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCognitoDataset.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCognito/Cognito/AWSCognitoDataset.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCognitoHandlers.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCognito/Cognito/AWSCognitoHandlers.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCognitoRecord.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCognito/Cognito/AWSCognitoRecord.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCognitoService.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCognito/Cognito/AWSCognitoService.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCognitoSync.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCognito/CognitoSync/AWSCognitoSync.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCognitoSyncModel.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCognito/CognitoSync/AWSCognitoSyncModel.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCognitoSyncResources.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCognito/CognitoSync/AWSCognitoSyncResources.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCognitoSyncService.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCognito/CognitoSync/AWSCognitoSyncService.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCognito.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Pods.build/Debug-iphoneos/AWSCognito.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCognito.framework/PrivateHeaders",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AWSCognitoConflict_Internal.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCognito/Cognito/Internal/AWSCognitoConflict_Internal.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCognitoConstants.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCognito/Cognito/Internal/AWSCognitoConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCognitoDataset_Internal.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCognito/Cognito/Internal/AWSCognitoDataset_Internal.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCognitoRecord_Internal.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCognito/Cognito/Internal/AWSCognitoRecord_Internal.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCognitoSQLiteManager.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCognito/Cognito/Internal/AWSCognitoSQLiteManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCognitoUtil.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCognito/Cognito/Internal/AWSCognitoUtil.h"
+        },
+        {
+          'type': 'file',
+          'name': "FABAttributes.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCognito/Cognito/Fabric/FABAttributes.h"
+        },
+        {
+          'type': 'file',
+          'name': "FABKitProtocol.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCognito/Cognito/Fabric/FABKitProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "Fabric+FABKits.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCognito/Cognito/Fabric/Fabric+FABKits.h"
+        },
+        {
+          'type': 'file',
+          'name': "Fabric.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCognito/Cognito/Fabric/Fabric.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AWSBolts.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Bolts/AWSBolts.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSBoltsVersion.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Bolts/AWSBoltsVersion.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCancellationToken.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Bolts/AWSCancellationToken.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCancellationTokenRegistration.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Bolts/AWSCancellationTokenRegistration.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCancellationTokenSource.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Bolts/AWSCancellationTokenSource.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCategory.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Utility/AWSCategory.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSClientContext.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Service/AWSClientContext.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCognitoIdentity.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/CognitoIdentity/AWSCognitoIdentity.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCognitoIdentityModel.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/CognitoIdentity/AWSCognitoIdentityModel.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCognitoIdentityResources.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/CognitoIdentity/AWSCognitoIdentityResources.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCognitoIdentityService.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/CognitoIdentity/AWSCognitoIdentityService.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCore-Swift.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCore-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCore-umbrella.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/Target Support Files/AWSCore/AWSCore-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCore.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/AWSCore.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSCredentialsProvider.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Authentication/AWSCredentialsProvider.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSExecutor.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Bolts/AWSExecutor.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSFMDB.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/FMDB/AWSFMDB.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSFMDatabase.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabase.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSFMDatabaseAdditions.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabaseAdditions.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSFMDatabasePool.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabasePool.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSFMDatabaseQueue.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabaseQueue.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSFMResultSet.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/FMDB/AWSFMResultSet.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSGZIP.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/GZIP/AWSGZIP.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSIdentityProvider.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Authentication/AWSIdentityProvider.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSLogging.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Utility/AWSLogging.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMTLJSONAdapter.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Mantle/AWSMTLJSONAdapter.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMTLManagedObjectAdapter.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Mantle/AWSMTLManagedObjectAdapter.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMTLModel+NSCoding.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Mantle/AWSMTLModel+NSCoding.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMTLModel.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Mantle/AWSMTLModel.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMTLReflection.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Mantle/AWSMTLReflection.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMTLValueTransformer.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Mantle/AWSMTLValueTransformer.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMantle.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Mantle/AWSMantle.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSModel.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Utility/AWSModel.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSNetworking.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Networking/AWSNetworking.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSReachability.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Reachability/AWSReachability.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSSTS.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/STS/AWSSTS.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSSTSModel.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/STS/AWSSTSModel.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSSTSResources.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/STS/AWSSTSResources.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSSTSService.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/STS/AWSSTSService.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSSerialization.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Serialization/AWSSerialization.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSService.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Service/AWSService.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSServiceEnum.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Service/AWSServiceEnum.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSSignature.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Authentication/AWSSignature.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSSynchronizedMutableDictionary.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Utility/AWSSynchronizedMutableDictionary.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSTMCache.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/TMCache/AWSTMCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSTMCacheBackgroundTaskManager.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/TMCache/AWSTMCacheBackgroundTaskManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSTMDiskCache.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/TMCache/AWSTMDiskCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSTMMemoryCache.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/TMCache/AWSTMMemoryCache.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSTask.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Bolts/AWSTask.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSTaskCompletionSource.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Bolts/AWSTaskCompletionSource.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSUICKeyChainStore.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/UICKeyChainStore/AWSUICKeyChainStore.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSURLRequestRetryHandler.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Serialization/AWSURLRequestRetryHandler.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSURLRequestSerialization.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Serialization/AWSURLRequestSerialization.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSURLResponseSerialization.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Serialization/AWSURLResponseSerialization.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSURLSessionManager.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Networking/AWSURLSessionManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSValidation.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Serialization/AWSValidation.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSArray+AWSMTLManipulationAdditions.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Mantle/NSArray+AWSMTLManipulationAdditions.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSDictionary+AWSMTLManipulationAdditions.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Mantle/NSDictionary+AWSMTLManipulationAdditions.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSError+AWSMTLModelException.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Mantle/NSError+AWSMTLModelException.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSObject+AWSMTLComparisonAdditions.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Mantle/NSObject+AWSMTLComparisonAdditions.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSValueTransformer+AWSMTLInversionAdditions.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Mantle/NSValueTransformer+AWSMTLInversionAdditions.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Mantle/NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Pods.build/Debug-iphoneos/AWSCore.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/PrivateHeaders",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AWSEXTKeyPathCoding.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Mantle/extobjc/AWSEXTKeyPathCoding.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSEXTRuntimeExtensions.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Mantle/extobjc/AWSEXTRuntimeExtensions.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSEXTScope.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Mantle/extobjc/AWSEXTScope.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSFMDatabase+Private.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/FMDB/AWSFMDatabase+Private.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSXMLDictionary.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/XMLDictionary/AWSXMLDictionary.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSXMLWriter.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/XMLWriter/AWSXMLWriter.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSmetamacros.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Mantle/extobjc/AWSmetamacros.h"
+        },
+        {
+          'type': 'file',
+          'name': "FABAttributes.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Fabric/FABAttributes.h"
+        },
+        {
+          'type': 'file',
+          'name': "FABKitProtocol.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Fabric/FABKitProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "Fabric+FABKits.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Fabric/Fabric+FABKits.h"
+        },
+        {
+          'type': 'file',
+          'name': "Fabric.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSCore/AWSCore/Fabric/Fabric.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSDynamoDB.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AWSDynamoDB-Swift.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSDynamoDB.framework/Headers/AWSDynamoDB-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSDynamoDB-umbrella.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/Target Support Files/AWSDynamoDB/AWSDynamoDB-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSDynamoDB.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSDynamoDB/AWSDynamoDB/AWSDynamoDB.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSDynamoDBModel.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSDynamoDB/AWSDynamoDB/AWSDynamoDBModel.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSDynamoDBObjectMapper.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSDynamoDB/AWSDynamoDB/AWSDynamoDBObjectMapper.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSDynamoDBResources.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSDynamoDB/AWSDynamoDB/AWSDynamoDBResources.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSDynamoDBService.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSDynamoDB/AWSDynamoDB/AWSDynamoDBService.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSDynamoDB.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Pods.build/Debug-iphoneos/AWSDynamoDB.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSEC2.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AWSEC2-Swift.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSEC2.framework/Headers/AWSEC2-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSEC2-umbrella.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/Target Support Files/AWSEC2/AWSEC2-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSEC2.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSEC2/AWSEC2/AWSEC2.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSEC2Model.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSEC2/AWSEC2/AWSEC2Model.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSEC2Resources.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSEC2/AWSEC2/AWSEC2Resources.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSEC2Service.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSEC2/AWSEC2/AWSEC2Service.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSEC2.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Pods.build/Debug-iphoneos/AWSEC2.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSElasticLoadBalancing.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AWSElasticLoadBalancing-Swift.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSElasticLoadBalancing.framework/Headers/AWSElasticLoadBalancing-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSElasticLoadBalancing-umbrella.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/Target Support Files/AWSElasticLoadBalancing/AWSElasticLoadBalancing-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSElasticLoadBalancing.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSElasticLoadBalancing/AWSElasticLoadBalancing/AWSElasticLoadBalancing.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSElasticLoadBalancingModel.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSElasticLoadBalancing/AWSElasticLoadBalancing/AWSElasticLoadBalancingModel.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSElasticLoadBalancingResources.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSElasticLoadBalancing/AWSElasticLoadBalancing/AWSElasticLoadBalancingResources.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSElasticLoadBalancingService.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSElasticLoadBalancing/AWSElasticLoadBalancing/AWSElasticLoadBalancingService.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSElasticLoadBalancing.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Pods.build/Debug-iphoneos/AWSElasticLoadBalancing.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSKinesis.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AWSAbstractKinesisRecorder.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSKinesis/AWSKinesis/AWSAbstractKinesisRecorder.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSFirehose.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSKinesis/AWSKinesis/AWSFirehose.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSFirehoseModel.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSKinesis/AWSKinesis/AWSFirehoseModel.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSFirehoseRecorder.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSKinesis/AWSKinesis/AWSFirehoseRecorder.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSFirehoseResources.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSKinesis/AWSKinesis/AWSFirehoseResources.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSFirehoseService.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSKinesis/AWSKinesis/AWSFirehoseService.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSKinesis-Swift.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSKinesis.framework/Headers/AWSKinesis-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSKinesis-umbrella.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/Target Support Files/AWSKinesis/AWSKinesis-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSKinesis.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSKinesis/AWSKinesis/AWSKinesis.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSKinesisModel.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSKinesis/AWSKinesis/AWSKinesisModel.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSKinesisRecorder.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSKinesis/AWSKinesis/AWSKinesisRecorder.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSKinesisResources.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSKinesis/AWSKinesis/AWSKinesisResources.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSKinesisService.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSKinesis/AWSKinesis/AWSKinesisService.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSKinesis.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Pods.build/Debug-iphoneos/AWSKinesis.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSLambda.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AWSLambda-Swift.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSLambda.framework/Headers/AWSLambda-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSLambda-umbrella.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/Target Support Files/AWSLambda/AWSLambda-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSLambda.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSLambda/AWSLambda/AWSLambda.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSLambdaInvoker.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSLambda/AWSLambda/AWSLambdaInvoker.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSLambdaModel.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSLambda/AWSLambda/AWSLambdaModel.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSLambdaResources.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSLambda/AWSLambda/AWSLambdaResources.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSLambdaService.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSLambda/AWSLambda/AWSLambdaService.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSLambda.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Pods.build/Debug-iphoneos/AWSLambda.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSMachineLearning.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AWSMachineLearning-Swift.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSMachineLearning.framework/Headers/AWSMachineLearning-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMachineLearning-umbrella.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/Target Support Files/AWSMachineLearning/AWSMachineLearning-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMachineLearning.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMachineLearning/AWSMachineLearning/AWSMachineLearning.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMachineLearningModel.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMachineLearning/AWSMachineLearning/AWSMachineLearningModel.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMachineLearningResources.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMachineLearning/AWSMachineLearning/AWSMachineLearningResources.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMachineLearningService.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMachineLearning/AWSMachineLearning/AWSMachineLearningService.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSMachineLearning.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Pods.build/Debug-iphoneos/AWSMachineLearning.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSMobileAnalytics.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalytics-Swift.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSMobileAnalytics.framework/Headers/AWSMobileAnalytics-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalytics-umbrella.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/Target Support Files/AWSMobileAnalytics/AWSMobileAnalytics-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalytics.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/AWSMobileAnalytics.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsAppleMonetizationEventBuilder.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/AWSMobileAnalyticsAppleMonetizationEventBuilder.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsConfiguration.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/AWSMobileAnalyticsConfiguration.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsERS.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/AWSMobileAnalyticsERS/AWSMobileAnalyticsERS.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsERSModel.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/AWSMobileAnalyticsERS/AWSMobileAnalyticsERSModel.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsERSResources.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/AWSMobileAnalyticsERS/AWSMobileAnalyticsERSResources.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsERSService.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/AWSMobileAnalyticsERS/AWSMobileAnalyticsERSService.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsEvent.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/AWSMobileAnalyticsEvent.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsEventClient.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/AWSMobileAnalyticsEventClient.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsMonetizationEventBuilder.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/AWSMobileAnalyticsMonetizationEventBuilder.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsOptions.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/AWSMobileAnalyticsOptions.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsService.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/AWSMobileAnalyticsService.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsVirtualMonetizationEventBuilder.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/AWSMobileAnalyticsVirtualMonetizationEventBuilder.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSMobileAnalytics.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Pods.build/Debug-iphoneos/AWSMobileAnalytics.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSMobileAnalytics.framework/PrivateHeaders",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsActiveSessionState.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsActiveSessionState.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsBufferedReader.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsBufferedReader.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsClientContext.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsClientContext.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsConfigurationKeys.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsConfigurationKeys.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsConfiguring.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsConfiguring.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsConnectivity.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsConnectivity.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsConnectivityPolicy.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsConnectivityPolicy.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsConstants.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsContext.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsContext.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsCountDownLatch.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsCountDownLatch.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsDateUtils.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsDateUtils.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsDefaultConfiguration.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsDefaultConfiguration.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsDefaultContext.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsDefaultContext.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsDefaultDeliveryClient.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsDefaultDeliveryClient.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsDefaultEvent.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsDefaultEvent.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsDefaultEventClient.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsDefaultEventClient.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsDefaultFileManager.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsDefaultFileManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsDefaultOptions.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsDefaultOptions.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsDefaultSessionClient+SessionState.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsDefaultSessionClient+SessionState.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsDefaultSessionClient.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsDefaultSessionClient.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsDelayedBlock.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsDelayedBlock.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsDeliveryClient.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsDeliveryClient.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsDeliveryPolicy.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsDeliveryPolicy.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsDeliveryPolicyFactory.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsDeliveryPolicyFactory.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsEncryptedBufferedReader.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsEncryptedBufferedReader.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsErrorUtils.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsErrorUtils.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsEventConstraintDecorator.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsEventConstraintDecorator.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsEventObserver.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsEventObserver.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsEventStore.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsEventStore.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsFile.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsFile.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsFileEventStore.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsFileEventStore.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsFileManager.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsFileManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsHttpConstants.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsHttpConstants.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsIOSConnectivity.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsIOSConnectivity.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsIOSLifeCycleManager.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsIOSLifeCycleManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsIOSPreferences.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsIOSPreferences.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsIOSSystem.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsIOSSystem.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsInactiveSessionState.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsInactiveSessionState.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsInternalEvent.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsInternalEvent.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsInternalEventClient.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsInternalEventClient.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsJSONSerializer.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsJSONSerializer.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsLifeCycleManager.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsLifeCycleManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsPausedSessionState.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsPausedSessionState.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsPreferences.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsPreferences.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsPrefsUniqueIdService.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsPrefsUniqueIdService.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsRandomUUIDGenerator.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsRandomUUIDGenerator.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsSDKInfo.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsSDKInfo.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsSerializable.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsSerializable.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsSerializerFactory.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsSerializerFactory.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsSession.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsSession.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsSessionClient.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsSessionClient.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsSessionClientState.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsSessionClientState.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsSessionStore.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsSessionStore.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsStringUtils.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsStringUtils.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsSubmissionTimePolicy.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsSubmissionTimePolicy.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsSystem.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsSystem.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsUniqueIdGenerator.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsUniqueIdGenerator.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsUniqueIdService.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsUniqueIdService.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSMobileAnalyticsWriter.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSMobileAnalytics/AWSMobileAnalytics/Internal/AWSMobileAnalyticsWriter.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSS3.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AWSS3-Swift.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSS3.framework/Headers/AWSS3-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSS3-umbrella.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/Target Support Files/AWSS3/AWSS3-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSS3.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSS3/AWSS3/AWSS3.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSS3Model.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSS3/AWSS3/AWSS3Model.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSS3PreSignedURL.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSS3/AWSS3/AWSS3PreSignedURL.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSS3Resources.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSS3/AWSS3/AWSS3Resources.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSS3Service.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSS3/AWSS3/AWSS3Service.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSS3TransferManager.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSS3/AWSS3/AWSS3TransferManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSS3TransferUtility.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSS3/AWSS3/AWSS3TransferUtility.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSS3.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Pods.build/Debug-iphoneos/AWSS3.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSSES.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AWSSES-Swift.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSSES.framework/Headers/AWSSES-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSSES-umbrella.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/Target Support Files/AWSSES/AWSSES-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSSES.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSSES/AWSSES/AWSSES.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSSESModel.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSSES/AWSSES/AWSSESModel.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSSESResources.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSSES/AWSSES/AWSSESResources.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSSESService.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSSES/AWSSES/AWSSESService.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSSES.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Pods.build/Debug-iphoneos/AWSSES.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSSNS.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AWSSNS-Swift.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSSNS.framework/Headers/AWSSNS-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSSNS-umbrella.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/Target Support Files/AWSSNS/AWSSNS-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSSNS.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSSNS/AWSSNS/AWSSNS.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSSNSModel.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSSNS/AWSSNS/AWSSNSModel.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSSNSResources.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSSNS/AWSSNS/AWSSNSResources.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSSNSService.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSSNS/AWSSNS/AWSSNSService.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSSNS.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Pods.build/Debug-iphoneos/AWSSNS.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSSQS.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AWSSQS-Swift.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSSQS.framework/Headers/AWSSQS-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSSQS-umbrella.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/Target Support Files/AWSSQS/AWSSQS-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSSQS.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSSQS/AWSSQS/AWSSQS.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSSQSModel.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSSQS/AWSSQS/AWSSQSModel.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSSQSResources.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSSQS/AWSSQS/AWSSQSResources.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSSQSService.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSSQS/AWSSQS/AWSSQSService.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSSQS.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Pods.build/Debug-iphoneos/AWSSQS.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSSimpleDB.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "AWSSimpleDB-Swift.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSSimpleDB.framework/Headers/AWSSimpleDB-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSSimpleDB-umbrella.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/Target Support Files/AWSSimpleDB/AWSSimpleDB-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSSimpleDB.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSSimpleDB/AWSSimpleDB/AWSSimpleDB.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSSimpleDBModel.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSSimpleDB/AWSSimpleDB/AWSSimpleDBModel.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSSimpleDBResources.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSSimpleDB/AWSSimpleDB/AWSSimpleDBResources.h"
+        },
+        {
+          'type': 'file',
+          'name': "AWSSimpleDBService.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/AWSSimpleDB/AWSSimpleDB/AWSSimpleDBService.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSSimpleDB.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Pods.build/Debug-iphoneos/AWSSimpleDB.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "FAuthData.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/Firebase/FAuthData.h"
+        },
+        {
+          'type': 'file',
+          'name': "FAuthType.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/Firebase/FAuthType.h"
+        },
+        {
+          'type': 'file',
+          'name': "FConfig.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/Firebase/FConfig.h"
+        },
+        {
+          'type': 'file',
+          'name': "FDataSnapshot.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/Firebase/FDataSnapshot.h"
+        },
+        {
+          'type': 'file',
+          'name': "FEventType.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/Firebase/FEventType.h"
+        },
+        {
+          'type': 'file',
+          'name': "FMutableData.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/Firebase/FMutableData.h"
+        },
+        {
+          'type': 'file',
+          'name': "FQuery.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/Firebase/FQuery.h"
+        },
+        {
+          'type': 'file',
+          'name': "FTransactionResult.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/Firebase/FTransactionResult.h"
+        },
+        {
+          'type': 'file',
+          'name': "Firebase-Swift.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers/Firebase-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Firebase-umbrella.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/Target Support Files/Firebase/Firebase-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Firebase.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/Firebase/Firebase.h"
+        },
+        {
+          'type': 'file',
+          'name': "FirebaseApp.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/Firebase/FirebaseApp.h"
+        },
+        {
+          'type': 'file',
+          'name': "FirebaseServerValue.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/Firebase/FirebaseServerValue.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Pods.build/Debug-iphoneos/Firebase.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Pods_Vague.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Vague-umbrella.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/Target Support Files/Pods-Vague/Pods-Vague-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_Vague-Swift.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Pods_Vague.framework/Headers/Pods_Vague-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Pods_Vague.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Pods.build/Debug-iphoneos/Pods-Vague.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-watchos/Pods_Vague_WatchKit_App.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Vague WatchKit App-umbrella.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/Target Support Files/Pods-Vague WatchKit App/Pods-Vague WatchKit App-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_Vague_WatchKit_App-Swift.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Debug-watchos/Pods_Vague_WatchKit_App.framework/Headers/Pods_Vague_WatchKit_App-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-watchos/Pods_Vague_WatchKit_App.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Pods.build/Debug-watchos/Pods-Vague WatchKit App.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-watchos/SigmaSwiftStatistics.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SigmaSwiftStatistics-Swift.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Debug-watchos/SigmaSwiftStatistics.framework/Headers/SigmaSwiftStatistics-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SigmaSwiftStatistics-umbrella.h",
+          'external-contents': "/Users/Akash/Desktop/Vague/Pods/Target Support Files/SigmaSwiftStatistics/SigmaSwiftStatistics-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Akash/Desktop/Vague/build/Debug-watchos/SigmaSwiftStatistics.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Akash/Desktop/Vague/build/Pods.build/Debug-watchos/SigmaSwiftStatistics.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

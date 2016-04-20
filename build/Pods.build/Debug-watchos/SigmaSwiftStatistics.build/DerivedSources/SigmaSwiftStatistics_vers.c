@@ -1,0 +1,1 @@
+ const unsigned char SigmaSwiftStatisticsVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:SigmaSwiftStatistics  PROJECT:Pods-1" "\n"; const double SigmaSwiftStatisticsVersionNumber __attribute__ ((used)) = (double)1.;

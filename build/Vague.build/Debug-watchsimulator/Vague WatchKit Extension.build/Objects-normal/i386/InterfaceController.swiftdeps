@@ -6,68 +6,70 @@ provides-nominal:
 provides-member:
 - ["C24Vague_WatchKit_Extension19InterfaceController", ""]
 provides-dynamic-lookup:
-- "counter"
-- "labelA2"
-- "KNN"
-- "labelA3"
-- "sample"
-- "stopButton"
+- "crunchCounter"
+- "iCloudUpdated"
+- "willActivate"
 - "session"
+- "KNN"
+- "stopButton"
+- "array1"
+- "send"
+- "counted"
+- "delay"
+- "labelA2"
 - "iCloud"
 - "motionManager"
-- "awakeWithContext"
 - "didDeactivate"
-- "send"
-- "willActivate"
-- "crunchCounter"
-- "delay"
-- "iCloudUpdated"
-- "array1"
+- "counter"
+- "awakeWithContext"
 - "setCountInIcloud"
+- "labelA3"
+- "sample"
 depends-top-level:
-- "WKInterfaceLabel"
-- "CMMotionManager"
-- !private "dispatch_get_main_queue"
-- "InterfaceController"
-- !private "NSUTF8StringEncoding"
-- !private "+="
+- !private "Dictionary"
+- !private "Void"
+- "Int"
+- !private "=="
+- !private "dispatch_time"
 - !private "NSString"
 - !private "Sigma"
-- !private "print"
-- !private "!="
-- !private "Dictionary"
-- "WKInterfaceController"
-- !private "-"
-- !private "NSError"
-- !private ">"
-- !private "NSEC_PER_SEC"
-- !private "CMAccelerometerData"
+- !private "DISPATCH_TIME_NOW"
 - "AnyObject"
-- !private "..."
-- !private "*"
-- !private "StringLiteralType"
-- !private ">="
-- "Int"
-- "WCSessionDelegate"
-- "iCloudUpdateDelegate"
-- "iCloudManager"
-- "String"
-- !private "sqrt"
 - !private "Int64"
-- !private "dispatch_time"
-- !private "UnicodeScalarType"
-- !private "sleep"
+- !private "-"
+- !private "sqrt"
+- !private "&&"
+- !private "+="
 - "Double"
 - "WCSession"
-- !private "DISPATCH_TIME_NOW"
+- "WCSessionDelegate"
+- "iCloudUpdateDelegate"
+- !private "dispatch_after"
+- !private "..."
+- !private "NSOperationQueue"
+- !private "pause"
+- !private "CMAccelerometerData"
+- !private "dispatch_get_main_queue"
+- "WKInterfaceController"
+- !private "NSError"
+- !private "StringLiteralType"
+- !private ">"
 - !private "+"
+- !private ">="
+- !private "print"
+- "WKInterfaceLabel"
+- "iCloudManager"
+- "CMMotionManager"
+- !private "UnicodeScalarType"
+- "String"
+- !private "!="
+- !private "*"
+- "BooleanLiteralType"
+- "InterfaceController"
 - !private "NSBundle"
 - !private "Array"
-- !private "Void"
-- !private "NSOperationQueue"
-- !private "=="
-- !private "&&"
-- !private "dispatch_after"
+- !private "NSUTF8StringEncoding"
+- !private "NSEC_PER_SEC"
 depends-member:
 - !private ["Ps16AbsoluteValuable", "init"]
 - ["Ps9AnyObject", "CMMotionManager"]
@@ -91,6 +93,7 @@ depends-member:
 - ["Ps9AnyObject", "array1"]
 - ["Ps9AnyObject", "awakeWithContext"]
 - !private ["Ps9AnyObject", "componentsSeparatedByString"]
+- ["Ps9AnyObject", "counted"]
 - ["Ps9AnyObject", "counter"]
 - ["Ps9AnyObject", "crunchCounter"]
 - !private ["Ps9AnyObject", "currentQueue"]
@@ -112,6 +115,7 @@ depends-member:
 - !private ["Ps9AnyObject", "mainBundle"]
 - ["Ps9AnyObject", "motionManager"]
 - !private ["Ps9AnyObject", "pathForResource"]
+- !private ["Ps9AnyObject", "pause"]
 - !private ["Ps9AnyObject", "print"]
 - ["Ps9AnyObject", "sample"]
 - ["Ps9AnyObject", "send"]
@@ -123,11 +127,12 @@ depends-member:
 - ["Ps9AnyObject", "setCountInIcloud"]
 - !private ["Ps9AnyObject", "setText"]
 - !private ["Ps9AnyObject", "setiCloudData"]
-- !private ["Ps9AnyObject", "sleep"]
 - !private ["Ps9AnyObject", "sqrt"]
+- !private ["Ps9AnyObject", "startAccelerometerUpdates"]
 - !private ["Ps9AnyObject", "startAccelerometerUpdatesToQueue"]
 - !private ["Ps9AnyObject", "stopAccelerometerUpdates"]
 - ["Ps9AnyObject", "stopButton"]
+- !private ["Ps9AnyObject", "timestamp"]
 - !private ["Ps9AnyObject", "updateApplicationContext"]
 - ["Ps9AnyObject", "willActivate"]
 - ["Ps9AnyObject", ""]
@@ -174,10 +179,13 @@ depends-member:
 - !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
 - !private ["VSC14CMAcceleration", "y"]
 - !private ["CSo19CMAccelerometerData", "acceleration"]
+- !private ["CSo19CMAccelerometerData", "timestamp"]
 - !private ["CSo9CMLogItem", "acceleration"]
+- !private ["CSo9CMLogItem", "timestamp"]
 - !private ["CSo15CMMotionManager", "accelerometerAvailable"]
 - !private ["CSo15CMMotionManager", "accelerometerUpdateInterval"]
 - ["CSo15CMMotionManager", "init"]
+- !private ["CSo15CMMotionManager", "startAccelerometerUpdates"]
 - !private ["CSo15CMMotionManager", "startAccelerometerUpdatesToQueue"]
 - !private ["CSo15CMMotionManager", "stopAccelerometerUpdates"]
 - ["Ps11CVarArgType", "CMMotionManager"]
@@ -205,6 +213,7 @@ depends-member:
 - ["Ps11CVarArgType", "array1"]
 - ["Ps11CVarArgType", "awakeWithContext"]
 - !private ["Ps11CVarArgType", "componentsSeparatedByString"]
+- ["Ps11CVarArgType", "counted"]
 - ["Ps11CVarArgType", "counter"]
 - ["Ps11CVarArgType", "crunchCounter"]
 - !private ["Ps11CVarArgType", "currentQueue"]
@@ -226,6 +235,7 @@ depends-member:
 - !private ["Ps11CVarArgType", "mainBundle"]
 - ["Ps11CVarArgType", "motionManager"]
 - !private ["Ps11CVarArgType", "pathForResource"]
+- !private ["Ps11CVarArgType", "pause"]
 - !private ["Ps11CVarArgType", "print"]
 - ["Ps11CVarArgType", "sample"]
 - ["Ps11CVarArgType", "send"]
@@ -237,11 +247,12 @@ depends-member:
 - ["Ps11CVarArgType", "setCountInIcloud"]
 - !private ["Ps11CVarArgType", "setText"]
 - !private ["Ps11CVarArgType", "setiCloudData"]
-- !private ["Ps11CVarArgType", "sleep"]
 - !private ["Ps11CVarArgType", "sqrt"]
+- !private ["Ps11CVarArgType", "startAccelerometerUpdates"]
 - !private ["Ps11CVarArgType", "startAccelerometerUpdatesToQueue"]
 - !private ["Ps11CVarArgType", "stopAccelerometerUpdates"]
 - ["Ps11CVarArgType", "stopButton"]
+- !private ["Ps11CVarArgType", "timestamp"]
 - !private ["Ps11CVarArgType", "updateApplicationContext"]
 - ["Ps11CVarArgType", "willActivate"]
 - ["Ps11CVarArgType", ""]
@@ -297,6 +308,7 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "awakeWithContext"]
 - !private ["Ps28CustomDebugStringConvertible", "componentsSeparatedByString"]
 - !private ["Ps28CustomDebugStringConvertible", "count"]
+- ["Ps28CustomDebugStringConvertible", "counted"]
 - ["Ps28CustomDebugStringConvertible", "counter"]
 - ["Ps28CustomDebugStringConvertible", "crunchCounter"]
 - !private ["Ps28CustomDebugStringConvertible", "currentQueue"]
@@ -319,6 +331,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "mainBundle"]
 - ["Ps28CustomDebugStringConvertible", "motionManager"]
 - !private ["Ps28CustomDebugStringConvertible", "pathForResource"]
+- !private ["Ps28CustomDebugStringConvertible", "pause"]
 - !private ["Ps28CustomDebugStringConvertible", "print"]
 - !private ["Ps28CustomDebugStringConvertible", "removeFirst"]
 - ["Ps28CustomDebugStringConvertible", "sample"]
@@ -331,13 +344,14 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "setCountInIcloud"]
 - !private ["Ps28CustomDebugStringConvertible", "setText"]
 - !private ["Ps28CustomDebugStringConvertible", "setiCloudData"]
-- !private ["Ps28CustomDebugStringConvertible", "sleep"]
 - !private ["Ps28CustomDebugStringConvertible", "sort"]
 - !private ["Ps28CustomDebugStringConvertible", "sqrt"]
+- !private ["Ps28CustomDebugStringConvertible", "startAccelerometerUpdates"]
 - !private ["Ps28CustomDebugStringConvertible", "startAccelerometerUpdatesToQueue"]
 - !private ["Ps28CustomDebugStringConvertible", "stopAccelerometerUpdates"]
 - ["Ps28CustomDebugStringConvertible", "stopButton"]
 - !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "timestamp"]
 - !private ["Ps28CustomDebugStringConvertible", "updateApplicationContext"]
 - ["Ps28CustomDebugStringConvertible", "willActivate"]
 - ["Ps28CustomDebugStringConvertible", ""]
@@ -376,6 +390,7 @@ depends-member:
 - ["Ps23CustomStringConvertible", "awakeWithContext"]
 - !private ["Ps23CustomStringConvertible", "componentsSeparatedByString"]
 - !private ["Ps23CustomStringConvertible", "count"]
+- ["Ps23CustomStringConvertible", "counted"]
 - ["Ps23CustomStringConvertible", "counter"]
 - ["Ps23CustomStringConvertible", "crunchCounter"]
 - !private ["Ps23CustomStringConvertible", "currentQueue"]
@@ -398,6 +413,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "mainBundle"]
 - ["Ps23CustomStringConvertible", "motionManager"]
 - !private ["Ps23CustomStringConvertible", "pathForResource"]
+- !private ["Ps23CustomStringConvertible", "pause"]
 - !private ["Ps23CustomStringConvertible", "print"]
 - !private ["Ps23CustomStringConvertible", "removeFirst"]
 - ["Ps23CustomStringConvertible", "sample"]
@@ -410,13 +426,14 @@ depends-member:
 - ["Ps23CustomStringConvertible", "setCountInIcloud"]
 - !private ["Ps23CustomStringConvertible", "setText"]
 - !private ["Ps23CustomStringConvertible", "setiCloudData"]
-- !private ["Ps23CustomStringConvertible", "sleep"]
 - !private ["Ps23CustomStringConvertible", "sort"]
 - !private ["Ps23CustomStringConvertible", "sqrt"]
+- !private ["Ps23CustomStringConvertible", "startAccelerometerUpdates"]
 - !private ["Ps23CustomStringConvertible", "startAccelerometerUpdatesToQueue"]
 - !private ["Ps23CustomStringConvertible", "stopAccelerometerUpdates"]
 - ["Ps23CustomStringConvertible", "stopButton"]
 - !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "timestamp"]
 - !private ["Ps23CustomStringConvertible", "updateApplicationContext"]
 - ["Ps23CustomStringConvertible", "willActivate"]
 - ["Ps23CustomStringConvertible", ""]
@@ -454,6 +471,7 @@ depends-member:
 - ["Ps9Equatable", "array1"]
 - ["Ps9Equatable", "awakeWithContext"]
 - !private ["Ps9Equatable", "componentsSeparatedByString"]
+- ["Ps9Equatable", "counted"]
 - ["Ps9Equatable", "counter"]
 - ["Ps9Equatable", "crunchCounter"]
 - !private ["Ps9Equatable", "currentQueue"]
@@ -475,6 +493,7 @@ depends-member:
 - !private ["Ps9Equatable", "mainBundle"]
 - ["Ps9Equatable", "motionManager"]
 - !private ["Ps9Equatable", "pathForResource"]
+- !private ["Ps9Equatable", "pause"]
 - !private ["Ps9Equatable", "print"]
 - ["Ps9Equatable", "sample"]
 - ["Ps9Equatable", "send"]
@@ -486,11 +505,12 @@ depends-member:
 - ["Ps9Equatable", "setCountInIcloud"]
 - !private ["Ps9Equatable", "setText"]
 - !private ["Ps9Equatable", "setiCloudData"]
-- !private ["Ps9Equatable", "sleep"]
 - !private ["Ps9Equatable", "sqrt"]
+- !private ["Ps9Equatable", "startAccelerometerUpdates"]
 - !private ["Ps9Equatable", "startAccelerometerUpdatesToQueue"]
 - !private ["Ps9Equatable", "stopAccelerometerUpdates"]
 - ["Ps9Equatable", "stopButton"]
+- !private ["Ps9Equatable", "timestamp"]
 - !private ["Ps9Equatable", "updateApplicationContext"]
 - ["Ps9Equatable", "willActivate"]
 - ["Ps9Equatable", ""]
@@ -530,6 +550,7 @@ depends-member:
 - ["Ps8Hashable", "array1"]
 - ["Ps8Hashable", "awakeWithContext"]
 - !private ["Ps8Hashable", "componentsSeparatedByString"]
+- ["Ps8Hashable", "counted"]
 - ["Ps8Hashable", "counter"]
 - ["Ps8Hashable", "crunchCounter"]
 - !private ["Ps8Hashable", "currentQueue"]
@@ -551,6 +572,7 @@ depends-member:
 - !private ["Ps8Hashable", "mainBundle"]
 - ["Ps8Hashable", "motionManager"]
 - !private ["Ps8Hashable", "pathForResource"]
+- !private ["Ps8Hashable", "pause"]
 - !private ["Ps8Hashable", "print"]
 - ["Ps8Hashable", "sample"]
 - ["Ps8Hashable", "send"]
@@ -562,11 +584,12 @@ depends-member:
 - ["Ps8Hashable", "setCountInIcloud"]
 - !private ["Ps8Hashable", "setText"]
 - !private ["Ps8Hashable", "setiCloudData"]
-- !private ["Ps8Hashable", "sleep"]
 - !private ["Ps8Hashable", "sqrt"]
+- !private ["Ps8Hashable", "startAccelerometerUpdates"]
 - !private ["Ps8Hashable", "startAccelerometerUpdatesToQueue"]
 - !private ["Ps8Hashable", "stopAccelerometerUpdates"]
 - ["Ps8Hashable", "stopButton"]
+- !private ["Ps8Hashable", "timestamp"]
 - !private ["Ps8Hashable", "updateApplicationContext"]
 - ["Ps8Hashable", "willActivate"]
 - ["Ps8Hashable", ""]
@@ -629,6 +652,7 @@ depends-member:
 - ["C24Vague_WatchKit_Extension19InterfaceController", "WKInterfaceLabel"]
 - ["C24Vague_WatchKit_Extension19InterfaceController", "array1"]
 - ["C24Vague_WatchKit_Extension19InterfaceController", "awakeWithContext"]
+- ["C24Vague_WatchKit_Extension19InterfaceController", "counted"]
 - ["C24Vague_WatchKit_Extension19InterfaceController", "counter"]
 - ["C24Vague_WatchKit_Extension19InterfaceController", "crunchCounter"]
 - ["C24Vague_WatchKit_Extension19InterfaceController", "deinit"]
@@ -644,6 +668,7 @@ depends-member:
 - ["C24Vague_WatchKit_Extension19InterfaceController", "labelA2"]
 - ["C24Vague_WatchKit_Extension19InterfaceController", "labelA3"]
 - ["C24Vague_WatchKit_Extension19InterfaceController", "motionManager"]
+- !private ["C24Vague_WatchKit_Extension19InterfaceController", "pause"]
 - !private ["C24Vague_WatchKit_Extension19InterfaceController", "print"]
 - ["C24Vague_WatchKit_Extension19InterfaceController", "sample"]
 - ["C24Vague_WatchKit_Extension19InterfaceController", "send"]
@@ -653,7 +678,6 @@ depends-member:
 - ["C24Vague_WatchKit_Extension19InterfaceController", "sessionReachabilityDidChange"]
 - ["C24Vague_WatchKit_Extension19InterfaceController", "sessionWatchStateDidChange"]
 - ["C24Vague_WatchKit_Extension19InterfaceController", "setCountInIcloud"]
-- !private ["C24Vague_WatchKit_Extension19InterfaceController", "sleep"]
 - !private ["C24Vague_WatchKit_Extension19InterfaceController", "sqrt"]
 - ["C24Vague_WatchKit_Extension19InterfaceController", "stopButton"]
 - ["C24Vague_WatchKit_Extension19InterfaceController", "willActivate"]
@@ -705,9 +729,11 @@ depends-member:
 - !private ["PSo8NSCoding", "acceleration"]
 - !private ["PSo8NSCoding", "componentsSeparatedByString"]
 - !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "timestamp"]
 - !private ["PSo9NSCopying", "acceleration"]
 - !private ["PSo9NSCopying", "componentsSeparatedByString"]
 - !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "timestamp"]
 - !private ["PSo16NSMutableCopying", "componentsSeparatedByString"]
 - !private ["PSo16NSMutableCopying", "init"]
 - ["CSo8NSObject", "AnyObject"]
@@ -736,6 +762,7 @@ depends-member:
 - ["CSo8NSObject", "array1"]
 - ["CSo8NSObject", "awakeWithContext"]
 - !private ["CSo8NSObject", "componentsSeparatedByString"]
+- ["CSo8NSObject", "counted"]
 - ["CSo8NSObject", "counter"]
 - ["CSo8NSObject", "crunchCounter"]
 - !private ["CSo8NSObject", "currentQueue"]
@@ -757,6 +784,7 @@ depends-member:
 - !private ["CSo8NSObject", "mainBundle"]
 - ["CSo8NSObject", "motionManager"]
 - !private ["CSo8NSObject", "pathForResource"]
+- !private ["CSo8NSObject", "pause"]
 - !private ["CSo8NSObject", "print"]
 - ["CSo8NSObject", "sample"]
 - ["CSo8NSObject", "send"]
@@ -768,11 +796,12 @@ depends-member:
 - ["CSo8NSObject", "setCountInIcloud"]
 - !private ["CSo8NSObject", "setText"]
 - !private ["CSo8NSObject", "setiCloudData"]
-- !private ["CSo8NSObject", "sleep"]
 - !private ["CSo8NSObject", "sqrt"]
+- !private ["CSo8NSObject", "startAccelerometerUpdates"]
 - !private ["CSo8NSObject", "startAccelerometerUpdatesToQueue"]
 - !private ["CSo8NSObject", "stopAccelerometerUpdates"]
 - ["CSo8NSObject", "stopButton"]
+- !private ["CSo8NSObject", "timestamp"]
 - !private ["CSo8NSObject", "updateApplicationContext"]
 - ["CSo8NSObject", "willActivate"]
 - ["PSo16NSObjectProtocol", "CMMotionManager"]
@@ -796,6 +825,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "array1"]
 - ["PSo16NSObjectProtocol", "awakeWithContext"]
 - !private ["PSo16NSObjectProtocol", "componentsSeparatedByString"]
+- ["PSo16NSObjectProtocol", "counted"]
 - ["PSo16NSObjectProtocol", "counter"]
 - ["PSo16NSObjectProtocol", "crunchCounter"]
 - !private ["PSo16NSObjectProtocol", "currentQueue"]
@@ -817,6 +847,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "mainBundle"]
 - ["PSo16NSObjectProtocol", "motionManager"]
 - !private ["PSo16NSObjectProtocol", "pathForResource"]
+- !private ["PSo16NSObjectProtocol", "pause"]
 - !private ["PSo16NSObjectProtocol", "print"]
 - ["PSo16NSObjectProtocol", "sample"]
 - ["PSo16NSObjectProtocol", "send"]
@@ -828,11 +859,12 @@ depends-member:
 - ["PSo16NSObjectProtocol", "setCountInIcloud"]
 - !private ["PSo16NSObjectProtocol", "setText"]
 - !private ["PSo16NSObjectProtocol", "setiCloudData"]
-- !private ["PSo16NSObjectProtocol", "sleep"]
 - !private ["PSo16NSObjectProtocol", "sqrt"]
+- !private ["PSo16NSObjectProtocol", "startAccelerometerUpdates"]
 - !private ["PSo16NSObjectProtocol", "startAccelerometerUpdatesToQueue"]
 - !private ["PSo16NSObjectProtocol", "stopAccelerometerUpdates"]
 - ["PSo16NSObjectProtocol", "stopButton"]
+- !private ["PSo16NSObjectProtocol", "timestamp"]
 - !private ["PSo16NSObjectProtocol", "updateApplicationContext"]
 - ["PSo16NSObjectProtocol", "willActivate"]
 - ["PSo16NSObjectProtocol", ""]
@@ -840,6 +872,7 @@ depends-member:
 - !private ["PSo14NSSecureCoding", "acceleration"]
 - !private ["PSo14NSSecureCoding", "componentsSeparatedByString"]
 - !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "timestamp"]
 - !private ["CSo8NSString", "componentsSeparatedByString"]
 - !private ["CSo8NSString", "deinit"]
 - !private ["CSo8NSString", "init"]
@@ -936,6 +969,7 @@ depends-member:
 - !private ["PSo17WCSessionDelegate", "String"]
 - !private ["PSo17WCSessionDelegate", "WCSession"]
 - !private ["PSo17WCSessionDelegate", "array1"]
+- !private ["PSo17WCSessionDelegate", "counted"]
 - !private ["PSo17WCSessionDelegate", "counter"]
 - !private ["PSo17WCSessionDelegate", "dispatch_after"]
 - !private ["PSo17WCSessionDelegate", "dispatch_get_main_queue"]
@@ -945,6 +979,7 @@ depends-member:
 - ["PSo17WCSessionDelegate", "iCloudUpdated"]
 - !private ["PSo17WCSessionDelegate", "labelA2"]
 - !private ["PSo17WCSessionDelegate", "motionManager"]
+- !private ["PSo17WCSessionDelegate", "pause"]
 - !private ["PSo17WCSessionDelegate", "print"]
 - !private ["PSo17WCSessionDelegate", "sample"]
 - !private ["PSo17WCSessionDelegate", "send"]
@@ -953,7 +988,6 @@ depends-member:
 - ["PSo17WCSessionDelegate", "sessionDidDeactivate"]
 - ["PSo17WCSessionDelegate", "sessionReachabilityDidChange"]
 - ["PSo17WCSessionDelegate", "sessionWatchStateDidChange"]
-- !private ["PSo17WCSessionDelegate", "sleep"]
 - !private ["PSo17WCSessionDelegate", "sqrt"]
 - ["PSo17WCSessionDelegate", ""]
 - ["CSo21WKInterfaceController", "AnyObject"]
@@ -977,6 +1011,7 @@ depends-member:
 - ["CSo21WKInterfaceController", "WKInterfaceLabel"]
 - ["CSo21WKInterfaceController", "array1"]
 - ["CSo21WKInterfaceController", "awakeWithContext"]
+- ["CSo21WKInterfaceController", "counted"]
 - ["CSo21WKInterfaceController", "counter"]
 - ["CSo21WKInterfaceController", "crunchCounter"]
 - ["CSo21WKInterfaceController", "delay"]
@@ -991,6 +1026,7 @@ depends-member:
 - ["CSo21WKInterfaceController", "labelA2"]
 - ["CSo21WKInterfaceController", "labelA3"]
 - ["CSo21WKInterfaceController", "motionManager"]
+- !private ["CSo21WKInterfaceController", "pause"]
 - !private ["CSo21WKInterfaceController", "print"]
 - ["CSo21WKInterfaceController", "sample"]
 - ["CSo21WKInterfaceController", "send"]
@@ -1000,7 +1036,6 @@ depends-member:
 - ["CSo21WKInterfaceController", "sessionReachabilityDidChange"]
 - ["CSo21WKInterfaceController", "sessionWatchStateDidChange"]
 - ["CSo21WKInterfaceController", "setCountInIcloud"]
-- !private ["CSo21WKInterfaceController", "sleep"]
 - !private ["CSo21WKInterfaceController", "sqrt"]
 - ["CSo21WKInterfaceController", "stopButton"]
 - ["CSo21WKInterfaceController", "willActivate"]
@@ -1132,6 +1167,7 @@ depends-member:
 - !private ["P24Vague_WatchKit_Extension20iCloudUpdateDelegate", "String"]
 - !private ["P24Vague_WatchKit_Extension20iCloudUpdateDelegate", "WCSession"]
 - !private ["P24Vague_WatchKit_Extension20iCloudUpdateDelegate", "array1"]
+- !private ["P24Vague_WatchKit_Extension20iCloudUpdateDelegate", "counted"]
 - !private ["P24Vague_WatchKit_Extension20iCloudUpdateDelegate", "counter"]
 - !private ["P24Vague_WatchKit_Extension20iCloudUpdateDelegate", "dispatch_after"]
 - !private ["P24Vague_WatchKit_Extension20iCloudUpdateDelegate", "dispatch_get_main_queue"]
@@ -1141,6 +1177,7 @@ depends-member:
 - ["P24Vague_WatchKit_Extension20iCloudUpdateDelegate", "iCloudUpdated"]
 - !private ["P24Vague_WatchKit_Extension20iCloudUpdateDelegate", "labelA2"]
 - !private ["P24Vague_WatchKit_Extension20iCloudUpdateDelegate", "motionManager"]
+- !private ["P24Vague_WatchKit_Extension20iCloudUpdateDelegate", "pause"]
 - !private ["P24Vague_WatchKit_Extension20iCloudUpdateDelegate", "print"]
 - !private ["P24Vague_WatchKit_Extension20iCloudUpdateDelegate", "sample"]
 - !private ["P24Vague_WatchKit_Extension20iCloudUpdateDelegate", "send"]
@@ -1149,7 +1186,6 @@ depends-member:
 - ["P24Vague_WatchKit_Extension20iCloudUpdateDelegate", "sessionDidDeactivate"]
 - ["P24Vague_WatchKit_Extension20iCloudUpdateDelegate", "sessionReachabilityDidChange"]
 - ["P24Vague_WatchKit_Extension20iCloudUpdateDelegate", "sessionWatchStateDidChange"]
-- !private ["P24Vague_WatchKit_Extension20iCloudUpdateDelegate", "sleep"]
 - !private ["P24Vague_WatchKit_Extension20iCloudUpdateDelegate", "sqrt"]
 - ["P24Vague_WatchKit_Extension20iCloudUpdateDelegate", ""]
 depends-nominal:
@@ -1264,4 +1300,4 @@ depends-external:
 - "/Users/Akash/Desktop/Vague/build/Debug-watchsimulator/SigmaSwiftStatistics.framework/Headers/SigmaSwiftStatistics-Swift.h"
 - "/Users/Akash/Desktop/Vague/build/Debug-watchsimulator/SigmaSwiftStatistics.framework/Headers/SigmaSwiftStatistics-umbrella.h"
 - "/Users/Akash/Desktop/Vague/build/Debug-watchsimulator/SigmaSwiftStatistics.framework/Modules/module.modulemap"
-interface-hash: "dd6e2e430e3ff1ccf7c8880e1fb18efd"
+interface-hash: "cefc816abfefa4b1915fe56c05d11925"

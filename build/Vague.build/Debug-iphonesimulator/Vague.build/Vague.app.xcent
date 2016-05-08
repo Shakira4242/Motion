@@ -7,12 +7,10 @@
 	<key>aps-environment</key>
 	<string>development</string>
 	<key>com.apple.developer.icloud-container-identifiers</key>
+	<array/>
+	<key>com.apple.developer.in-app-payments</key>
 	<array>
-		<string>iCloud.lab1.Vague</string>
-	</array>
-	<key>com.apple.developer.icloud-services</key>
-	<array>
-		<string>CloudKit</string>
+		<string>merchant.com.Vague</string>
 	</array>
 	<key>com.apple.developer.team-identifier</key>
 	<string>5AY899386Y</string>

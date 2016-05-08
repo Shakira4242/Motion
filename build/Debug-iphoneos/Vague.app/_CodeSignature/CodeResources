@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		NSI/o3wrzlkzyDXawTgM9VG0hNQ=
+		GbLqaL6IXtbhe2WMBi42wO7GPMo=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<dict>
@@ -17,11 +17,20 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/C21-7h-dQ1-view-pdl-J3-DSt.nib</key>
+		<key>Base.lproj/Main.storyboardc/9Cj-Ld-Z8K-view-c5t-X8-aiL.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Sy4zC61+W9xvrdyxssOu5+VoC+I=
+			DXd2g32iZCgaTLmjzYO78z0bqoE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/AWS-fS-RW4-view-Q2F-d0-Ooa.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			33edw7Hn9whCrwgdsWMwbaZQrmM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -30,16 +39,133 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NBodrtmb9uoZMeKRI1gq09ir+Hg=
+			FXwo+sNCCmld3HN7p/7IfdRwgXg=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/UIViewController-C21-7h-dQ1.nib</key>
+		<key>Base.lproj/Main.storyboardc/Jv8-Fz-dCL-view-1F7-Nd-pv3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mmjIWh6Pq/C2JtrDEN/PWuGRkHI=
+			cIjo00jK4BM/fwQgLv3pkAqe2uY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/LCo-vU-UwZ-view-JR8-8u-KfT.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZFKDnnemRLA03b1CVf9vjUUzL/Y=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/Nn8-Id-6vm-view-bEb-cy-tcg.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MtjkIwswLMpk0+SUAX9FtlpRxQ4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/PEi-Gu-mCL-view-vMT-qg-Ag9.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			W/z6y9yLq561wDOIgVipI4gerls=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-9Cj-Ld-Z8K.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6XBqSmYs7VntaCz7uit1rpyjnVE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-AWS-fS-RW4.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			T0+2hRHvdyNKtBB7plCPWh1yol4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-Jv8-Fz-dCL.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			g8iG/s53iiOXwGGr0hOLKoNKlU8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-LCo-vU-UwZ.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sSXAkF9SnQCzcoE7iDs4nvCTVoc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-Nn8-Id-6vm.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pxAE5lGsiuHMBDZSJGHAGL4+z4s=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-PEi-Gu-mCL.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aU7A26Mjc7A4Z60Fclra6qwhQCw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-bxN-O4-ywV.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BWpplvDjDdNhjn4AEQIFhfA6Ke0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-oSd-rg-LFA.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4ibxcoclxniK8QHUEG5z5i5JC3c=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/bxN-O4-ywV-view-uUE-2V-z4a.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NteIBSlPEBFY0/qX5bcAU/NusSU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/oSd-rg-LFA-view-C6H-7P-ZrZ.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sEz2u+dKsx0VYzpdofaNRRWPtVg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -48,201 +174,57 @@
 		<data>
 		poDYGy1JWXBgPH3/wCEBNbVTOks=
 		</data>
-		<key>Frameworks/AWSAutoScaling.framework/AWSAutoScaling</key>
+		<key>Frameworks/Bolts.framework/Bolts</key>
 		<data>
-		g3ffXTJLNtmCQx8q/FyREBQjAe8=
+		Ej7G+SktkGaL0dZxi9jvGhK5unM=
 		</data>
-		<key>Frameworks/AWSAutoScaling.framework/Info.plist</key>
+		<key>Frameworks/Bolts.framework/Info.plist</key>
 		<data>
-		HM1HC3c/HqggvZD/MT49G1XB60E=
+		LiTK5uR6Vntn4uCelMjIOy+YG70=
 		</data>
-		<key>Frameworks/AWSAutoScaling.framework/_CodeSignature/CodeResources</key>
+		<key>Frameworks/Bolts.framework/_CodeSignature/CodeResources</key>
 		<data>
-		67xxXRQ1/dHA0PHUFyxvKN9pmlw=
+		+Xgwjd4FeVA8XepJlyJb/L1JvqE=
 		</data>
-		<key>Frameworks/AWSCloudWatch.framework/AWSCloudWatch</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FBSDKCoreKit</key>
 		<data>
-		MflrXybxrgIj8P3RwPrEGUIFjLk=
+		4roPLZ2C6nSj4IMBEVA9ijm0/O8=
 		</data>
-		<key>Frameworks/AWSCloudWatch.framework/Info.plist</key>
+		<key>Frameworks/FBSDKCoreKit.framework/Info.plist</key>
 		<data>
-		ZuePsQQs+nI2OQErggOYbWPC4Uc=
+		qRIAuW7HuvGjsYPi5jCSBHoaACY=
 		</data>
-		<key>Frameworks/AWSCloudWatch.framework/_CodeSignature/CodeResources</key>
+		<key>Frameworks/FBSDKCoreKit.framework/_CodeSignature/CodeResources</key>
 		<data>
-		yldV2gKumJGKXTTzj7H49dCBk60=
+		F7BZNCP9o35fKU99g5UT11alyOg=
 		</data>
-		<key>Frameworks/AWSCognito.framework/AWSCognito</key>
+		<key>Frameworks/FBSDKLoginKit.framework/FBSDKLoginKit</key>
 		<data>
-		Bnt5LoYgZDvcxPCztXPXkjdVpIY=
+		FCn2RwxoG7KfjWiKoscIlzXNARo=
 		</data>
-		<key>Frameworks/AWSCognito.framework/Info.plist</key>
+		<key>Frameworks/FBSDKLoginKit.framework/Info.plist</key>
 		<data>
-		6aBoRE3mmnIwJImiEMvPZt/L1xQ=
+		Gd1df/0gmR6X/Oh9t7ju2S83sOQ=
 		</data>
-		<key>Frameworks/AWSCognito.framework/_CodeSignature/CodeResources</key>
+		<key>Frameworks/FBSDKLoginKit.framework/_CodeSignature/CodeResources</key>
 		<data>
-		ZhyxBUwTX8UuFIq0/rS17DVXrLE=
+		0JYB+w3lVEYrLj4SOHIp66v/r6I=
 		</data>
-		<key>Frameworks/AWSCore.framework/AWSCore</key>
+		<key>Frameworks/FBSDKShareKit.framework/FBSDKShareKit</key>
 		<data>
-		dIGWFq6nmxLVN5S2qyDZJnC7mXg=
+		JgdC5NU0YZXB28RkUwh2B76t+KE=
 		</data>
-		<key>Frameworks/AWSCore.framework/Info.plist</key>
+		<key>Frameworks/FBSDKShareKit.framework/Info.plist</key>
 		<data>
-		MVprw0Qto/LKXB54nGAbFi3dccw=
+		AmAQckU+GvdcyyCaTWEbr7mJyws=
 		</data>
-		<key>Frameworks/AWSCore.framework/_CodeSignature/CodeResources</key>
+		<key>Frameworks/FBSDKShareKit.framework/_CodeSignature/CodeResources</key>
 		<data>
-		lcQ2SwEMvkfTCalembX93mtwuj8=
-		</data>
-		<key>Frameworks/AWSDynamoDB.framework/AWSDynamoDB</key>
-		<data>
-		letGsBCC4SF6nDE4ljVn8tT1ne4=
-		</data>
-		<key>Frameworks/AWSDynamoDB.framework/Info.plist</key>
-		<data>
-		8MYg1lFERD7kyxE0b1TUCDus7/Y=
-		</data>
-		<key>Frameworks/AWSDynamoDB.framework/_CodeSignature/CodeResources</key>
-		<data>
-		4+n46bsForzdzcq5frOJtmuxGe4=
-		</data>
-		<key>Frameworks/AWSEC2.framework/AWSEC2</key>
-		<data>
-		Wq5t1hr9dvTDyqhGvNFzCfLrtyg=
-		</data>
-		<key>Frameworks/AWSEC2.framework/Info.plist</key>
-		<data>
-		oW3xlfMrmwrTJl718j8vZfE1AwQ=
-		</data>
-		<key>Frameworks/AWSEC2.framework/_CodeSignature/CodeResources</key>
-		<data>
-		GOJy1lQpSUd+OnLXTtz4gBG32SM=
-		</data>
-		<key>Frameworks/AWSElasticLoadBalancing.framework/AWSElasticLoadBalancing</key>
-		<data>
-		ellcGxzqIjJs/n8veHLmTV2gXdg=
-		</data>
-		<key>Frameworks/AWSElasticLoadBalancing.framework/Info.plist</key>
-		<data>
-		5xKQnKqqokKkK6O67yLUbJxjCiU=
-		</data>
-		<key>Frameworks/AWSElasticLoadBalancing.framework/_CodeSignature/CodeResources</key>
-		<data>
-		XWs4Ma+Rgmg5uzD9t2TE4EDB/LI=
-		</data>
-		<key>Frameworks/AWSKinesis.framework/AWSKinesis</key>
-		<data>
-		yJMBWuGtl+rlrj/u9WHxe4sPytA=
-		</data>
-		<key>Frameworks/AWSKinesis.framework/Info.plist</key>
-		<data>
-		Xv2z7jMch82BKxpV73jK67UP168=
-		</data>
-		<key>Frameworks/AWSKinesis.framework/_CodeSignature/CodeResources</key>
-		<data>
-		ymcoy6Az2auy0rz4caC6Q/qJY5Q=
-		</data>
-		<key>Frameworks/AWSLambda.framework/AWSLambda</key>
-		<data>
-		RL9Ci3RBuP27p0m986FcxLyNP7s=
-		</data>
-		<key>Frameworks/AWSLambda.framework/Info.plist</key>
-		<data>
-		SqJbm8RD8IkBaA7Adrr4HyF/8SQ=
-		</data>
-		<key>Frameworks/AWSLambda.framework/_CodeSignature/CodeResources</key>
-		<data>
-		hZJ+SuIWZQsOpHYrGKqLAYLbPR4=
-		</data>
-		<key>Frameworks/AWSMachineLearning.framework/AWSMachineLearning</key>
-		<data>
-		0C30gkl4aVNXLxa6aeg5wMAwHRs=
-		</data>
-		<key>Frameworks/AWSMachineLearning.framework/Info.plist</key>
-		<data>
-		5N9gD5OxPNebV+o58lqKUQhTETE=
-		</data>
-		<key>Frameworks/AWSMachineLearning.framework/_CodeSignature/CodeResources</key>
-		<data>
-		sJ1DaWgpSQEmbdMV71cDJEESy1M=
-		</data>
-		<key>Frameworks/AWSMobileAnalytics.framework/AWSMobileAnalytics</key>
-		<data>
-		ARg+LsjoSTOnc0+OMXrp9iV19og=
-		</data>
-		<key>Frameworks/AWSMobileAnalytics.framework/Info.plist</key>
-		<data>
-		/dHB7CCtHu/Q79Soq8XGSrQCiIw=
-		</data>
-		<key>Frameworks/AWSMobileAnalytics.framework/_CodeSignature/CodeResources</key>
-		<data>
-		v415jt2TXxQ/nP5taxBzV4ofxkY=
-		</data>
-		<key>Frameworks/AWSS3.framework/AWSS3</key>
-		<data>
-		lYrt02Raoe5RvvP6P7k7CgI+G1U=
-		</data>
-		<key>Frameworks/AWSS3.framework/Info.plist</key>
-		<data>
-		ubCiiacXL47jRr0U0N5SkJIhxLk=
-		</data>
-		<key>Frameworks/AWSS3.framework/_CodeSignature/CodeResources</key>
-		<data>
-		Pe+vr+2U0H1Y1ZVV/fMUfuY4Jus=
-		</data>
-		<key>Frameworks/AWSSES.framework/AWSSES</key>
-		<data>
-		ipgsbR2AAH7TLI85UW8xZm7jYqU=
-		</data>
-		<key>Frameworks/AWSSES.framework/Info.plist</key>
-		<data>
-		E88nfjc7X1DNpG3q54B5r51WSzo=
-		</data>
-		<key>Frameworks/AWSSES.framework/_CodeSignature/CodeResources</key>
-		<data>
-		mKvSdToP5XVGz+93rw9fr6OZecI=
-		</data>
-		<key>Frameworks/AWSSNS.framework/AWSSNS</key>
-		<data>
-		Fwx9QzfWN+fAhhZXJvXlAd1GbRs=
-		</data>
-		<key>Frameworks/AWSSNS.framework/Info.plist</key>
-		<data>
-		Dk9NBz86dI6s//Y2TSSpzpiLYTg=
-		</data>
-		<key>Frameworks/AWSSNS.framework/_CodeSignature/CodeResources</key>
-		<data>
-		MZWkKD5aBPnXRYlaK5DeDzY+HCM=
-		</data>
-		<key>Frameworks/AWSSQS.framework/AWSSQS</key>
-		<data>
-		TcjXispDcEfyGXOoNFk1A5WvBFU=
-		</data>
-		<key>Frameworks/AWSSQS.framework/Info.plist</key>
-		<data>
-		gHTtqq4WuwDvO06p9+cIRA/Lac8=
-		</data>
-		<key>Frameworks/AWSSQS.framework/_CodeSignature/CodeResources</key>
-		<data>
-		DR7AC+a6TazBlSAKoMkLmdw9Mp8=
-		</data>
-		<key>Frameworks/AWSSimpleDB.framework/AWSSimpleDB</key>
-		<data>
-		uF40IPxmYRxjg49Sk3QwclDD0CM=
-		</data>
-		<key>Frameworks/AWSSimpleDB.framework/Info.plist</key>
-		<data>
-		Opg+n1aOxlnTyueHNe70oumfS0k=
-		</data>
-		<key>Frameworks/AWSSimpleDB.framework/_CodeSignature/CodeResources</key>
-		<data>
-		BnQ2Vh9nKpRj3eANP6oHFWXoeR4=
+		kzMg9Qm0gGcTDxvoYvYoAkZ3UAk=
 		</data>
 		<key>Frameworks/Firebase.framework/Firebase</key>
 		<data>
-		mxSqKAwWWspHhUhxN7UTxEn3b/I=
+		BhsSDG9DJjkEkJQFZfPXlyF8+6o=
 		</data>
 		<key>Frameworks/Firebase.framework/Info.plist</key>
 		<data>
@@ -258,11 +240,11 @@
 		</data>
 		<key>Frameworks/Pods_Vague.framework/Pods_Vague</key>
 		<data>
-		rlb2VFO2M8UqNokwjVCEROGxpLY=
+		OC3Q5vNTfN6eLpVd+sYla2Bh4Hk=
 		</data>
 		<key>Frameworks/Pods_Vague.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		hgSh6lwiLuJysvGcLiGPR/d9+qw=
+		NMZpWAiR0A18SFzhKAV7611jwiM=
 		</data>
 		<key>Frameworks/Pods_Vague.framework/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -274,63 +256,319 @@
 		</data>
 		<key>Frameworks/Pods_Vague.framework/_CodeSignature/CodeSignature</key>
 		<data>
-		UZak5iEgcj2lxm69nRLqYUEJ88g=
+		pPrvitRiH4jV3mkDq7DzomHRgxY=
 		</data>
-		<key>Frameworks/libswiftCloudKit.dylib</key>
+		<key>Frameworks/Stripe.framework/Images/stp_card_amex.png</key>
 		<data>
-		85pZmUV5/zV+b8FrWqwG9ziMyHo=
+		uWbFM7iSeZbMAIa3fSzXos0fn3o=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_amex@2x.png</key>
+		<data>
+		s6rqp8san+XcZyJGge1PNHGqYM4=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_amex@3x.png</key>
+		<data>
+		3di05+V71L2qSg0mzB7+dxigs5g=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_cvc.png</key>
+		<data>
+		qOCar/ToyVud0rcF/KpcMyR212w=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_cvc@2x.png</key>
+		<data>
+		fwIlidCfZ3QwqK8xbmPS8lV4BqA=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_cvc@3x.png</key>
+		<data>
+		8oU268MFFxMBTJb+MpNdAYEXhnM=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_cvc_amex.png</key>
+		<data>
+		j5SIZC0VBV5Ct/zfyDDCpkfLYEQ=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_cvc_amex@2x.png</key>
+		<data>
+		Hkp6APQpWHE1YPchFMp7ZfdfCyY=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_cvc_amex@3x.png</key>
+		<data>
+		n84c9qRLx3fO8CeGtozLK889NlI=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_diners.png</key>
+		<data>
+		x4Uz2l13VC9X+BzMyPtHidusrSE=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_diners@2x.png</key>
+		<data>
+		B1eujUms0dPiwgPrDW8i7mXNkbQ=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_diners@3x.png</key>
+		<data>
+		Nvi1DaTKviKq5nlUdzGV56joizY=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_discover.png</key>
+		<data>
+		gdv1osG5lmLBPSoqMfFDZmFFFIo=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_discover@2x.png</key>
+		<data>
+		PCNRl14Q9bAohTQRYcaEYYEPpDE=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_discover@3x.png</key>
+		<data>
+		knIoHRF3wfI5IJ+5vDDzQ5zKpVk=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_jcb.png</key>
+		<data>
+		SRc26KjJzsjx/myTM5xdi2mzlYo=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_jcb@2x.png</key>
+		<data>
+		vTchZqVg9INCBrX9UCwSGLiG5fo=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_jcb@3x.png</key>
+		<data>
+		qVnZ3O6YjnJPsmsAVLgFkvFSCx8=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_mastercard.png</key>
+		<data>
+		7QppC4UO0y/v6xj+PDOg27MHizQ=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_mastercard@2x.png</key>
+		<data>
+		Qs+5iiTg8BEumfnVWTtxqDJovsk=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_mastercard@3x.png</key>
+		<data>
+		nJuCtLmleT/OahuhPlBtn7Vft14=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_placeholder.png</key>
+		<data>
+		2P7Ms2UrGZlcQpbODVrstPmuDpE=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_placeholder@2x.png</key>
+		<data>
+		OjQ3u9TFr2xibFfIHF9EJrzTXJk=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_placeholder@3x.png</key>
+		<data>
+		hUFWU+hfUtgQiSI7DjLe2FxzrEQ=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_placeholder_template.png</key>
+		<data>
+		pg2lGHueZ3cYgG3g7XPiYhxOtrs=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_placeholder_template@2x.png</key>
+		<data>
+		60o3lnNj9xo58AN6CwVwXFuiUoI=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_placeholder_template@3x.png</key>
+		<data>
+		jCwI2a/gO0fzPxsNyrEN5SIVWPs=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_visa.png</key>
+		<data>
+		NLz2XubQnSYyHgCGHNyAWFQmpOI=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_visa@2x.png</key>
+		<data>
+		OFBkIg9sWQkCoA/0mfmMUZHprL4=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_visa@3x.png</key>
+		<data>
+		u2mK4DDEcfISSLaAnqBB/+mPfek=
+		</data>
+		<key>Frameworks/Stripe.framework/Info.plist</key>
+		<data>
+		cpXhxA1f/G67Go6FERwoHNwmUZM=
+		</data>
+		<key>Frameworks/Stripe.framework/Stripe</key>
+		<data>
+		nSqowg1oILKAtwTKu/71d5NdaNY=
+		</data>
+		<key>Frameworks/Stripe.framework/_CodeSignature/CodeResources</key>
+		<data>
+		GTed2UQFMszEJ6IBiNHeoB1U/BM=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_amex.png</key>
+		<data>
+		O6BDVFHraq49coBS0nXEb/DVnyk=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_amex@2x.png</key>
+		<data>
+		P/k3eVNNQmEt8o/mVsLQRjVH+A4=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_amex@3x.png</key>
+		<data>
+		kzl3JQx1rnRnHR/rGNjMZW4ipRE=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_cvc.png</key>
+		<data>
+		Ur6I5yDrMqH18RpQNiPMnVTGDqE=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_cvc@2x.png</key>
+		<data>
+		eG3zCgzYiUq5RQ1grxgVCcKwj/Q=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_cvc@3x.png</key>
+		<data>
+		yWmomEXRFEXX4lbMh6ofn3fY4Js=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_cvc_amex.png</key>
+		<data>
+		PAgpFAFSLOjWecbitzuljP9bqbM=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_cvc_amex@2x.png</key>
+		<data>
+		76YhDXDyYlUKdDjC3yTImi3sj8g=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_cvc_amex@3x.png</key>
+		<data>
+		+zomuehUp9cg4jtndRbSi/r5b3w=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_diners.png</key>
+		<data>
+		Pox0i8U/e1SlCdpQOmn0iMI1WCI=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_diners@2x.png</key>
+		<data>
+		fLa1POoRqAssp+0Sb9lxy+GJxrI=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_diners@3x.png</key>
+		<data>
+		QVQ9fdWCJuYVn/qKWqc5f3B1mF8=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_discover.png</key>
+		<data>
+		jDRvCqowIEetxDKTbGCF6VQl/7Q=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_discover@2x.png</key>
+		<data>
+		2qcxnIjdqZz7jC7YchsuZUtApXw=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_discover@3x.png</key>
+		<data>
+		89M0ZyNc/JhtG4Rxf+L0mLbyXVY=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_jcb.png</key>
+		<data>
+		PKDEzfXIxUwPWNuSRsPtOwRVWQg=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_jcb@2x.png</key>
+		<data>
+		+dJQWrl09554gBgsKLpTMDBEe3s=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_jcb@3x.png</key>
+		<data>
+		1FQ9prc42HZWo9/M5qlno6O8KCw=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_mastercard.png</key>
+		<data>
+		tS4yIkzC/JNr8l2Z8VR7tfcJzI4=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_mastercard@2x.png</key>
+		<data>
+		Vo22gJ64zmeCIqW2+2kLFO/mYBc=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_mastercard@3x.png</key>
+		<data>
+		Ru+Vx6ZtIv3uSUdMWdROzkSmOKc=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_placeholder.png</key>
+		<data>
+		gvI2THN9VcdWosQgfDLDK2gJeqo=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_placeholder@2x.png</key>
+		<data>
+		KzBhw8WM677fwcZegorh30l0pgs=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_placeholder@3x.png</key>
+		<data>
+		lqwmpfIRq8+T+9Pz6ii/eUsrcNQ=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_placeholder_template.png</key>
+		<data>
+		wBhu7MrSjB1pFmP35JS5xnQ4zWk=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_placeholder_template@2x.png</key>
+		<data>
+		LN1FJcg8qk1ZhY9B1cgg6pGe7DQ=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_placeholder_template@3x.png</key>
+		<data>
+		r7CReruy/tTyVvSDWFVlGUqOVi8=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_visa.png</key>
+		<data>
+		J1JnfVw2i6Mce8A7js4OcI20pLM=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_visa@2x.png</key>
+		<data>
+		OvJT9bJjw9sKGnhCyYzZKHmyafU=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_visa@3x.png</key>
+		<data>
+		CpECOK8kh2EXQLwuI/lm5gdqOzU=
 		</data>
 		<key>Frameworks/libswiftContacts.dylib</key>
 		<data>
-		oravM6l3ApVbjoV5+liYP8qvfIg=
+		/VHgI55QwTbwwE5Sp7HkHW4Ha84=
 		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
-		EqXLlVAKmJ2Vov4lpmckEeSQ9QY=
+		c7tBV7rcyxZD+kbWynteC2tcWQY=
 		</data>
 		<key>Frameworks/libswiftCoreData.dylib</key>
 		<data>
-		ChFuAj/larej5QtjftHs2QxNu1I=
+		k80G/fV2lTCDE3YlKSrusEfwR1Y=
 		</data>
 		<key>Frameworks/libswiftCoreGraphics.dylib</key>
 		<data>
-		SLRahCWtXX7mjQ5nI3VzaYmp6EQ=
+		TTXJ/nDEZVy/suhg52Z4pDgVF+4=
 		</data>
 		<key>Frameworks/libswiftCoreImage.dylib</key>
 		<data>
-		KiZ2scpxGpwaWObTl8fmnCVRtBc=
+		b2IMfwExquJ9RRE9R+2sGWR6I0s=
 		</data>
 		<key>Frameworks/libswiftCoreLocation.dylib</key>
 		<data>
-		YoXn983OEt5beb18VmR5U/lwKjc=
+		Gt2TJxPFpIlJi35fQcaXNbgqj7M=
 		</data>
 		<key>Frameworks/libswiftDarwin.dylib</key>
 		<data>
-		3Bv4ZRfEU9uOgOtsD0/ESQUKtbc=
+		pElk7aiTfz5FkL6oSc7261Kkmlg=
 		</data>
 		<key>Frameworks/libswiftDispatch.dylib</key>
 		<data>
-		ejft4du3ESPwy0SjwlzzIyFdL8o=
+		IPw3q8UBV+6dwVzyx33PAtkbeQU=
 		</data>
 		<key>Frameworks/libswiftFoundation.dylib</key>
 		<data>
-		IIJfn5rgZWZrYdxdI9Q6caWaPR0=
+		vCavYhSNQ1B4jgiJS0ZQNjbH2Ms=
 		</data>
 		<key>Frameworks/libswiftObjectiveC.dylib</key>
 		<data>
-		kAiy7AAiFwIv0rL1YFN5DiKN+kI=
+		MptRGEQzd2Wq/6YUv0eqr4Io3A8=
+		</data>
+		<key>Frameworks/libswiftPassKit.dylib</key>
+		<data>
+		Fz9F/f2AxES/84FFFbVrB3ewt/8=
 		</data>
 		<key>Frameworks/libswiftUIKit.dylib</key>
 		<data>
-		wzcQo7GWHMUEP9yPulKcc70cl2Q=
+		zGPIg/p34E9spVHSvIM9aVHvIMI=
 		</data>
 		<key>Frameworks/libswiftWatchConnectivity.dylib</key>
 		<data>
-		+79Y/W1Y6gqvZAbOPN9M4+1LD/g=
+		E33lIR3BDeqZnOHrXu3O1WVHw8Y=
+		</data>
+		<key>Frameworks/libswiftWatchKit.dylib</key>
+		<data>
+		WHaghuP/pVqSRelUkgq/++RS/ZY=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nFGIDgFPGO8f7d4I3IdXRPmpzYo=
+		+MOJsDX9eYHaRJvgU3mvzvn1iKk=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -338,7 +576,7 @@
 		</data>
 		<key>Watch/Vague WatchKit App.app/Assets.car</key>
 		<data>
-		RKYTm4yupiwygbIrPr1zu8pwB60=
+		uBj1+Dt7z2oPCQWVurZIe0JIEUc=
 		</data>
 		<key>Watch/Vague WatchKit App.app/Base.lproj/Interface-notification.plist</key>
 		<dict>
@@ -353,46 +591,46 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			M+OeYz+6CHJY5w796KoKTbAJroY=
+			vVBXYkAeXBupqd0FcAd4yDNgGr8=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Watch/Vague WatchKit App.app/Frameworks/libswiftCore.dylib</key>
 		<data>
-		HTzrX4r7qKoSKut1LKYvZ3efbjk=
+		pQAMlaB2sp3kG3TCmynLUsE9nuo=
 		</data>
 		<key>Watch/Vague WatchKit App.app/Frameworks/libswiftCoreGraphics.dylib</key>
 		<data>
-		l6vOhT6yX0y8TIE87/axLV8sFfw=
+		TzAz9K/rH33wdb4EYhZYb334oVU=
 		</data>
 		<key>Watch/Vague WatchKit App.app/Frameworks/libswiftCoreLocation.dylib</key>
 		<data>
-		3Kt3CGT8dL9jktYzDzIxit8JosE=
+		Errsz8ovGTIIS+F/PRyOfYeHCEs=
 		</data>
 		<key>Watch/Vague WatchKit App.app/Frameworks/libswiftDarwin.dylib</key>
 		<data>
-		FbGnYQRaewZt/yGGj5UQts7ewAE=
+		nb8HclpzUuOl5/ht65Qs8A7X2LM=
 		</data>
 		<key>Watch/Vague WatchKit App.app/Frameworks/libswiftDispatch.dylib</key>
 		<data>
-		LNZELRY929yyVKtYvh8Fc29IlGg=
+		1lf29DpVY7pdxD56zvS0SUg+UjE=
 		</data>
 		<key>Watch/Vague WatchKit App.app/Frameworks/libswiftFoundation.dylib</key>
 		<data>
-		7RsjgnVqq9K0y1bHcwxWOR6HTy4=
+		+a/ycyf6QGYC8SYHTwgfNHN7CK4=
 		</data>
 		<key>Watch/Vague WatchKit App.app/Frameworks/libswiftObjectiveC.dylib</key>
 		<data>
-		oQoknJJlus9OHz/UYCmHd/KM/2g=
+		aq9weMrUnL7blCJNoZR/e9Zstrg=
 		</data>
 		<key>Watch/Vague WatchKit App.app/Frameworks/libswiftUIKit.dylib</key>
 		<data>
-		+u7O4PkxCzMG12vdpz8oiIElNK8=
+		kBYHM4LXTVsceBAOMT5CZPu8OUA=
 		</data>
 		<key>Watch/Vague WatchKit App.app/Frameworks/libswiftWatchKit.dylib</key>
 		<data>
-		mB77gxuTVGGcMIQbcNBXofgnyfs=
+		BJGWmicxi1+P6hIN9P8lh1uBcrk=
 		</data>
 		<key>Watch/Vague WatchKit App.app/Info.plist</key>
 		<data>
@@ -408,11 +646,11 @@
 		</data>
 		<key>Watch/Vague WatchKit App.app/PlugIns/Vague WatchKit Extension.appex/Vague WatchKit Extension</key>
 		<data>
-		f9d2A8C5F8VZQFBWD3pA4pT3GNM=
+		tqEYV6Jako0pYNTV9umEEzkO/V8=
 		</data>
 		<key>Watch/Vague WatchKit App.app/PlugIns/Vague WatchKit Extension.appex/_CodeSignature/CodeResources</key>
 		<data>
-		XN+07+PpivHzpKa48ThIryVqWSk=
+		SfREkPtaEPAZTQgFIuUG8w/a5GU=
 		</data>
 		<key>Watch/Vague WatchKit App.app/PlugIns/Vague WatchKit Extension.appex/embedded.mobileprovision</key>
 		<data>
@@ -420,15 +658,15 @@
 		</data>
 		<key>Watch/Vague WatchKit App.app/PlugIns/Vague WatchKit Extension.appex/featureVector.txt</key>
 		<data>
-		+KBgxgKwWURQj/ZHqp+hXJC6V74=
+		HHggBhZ6P+oOD+xX8rCZQ2wbeiw=
 		</data>
 		<key>Watch/Vague WatchKit App.app/Vague WatchKit App</key>
 		<data>
-		Fj9RVsmlN0Swjc7+LxxTzAnbCLA=
+		VhL+FTc5y0IZ7ZEBspT+AdWc1TA=
 		</data>
 		<key>Watch/Vague WatchKit App.app/_CodeSignature/CodeResources</key>
 		<data>
-		4ZwntRFfMsAttUpBI5o/odyVTAs=
+		FqFdFUqNIe9KtHiC6mvz0tsOxIA=
 		</data>
 		<key>Watch/Vague WatchKit App.app/_WatchKitStub/WK</key>
 		<data>
@@ -440,14 +678,14 @@
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		TBz/fRUQpcrdItUv+lzqOpzwaUE=
+		6Kjd9nTCbGT0PZJ34MDxLeaaoAI=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		NSI/o3wrzlkzyDXawTgM9VG0hNQ=
+		GbLqaL6IXtbhe2WMBi42wO7GPMo=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<dict>
@@ -458,11 +696,20 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/C21-7h-dQ1-view-pdl-J3-DSt.nib</key>
+		<key>Base.lproj/Main.storyboardc/9Cj-Ld-Z8K-view-c5t-X8-aiL.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Sy4zC61+W9xvrdyxssOu5+VoC+I=
+			DXd2g32iZCgaTLmjzYO78z0bqoE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/AWS-fS-RW4-view-Q2F-d0-Ooa.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			33edw7Hn9whCrwgdsWMwbaZQrmM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -471,16 +718,133 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NBodrtmb9uoZMeKRI1gq09ir+Hg=
+			FXwo+sNCCmld3HN7p/7IfdRwgXg=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/UIViewController-C21-7h-dQ1.nib</key>
+		<key>Base.lproj/Main.storyboardc/Jv8-Fz-dCL-view-1F7-Nd-pv3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mmjIWh6Pq/C2JtrDEN/PWuGRkHI=
+			cIjo00jK4BM/fwQgLv3pkAqe2uY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/LCo-vU-UwZ-view-JR8-8u-KfT.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZFKDnnemRLA03b1CVf9vjUUzL/Y=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/Nn8-Id-6vm-view-bEb-cy-tcg.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MtjkIwswLMpk0+SUAX9FtlpRxQ4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/PEi-Gu-mCL-view-vMT-qg-Ag9.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			W/z6y9yLq561wDOIgVipI4gerls=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-9Cj-Ld-Z8K.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6XBqSmYs7VntaCz7uit1rpyjnVE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-AWS-fS-RW4.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			T0+2hRHvdyNKtBB7plCPWh1yol4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-Jv8-Fz-dCL.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			g8iG/s53iiOXwGGr0hOLKoNKlU8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-LCo-vU-UwZ.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sSXAkF9SnQCzcoE7iDs4nvCTVoc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-Nn8-Id-6vm.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pxAE5lGsiuHMBDZSJGHAGL4+z4s=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-PEi-Gu-mCL.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aU7A26Mjc7A4Z60Fclra6qwhQCw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-bxN-O4-ywV.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BWpplvDjDdNhjn4AEQIFhfA6Ke0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-oSd-rg-LFA.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4ibxcoclxniK8QHUEG5z5i5JC3c=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/bxN-O4-ywV-view-uUE-2V-z4a.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NteIBSlPEBFY0/qX5bcAU/NusSU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/oSd-rg-LFA-view-C6H-7P-ZrZ.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sEz2u+dKsx0VYzpdofaNRRWPtVg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -489,201 +853,57 @@
 		<data>
 		poDYGy1JWXBgPH3/wCEBNbVTOks=
 		</data>
-		<key>Frameworks/AWSAutoScaling.framework/AWSAutoScaling</key>
+		<key>Frameworks/Bolts.framework/Bolts</key>
 		<data>
-		g3ffXTJLNtmCQx8q/FyREBQjAe8=
+		Ej7G+SktkGaL0dZxi9jvGhK5unM=
 		</data>
-		<key>Frameworks/AWSAutoScaling.framework/Info.plist</key>
+		<key>Frameworks/Bolts.framework/Info.plist</key>
 		<data>
-		HM1HC3c/HqggvZD/MT49G1XB60E=
+		LiTK5uR6Vntn4uCelMjIOy+YG70=
 		</data>
-		<key>Frameworks/AWSAutoScaling.framework/_CodeSignature/CodeResources</key>
+		<key>Frameworks/Bolts.framework/_CodeSignature/CodeResources</key>
 		<data>
-		67xxXRQ1/dHA0PHUFyxvKN9pmlw=
+		+Xgwjd4FeVA8XepJlyJb/L1JvqE=
 		</data>
-		<key>Frameworks/AWSCloudWatch.framework/AWSCloudWatch</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FBSDKCoreKit</key>
 		<data>
-		MflrXybxrgIj8P3RwPrEGUIFjLk=
+		4roPLZ2C6nSj4IMBEVA9ijm0/O8=
 		</data>
-		<key>Frameworks/AWSCloudWatch.framework/Info.plist</key>
+		<key>Frameworks/FBSDKCoreKit.framework/Info.plist</key>
 		<data>
-		ZuePsQQs+nI2OQErggOYbWPC4Uc=
+		qRIAuW7HuvGjsYPi5jCSBHoaACY=
 		</data>
-		<key>Frameworks/AWSCloudWatch.framework/_CodeSignature/CodeResources</key>
+		<key>Frameworks/FBSDKCoreKit.framework/_CodeSignature/CodeResources</key>
 		<data>
-		yldV2gKumJGKXTTzj7H49dCBk60=
+		F7BZNCP9o35fKU99g5UT11alyOg=
 		</data>
-		<key>Frameworks/AWSCognito.framework/AWSCognito</key>
+		<key>Frameworks/FBSDKLoginKit.framework/FBSDKLoginKit</key>
 		<data>
-		Bnt5LoYgZDvcxPCztXPXkjdVpIY=
+		FCn2RwxoG7KfjWiKoscIlzXNARo=
 		</data>
-		<key>Frameworks/AWSCognito.framework/Info.plist</key>
+		<key>Frameworks/FBSDKLoginKit.framework/Info.plist</key>
 		<data>
-		6aBoRE3mmnIwJImiEMvPZt/L1xQ=
+		Gd1df/0gmR6X/Oh9t7ju2S83sOQ=
 		</data>
-		<key>Frameworks/AWSCognito.framework/_CodeSignature/CodeResources</key>
+		<key>Frameworks/FBSDKLoginKit.framework/_CodeSignature/CodeResources</key>
 		<data>
-		ZhyxBUwTX8UuFIq0/rS17DVXrLE=
+		0JYB+w3lVEYrLj4SOHIp66v/r6I=
 		</data>
-		<key>Frameworks/AWSCore.framework/AWSCore</key>
+		<key>Frameworks/FBSDKShareKit.framework/FBSDKShareKit</key>
 		<data>
-		dIGWFq6nmxLVN5S2qyDZJnC7mXg=
+		JgdC5NU0YZXB28RkUwh2B76t+KE=
 		</data>
-		<key>Frameworks/AWSCore.framework/Info.plist</key>
+		<key>Frameworks/FBSDKShareKit.framework/Info.plist</key>
 		<data>
-		MVprw0Qto/LKXB54nGAbFi3dccw=
+		AmAQckU+GvdcyyCaTWEbr7mJyws=
 		</data>
-		<key>Frameworks/AWSCore.framework/_CodeSignature/CodeResources</key>
+		<key>Frameworks/FBSDKShareKit.framework/_CodeSignature/CodeResources</key>
 		<data>
-		lcQ2SwEMvkfTCalembX93mtwuj8=
-		</data>
-		<key>Frameworks/AWSDynamoDB.framework/AWSDynamoDB</key>
-		<data>
-		letGsBCC4SF6nDE4ljVn8tT1ne4=
-		</data>
-		<key>Frameworks/AWSDynamoDB.framework/Info.plist</key>
-		<data>
-		8MYg1lFERD7kyxE0b1TUCDus7/Y=
-		</data>
-		<key>Frameworks/AWSDynamoDB.framework/_CodeSignature/CodeResources</key>
-		<data>
-		4+n46bsForzdzcq5frOJtmuxGe4=
-		</data>
-		<key>Frameworks/AWSEC2.framework/AWSEC2</key>
-		<data>
-		Wq5t1hr9dvTDyqhGvNFzCfLrtyg=
-		</data>
-		<key>Frameworks/AWSEC2.framework/Info.plist</key>
-		<data>
-		oW3xlfMrmwrTJl718j8vZfE1AwQ=
-		</data>
-		<key>Frameworks/AWSEC2.framework/_CodeSignature/CodeResources</key>
-		<data>
-		GOJy1lQpSUd+OnLXTtz4gBG32SM=
-		</data>
-		<key>Frameworks/AWSElasticLoadBalancing.framework/AWSElasticLoadBalancing</key>
-		<data>
-		ellcGxzqIjJs/n8veHLmTV2gXdg=
-		</data>
-		<key>Frameworks/AWSElasticLoadBalancing.framework/Info.plist</key>
-		<data>
-		5xKQnKqqokKkK6O67yLUbJxjCiU=
-		</data>
-		<key>Frameworks/AWSElasticLoadBalancing.framework/_CodeSignature/CodeResources</key>
-		<data>
-		XWs4Ma+Rgmg5uzD9t2TE4EDB/LI=
-		</data>
-		<key>Frameworks/AWSKinesis.framework/AWSKinesis</key>
-		<data>
-		yJMBWuGtl+rlrj/u9WHxe4sPytA=
-		</data>
-		<key>Frameworks/AWSKinesis.framework/Info.plist</key>
-		<data>
-		Xv2z7jMch82BKxpV73jK67UP168=
-		</data>
-		<key>Frameworks/AWSKinesis.framework/_CodeSignature/CodeResources</key>
-		<data>
-		ymcoy6Az2auy0rz4caC6Q/qJY5Q=
-		</data>
-		<key>Frameworks/AWSLambda.framework/AWSLambda</key>
-		<data>
-		RL9Ci3RBuP27p0m986FcxLyNP7s=
-		</data>
-		<key>Frameworks/AWSLambda.framework/Info.plist</key>
-		<data>
-		SqJbm8RD8IkBaA7Adrr4HyF/8SQ=
-		</data>
-		<key>Frameworks/AWSLambda.framework/_CodeSignature/CodeResources</key>
-		<data>
-		hZJ+SuIWZQsOpHYrGKqLAYLbPR4=
-		</data>
-		<key>Frameworks/AWSMachineLearning.framework/AWSMachineLearning</key>
-		<data>
-		0C30gkl4aVNXLxa6aeg5wMAwHRs=
-		</data>
-		<key>Frameworks/AWSMachineLearning.framework/Info.plist</key>
-		<data>
-		5N9gD5OxPNebV+o58lqKUQhTETE=
-		</data>
-		<key>Frameworks/AWSMachineLearning.framework/_CodeSignature/CodeResources</key>
-		<data>
-		sJ1DaWgpSQEmbdMV71cDJEESy1M=
-		</data>
-		<key>Frameworks/AWSMobileAnalytics.framework/AWSMobileAnalytics</key>
-		<data>
-		ARg+LsjoSTOnc0+OMXrp9iV19og=
-		</data>
-		<key>Frameworks/AWSMobileAnalytics.framework/Info.plist</key>
-		<data>
-		/dHB7CCtHu/Q79Soq8XGSrQCiIw=
-		</data>
-		<key>Frameworks/AWSMobileAnalytics.framework/_CodeSignature/CodeResources</key>
-		<data>
-		v415jt2TXxQ/nP5taxBzV4ofxkY=
-		</data>
-		<key>Frameworks/AWSS3.framework/AWSS3</key>
-		<data>
-		lYrt02Raoe5RvvP6P7k7CgI+G1U=
-		</data>
-		<key>Frameworks/AWSS3.framework/Info.plist</key>
-		<data>
-		ubCiiacXL47jRr0U0N5SkJIhxLk=
-		</data>
-		<key>Frameworks/AWSS3.framework/_CodeSignature/CodeResources</key>
-		<data>
-		Pe+vr+2U0H1Y1ZVV/fMUfuY4Jus=
-		</data>
-		<key>Frameworks/AWSSES.framework/AWSSES</key>
-		<data>
-		ipgsbR2AAH7TLI85UW8xZm7jYqU=
-		</data>
-		<key>Frameworks/AWSSES.framework/Info.plist</key>
-		<data>
-		E88nfjc7X1DNpG3q54B5r51WSzo=
-		</data>
-		<key>Frameworks/AWSSES.framework/_CodeSignature/CodeResources</key>
-		<data>
-		mKvSdToP5XVGz+93rw9fr6OZecI=
-		</data>
-		<key>Frameworks/AWSSNS.framework/AWSSNS</key>
-		<data>
-		Fwx9QzfWN+fAhhZXJvXlAd1GbRs=
-		</data>
-		<key>Frameworks/AWSSNS.framework/Info.plist</key>
-		<data>
-		Dk9NBz86dI6s//Y2TSSpzpiLYTg=
-		</data>
-		<key>Frameworks/AWSSNS.framework/_CodeSignature/CodeResources</key>
-		<data>
-		MZWkKD5aBPnXRYlaK5DeDzY+HCM=
-		</data>
-		<key>Frameworks/AWSSQS.framework/AWSSQS</key>
-		<data>
-		TcjXispDcEfyGXOoNFk1A5WvBFU=
-		</data>
-		<key>Frameworks/AWSSQS.framework/Info.plist</key>
-		<data>
-		gHTtqq4WuwDvO06p9+cIRA/Lac8=
-		</data>
-		<key>Frameworks/AWSSQS.framework/_CodeSignature/CodeResources</key>
-		<data>
-		DR7AC+a6TazBlSAKoMkLmdw9Mp8=
-		</data>
-		<key>Frameworks/AWSSimpleDB.framework/AWSSimpleDB</key>
-		<data>
-		uF40IPxmYRxjg49Sk3QwclDD0CM=
-		</data>
-		<key>Frameworks/AWSSimpleDB.framework/Info.plist</key>
-		<data>
-		Opg+n1aOxlnTyueHNe70oumfS0k=
-		</data>
-		<key>Frameworks/AWSSimpleDB.framework/_CodeSignature/CodeResources</key>
-		<data>
-		BnQ2Vh9nKpRj3eANP6oHFWXoeR4=
+		kzMg9Qm0gGcTDxvoYvYoAkZ3UAk=
 		</data>
 		<key>Frameworks/Firebase.framework/Firebase</key>
 		<data>
-		mxSqKAwWWspHhUhxN7UTxEn3b/I=
+		BhsSDG9DJjkEkJQFZfPXlyF8+6o=
 		</data>
 		<key>Frameworks/Firebase.framework/Info.plist</key>
 		<data>
@@ -699,11 +919,11 @@
 		</data>
 		<key>Frameworks/Pods_Vague.framework/Pods_Vague</key>
 		<data>
-		rlb2VFO2M8UqNokwjVCEROGxpLY=
+		OC3Q5vNTfN6eLpVd+sYla2Bh4Hk=
 		</data>
 		<key>Frameworks/Pods_Vague.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		hgSh6lwiLuJysvGcLiGPR/d9+qw=
+		NMZpWAiR0A18SFzhKAV7611jwiM=
 		</data>
 		<key>Frameworks/Pods_Vague.framework/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -715,63 +935,319 @@
 		</data>
 		<key>Frameworks/Pods_Vague.framework/_CodeSignature/CodeSignature</key>
 		<data>
-		UZak5iEgcj2lxm69nRLqYUEJ88g=
+		pPrvitRiH4jV3mkDq7DzomHRgxY=
 		</data>
-		<key>Frameworks/libswiftCloudKit.dylib</key>
+		<key>Frameworks/Stripe.framework/Images/stp_card_amex.png</key>
 		<data>
-		85pZmUV5/zV+b8FrWqwG9ziMyHo=
+		uWbFM7iSeZbMAIa3fSzXos0fn3o=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_amex@2x.png</key>
+		<data>
+		s6rqp8san+XcZyJGge1PNHGqYM4=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_amex@3x.png</key>
+		<data>
+		3di05+V71L2qSg0mzB7+dxigs5g=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_cvc.png</key>
+		<data>
+		qOCar/ToyVud0rcF/KpcMyR212w=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_cvc@2x.png</key>
+		<data>
+		fwIlidCfZ3QwqK8xbmPS8lV4BqA=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_cvc@3x.png</key>
+		<data>
+		8oU268MFFxMBTJb+MpNdAYEXhnM=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_cvc_amex.png</key>
+		<data>
+		j5SIZC0VBV5Ct/zfyDDCpkfLYEQ=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_cvc_amex@2x.png</key>
+		<data>
+		Hkp6APQpWHE1YPchFMp7ZfdfCyY=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_cvc_amex@3x.png</key>
+		<data>
+		n84c9qRLx3fO8CeGtozLK889NlI=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_diners.png</key>
+		<data>
+		x4Uz2l13VC9X+BzMyPtHidusrSE=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_diners@2x.png</key>
+		<data>
+		B1eujUms0dPiwgPrDW8i7mXNkbQ=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_diners@3x.png</key>
+		<data>
+		Nvi1DaTKviKq5nlUdzGV56joizY=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_discover.png</key>
+		<data>
+		gdv1osG5lmLBPSoqMfFDZmFFFIo=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_discover@2x.png</key>
+		<data>
+		PCNRl14Q9bAohTQRYcaEYYEPpDE=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_discover@3x.png</key>
+		<data>
+		knIoHRF3wfI5IJ+5vDDzQ5zKpVk=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_jcb.png</key>
+		<data>
+		SRc26KjJzsjx/myTM5xdi2mzlYo=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_jcb@2x.png</key>
+		<data>
+		vTchZqVg9INCBrX9UCwSGLiG5fo=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_jcb@3x.png</key>
+		<data>
+		qVnZ3O6YjnJPsmsAVLgFkvFSCx8=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_mastercard.png</key>
+		<data>
+		7QppC4UO0y/v6xj+PDOg27MHizQ=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_mastercard@2x.png</key>
+		<data>
+		Qs+5iiTg8BEumfnVWTtxqDJovsk=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_mastercard@3x.png</key>
+		<data>
+		nJuCtLmleT/OahuhPlBtn7Vft14=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_placeholder.png</key>
+		<data>
+		2P7Ms2UrGZlcQpbODVrstPmuDpE=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_placeholder@2x.png</key>
+		<data>
+		OjQ3u9TFr2xibFfIHF9EJrzTXJk=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_placeholder@3x.png</key>
+		<data>
+		hUFWU+hfUtgQiSI7DjLe2FxzrEQ=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_placeholder_template.png</key>
+		<data>
+		pg2lGHueZ3cYgG3g7XPiYhxOtrs=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_placeholder_template@2x.png</key>
+		<data>
+		60o3lnNj9xo58AN6CwVwXFuiUoI=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_placeholder_template@3x.png</key>
+		<data>
+		jCwI2a/gO0fzPxsNyrEN5SIVWPs=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_visa.png</key>
+		<data>
+		NLz2XubQnSYyHgCGHNyAWFQmpOI=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_visa@2x.png</key>
+		<data>
+		OFBkIg9sWQkCoA/0mfmMUZHprL4=
+		</data>
+		<key>Frameworks/Stripe.framework/Images/stp_card_visa@3x.png</key>
+		<data>
+		u2mK4DDEcfISSLaAnqBB/+mPfek=
+		</data>
+		<key>Frameworks/Stripe.framework/Info.plist</key>
+		<data>
+		cpXhxA1f/G67Go6FERwoHNwmUZM=
+		</data>
+		<key>Frameworks/Stripe.framework/Stripe</key>
+		<data>
+		nSqowg1oILKAtwTKu/71d5NdaNY=
+		</data>
+		<key>Frameworks/Stripe.framework/_CodeSignature/CodeResources</key>
+		<data>
+		GTed2UQFMszEJ6IBiNHeoB1U/BM=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_amex.png</key>
+		<data>
+		O6BDVFHraq49coBS0nXEb/DVnyk=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_amex@2x.png</key>
+		<data>
+		P/k3eVNNQmEt8o/mVsLQRjVH+A4=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_amex@3x.png</key>
+		<data>
+		kzl3JQx1rnRnHR/rGNjMZW4ipRE=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_cvc.png</key>
+		<data>
+		Ur6I5yDrMqH18RpQNiPMnVTGDqE=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_cvc@2x.png</key>
+		<data>
+		eG3zCgzYiUq5RQ1grxgVCcKwj/Q=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_cvc@3x.png</key>
+		<data>
+		yWmomEXRFEXX4lbMh6ofn3fY4Js=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_cvc_amex.png</key>
+		<data>
+		PAgpFAFSLOjWecbitzuljP9bqbM=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_cvc_amex@2x.png</key>
+		<data>
+		76YhDXDyYlUKdDjC3yTImi3sj8g=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_cvc_amex@3x.png</key>
+		<data>
+		+zomuehUp9cg4jtndRbSi/r5b3w=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_diners.png</key>
+		<data>
+		Pox0i8U/e1SlCdpQOmn0iMI1WCI=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_diners@2x.png</key>
+		<data>
+		fLa1POoRqAssp+0Sb9lxy+GJxrI=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_diners@3x.png</key>
+		<data>
+		QVQ9fdWCJuYVn/qKWqc5f3B1mF8=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_discover.png</key>
+		<data>
+		jDRvCqowIEetxDKTbGCF6VQl/7Q=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_discover@2x.png</key>
+		<data>
+		2qcxnIjdqZz7jC7YchsuZUtApXw=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_discover@3x.png</key>
+		<data>
+		89M0ZyNc/JhtG4Rxf+L0mLbyXVY=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_jcb.png</key>
+		<data>
+		PKDEzfXIxUwPWNuSRsPtOwRVWQg=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_jcb@2x.png</key>
+		<data>
+		+dJQWrl09554gBgsKLpTMDBEe3s=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_jcb@3x.png</key>
+		<data>
+		1FQ9prc42HZWo9/M5qlno6O8KCw=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_mastercard.png</key>
+		<data>
+		tS4yIkzC/JNr8l2Z8VR7tfcJzI4=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_mastercard@2x.png</key>
+		<data>
+		Vo22gJ64zmeCIqW2+2kLFO/mYBc=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_mastercard@3x.png</key>
+		<data>
+		Ru+Vx6ZtIv3uSUdMWdROzkSmOKc=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_placeholder.png</key>
+		<data>
+		gvI2THN9VcdWosQgfDLDK2gJeqo=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_placeholder@2x.png</key>
+		<data>
+		KzBhw8WM677fwcZegorh30l0pgs=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_placeholder@3x.png</key>
+		<data>
+		lqwmpfIRq8+T+9Pz6ii/eUsrcNQ=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_placeholder_template.png</key>
+		<data>
+		wBhu7MrSjB1pFmP35JS5xnQ4zWk=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_placeholder_template@2x.png</key>
+		<data>
+		LN1FJcg8qk1ZhY9B1cgg6pGe7DQ=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_placeholder_template@3x.png</key>
+		<data>
+		r7CReruy/tTyVvSDWFVlGUqOVi8=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_visa.png</key>
+		<data>
+		J1JnfVw2i6Mce8A7js4OcI20pLM=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_visa@2x.png</key>
+		<data>
+		OvJT9bJjw9sKGnhCyYzZKHmyafU=
+		</data>
+		<key>Frameworks/Stripe.framework/stp_card_visa@3x.png</key>
+		<data>
+		CpECOK8kh2EXQLwuI/lm5gdqOzU=
 		</data>
 		<key>Frameworks/libswiftContacts.dylib</key>
 		<data>
-		oravM6l3ApVbjoV5+liYP8qvfIg=
+		/VHgI55QwTbwwE5Sp7HkHW4Ha84=
 		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
-		EqXLlVAKmJ2Vov4lpmckEeSQ9QY=
+		c7tBV7rcyxZD+kbWynteC2tcWQY=
 		</data>
 		<key>Frameworks/libswiftCoreData.dylib</key>
 		<data>
-		ChFuAj/larej5QtjftHs2QxNu1I=
+		k80G/fV2lTCDE3YlKSrusEfwR1Y=
 		</data>
 		<key>Frameworks/libswiftCoreGraphics.dylib</key>
 		<data>
-		SLRahCWtXX7mjQ5nI3VzaYmp6EQ=
+		TTXJ/nDEZVy/suhg52Z4pDgVF+4=
 		</data>
 		<key>Frameworks/libswiftCoreImage.dylib</key>
 		<data>
-		KiZ2scpxGpwaWObTl8fmnCVRtBc=
+		b2IMfwExquJ9RRE9R+2sGWR6I0s=
 		</data>
 		<key>Frameworks/libswiftCoreLocation.dylib</key>
 		<data>
-		YoXn983OEt5beb18VmR5U/lwKjc=
+		Gt2TJxPFpIlJi35fQcaXNbgqj7M=
 		</data>
 		<key>Frameworks/libswiftDarwin.dylib</key>
 		<data>
-		3Bv4ZRfEU9uOgOtsD0/ESQUKtbc=
+		pElk7aiTfz5FkL6oSc7261Kkmlg=
 		</data>
 		<key>Frameworks/libswiftDispatch.dylib</key>
 		<data>
-		ejft4du3ESPwy0SjwlzzIyFdL8o=
+		IPw3q8UBV+6dwVzyx33PAtkbeQU=
 		</data>
 		<key>Frameworks/libswiftFoundation.dylib</key>
 		<data>
-		IIJfn5rgZWZrYdxdI9Q6caWaPR0=
+		vCavYhSNQ1B4jgiJS0ZQNjbH2Ms=
 		</data>
 		<key>Frameworks/libswiftObjectiveC.dylib</key>
 		<data>
-		kAiy7AAiFwIv0rL1YFN5DiKN+kI=
+		MptRGEQzd2Wq/6YUv0eqr4Io3A8=
+		</data>
+		<key>Frameworks/libswiftPassKit.dylib</key>
+		<data>
+		Fz9F/f2AxES/84FFFbVrB3ewt/8=
 		</data>
 		<key>Frameworks/libswiftUIKit.dylib</key>
 		<data>
-		wzcQo7GWHMUEP9yPulKcc70cl2Q=
+		zGPIg/p34E9spVHSvIM9aVHvIMI=
 		</data>
 		<key>Frameworks/libswiftWatchConnectivity.dylib</key>
 		<data>
-		+79Y/W1Y6gqvZAbOPN9M4+1LD/g=
+		E33lIR3BDeqZnOHrXu3O1WVHw8Y=
+		</data>
+		<key>Frameworks/libswiftWatchKit.dylib</key>
+		<data>
+		WHaghuP/pVqSRelUkgq/++RS/ZY=
 		</data>
 		<key>Watch/Vague WatchKit App.app/Assets.car</key>
 		<data>
-		RKYTm4yupiwygbIrPr1zu8pwB60=
+		uBj1+Dt7z2oPCQWVurZIe0JIEUc=
 		</data>
 		<key>Watch/Vague WatchKit App.app/Base.lproj/Interface-notification.plist</key>
 		<dict>
@@ -786,46 +1262,46 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			M+OeYz+6CHJY5w796KoKTbAJroY=
+			vVBXYkAeXBupqd0FcAd4yDNgGr8=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Watch/Vague WatchKit App.app/Frameworks/libswiftCore.dylib</key>
 		<data>
-		HTzrX4r7qKoSKut1LKYvZ3efbjk=
+		pQAMlaB2sp3kG3TCmynLUsE9nuo=
 		</data>
 		<key>Watch/Vague WatchKit App.app/Frameworks/libswiftCoreGraphics.dylib</key>
 		<data>
-		l6vOhT6yX0y8TIE87/axLV8sFfw=
+		TzAz9K/rH33wdb4EYhZYb334oVU=
 		</data>
 		<key>Watch/Vague WatchKit App.app/Frameworks/libswiftCoreLocation.dylib</key>
 		<data>
-		3Kt3CGT8dL9jktYzDzIxit8JosE=
+		Errsz8ovGTIIS+F/PRyOfYeHCEs=
 		</data>
 		<key>Watch/Vague WatchKit App.app/Frameworks/libswiftDarwin.dylib</key>
 		<data>
-		FbGnYQRaewZt/yGGj5UQts7ewAE=
+		nb8HclpzUuOl5/ht65Qs8A7X2LM=
 		</data>
 		<key>Watch/Vague WatchKit App.app/Frameworks/libswiftDispatch.dylib</key>
 		<data>
-		LNZELRY929yyVKtYvh8Fc29IlGg=
+		1lf29DpVY7pdxD56zvS0SUg+UjE=
 		</data>
 		<key>Watch/Vague WatchKit App.app/Frameworks/libswiftFoundation.dylib</key>
 		<data>
-		7RsjgnVqq9K0y1bHcwxWOR6HTy4=
+		+a/ycyf6QGYC8SYHTwgfNHN7CK4=
 		</data>
 		<key>Watch/Vague WatchKit App.app/Frameworks/libswiftObjectiveC.dylib</key>
 		<data>
-		oQoknJJlus9OHz/UYCmHd/KM/2g=
+		aq9weMrUnL7blCJNoZR/e9Zstrg=
 		</data>
 		<key>Watch/Vague WatchKit App.app/Frameworks/libswiftUIKit.dylib</key>
 		<data>
-		+u7O4PkxCzMG12vdpz8oiIElNK8=
+		kBYHM4LXTVsceBAOMT5CZPu8OUA=
 		</data>
 		<key>Watch/Vague WatchKit App.app/Frameworks/libswiftWatchKit.dylib</key>
 		<data>
-		mB77gxuTVGGcMIQbcNBXofgnyfs=
+		BJGWmicxi1+P6hIN9P8lh1uBcrk=
 		</data>
 		<key>Watch/Vague WatchKit App.app/Info.plist</key>
 		<data>
@@ -841,11 +1317,11 @@
 		</data>
 		<key>Watch/Vague WatchKit App.app/PlugIns/Vague WatchKit Extension.appex/Vague WatchKit Extension</key>
 		<data>
-		f9d2A8C5F8VZQFBWD3pA4pT3GNM=
+		tqEYV6Jako0pYNTV9umEEzkO/V8=
 		</data>
 		<key>Watch/Vague WatchKit App.app/PlugIns/Vague WatchKit Extension.appex/_CodeSignature/CodeResources</key>
 		<data>
-		XN+07+PpivHzpKa48ThIryVqWSk=
+		SfREkPtaEPAZTQgFIuUG8w/a5GU=
 		</data>
 		<key>Watch/Vague WatchKit App.app/PlugIns/Vague WatchKit Extension.appex/embedded.mobileprovision</key>
 		<data>
@@ -853,15 +1329,15 @@
 		</data>
 		<key>Watch/Vague WatchKit App.app/PlugIns/Vague WatchKit Extension.appex/featureVector.txt</key>
 		<data>
-		+KBgxgKwWURQj/ZHqp+hXJC6V74=
+		HHggBhZ6P+oOD+xX8rCZQ2wbeiw=
 		</data>
 		<key>Watch/Vague WatchKit App.app/Vague WatchKit App</key>
 		<data>
-		Fj9RVsmlN0Swjc7+LxxTzAnbCLA=
+		VhL+FTc5y0IZ7ZEBspT+AdWc1TA=
 		</data>
 		<key>Watch/Vague WatchKit App.app/_CodeSignature/CodeResources</key>
 		<data>
-		4ZwntRFfMsAttUpBI5o/odyVTAs=
+		FqFdFUqNIe9KtHiC6mvz0tsOxIA=
 		</data>
 		<key>Watch/Vague WatchKit App.app/_WatchKitStub/WK</key>
 		<data>
@@ -873,7 +1349,7 @@
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		TBz/fRUQpcrdItUv+lzqOpzwaUE=
+		6Kjd9nTCbGT0PZJ34MDxLeaaoAI=
 		</data>
 	</dict>
 	<key>rules</key>

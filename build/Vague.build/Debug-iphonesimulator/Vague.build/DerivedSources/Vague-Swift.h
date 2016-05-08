@@ -93,8 +93,10 @@ typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
-@import ObjectiveC;
+@import Stripe;
 @import WatchConnectivity;
+@import PassKit;
+@import ObjectiveC;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -102,6 +104,7 @@ typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 @class UIWindow;
 @class UIApplication;
 @class NSObject;
+@class NSURL;
 
 SWIFT_CLASS("_TtC5Vague11AppDelegate")
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
@@ -112,7 +115,40 @@ SWIFT_CLASS("_TtC5Vague11AppDelegate")
 - (void)applicationWillEnterForeground:(UIApplication * _Nonnull)application;
 - (void)applicationDidBecomeActive:(UIApplication * _Nonnull)application;
 - (void)applicationWillTerminate:(UIApplication * _Nonnull)application;
+- (BOOL)application:(UIApplication * _Nonnull)application openURL:(NSURL * _Nonnull)url sourceApplication:(NSString * _Nullable)sourceApplication annotation:(id _Nonnull)annotation;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class STPPaymentCardTextField;
+@class Firebase;
+@class FBSDKLoginManager;
+@class iCloudManager;
+@class WCSession;
+@class UIButton;
+@class STPToken;
+@class UILabel;
+@class NSBundle;
+@class NSCoder;
+
+SWIFT_CLASS("_TtC5Vague28FBSDKContainerViewController")
+@interface FBSDKContainerViewController : UIViewController <STPPaymentCardTextFieldDelegate, WCSessionDelegate>
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified loginButton;
+@property (nonatomic, readonly, strong) STPPaymentCardTextField * _Nonnull paymentTextField;
+@property (nonatomic, readonly, strong) Firebase * _Null_unspecified ref;
+@property (nonatomic, readonly, strong) FBSDKLoginManager * _Nonnull facebookLogin;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified received;
+@property (nonatomic, strong) iCloudManager * _Nonnull iCloud;
+@property (nonatomic, strong) WCSession * _Null_unspecified session;
+- (void)iCloudUpdated;
+- (void)setCountInIcloud:(NSString * _Nonnull)value;
+- (void)viewDidLoad;
+- (void)paymentCardTextFieldDidChange:(STPPaymentCardTextField * _Nonnull)textField;
+- (IBAction)saveButton:(UIButton * _Nonnull)sender;
+- (void)createBackendChargeWithToken:(STPToken * _Nonnull)token completion:(void (^ _Nonnull)(PKPaymentAuthorizationStatus))completion;
+- (IBAction)facebookLogin:(id _Nonnull)sender;
+- (void)session:(WCSession * _Nonnull)session didReceiveApplicationContext:(NSDictionary<NSString *, id> * _Nonnull)applicationContext;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class NSNotification;
@@ -123,25 +159,6 @@ SWIFT_CLASS("_TtC5Vague13iCloudManager")
 - (void)iCloudChanged:(NSNotification * _Nonnull)notification;
 - (NSString * _Nonnull)getiCloudData:(NSString * _Nonnull)key;
 - (void)setiCloudData:(NSString * _Nonnull)key values:(NSString * _Nullable)values;
-@end
-
-@class WCSession;
-@class UILabel;
-@class NSBundle;
-@class NSCoder;
-
-SWIFT_CLASS("_TtC5Vague17iosViewController")
-@interface iosViewController : UIViewController <WCSessionDelegate>
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified received;
-@property (nonatomic, strong) iCloudManager * _Nonnull iCloud;
-@property (nonatomic, strong) WCSession * _Null_unspecified session;
-- (void)iCloudUpdated;
-- (void)setCountInIcloud:(NSString * _Nonnull)value;
-- (void)viewDidLoad;
-- (void)viewWillAppear:(BOOL)animated;
-- (void)session:(WCSession * _Nonnull)session didReceiveApplicationContext:(NSDictionary<NSString *, id> * _Nonnull)applicationContext;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 #pragma clang diagnostic pop

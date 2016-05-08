@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "387E69391CC2D402000FC8A4"
-               BuildableName = "VagueTV.app"
+               BuildableName = "Strict Fitness.app"
                BlueprintName = "VagueTV"
                ReferencedContainer = "container:Vague.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "387E69391CC2D402000FC8A4"
-            BuildableName = "VagueTV.app"
+            BuildableName = "Strict Fitness.app"
             BlueprintName = "VagueTV"
             ReferencedContainer = "container:Vague.xcodeproj">
          </BuildableReference>
@@ -56,7 +56,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "387E69391CC2D402000FC8A4"
-            BuildableName = "VagueTV.app"
+            BuildableName = "Strict Fitness.app"
             BlueprintName = "VagueTV"
             ReferencedContainer = "container:Vague.xcodeproj">
          </BuildableReference>
@@ -75,7 +75,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "387E69391CC2D402000FC8A4"
-            BuildableName = "VagueTV.app"
+            BuildableName = "Strict Fitness.app"
             BlueprintName = "VagueTV"
             ReferencedContainer = "container:Vague.xcodeproj">
          </BuildableReference>

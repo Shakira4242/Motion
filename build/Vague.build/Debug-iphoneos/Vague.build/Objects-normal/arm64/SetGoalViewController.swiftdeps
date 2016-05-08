@@ -1,0 +1,1702 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "setGoalViewController"
+provides-nominal:
+- "C5Vague21setGoalViewController"
+provides-member:
+- ["C5Vague21setGoalViewController", ""]
+- ["CSo7UIColor", ""]
+- ["CSo7UIColor", "init"]
+- ["CSo7UIColor", "init"]
+provides-dynamic-lookup:
+- "picker"
+- "ref"
+- "viewDidLoad"
+- "numberOfComponentsInPickerView"
+- "session"
+- "session"
+- "position"
+- "pickerView"
+- "pickerView"
+- "pickerView"
+- "didReceiveMemoryWarning"
+- "dismissKeyboard"
+- "addGoal"
+- "pickerData"
+- "goalName"
+- "send"
+- "applicationDict"
+- "profile"
+depends-top-level:
+- !private "+"
+- "Firebase"
+- "WCSession"
+- "UIPickerViewDataSource"
+- "UIPickerViewDelegate"
+- "Array"
+- !private "UITapGestureRecognizer"
+- "WCSessionDelegate"
+- !private "NSDate"
+- !private "dispatch_async"
+- "UIViewController"
+- !private "<="
+- "UITextField"
+- !private "dispatch_get_main_queue"
+- !private "CGFloat"
+- !private ">>"
+- !private "&&"
+- "Int"
+- "StringLiteralType"
+- "UIColor"
+- "setGoalViewController"
+- !private ">="
+- "String"
+- !private "/"
+- !private "NSCalendar"
+- !private "&"
+- !private "assert"
+- !private "BooleanLiteralType"
+- "UIImageView"
+- !private "print"
+- !private "!="
+- "UIPickerView"
+- "AnyObject"
+- "Dictionary"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "IntegerLiteralType"]
+- !private ["Ps16AbsoluteValuable", "Stride"]
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "CGFloat"]
+- ["Ps9AnyObject", "Firebase"]
+- !private ["Ps9AnyObject", "Key"]
+- !private ["Ps9AnyObject", "NSCalendar"]
+- !private ["Ps9AnyObject", "NSDate"]
+- ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "UIColor"]
+- !private ["Ps9AnyObject", "UITapGestureRecognizer"]
+- !private ["Ps9AnyObject", "Value"]
+- !private ["Ps9AnyObject", "WCSession"]
+- !private ["Ps9AnyObject", "activateSession"]
+- !private ["Ps9AnyObject", "addGestureRecognizer"]
+- ["Ps9AnyObject", "addGoal"]
+- ["Ps9AnyObject", "applicationDict"]
+- !private ["Ps9AnyObject", "assert"]
+- !private ["Ps9AnyObject", "backgroundColor"]
+- !private ["Ps9AnyObject", "childByAppendingPath"]
+- !private ["Ps9AnyObject", "components"]
+- !private ["Ps9AnyObject", "currentCalendar"]
+- !private ["Ps9AnyObject", "dataSource"]
+- !private ["Ps9AnyObject", "defaultSession"]
+- !private ["Ps9AnyObject", "deinit"]
+- !private ["Ps9AnyObject", "delegate"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- ["Ps9AnyObject", "dismissKeyboard"]
+- !private ["Ps9AnyObject", "dispatch_async"]
+- !private ["Ps9AnyObject", "dispatch_get_main_queue"]
+- !private ["Ps9AnyObject", "endEditing"]
+- ["Ps9AnyObject", "goalName"]
+- !private ["Ps9AnyObject", "hour"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isSupported"]
+- !private ["Ps9AnyObject", "minute"]
+- ["Ps9AnyObject", "numberOfComponentsInPickerView"]
+- !private ["Ps9AnyObject", "observeAuthEventWithBlock"]
+- ["Ps9AnyObject", "picker"]
+- ["Ps9AnyObject", "pickerData"]
+- ["Ps9AnyObject", "pickerView"]
+- ["Ps9AnyObject", "position"]
+- !private ["Ps9AnyObject", "print"]
+- ["Ps9AnyObject", "profile"]
+- ["Ps9AnyObject", "ref"]
+- ["Ps9AnyObject", "send"]
+- ["Ps9AnyObject", "session"]
+- ["Ps9AnyObject", "sessionDidBecomeInactive"]
+- ["Ps9AnyObject", "sessionDidDeactivate"]
+- ["Ps9AnyObject", "sessionReachabilityDidChange"]
+- ["Ps9AnyObject", "sessionWatchStateDidChange"]
+- !private ["Ps9AnyObject", "setValue"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "uid"]
+- !private ["Ps9AnyObject", "updateApplicationContext"]
+- !private ["Ps9AnyObject", "view"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- ["Sa", "Element"]
+- ["Sa", "Generator"]
+- ["Sa", "Index"]
+- ["Sa", "SubSequence"]
+- ["Sa", "_Element"]
+- !private ["Sa", "count"]
+- !private ["Sa", "deinit"]
+- ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- ["Ps23ArrayLiteralConvertible", "Element"]
+- ["Ps23ArrayLiteralConvertible", "Generator"]
+- !private ["Ps23ArrayLiteralConvertible", "Hour"]
+- ["Ps23ArrayLiteralConvertible", "Index"]
+- !private ["Ps23ArrayLiteralConvertible", "Minute"]
+- ["Ps23ArrayLiteralConvertible", "SubSequence"]
+- ["Ps23ArrayLiteralConvertible", "_Element"]
+- !private ["Ps23ArrayLiteralConvertible", "count"]
+- ["Ps23ArrayLiteralConvertible", "init"]
+- !private ["Ps23ArrayLiteralConvertible", "subscript"]
+- ["Vs10ArraySlice", "Generator"]
+- ["Vs10ArraySlice", "Index"]
+- ["Ps22BidirectionalIndexType", "Distance"]
+- ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps22BidirectionalIndexType", "Stride"]
+- !private ["Ps22BidirectionalIndexType", "_DisallowMixedSignArithmetic"]
+- ["Ps21BitwiseOperationsType", "Distance"]
+- ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "Stride"]
+- !private ["Ps21BitwiseOperationsType", "_DisallowMixedSignArithmetic"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "IntegerLiteralType"]
+- !private ["V12CoreGraphics7CGFloat", "Stride"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- !private ["Ps11CVarArgType", "CGFloat"]
+- ["Ps11CVarArgType", "Distance"]
+- ["Ps11CVarArgType", "Firebase"]
+- ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "Key"]
+- !private ["Ps11CVarArgType", "NSCalendar"]
+- !private ["Ps11CVarArgType", "NSDate"]
+- !private ["Ps11CVarArgType", "Stride"]
+- ["Ps11CVarArgType", "String"]
+- !private ["Ps11CVarArgType", "UIColor"]
+- !private ["Ps11CVarArgType", "UITapGestureRecognizer"]
+- !private ["Ps11CVarArgType", "Value"]
+- !private ["Ps11CVarArgType", "WCSession"]
+- !private ["Ps11CVarArgType", "_DisallowMixedSignArithmetic"]
+- !private ["Ps11CVarArgType", "activateSession"]
+- !private ["Ps11CVarArgType", "addGestureRecognizer"]
+- ["Ps11CVarArgType", "addGoal"]
+- ["Ps11CVarArgType", "applicationDict"]
+- !private ["Ps11CVarArgType", "assert"]
+- !private ["Ps11CVarArgType", "backgroundColor"]
+- !private ["Ps11CVarArgType", "childByAppendingPath"]
+- !private ["Ps11CVarArgType", "components"]
+- !private ["Ps11CVarArgType", "currentCalendar"]
+- !private ["Ps11CVarArgType", "dataSource"]
+- !private ["Ps11CVarArgType", "defaultSession"]
+- !private ["Ps11CVarArgType", "delegate"]
+- ["Ps11CVarArgType", "didReceiveMemoryWarning"]
+- ["Ps11CVarArgType", "dismissKeyboard"]
+- !private ["Ps11CVarArgType", "dispatch_async"]
+- !private ["Ps11CVarArgType", "dispatch_get_main_queue"]
+- !private ["Ps11CVarArgType", "endEditing"]
+- ["Ps11CVarArgType", "goalName"]
+- !private ["Ps11CVarArgType", "hour"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "isSupported"]
+- !private ["Ps11CVarArgType", "minute"]
+- ["Ps11CVarArgType", "numberOfComponentsInPickerView"]
+- !private ["Ps11CVarArgType", "observeAuthEventWithBlock"]
+- ["Ps11CVarArgType", "picker"]
+- ["Ps11CVarArgType", "pickerData"]
+- ["Ps11CVarArgType", "pickerView"]
+- ["Ps11CVarArgType", "position"]
+- !private ["Ps11CVarArgType", "print"]
+- ["Ps11CVarArgType", "profile"]
+- ["Ps11CVarArgType", "ref"]
+- ["Ps11CVarArgType", "send"]
+- ["Ps11CVarArgType", "session"]
+- ["Ps11CVarArgType", "sessionDidBecomeInactive"]
+- ["Ps11CVarArgType", "sessionDidDeactivate"]
+- ["Ps11CVarArgType", "sessionReachabilityDidChange"]
+- ["Ps11CVarArgType", "sessionWatchStateDidChange"]
+- !private ["Ps11CVarArgType", "setValue"]
+- !private ["Ps11CVarArgType", "text"]
+- !private ["Ps11CVarArgType", "uid"]
+- !private ["Ps11CVarArgType", "updateApplicationContext"]
+- !private ["Ps11CVarArgType", "view"]
+- ["Ps11CVarArgType", "viewDidLoad"]
+- ["Ps11CVarArgType", ""]
+- ["Ps14CollectionType", "Element"]
+- ["Ps14CollectionType", "Generator"]
+- ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "Key"]
+- ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "Value"]
+- ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "count"]
+- ["Ps14CollectionType", "init"]
+- !private ["Ps14CollectionType", "subscript"]
+- ["Ps10Comparable", "Distance"]
+- ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "Stride"]
+- !private ["Ps10Comparable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "CGFloat"]
+- ["Ps28CustomDebugStringConvertible", "Element"]
+- ["Ps28CustomDebugStringConvertible", "Firebase"]
+- ["Ps28CustomDebugStringConvertible", "Generator"]
+- ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "IntegerLiteralType"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "NSCalendar"]
+- !private ["Ps28CustomDebugStringConvertible", "NSDate"]
+- !private ["Ps28CustomDebugStringConvertible", "Stride"]
+- ["Ps28CustomDebugStringConvertible", "String"]
+- ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "UIColor"]
+- !private ["Ps28CustomDebugStringConvertible", "UITapGestureRecognizer"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- !private ["Ps28CustomDebugStringConvertible", "WCSession"]
+- ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "activateSession"]
+- !private ["Ps28CustomDebugStringConvertible", "addGestureRecognizer"]
+- ["Ps28CustomDebugStringConvertible", "addGoal"]
+- ["Ps28CustomDebugStringConvertible", "applicationDict"]
+- !private ["Ps28CustomDebugStringConvertible", "assert"]
+- !private ["Ps28CustomDebugStringConvertible", "backgroundColor"]
+- !private ["Ps28CustomDebugStringConvertible", "childByAppendingPath"]
+- !private ["Ps28CustomDebugStringConvertible", "components"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "currentCalendar"]
+- !private ["Ps28CustomDebugStringConvertible", "dataSource"]
+- !private ["Ps28CustomDebugStringConvertible", "defaultSession"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps28CustomDebugStringConvertible", "dismissKeyboard"]
+- !private ["Ps28CustomDebugStringConvertible", "dispatch_async"]
+- !private ["Ps28CustomDebugStringConvertible", "dispatch_get_main_queue"]
+- !private ["Ps28CustomDebugStringConvertible", "endEditing"]
+- ["Ps28CustomDebugStringConvertible", "goalName"]
+- !private ["Ps28CustomDebugStringConvertible", "hour"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isSupported"]
+- !private ["Ps28CustomDebugStringConvertible", "minute"]
+- ["Ps28CustomDebugStringConvertible", "numberOfComponentsInPickerView"]
+- !private ["Ps28CustomDebugStringConvertible", "observeAuthEventWithBlock"]
+- ["Ps28CustomDebugStringConvertible", "picker"]
+- ["Ps28CustomDebugStringConvertible", "pickerData"]
+- ["Ps28CustomDebugStringConvertible", "pickerView"]
+- ["Ps28CustomDebugStringConvertible", "position"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- ["Ps28CustomDebugStringConvertible", "profile"]
+- ["Ps28CustomDebugStringConvertible", "ref"]
+- ["Ps28CustomDebugStringConvertible", "send"]
+- ["Ps28CustomDebugStringConvertible", "session"]
+- ["Ps28CustomDebugStringConvertible", "sessionDidBecomeInactive"]
+- ["Ps28CustomDebugStringConvertible", "sessionDidDeactivate"]
+- ["Ps28CustomDebugStringConvertible", "sessionReachabilityDidChange"]
+- ["Ps28CustomDebugStringConvertible", "sessionWatchStateDidChange"]
+- !private ["Ps28CustomDebugStringConvertible", "setValue"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps28CustomDebugStringConvertible", "uid"]
+- !private ["Ps28CustomDebugStringConvertible", "updateApplicationContext"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "CGFloat"]
+- ["Ps23CustomStringConvertible", "Distance"]
+- ["Ps23CustomStringConvertible", "Element"]
+- ["Ps23CustomStringConvertible", "Firebase"]
+- ["Ps23CustomStringConvertible", "Generator"]
+- ["Ps23CustomStringConvertible", "Index"]
+- ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "NSCalendar"]
+- !private ["Ps23CustomStringConvertible", "NSDate"]
+- !private ["Ps23CustomStringConvertible", "Stride"]
+- ["Ps23CustomStringConvertible", "String"]
+- ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "UIColor"]
+- !private ["Ps23CustomStringConvertible", "UITapGestureRecognizer"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "WCSession"]
+- !private ["Ps23CustomStringConvertible", "_DisallowMixedSignArithmetic"]
+- ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "activateSession"]
+- !private ["Ps23CustomStringConvertible", "addGestureRecognizer"]
+- ["Ps23CustomStringConvertible", "addGoal"]
+- ["Ps23CustomStringConvertible", "applicationDict"]
+- !private ["Ps23CustomStringConvertible", "assert"]
+- !private ["Ps23CustomStringConvertible", "backgroundColor"]
+- !private ["Ps23CustomStringConvertible", "childByAppendingPath"]
+- !private ["Ps23CustomStringConvertible", "components"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "currentCalendar"]
+- !private ["Ps23CustomStringConvertible", "dataSource"]
+- !private ["Ps23CustomStringConvertible", "defaultSession"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps23CustomStringConvertible", "dismissKeyboard"]
+- !private ["Ps23CustomStringConvertible", "dispatch_async"]
+- !private ["Ps23CustomStringConvertible", "dispatch_get_main_queue"]
+- !private ["Ps23CustomStringConvertible", "endEditing"]
+- ["Ps23CustomStringConvertible", "goalName"]
+- !private ["Ps23CustomStringConvertible", "hour"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isSupported"]
+- !private ["Ps23CustomStringConvertible", "minute"]
+- ["Ps23CustomStringConvertible", "numberOfComponentsInPickerView"]
+- !private ["Ps23CustomStringConvertible", "observeAuthEventWithBlock"]
+- ["Ps23CustomStringConvertible", "picker"]
+- ["Ps23CustomStringConvertible", "pickerData"]
+- ["Ps23CustomStringConvertible", "pickerView"]
+- ["Ps23CustomStringConvertible", "position"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- ["Ps23CustomStringConvertible", "profile"]
+- ["Ps23CustomStringConvertible", "ref"]
+- ["Ps23CustomStringConvertible", "send"]
+- ["Ps23CustomStringConvertible", "session"]
+- ["Ps23CustomStringConvertible", "sessionDidBecomeInactive"]
+- ["Ps23CustomStringConvertible", "sessionDidDeactivate"]
+- ["Ps23CustomStringConvertible", "sessionReachabilityDidChange"]
+- ["Ps23CustomStringConvertible", "sessionWatchStateDidChange"]
+- !private ["Ps23CustomStringConvertible", "setValue"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps23CustomStringConvertible", "uid"]
+- !private ["Ps23CustomStringConvertible", "updateApplicationContext"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "Index"]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "Value"]
+- !private ["Vs10Dictionary", "deinit"]
+- ["Vs10Dictionary", "init"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Ps28DictionaryLiteralConvertible", "Index"]
+- !private ["Ps28DictionaryLiteralConvertible", "Key"]
+- !private ["Ps28DictionaryLiteralConvertible", "Value"]
+- ["Ps28DictionaryLiteralConvertible", "init"]
+- !private ["Ps28DictionaryLiteralConvertible", "subscript"]
+- !private ["Sd", "IntegerLiteralType"]
+- !private ["Sd", "Stride"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "CGFloat"]
+- ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "Element"]
+- ["Ps9Equatable", "Firebase"]
+- !private ["Ps9Equatable", "Hour"]
+- ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "Key"]
+- !private ["Ps9Equatable", "Minute"]
+- !private ["Ps9Equatable", "NSCalendar"]
+- !private ["Ps9Equatable", "NSDate"]
+- !private ["Ps9Equatable", "Stride"]
+- ["Ps9Equatable", "String"]
+- !private ["Ps9Equatable", "UIColor"]
+- !private ["Ps9Equatable", "UITapGestureRecognizer"]
+- !private ["Ps9Equatable", "Value"]
+- !private ["Ps9Equatable", "WCSession"]
+- !private ["Ps9Equatable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "activateSession"]
+- !private ["Ps9Equatable", "addGestureRecognizer"]
+- ["Ps9Equatable", "addGoal"]
+- ["Ps9Equatable", "applicationDict"]
+- !private ["Ps9Equatable", "assert"]
+- !private ["Ps9Equatable", "backgroundColor"]
+- !private ["Ps9Equatable", "childByAppendingPath"]
+- !private ["Ps9Equatable", "components"]
+- !private ["Ps9Equatable", "currentCalendar"]
+- !private ["Ps9Equatable", "dataSource"]
+- !private ["Ps9Equatable", "defaultSession"]
+- !private ["Ps9Equatable", "delegate"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- ["Ps9Equatable", "dismissKeyboard"]
+- !private ["Ps9Equatable", "dispatch_async"]
+- !private ["Ps9Equatable", "dispatch_get_main_queue"]
+- !private ["Ps9Equatable", "endEditing"]
+- ["Ps9Equatable", "goalName"]
+- !private ["Ps9Equatable", "hour"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isSupported"]
+- !private ["Ps9Equatable", "minute"]
+- ["Ps9Equatable", "numberOfComponentsInPickerView"]
+- !private ["Ps9Equatable", "observeAuthEventWithBlock"]
+- ["Ps9Equatable", "picker"]
+- ["Ps9Equatable", "pickerData"]
+- ["Ps9Equatable", "pickerView"]
+- ["Ps9Equatable", "position"]
+- !private ["Ps9Equatable", "print"]
+- ["Ps9Equatable", "profile"]
+- ["Ps9Equatable", "ref"]
+- ["Ps9Equatable", "send"]
+- ["Ps9Equatable", "session"]
+- ["Ps9Equatable", "sessionDidBecomeInactive"]
+- ["Ps9Equatable", "sessionDidDeactivate"]
+- ["Ps9Equatable", "sessionReachabilityDidChange"]
+- ["Ps9Equatable", "sessionWatchStateDidChange"]
+- !private ["Ps9Equatable", "setValue"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "uid"]
+- !private ["Ps9Equatable", "updateApplicationContext"]
+- !private ["Ps9Equatable", "view"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["CSo9FAuthData", "deinit"]
+- !private ["CSo9FAuthData", "uid"]
+- !private ["CSo6FQuery", "childByAppendingPath"]
+- ["CSo6FQuery", "init"]
+- !private ["CSo6FQuery", "observeAuthEventWithBlock"]
+- !private ["CSo6FQuery", "setValue"]
+- !private ["CSo8Firebase", "childByAppendingPath"]
+- ["CSo8Firebase", "init"]
+- !private ["CSo8Firebase", "observeAuthEventWithBlock"]
+- !private ["CSo8Firebase", "setValue"]
+- !private ["Sf", "IntegerLiteralType"]
+- !private ["Sf", "Stride"]
+- !private ["Sf", "deinit"]
+- !private ["Ps23FloatLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps23FloatLiteralConvertible", "Stride"]
+- !private ["Ps23FloatLiteralConvertible", "init"]
+- !private ["Ps17FloatingPointType", "IntegerLiteralType"]
+- !private ["Ps17FloatingPointType", "Stride"]
+- !private ["Ps17FloatingPointType", "init"]
+- ["Ps16ForwardIndexType", "Distance"]
+- ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps16ForwardIndexType", "Stride"]
+- !private ["Ps16ForwardIndexType", "_DisallowMixedSignArithmetic"]
+- ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "CGFloat"]
+- ["Ps8Hashable", "Distance"]
+- ["Ps8Hashable", "Firebase"]
+- ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "Key"]
+- !private ["Ps8Hashable", "NSCalendar"]
+- !private ["Ps8Hashable", "NSDate"]
+- !private ["Ps8Hashable", "Stride"]
+- ["Ps8Hashable", "String"]
+- !private ["Ps8Hashable", "UIColor"]
+- !private ["Ps8Hashable", "UITapGestureRecognizer"]
+- !private ["Ps8Hashable", "Value"]
+- !private ["Ps8Hashable", "WCSession"]
+- !private ["Ps8Hashable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "activateSession"]
+- !private ["Ps8Hashable", "addGestureRecognizer"]
+- ["Ps8Hashable", "addGoal"]
+- ["Ps8Hashable", "applicationDict"]
+- !private ["Ps8Hashable", "assert"]
+- !private ["Ps8Hashable", "backgroundColor"]
+- !private ["Ps8Hashable", "childByAppendingPath"]
+- !private ["Ps8Hashable", "components"]
+- !private ["Ps8Hashable", "currentCalendar"]
+- !private ["Ps8Hashable", "dataSource"]
+- !private ["Ps8Hashable", "defaultSession"]
+- !private ["Ps8Hashable", "delegate"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- ["Ps8Hashable", "dismissKeyboard"]
+- !private ["Ps8Hashable", "dispatch_async"]
+- !private ["Ps8Hashable", "dispatch_get_main_queue"]
+- !private ["Ps8Hashable", "endEditing"]
+- ["Ps8Hashable", "goalName"]
+- !private ["Ps8Hashable", "hour"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isSupported"]
+- !private ["Ps8Hashable", "minute"]
+- ["Ps8Hashable", "numberOfComponentsInPickerView"]
+- !private ["Ps8Hashable", "observeAuthEventWithBlock"]
+- ["Ps8Hashable", "picker"]
+- ["Ps8Hashable", "pickerData"]
+- ["Ps8Hashable", "pickerView"]
+- ["Ps8Hashable", "position"]
+- !private ["Ps8Hashable", "print"]
+- ["Ps8Hashable", "profile"]
+- ["Ps8Hashable", "ref"]
+- ["Ps8Hashable", "send"]
+- ["Ps8Hashable", "session"]
+- ["Ps8Hashable", "sessionDidBecomeInactive"]
+- ["Ps8Hashable", "sessionDidDeactivate"]
+- ["Ps8Hashable", "sessionReachabilityDidChange"]
+- ["Ps8Hashable", "sessionWatchStateDidChange"]
+- !private ["Ps8Hashable", "setValue"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "uid"]
+- !private ["Ps8Hashable", "updateApplicationContext"]
+- !private ["Ps8Hashable", "view"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- ["Ps9Indexable", "Element"]
+- ["Ps9Indexable", "Generator"]
+- ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "Key"]
+- ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "Value"]
+- ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "count"]
+- ["Ps9Indexable", "init"]
+- !private ["Ps9Indexable", "subscript"]
+- ["Vs17IndexingGenerator", "Element"]
+- ["Si", "Distance"]
+- ["Si", "IntegerLiteralType"]
+- !private ["Si", "Stride"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "Stride"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "Stride"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "Stride"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "Stride"]
+- !private ["Vs4Int8", "deinit"]
+- ["Ps21IntegerArithmeticType", "Distance"]
+- ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps21IntegerArithmeticType", "Stride"]
+- !private ["Ps21IntegerArithmeticType", "_DisallowMixedSignArithmetic"]
+- ["Ps25IntegerLiteralConvertible", "Distance"]
+- ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "Stride"]
+- !private ["Ps25IntegerLiteralConvertible", "_DisallowMixedSignArithmetic"]
+- !private ["Ps25IntegerLiteralConvertible", "init"]
+- ["Ps11IntegerType", "Distance"]
+- ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["Ps11IntegerType", "Stride"]
+- !private ["Ps11IntegerType", "_DisallowMixedSignArithmetic"]
+- ["Ps14MirrorPathType", "Distance"]
+- ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "Stride"]
+- ["Ps21MutableCollectionType", "Element"]
+- ["Ps21MutableCollectionType", "Generator"]
+- ["Ps21MutableCollectionType", "Index"]
+- ["Ps21MutableCollectionType", "SubSequence"]
+- ["Ps21MutableCollectionType", "_Element"]
+- !private ["Ps21MutableCollectionType", "count"]
+- ["Ps21MutableCollectionType", "init"]
+- !private ["Ps21MutableCollectionType", "subscript"]
+- ["Ps16MutableIndexable", "Element"]
+- ["Ps16MutableIndexable", "Generator"]
+- ["Ps16MutableIndexable", "Index"]
+- ["Ps16MutableIndexable", "SubSequence"]
+- ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "count"]
+- ["Ps16MutableIndexable", "init"]
+- !private ["Ps16MutableIndexable", "subscript"]
+- ["Ps16MutableSliceable", "Element"]
+- ["Ps16MutableSliceable", "Generator"]
+- ["Ps16MutableSliceable", "Index"]
+- ["Ps16MutableSliceable", "SubSequence"]
+- ["Ps16MutableSliceable", "_Element"]
+- !private ["Ps16MutableSliceable", "count"]
+- ["Ps16MutableSliceable", "init"]
+- !private ["Ps16MutableSliceable", "subscript"]
+- !private ["CSo10NSCalendar", "components"]
+- !private ["CSo10NSCalendar", "currentCalendar"]
+- !private ["VSC14NSCalendarUnit", "Element"]
+- !private ["VSC14NSCalendarUnit", "Hour"]
+- !private ["VSC14NSCalendarUnit", "Minute"]
+- !private ["PSo8NSCoding", "CGFloat"]
+- ["PSo8NSCoding", "Firebase"]
+- !private ["PSo8NSCoding", "Key"]
+- !private ["PSo8NSCoding", "NSCalendar"]
+- !private ["PSo8NSCoding", "NSDate"]
+- ["PSo8NSCoding", "String"]
+- !private ["PSo8NSCoding", "UIColor"]
+- !private ["PSo8NSCoding", "UITapGestureRecognizer"]
+- !private ["PSo8NSCoding", "Value"]
+- !private ["PSo8NSCoding", "WCSession"]
+- !private ["PSo8NSCoding", "addGestureRecognizer"]
+- ["PSo8NSCoding", "addGoal"]
+- ["PSo8NSCoding", "applicationDict"]
+- !private ["PSo8NSCoding", "assert"]
+- !private ["PSo8NSCoding", "backgroundColor"]
+- !private ["PSo8NSCoding", "components"]
+- !private ["PSo8NSCoding", "currentCalendar"]
+- !private ["PSo8NSCoding", "dataSource"]
+- !private ["PSo8NSCoding", "delegate"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "dismissKeyboard"]
+- !private ["PSo8NSCoding", "dispatch_async"]
+- !private ["PSo8NSCoding", "dispatch_get_main_queue"]
+- !private ["PSo8NSCoding", "endEditing"]
+- ["PSo8NSCoding", "goalName"]
+- !private ["PSo8NSCoding", "hour"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "minute"]
+- ["PSo8NSCoding", "numberOfComponentsInPickerView"]
+- ["PSo8NSCoding", "picker"]
+- ["PSo8NSCoding", "pickerData"]
+- ["PSo8NSCoding", "pickerView"]
+- ["PSo8NSCoding", "position"]
+- !private ["PSo8NSCoding", "print"]
+- ["PSo8NSCoding", "profile"]
+- ["PSo8NSCoding", "ref"]
+- ["PSo8NSCoding", "send"]
+- ["PSo8NSCoding", "session"]
+- ["PSo8NSCoding", "sessionDidBecomeInactive"]
+- ["PSo8NSCoding", "sessionDidDeactivate"]
+- ["PSo8NSCoding", "sessionReachabilityDidChange"]
+- ["PSo8NSCoding", "sessionWatchStateDidChange"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "view"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "CGFloat"]
+- !private ["PSo9NSCopying", "Key"]
+- !private ["PSo9NSCopying", "Value"]
+- !private ["PSo9NSCopying", "assert"]
+- !private ["PSo9NSCopying", "components"]
+- !private ["PSo9NSCopying", "currentCalendar"]
+- !private ["PSo9NSCopying", "hour"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "minute"]
+- !private ["CSo6NSDate", "init"]
+- !private ["CSo16NSDateComponents", "hour"]
+- !private ["CSo16NSDateComponents", "minute"]
+- !private ["CSo12NSDictionary", "Key"]
+- !private ["CSo12NSDictionary", "Value"]
+- ["PSo26NSExtensionRequestHandling", "Firebase"]
+- !private ["PSo26NSExtensionRequestHandling", "NSCalendar"]
+- !private ["PSo26NSExtensionRequestHandling", "NSDate"]
+- ["PSo26NSExtensionRequestHandling", "String"]
+- !private ["PSo26NSExtensionRequestHandling", "UIColor"]
+- !private ["PSo26NSExtensionRequestHandling", "UITapGestureRecognizer"]
+- !private ["PSo26NSExtensionRequestHandling", "WCSession"]
+- ["PSo26NSExtensionRequestHandling", "addGoal"]
+- ["PSo26NSExtensionRequestHandling", "applicationDict"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "dismissKeyboard"]
+- !private ["PSo26NSExtensionRequestHandling", "dispatch_async"]
+- !private ["PSo26NSExtensionRequestHandling", "dispatch_get_main_queue"]
+- ["PSo26NSExtensionRequestHandling", "goalName"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "numberOfComponentsInPickerView"]
+- ["PSo26NSExtensionRequestHandling", "picker"]
+- ["PSo26NSExtensionRequestHandling", "pickerData"]
+- ["PSo26NSExtensionRequestHandling", "pickerView"]
+- ["PSo26NSExtensionRequestHandling", "position"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "profile"]
+- ["PSo26NSExtensionRequestHandling", "ref"]
+- ["PSo26NSExtensionRequestHandling", "send"]
+- ["PSo26NSExtensionRequestHandling", "session"]
+- ["PSo26NSExtensionRequestHandling", "sessionDidBecomeInactive"]
+- ["PSo26NSExtensionRequestHandling", "sessionDidDeactivate"]
+- ["PSo26NSExtensionRequestHandling", "sessionReachabilityDidChange"]
+- ["PSo26NSExtensionRequestHandling", "sessionWatchStateDidChange"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo17NSFastEnumeration", "Key"]
+- !private ["PSo17NSFastEnumeration", "Value"]
+- !private ["PSo16NSMutableCopying", "Key"]
+- !private ["PSo16NSMutableCopying", "Value"]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "Firebase"]
+- ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "Key"]
+- !private ["CSo8NSObject", "NSCalendar"]
+- !private ["CSo8NSObject", "NSDate"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UIColor"]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UIPickerView"]
+- !private ["CSo8NSObject", "UITapGestureRecognizer"]
+- ["CSo8NSObject", "UITextField"]
+- !private ["CSo8NSObject", "Value"]
+- ["CSo8NSObject", "WCSession"]
+- !private ["CSo8NSObject", "activateSession"]
+- !private ["CSo8NSObject", "addGestureRecognizer"]
+- ["CSo8NSObject", "addGoal"]
+- ["CSo8NSObject", "applicationDict"]
+- !private ["CSo8NSObject", "assert"]
+- !private ["CSo8NSObject", "backgroundColor"]
+- !private ["CSo8NSObject", "childByAppendingPath"]
+- !private ["CSo8NSObject", "components"]
+- !private ["CSo8NSObject", "currentCalendar"]
+- !private ["CSo8NSObject", "dataSource"]
+- !private ["CSo8NSObject", "defaultSession"]
+- !private ["CSo8NSObject", "deinit"]
+- !private ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "dismissKeyboard"]
+- !private ["CSo8NSObject", "dispatch_async"]
+- !private ["CSo8NSObject", "dispatch_get_main_queue"]
+- !private ["CSo8NSObject", "endEditing"]
+- ["CSo8NSObject", "goalName"]
+- !private ["CSo8NSObject", "hour"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isSupported"]
+- !private ["CSo8NSObject", "minute"]
+- ["CSo8NSObject", "numberOfComponentsInPickerView"]
+- !private ["CSo8NSObject", "observeAuthEventWithBlock"]
+- ["CSo8NSObject", "picker"]
+- ["CSo8NSObject", "pickerData"]
+- ["CSo8NSObject", "pickerView"]
+- ["CSo8NSObject", "position"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "profile"]
+- ["CSo8NSObject", "ref"]
+- ["CSo8NSObject", "send"]
+- ["CSo8NSObject", "session"]
+- ["CSo8NSObject", "sessionDidBecomeInactive"]
+- ["CSo8NSObject", "sessionDidDeactivate"]
+- ["CSo8NSObject", "sessionReachabilityDidChange"]
+- ["CSo8NSObject", "sessionWatchStateDidChange"]
+- !private ["CSo8NSObject", "setValue"]
+- !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "uid"]
+- !private ["CSo8NSObject", "updateApplicationContext"]
+- !private ["CSo8NSObject", "view"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "CGFloat"]
+- ["PSo16NSObjectProtocol", "Firebase"]
+- !private ["PSo16NSObjectProtocol", "Key"]
+- !private ["PSo16NSObjectProtocol", "NSCalendar"]
+- !private ["PSo16NSObjectProtocol", "NSDate"]
+- ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "UITapGestureRecognizer"]
+- !private ["PSo16NSObjectProtocol", "Value"]
+- !private ["PSo16NSObjectProtocol", "WCSession"]
+- !private ["PSo16NSObjectProtocol", "activateSession"]
+- !private ["PSo16NSObjectProtocol", "addGestureRecognizer"]
+- ["PSo16NSObjectProtocol", "addGoal"]
+- ["PSo16NSObjectProtocol", "applicationDict"]
+- !private ["PSo16NSObjectProtocol", "assert"]
+- !private ["PSo16NSObjectProtocol", "backgroundColor"]
+- !private ["PSo16NSObjectProtocol", "childByAppendingPath"]
+- !private ["PSo16NSObjectProtocol", "components"]
+- !private ["PSo16NSObjectProtocol", "currentCalendar"]
+- !private ["PSo16NSObjectProtocol", "dataSource"]
+- !private ["PSo16NSObjectProtocol", "defaultSession"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "dismissKeyboard"]
+- !private ["PSo16NSObjectProtocol", "dispatch_async"]
+- !private ["PSo16NSObjectProtocol", "dispatch_get_main_queue"]
+- !private ["PSo16NSObjectProtocol", "endEditing"]
+- ["PSo16NSObjectProtocol", "goalName"]
+- !private ["PSo16NSObjectProtocol", "hour"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isSupported"]
+- !private ["PSo16NSObjectProtocol", "minute"]
+- ["PSo16NSObjectProtocol", "numberOfComponentsInPickerView"]
+- !private ["PSo16NSObjectProtocol", "observeAuthEventWithBlock"]
+- ["PSo16NSObjectProtocol", "picker"]
+- ["PSo16NSObjectProtocol", "pickerData"]
+- ["PSo16NSObjectProtocol", "pickerView"]
+- ["PSo16NSObjectProtocol", "position"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- ["PSo16NSObjectProtocol", "profile"]
+- ["PSo16NSObjectProtocol", "ref"]
+- ["PSo16NSObjectProtocol", "send"]
+- ["PSo16NSObjectProtocol", "session"]
+- ["PSo16NSObjectProtocol", "sessionDidBecomeInactive"]
+- ["PSo16NSObjectProtocol", "sessionDidDeactivate"]
+- ["PSo16NSObjectProtocol", "sessionReachabilityDidChange"]
+- ["PSo16NSObjectProtocol", "sessionWatchStateDidChange"]
+- !private ["PSo16NSObjectProtocol", "setValue"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "uid"]
+- !private ["PSo16NSObjectProtocol", "updateApplicationContext"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "CGFloat"]
+- !private ["PSo14NSSecureCoding", "Key"]
+- !private ["PSo14NSSecureCoding", "Value"]
+- !private ["PSo14NSSecureCoding", "assert"]
+- !private ["PSo14NSSecureCoding", "components"]
+- !private ["PSo14NSSecureCoding", "currentCalendar"]
+- !private ["PSo14NSSecureCoding", "hour"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "minute"]
+- !private ["Ps13OptionSetType", "Element"]
+- !private ["Ps13OptionSetType", "Hour"]
+- !private ["Ps13OptionSetType", "Minute"]
+- !private ["Sq", "deinit"]
+- ["Ps21RandomAccessIndexType", "Distance"]
+- ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Ps21RandomAccessIndexType", "Stride"]
+- !private ["Ps21RandomAccessIndexType", "_DisallowMixedSignArithmetic"]
+- ["Ps30RangeReplaceableCollectionType", "Element"]
+- ["Ps30RangeReplaceableCollectionType", "Generator"]
+- ["Ps30RangeReplaceableCollectionType", "Index"]
+- ["Ps30RangeReplaceableCollectionType", "SubSequence"]
+- ["Ps30RangeReplaceableCollectionType", "_Element"]
+- !private ["Ps30RangeReplaceableCollectionType", "count"]
+- ["Ps30RangeReplaceableCollectionType", "init"]
+- !private ["Ps30RangeReplaceableCollectionType", "subscript"]
+- !private ["Ps16RawRepresentable", "Element"]
+- !private ["Ps16RawRepresentable", "Hour"]
+- !private ["Ps16RawRepresentable", "Minute"]
+- !private ["V10ObjectiveC8Selector", "deinit"]
+- ["Ps12SequenceType", "Element"]
+- ["Ps12SequenceType", "Generator"]
+- ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "Key"]
+- ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "Value"]
+- ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "count"]
+- ["Ps12SequenceType", "init"]
+- !private ["Ps12SequenceType", "subscript"]
+- !private ["Ps14SetAlgebraType", "Element"]
+- !private ["Ps14SetAlgebraType", "Hour"]
+- !private ["Ps14SetAlgebraType", "Minute"]
+- ["Ps17SignedIntegerType", "Distance"]
+- ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps17SignedIntegerType", "Stride"]
+- ["Ps16SignedNumberType", "Distance"]
+- ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "Stride"]
+- !private ["Ps16SignedNumberType", "init"]
+- !private ["Vs5Slice", "Generator"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Vs12StaticString", "deinit"]
+- ["Ps10Strideable", "Distance"]
+- ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "Stride"]
+- !private ["Ps10Strideable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps10Strideable", "init"]
+- !private ["SS", "deinit"]
+- !private ["PSo29UIAccessibilityIdentification", "addGestureRecognizer"]
+- !private ["PSo29UIAccessibilityIdentification", "backgroundColor"]
+- !private ["PSo29UIAccessibilityIdentification", "dataSource"]
+- !private ["PSo29UIAccessibilityIdentification", "delegate"]
+- !private ["PSo29UIAccessibilityIdentification", "endEditing"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "addGestureRecognizer"]
+- !private ["PSo12UIAppearance", "backgroundColor"]
+- !private ["PSo12UIAppearance", "dataSource"]
+- !private ["PSo12UIAppearance", "delegate"]
+- !private ["PSo12UIAppearance", "endEditing"]
+- !private ["PSo12UIAppearance", "text"]
+- ["PSo21UIAppearanceContainer", "Firebase"]
+- !private ["PSo21UIAppearanceContainer", "NSCalendar"]
+- !private ["PSo21UIAppearanceContainer", "NSDate"]
+- ["PSo21UIAppearanceContainer", "String"]
+- !private ["PSo21UIAppearanceContainer", "UIColor"]
+- !private ["PSo21UIAppearanceContainer", "UITapGestureRecognizer"]
+- !private ["PSo21UIAppearanceContainer", "WCSession"]
+- !private ["PSo21UIAppearanceContainer", "addGestureRecognizer"]
+- ["PSo21UIAppearanceContainer", "addGoal"]
+- ["PSo21UIAppearanceContainer", "applicationDict"]
+- !private ["PSo21UIAppearanceContainer", "backgroundColor"]
+- !private ["PSo21UIAppearanceContainer", "dataSource"]
+- !private ["PSo21UIAppearanceContainer", "delegate"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "dismissKeyboard"]
+- !private ["PSo21UIAppearanceContainer", "dispatch_async"]
+- !private ["PSo21UIAppearanceContainer", "dispatch_get_main_queue"]
+- !private ["PSo21UIAppearanceContainer", "endEditing"]
+- ["PSo21UIAppearanceContainer", "goalName"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "numberOfComponentsInPickerView"]
+- ["PSo21UIAppearanceContainer", "picker"]
+- ["PSo21UIAppearanceContainer", "pickerData"]
+- ["PSo21UIAppearanceContainer", "pickerView"]
+- ["PSo21UIAppearanceContainer", "position"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- ["PSo21UIAppearanceContainer", "profile"]
+- ["PSo21UIAppearanceContainer", "ref"]
+- ["PSo21UIAppearanceContainer", "send"]
+- ["PSo21UIAppearanceContainer", "session"]
+- ["PSo21UIAppearanceContainer", "sessionDidBecomeInactive"]
+- ["PSo21UIAppearanceContainer", "sessionDidDeactivate"]
+- ["PSo21UIAppearanceContainer", "sessionReachabilityDidChange"]
+- ["PSo21UIAppearanceContainer", "sessionWatchStateDidChange"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- !private ["PSo21UIAppearanceContainer", "view"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo7UIColor", "CGFloat"]
+- ["CSo7UIColor", "Int"]
+- !private ["CSo7UIColor", "assert"]
+- ["CSo7UIColor", "init"]
+- ["PSo18UIContentContainer", "Firebase"]
+- !private ["PSo18UIContentContainer", "NSCalendar"]
+- !private ["PSo18UIContentContainer", "NSDate"]
+- ["PSo18UIContentContainer", "String"]
+- !private ["PSo18UIContentContainer", "UIColor"]
+- !private ["PSo18UIContentContainer", "UITapGestureRecognizer"]
+- !private ["PSo18UIContentContainer", "WCSession"]
+- ["PSo18UIContentContainer", "addGoal"]
+- ["PSo18UIContentContainer", "applicationDict"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "dismissKeyboard"]
+- !private ["PSo18UIContentContainer", "dispatch_async"]
+- !private ["PSo18UIContentContainer", "dispatch_get_main_queue"]
+- ["PSo18UIContentContainer", "goalName"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "numberOfComponentsInPickerView"]
+- ["PSo18UIContentContainer", "picker"]
+- ["PSo18UIContentContainer", "pickerData"]
+- ["PSo18UIContentContainer", "pickerView"]
+- ["PSo18UIContentContainer", "position"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "profile"]
+- ["PSo18UIContentContainer", "ref"]
+- ["PSo18UIContentContainer", "send"]
+- ["PSo18UIContentContainer", "session"]
+- ["PSo18UIContentContainer", "sessionDidBecomeInactive"]
+- ["PSo18UIContentContainer", "sessionDidDeactivate"]
+- ["PSo18UIContentContainer", "sessionReachabilityDidChange"]
+- ["PSo18UIContentContainer", "sessionWatchStateDidChange"]
+- !private ["PSo18UIContentContainer", "view"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "text"]
+- !private ["PSo17UICoordinateSpace", "addGestureRecognizer"]
+- !private ["PSo17UICoordinateSpace", "backgroundColor"]
+- !private ["PSo17UICoordinateSpace", "dataSource"]
+- !private ["PSo17UICoordinateSpace", "delegate"]
+- !private ["PSo17UICoordinateSpace", "endEditing"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "addGestureRecognizer"]
+- !private ["PSo13UIDynamicItem", "backgroundColor"]
+- !private ["PSo13UIDynamicItem", "dataSource"]
+- !private ["PSo13UIDynamicItem", "delegate"]
+- !private ["PSo13UIDynamicItem", "endEditing"]
+- !private ["PSo13UIDynamicItem", "text"]
+- ["PSo18UIFocusEnvironment", "Firebase"]
+- !private ["PSo18UIFocusEnvironment", "NSCalendar"]
+- !private ["PSo18UIFocusEnvironment", "NSDate"]
+- ["PSo18UIFocusEnvironment", "String"]
+- !private ["PSo18UIFocusEnvironment", "UIColor"]
+- !private ["PSo18UIFocusEnvironment", "UITapGestureRecognizer"]
+- !private ["PSo18UIFocusEnvironment", "WCSession"]
+- !private ["PSo18UIFocusEnvironment", "addGestureRecognizer"]
+- ["PSo18UIFocusEnvironment", "addGoal"]
+- ["PSo18UIFocusEnvironment", "applicationDict"]
+- !private ["PSo18UIFocusEnvironment", "backgroundColor"]
+- !private ["PSo18UIFocusEnvironment", "dataSource"]
+- !private ["PSo18UIFocusEnvironment", "delegate"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UIFocusEnvironment", "dismissKeyboard"]
+- !private ["PSo18UIFocusEnvironment", "dispatch_async"]
+- !private ["PSo18UIFocusEnvironment", "dispatch_get_main_queue"]
+- !private ["PSo18UIFocusEnvironment", "endEditing"]
+- ["PSo18UIFocusEnvironment", "goalName"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "numberOfComponentsInPickerView"]
+- ["PSo18UIFocusEnvironment", "picker"]
+- ["PSo18UIFocusEnvironment", "pickerData"]
+- ["PSo18UIFocusEnvironment", "pickerView"]
+- ["PSo18UIFocusEnvironment", "position"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- ["PSo18UIFocusEnvironment", "profile"]
+- ["PSo18UIFocusEnvironment", "ref"]
+- ["PSo18UIFocusEnvironment", "send"]
+- ["PSo18UIFocusEnvironment", "session"]
+- ["PSo18UIFocusEnvironment", "sessionDidBecomeInactive"]
+- ["PSo18UIFocusEnvironment", "sessionDidDeactivate"]
+- ["PSo18UIFocusEnvironment", "sessionReachabilityDidChange"]
+- ["PSo18UIFocusEnvironment", "sessionWatchStateDidChange"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo19UIGestureRecognizer", "init"]
+- !private ["PSo10UIKeyInput", "text"]
+- !private ["CSo12UIPickerView", "dataSource"]
+- !private ["CSo12UIPickerView", "delegate"]
+- ["PSo22UIPickerViewDataSource", "Firebase"]
+- !private ["PSo22UIPickerViewDataSource", "NSCalendar"]
+- !private ["PSo22UIPickerViewDataSource", "NSDate"]
+- ["PSo22UIPickerViewDataSource", "String"]
+- !private ["PSo22UIPickerViewDataSource", "UIColor"]
+- !private ["PSo22UIPickerViewDataSource", "UITapGestureRecognizer"]
+- !private ["PSo22UIPickerViewDataSource", "WCSession"]
+- !private ["PSo22UIPickerViewDataSource", "applicationDict"]
+- !private ["PSo22UIPickerViewDataSource", "dismissKeyboard"]
+- !private ["PSo22UIPickerViewDataSource", "dispatch_async"]
+- !private ["PSo22UIPickerViewDataSource", "dispatch_get_main_queue"]
+- !private ["PSo22UIPickerViewDataSource", "goalName"]
+- ["PSo22UIPickerViewDataSource", "numberOfComponentsInPickerView"]
+- !private ["PSo22UIPickerViewDataSource", "picker"]
+- !private ["PSo22UIPickerViewDataSource", "pickerData"]
+- ["PSo22UIPickerViewDataSource", "pickerView"]
+- !private ["PSo22UIPickerViewDataSource", "position"]
+- !private ["PSo22UIPickerViewDataSource", "print"]
+- !private ["PSo22UIPickerViewDataSource", "ref"]
+- !private ["PSo22UIPickerViewDataSource", "send"]
+- ["PSo22UIPickerViewDataSource", "session"]
+- ["PSo22UIPickerViewDataSource", "sessionDidBecomeInactive"]
+- ["PSo22UIPickerViewDataSource", "sessionDidDeactivate"]
+- ["PSo22UIPickerViewDataSource", "sessionReachabilityDidChange"]
+- ["PSo22UIPickerViewDataSource", "sessionWatchStateDidChange"]
+- !private ["PSo22UIPickerViewDataSource", "view"]
+- ["PSo22UIPickerViewDataSource", ""]
+- ["PSo20UIPickerViewDelegate", "Firebase"]
+- !private ["PSo20UIPickerViewDelegate", "NSCalendar"]
+- !private ["PSo20UIPickerViewDelegate", "NSDate"]
+- ["PSo20UIPickerViewDelegate", "String"]
+- !private ["PSo20UIPickerViewDelegate", "UIColor"]
+- !private ["PSo20UIPickerViewDelegate", "UITapGestureRecognizer"]
+- !private ["PSo20UIPickerViewDelegate", "WCSession"]
+- !private ["PSo20UIPickerViewDelegate", "applicationDict"]
+- !private ["PSo20UIPickerViewDelegate", "dismissKeyboard"]
+- !private ["PSo20UIPickerViewDelegate", "dispatch_async"]
+- !private ["PSo20UIPickerViewDelegate", "dispatch_get_main_queue"]
+- !private ["PSo20UIPickerViewDelegate", "goalName"]
+- ["PSo20UIPickerViewDelegate", "numberOfComponentsInPickerView"]
+- !private ["PSo20UIPickerViewDelegate", "picker"]
+- !private ["PSo20UIPickerViewDelegate", "pickerData"]
+- ["PSo20UIPickerViewDelegate", "pickerView"]
+- !private ["PSo20UIPickerViewDelegate", "position"]
+- !private ["PSo20UIPickerViewDelegate", "print"]
+- !private ["PSo20UIPickerViewDelegate", "ref"]
+- !private ["PSo20UIPickerViewDelegate", "send"]
+- ["PSo20UIPickerViewDelegate", "session"]
+- ["PSo20UIPickerViewDelegate", "sessionDidBecomeInactive"]
+- ["PSo20UIPickerViewDelegate", "sessionDidDeactivate"]
+- ["PSo20UIPickerViewDelegate", "sessionReachabilityDidChange"]
+- ["PSo20UIPickerViewDelegate", "sessionWatchStateDidChange"]
+- !private ["PSo20UIPickerViewDelegate", "view"]
+- ["PSo20UIPickerViewDelegate", ""]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "Firebase"]
+- ["CSo11UIResponder", "Int"]
+- !private ["CSo11UIResponder", "NSCalendar"]
+- !private ["CSo11UIResponder", "NSDate"]
+- ["CSo11UIResponder", "String"]
+- !private ["CSo11UIResponder", "UIColor"]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UIPickerView"]
+- !private ["CSo11UIResponder", "UITapGestureRecognizer"]
+- ["CSo11UIResponder", "UITextField"]
+- ["CSo11UIResponder", "WCSession"]
+- !private ["CSo11UIResponder", "addGestureRecognizer"]
+- ["CSo11UIResponder", "addGoal"]
+- ["CSo11UIResponder", "applicationDict"]
+- !private ["CSo11UIResponder", "backgroundColor"]
+- !private ["CSo11UIResponder", "dataSource"]
+- !private ["CSo11UIResponder", "delegate"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "dismissKeyboard"]
+- !private ["CSo11UIResponder", "dispatch_async"]
+- !private ["CSo11UIResponder", "dispatch_get_main_queue"]
+- !private ["CSo11UIResponder", "endEditing"]
+- ["CSo11UIResponder", "goalName"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "numberOfComponentsInPickerView"]
+- ["CSo11UIResponder", "picker"]
+- ["CSo11UIResponder", "pickerData"]
+- ["CSo11UIResponder", "pickerView"]
+- ["CSo11UIResponder", "position"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "profile"]
+- ["CSo11UIResponder", "ref"]
+- ["CSo11UIResponder", "send"]
+- ["CSo11UIResponder", "session"]
+- ["CSo11UIResponder", "sessionDidBecomeInactive"]
+- ["CSo11UIResponder", "sessionDidDeactivate"]
+- ["CSo11UIResponder", "sessionReachabilityDidChange"]
+- ["CSo11UIResponder", "sessionWatchStateDidChange"]
+- !private ["CSo11UIResponder", "text"]
+- !private ["CSo11UIResponder", "view"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "Firebase"]
+- !private ["PSo16UIStateRestoring", "NSCalendar"]
+- !private ["PSo16UIStateRestoring", "NSDate"]
+- ["PSo16UIStateRestoring", "String"]
+- !private ["PSo16UIStateRestoring", "UIColor"]
+- !private ["PSo16UIStateRestoring", "UITapGestureRecognizer"]
+- !private ["PSo16UIStateRestoring", "WCSession"]
+- ["PSo16UIStateRestoring", "addGoal"]
+- ["PSo16UIStateRestoring", "applicationDict"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "dismissKeyboard"]
+- !private ["PSo16UIStateRestoring", "dispatch_async"]
+- !private ["PSo16UIStateRestoring", "dispatch_get_main_queue"]
+- ["PSo16UIStateRestoring", "goalName"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "numberOfComponentsInPickerView"]
+- ["PSo16UIStateRestoring", "picker"]
+- ["PSo16UIStateRestoring", "pickerData"]
+- ["PSo16UIStateRestoring", "pickerView"]
+- ["PSo16UIStateRestoring", "position"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "profile"]
+- ["PSo16UIStateRestoring", "ref"]
+- ["PSo16UIStateRestoring", "send"]
+- ["PSo16UIStateRestoring", "session"]
+- ["PSo16UIStateRestoring", "sessionDidBecomeInactive"]
+- ["PSo16UIStateRestoring", "sessionDidDeactivate"]
+- ["PSo16UIStateRestoring", "sessionReachabilityDidChange"]
+- ["PSo16UIStateRestoring", "sessionWatchStateDidChange"]
+- !private ["PSo16UIStateRestoring", "view"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo21UITableViewDataSource", "dataSource"]
+- !private ["PSo21UITableViewDataSource", "delegate"]
+- !private ["CSo22UITapGestureRecognizer", "init"]
+- !private ["CSo11UITextField", "text"]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo17UITextInputTraits", "text"]
+- ["PSo18UITraitEnvironment", "Firebase"]
+- !private ["PSo18UITraitEnvironment", "NSCalendar"]
+- !private ["PSo18UITraitEnvironment", "NSDate"]
+- ["PSo18UITraitEnvironment", "String"]
+- !private ["PSo18UITraitEnvironment", "UIColor"]
+- !private ["PSo18UITraitEnvironment", "UITapGestureRecognizer"]
+- !private ["PSo18UITraitEnvironment", "WCSession"]
+- !private ["PSo18UITraitEnvironment", "addGestureRecognizer"]
+- ["PSo18UITraitEnvironment", "addGoal"]
+- ["PSo18UITraitEnvironment", "applicationDict"]
+- !private ["PSo18UITraitEnvironment", "backgroundColor"]
+- !private ["PSo18UITraitEnvironment", "dataSource"]
+- !private ["PSo18UITraitEnvironment", "delegate"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "dismissKeyboard"]
+- !private ["PSo18UITraitEnvironment", "dispatch_async"]
+- !private ["PSo18UITraitEnvironment", "dispatch_get_main_queue"]
+- !private ["PSo18UITraitEnvironment", "endEditing"]
+- ["PSo18UITraitEnvironment", "goalName"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "numberOfComponentsInPickerView"]
+- ["PSo18UITraitEnvironment", "picker"]
+- ["PSo18UITraitEnvironment", "pickerData"]
+- ["PSo18UITraitEnvironment", "pickerView"]
+- ["PSo18UITraitEnvironment", "position"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- ["PSo18UITraitEnvironment", "profile"]
+- ["PSo18UITraitEnvironment", "ref"]
+- ["PSo18UITraitEnvironment", "send"]
+- ["PSo18UITraitEnvironment", "session"]
+- ["PSo18UITraitEnvironment", "sessionDidBecomeInactive"]
+- ["PSo18UITraitEnvironment", "sessionDidDeactivate"]
+- ["PSo18UITraitEnvironment", "sessionReachabilityDidChange"]
+- ["PSo18UITraitEnvironment", "sessionWatchStateDidChange"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- !private ["PSo18UITraitEnvironment", "view"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "addGestureRecognizer"]
+- !private ["CSo6UIView", "backgroundColor"]
+- !private ["CSo6UIView", "dataSource"]
+- !private ["CSo6UIView", "delegate"]
+- !private ["CSo6UIView", "endEditing"]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "Firebase"]
+- ["CSo16UIViewController", "Int"]
+- !private ["CSo16UIViewController", "NSCalendar"]
+- !private ["CSo16UIViewController", "NSDate"]
+- ["CSo16UIViewController", "String"]
+- !private ["CSo16UIViewController", "UIColor"]
+- ["CSo16UIViewController", "UIImageView"]
+- ["CSo16UIViewController", "UIPickerView"]
+- !private ["CSo16UIViewController", "UITapGestureRecognizer"]
+- ["CSo16UIViewController", "UITextField"]
+- ["CSo16UIViewController", "WCSession"]
+- ["CSo16UIViewController", "addGoal"]
+- ["CSo16UIViewController", "applicationDict"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "dismissKeyboard"]
+- !private ["CSo16UIViewController", "dispatch_async"]
+- !private ["CSo16UIViewController", "dispatch_get_main_queue"]
+- ["CSo16UIViewController", "goalName"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "numberOfComponentsInPickerView"]
+- ["CSo16UIViewController", "picker"]
+- ["CSo16UIViewController", "pickerData"]
+- ["CSo16UIViewController", "pickerView"]
+- ["CSo16UIViewController", "position"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "profile"]
+- ["CSo16UIViewController", "ref"]
+- ["CSo16UIViewController", "send"]
+- ["CSo16UIViewController", "session"]
+- ["CSo16UIViewController", "sessionDidBecomeInactive"]
+- ["CSo16UIViewController", "sessionDidDeactivate"]
+- ["CSo16UIViewController", "sessionReachabilityDidChange"]
+- ["CSo16UIViewController", "sessionWatchStateDidChange"]
+- !private ["CSo16UIViewController", "view"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Su", "Distance"]
+- !private ["Su", "IntegerLiteralType"]
+- !private ["Su", "Stride"]
+- !private ["Su", "_DisallowMixedSignArithmetic"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "Distance"]
+- !private ["Vs6UInt16", "IntegerLiteralType"]
+- !private ["Vs6UInt16", "Stride"]
+- !private ["Vs6UInt16", "_DisallowMixedSignArithmetic"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "Distance"]
+- !private ["Vs6UInt32", "IntegerLiteralType"]
+- !private ["Vs6UInt32", "Stride"]
+- !private ["Vs6UInt32", "_DisallowMixedSignArithmetic"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "Distance"]
+- !private ["Vs6UInt64", "IntegerLiteralType"]
+- !private ["Vs6UInt64", "Stride"]
+- !private ["Vs6UInt64", "_DisallowMixedSignArithmetic"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "Distance"]
+- !private ["Vs5UInt8", "IntegerLiteralType"]
+- !private ["Vs5UInt8", "Stride"]
+- !private ["Vs5UInt8", "_DisallowMixedSignArithmetic"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sp", "deinit"]
+- !private ["SP", "deinit"]
+- !private ["Ps19UnsignedIntegerType", "Distance"]
+- !private ["Ps19UnsignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps19UnsignedIntegerType", "Stride"]
+- !private ["Ps19UnsignedIntegerType", "_DisallowMixedSignArithmetic"]
+- !private ["CSo9WCSession", "activateSession"]
+- !private ["CSo9WCSession", "defaultSession"]
+- !private ["CSo9WCSession", "delegate"]
+- !private ["CSo9WCSession", "isSupported"]
+- !private ["CSo9WCSession", "updateApplicationContext"]
+- ["PSo17WCSessionDelegate", "Firebase"]
+- !private ["PSo17WCSessionDelegate", "NSCalendar"]
+- !private ["PSo17WCSessionDelegate", "NSDate"]
+- ["PSo17WCSessionDelegate", "String"]
+- !private ["PSo17WCSessionDelegate", "UIColor"]
+- !private ["PSo17WCSessionDelegate", "UITapGestureRecognizer"]
+- !private ["PSo17WCSessionDelegate", "WCSession"]
+- !private ["PSo17WCSessionDelegate", "applicationDict"]
+- !private ["PSo17WCSessionDelegate", "dismissKeyboard"]
+- !private ["PSo17WCSessionDelegate", "dispatch_async"]
+- !private ["PSo17WCSessionDelegate", "dispatch_get_main_queue"]
+- !private ["PSo17WCSessionDelegate", "goalName"]
+- ["PSo17WCSessionDelegate", "numberOfComponentsInPickerView"]
+- !private ["PSo17WCSessionDelegate", "picker"]
+- !private ["PSo17WCSessionDelegate", "pickerData"]
+- ["PSo17WCSessionDelegate", "pickerView"]
+- !private ["PSo17WCSessionDelegate", "position"]
+- !private ["PSo17WCSessionDelegate", "print"]
+- !private ["PSo17WCSessionDelegate", "ref"]
+- !private ["PSo17WCSessionDelegate", "send"]
+- ["PSo17WCSessionDelegate", "session"]
+- ["PSo17WCSessionDelegate", "sessionDidBecomeInactive"]
+- ["PSo17WCSessionDelegate", "sessionDidDeactivate"]
+- ["PSo17WCSessionDelegate", "sessionReachabilityDidChange"]
+- ["PSo17WCSessionDelegate", "sessionWatchStateDidChange"]
+- !private ["PSo17WCSessionDelegate", "view"]
+- ["PSo17WCSessionDelegate", ""]
+- ["Ps10_ArrayType", "Element"]
+- ["Ps10_ArrayType", "Generator"]
+- ["Ps10_ArrayType", "Index"]
+- ["Ps10_ArrayType", "SubSequence"]
+- ["Ps10_ArrayType", "_Element"]
+- !private ["Ps10_ArrayType", "count"]
+- ["Ps10_ArrayType", "init"]
+- !private ["Ps10_ArrayType", "subscript"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps31_BuiltinFloatLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps31_BuiltinFloatLiteralConvertible", "Stride"]
+- ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Stride"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "_DisallowMixedSignArithmetic"]
+- !private ["Ps19_CVarArgAlignedType", "Distance"]
+- !private ["Ps19_CVarArgAlignedType", "IntegerLiteralType"]
+- !private ["Ps19_CVarArgAlignedType", "Stride"]
+- !private ["Ps19_CVarArgAlignedType", "_DisallowMixedSignArithmetic"]
+- !private ["Ps19_CVarArgAlignedType", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "IntegerLiteralType"]
+- !private ["Ps22_CVarArgPassedAsDouble", "Stride"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps24_ColorLiteralConvertible", "CGFloat"]
+- !private ["Ps24_ColorLiteralConvertible", "assert"]
+- !private ["Ps24_ColorLiteralConvertible", "init"]
+- ["Ps24_DestructorSafeContainer", "Element"]
+- ["Ps24_DestructorSafeContainer", "Generator"]
+- ["Ps24_DestructorSafeContainer", "Index"]
+- ["Ps24_DestructorSafeContainer", "SubSequence"]
+- ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "Distance"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "IntegerLiteralType"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "Stride"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "_DisallowMixedSignArithmetic"]
+- ["Ps14_Incrementable", "Distance"]
+- ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps14_Incrementable", "Stride"]
+- !private ["Ps14_Incrementable", "_DisallowMixedSignArithmetic"]
+- ["Ps22_IntegerArithmeticType", "Distance"]
+- ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "Stride"]
+- !private ["Ps22_IntegerArithmeticType", "_DisallowMixedSignArithmetic"]
+- ["Ps12_IntegerType", "Distance"]
+- ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "Stride"]
+- !private ["Ps12_IntegerType", "_DisallowMixedSignArithmetic"]
+- ["Ps21_ObjectiveCBridgeable", "Distance"]
+- ["Ps21_ObjectiveCBridgeable", "Element"]
+- ["Ps21_ObjectiveCBridgeable", "Generator"]
+- ["Ps21_ObjectiveCBridgeable", "Index"]
+- ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "Stride"]
+- ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "_DisallowMixedSignArithmetic"]
+- ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- ["Ps22_RandomAccessAmbiguity", "Distance"]
+- ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps22_RandomAccessAmbiguity", "Stride"]
+- !private ["Ps22_RandomAccessAmbiguity", "_DisallowMixedSignArithmetic"]
+- ["Ps12_Reflectable", "Distance"]
+- ["Ps12_Reflectable", "Element"]
+- ["Ps12_Reflectable", "Generator"]
+- ["Ps12_Reflectable", "Index"]
+- ["Ps12_Reflectable", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Key"]
+- !private ["Ps12_Reflectable", "Stride"]
+- ["Ps12_Reflectable", "SubSequence"]
+- !private ["Ps12_Reflectable", "Value"]
+- !private ["Ps12_Reflectable", "_DisallowMixedSignArithmetic"]
+- ["Ps12_Reflectable", "_Element"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "addGestureRecognizer"]
+- !private ["Ps12_Reflectable", "backgroundColor"]
+- !private ["Ps12_Reflectable", "count"]
+- !private ["Ps12_Reflectable", "dataSource"]
+- !private ["Ps12_Reflectable", "delegate"]
+- !private ["Ps12_Reflectable", "endEditing"]
+- ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "subscript"]
+- !private ["Ps12_Reflectable", "text"]
+- ["Ps18_SignedIntegerType", "Distance"]
+- ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps18_SignedIntegerType", "Stride"]
+- !private ["Ps18_StringElementType", "Distance"]
+- !private ["Ps18_StringElementType", "IntegerLiteralType"]
+- !private ["Ps18_StringElementType", "Stride"]
+- !private ["Ps18_StringElementType", "_DisallowMixedSignArithmetic"]
+- ["C5Vague21setGoalViewController", "AnyObject"]
+- ["C5Vague21setGoalViewController", "Firebase"]
+- ["C5Vague21setGoalViewController", "Int"]
+- !private ["C5Vague21setGoalViewController", "NSCalendar"]
+- !private ["C5Vague21setGoalViewController", "NSDate"]
+- ["C5Vague21setGoalViewController", "String"]
+- !private ["C5Vague21setGoalViewController", "UIColor"]
+- ["C5Vague21setGoalViewController", "UIImageView"]
+- ["C5Vague21setGoalViewController", "UIPickerView"]
+- !private ["C5Vague21setGoalViewController", "UITapGestureRecognizer"]
+- ["C5Vague21setGoalViewController", "UITextField"]
+- ["C5Vague21setGoalViewController", "WCSession"]
+- ["C5Vague21setGoalViewController", "addGoal"]
+- ["C5Vague21setGoalViewController", "applicationDict"]
+- ["C5Vague21setGoalViewController", "deinit"]
+- ["C5Vague21setGoalViewController", "didReceiveMemoryWarning"]
+- ["C5Vague21setGoalViewController", "dismissKeyboard"]
+- !private ["C5Vague21setGoalViewController", "dispatch_async"]
+- !private ["C5Vague21setGoalViewController", "dispatch_get_main_queue"]
+- ["C5Vague21setGoalViewController", "goalName"]
+- ["C5Vague21setGoalViewController", "init"]
+- ["C5Vague21setGoalViewController", "numberOfComponentsInPickerView"]
+- ["C5Vague21setGoalViewController", "picker"]
+- ["C5Vague21setGoalViewController", "pickerData"]
+- ["C5Vague21setGoalViewController", "pickerView"]
+- ["C5Vague21setGoalViewController", "position"]
+- !private ["C5Vague21setGoalViewController", "print"]
+- ["C5Vague21setGoalViewController", "profile"]
+- ["C5Vague21setGoalViewController", "ref"]
+- ["C5Vague21setGoalViewController", "send"]
+- ["C5Vague21setGoalViewController", "session"]
+- ["C5Vague21setGoalViewController", "sessionDidBecomeInactive"]
+- ["C5Vague21setGoalViewController", "sessionDidDeactivate"]
+- ["C5Vague21setGoalViewController", "sessionReachabilityDidChange"]
+- ["C5Vague21setGoalViewController", "sessionWatchStateDidChange"]
+- !private ["C5Vague21setGoalViewController", "view"]
+- ["C5Vague21setGoalViewController", "viewDidLoad"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- "Sa"
+- "Ps23ArrayLiteralConvertible"
+- "Vs10ArraySlice"
+- "Ps22BidirectionalIndexType"
+- "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- "Ps11CVarArgType"
+- "Ps14CollectionType"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- "Ps28DictionaryLiteralConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "CSo9FAuthData"
+- "CSo6FQuery"
+- "CSo8Firebase"
+- !private "Sf"
+- !private "Ps23FloatLiteralConvertible"
+- !private "Ps17FloatingPointType"
+- "Ps16ForwardIndexType"
+- "Ps13GeneratorType"
+- "Ps8Hashable"
+- "SQ"
+- "Ps9Indexable"
+- "Vs17IndexingGenerator"
+- "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- "Ps21IntegerArithmeticType"
+- "Ps25IntegerLiteralConvertible"
+- "Ps11IntegerType"
+- "Ps14MirrorPathType"
+- "Ps21MutableCollectionType"
+- "Ps16MutableIndexable"
+- "Ps16MutableSliceable"
+- !private "CSo10NSCalendar"
+- !private "VSC14NSCalendarUnit"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo6NSDate"
+- !private "CSo16NSDateComponents"
+- !private "CSo12NSDictionary"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo17NSFastEnumeration"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "Ps13OptionSetType"
+- !private "Sq"
+- "Ps21RandomAccessIndexType"
+- "Ps30RangeReplaceableCollectionType"
+- !private "Ps16RawRepresentable"
+- !private "V10ObjectiveC8Selector"
+- "Ps12SequenceType"
+- !private "Ps14SetAlgebraType"
+- "Ps17SignedIntegerType"
+- "Ps16SignedNumberType"
+- !private "Vs5Slice"
+- !private "Vs12StaticString"
+- "Ps10Strideable"
+- !private "SS"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "CSo7UIColor"
+- "PSo18UIContentContainer"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "CSo19UIGestureRecognizer"
+- !private "PSo10UIKeyInput"
+- !private "CSo12UIPickerView"
+- "PSo22UIPickerViewDataSource"
+- "PSo20UIPickerViewDelegate"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- !private "PSo21UITableViewDataSource"
+- !private "CSo22UITapGestureRecognizer"
+- !private "CSo11UITextField"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sp"
+- !private "SP"
+- !private "Ps19UnsignedIntegerType"
+- !private "CSo9WCSession"
+- "PSo17WCSessionDelegate"
+- "Ps10_ArrayType"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps31_BuiltinFloatLiteralConvertible"
+- "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps19_CVarArgAlignedType"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps24_ColorLiteralConvertible"
+- "Ps24_DestructorSafeContainer"
+- !private "Ps28_DisallowMixedSignArithmetic"
+- "Ps14_Incrementable"
+- "Ps22_IntegerArithmeticType"
+- "Ps12_IntegerType"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- "Ps18_SignedIntegerType"
+- !private "Ps18_StringElementType"
+- "C5Vague21setGoalViewController"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/Akash/Desktop/Vague/Vague/Vague-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers/FirebaseServerValue.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers/FTransactionResult.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers/FMutableData.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers/FirebaseApp.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers/FQuery.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers/Firebase.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers/FEventType.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers/FDataSnapshot.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers/FConfig.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers/FAuthType.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers/FAuthData.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers/Firebase-umbrella.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/WatchConnectivity.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/WatchKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/Bolts.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFTask.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFURL_Internal.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFURL.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFMeasurementEvent_Internal.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkReturnToRefererView_Internal.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFAppLink_Internal.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Modules/module.modulemap"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSUICKeyChainStore.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSTMCacheBackgroundTaskManager.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSTMMemoryCache.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSTMDiskCache.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSTMCache.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSSTSResources.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSValidation.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSURLResponseSerialization.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSURLRequestSerialization.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSURLRequestRetryHandler.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSSerialization.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSReachability.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSURLSessionManager.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/NSError+AWSMTLModelException.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSMTLReflection.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCognitoIdentityResources.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCognitoIdentityModel.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCognitoIdentityService.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCognitoIdentity.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSSTSModel.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSSTSService.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSSTS.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSFMDatabaseQueue.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSFMDatabaseAdditions.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSFMDatabasePool.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSFMResultSet.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSFMDatabase.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSFMDB.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSGZIP.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSTaskCompletionSource.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSTask.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSExecutor.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCancellationTokenSource.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCancellationTokenRegistration.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCancellationToken.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSBoltsVersion.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSBolts.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSSignature.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSSynchronizedMutableDictionary.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSClientContext.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSLogging.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCategory.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSIdentityProvider.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCredentialsProvider.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/NSValueTransformer+AWSMTLInversionAdditions.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/NSObject+AWSMTLComparisonAdditions.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/NSDictionary+AWSMTLManipulationAdditions.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/NSArray+AWSMTLManipulationAdditions.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSMTLValueTransformer.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSMTLModel+NSCoding.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSMTLModel.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSMTLManagedObjectAdapter.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSMTLJSONAdapter.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSMantle.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSModel.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSNetworking.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSService.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSServiceEnum.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCore.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCore-umbrella.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/UIImage+Stripe.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPPaymentCardTextField.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPAPIClient+ApplePay.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/Stripe+ApplePay.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/StripeError.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/Stripe.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPToken.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPCardValidator.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPCardValidationState.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPCardParams.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPCardBrand.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPCard.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPFormEncodable.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPBankAccountParams.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPBankAccount.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPAPIResponseDecodable.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPAPIClient.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/Stripe-umbrella.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/PassKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Contacts.swiftmodule"
+interface-hash: "9cec5b38e3d0c0c45fb60c4a779c5041"

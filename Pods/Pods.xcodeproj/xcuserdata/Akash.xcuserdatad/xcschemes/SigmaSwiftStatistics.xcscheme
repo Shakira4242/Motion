@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '656E4A6898AE85576D6D245E'
+               BlueprintIdentifier = '85FA6109B9F18B53D20CF38D'
                BlueprintName = 'SigmaSwiftStatistics'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'SigmaSwiftStatistics.framework'>

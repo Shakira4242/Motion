@@ -5,23 +5,13 @@ use_frameworks!
 
 target ‘Vague’ do
 	pod 'Firebase', '>= 2.5.1'
-source 'https://github.com/CocoaPods/Specs.git'
-pod 'AWSCore'
-pod 'AWSAutoScaling'
-pod 'AWSCloudWatch'
-pod 'AWSDynamoDB'
-pod 'AWSEC2'
-pod 'AWSElasticLoadBalancing'
-pod 'AWSKinesis'
-pod 'AWSLambda'
-pod 'AWSMachineLearning'
-pod 'AWSMobileAnalytics'
-pod 'AWSS3'
-pod 'AWSSES'
-pod 'AWSSimpleDB'
-pod 'AWSSNS'
-pod 'AWSSQS'
-pod 'AWSCognito'
+	source 'https://github.com/CocoaPods/Specs.git'
+	pod ’Stripe’
+	pod 'Bolts'
+	pod 'FBSDKCoreKit'
+	pod 'FBSDKShareKit'
+	pod 'FBSDKLoginKit'
+	
 end
 
 target ‘Vague WatchKit App' do

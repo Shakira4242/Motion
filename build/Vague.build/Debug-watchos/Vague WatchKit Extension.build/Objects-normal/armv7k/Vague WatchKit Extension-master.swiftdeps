@@ -1,9 +1,12 @@
 version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
 options: "66c5effd2412f0d5dcfc0fd2b6d8076f"
-build_time: [514232155, 137793000]
+build_time: [516040100, 669733000]
 inputs:
-  "/Users/Akash/Desktop/Vague/Vague WatchKit Extension/InterfaceController.swift": [514228752, 0]
-  "/Users/Akash/Desktop/Vague/iCloudManager.swift": [514231983, 0]
+  "/Users/Akash/Desktop/Vague/Vague WatchKit Extension/PushupInterfaceController.swift": [516039981, 0]
+  "/Users/Akash/Desktop/Vague/Vague WatchKit Extension/InterfaceController.swift": [516040095, 0]
+  "/Users/Akash/Desktop/Vague/iCloudManager.swift": [514235614, 0]
+  "/Users/Akash/Desktop/Vague/Vague WatchKit Extension/SquatsInterfaceController.swift": [516039981, 0]
   "/Users/Akash/Desktop/Vague/Vague WatchKit Extension/NotificationController.swift": [513545999, 0]
   "/Users/Akash/Desktop/Vague/Vague WatchKit Extension/ExtensionDelegate.swift": [514169912, 0]
   "/Users/Akash/Desktop/Vague/Vague WatchKit Extension/Sigma.swift": [514169341, 0]
+  "/Users/Akash/Desktop/Vague/Vague WatchKit Extension/CrunchesInterfaceController.swift": [515975469, 0]

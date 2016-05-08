@@ -1,0 +1,1107 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CreditCardViewController"
+provides-nominal:
+- "C5Vague24CreditCardViewController"
+provides-member:
+- ["C5Vague24CreditCardViewController", ""]
+provides-dynamic-lookup:
+- "viewDidLoad"
+- "dismissKeyboard"
+- "saveCard"
+- "paymentTextField"
+- "didReceiveMemoryWarning"
+- "createBackendChargeWithToken"
+depends-top-level:
+- "PKPaymentAuthorizationStatus"
+- !private "Void"
+- !private "-"
+- "UIViewController"
+- !private "STPAPIClient"
+- !private "NSURLSessionConfiguration"
+- !private "StringLiteralType"
+- "CreditCardViewController"
+- !private "UITapGestureRecognizer"
+- !private "CGRectMake"
+- "AnyObject"
+- !private "UIColor"
+- !private "NSUTF8StringEncoding"
+- !private "NSURLSession"
+- !private "print"
+- !private "!="
+- !private "NSURL"
+- !private "UIImage"
+- !private "NSMutableURLRequest"
+- "STPPaymentCardTextField"
+- "STPPaymentCardTextFieldDelegate"
+- !private "BooleanLiteralType"
+- "STPToken"
+- !private "CGRectGetWidth"
+depends-member:
+- !private ["Ps9AnyObject", "CGRectGetWidth"]
+- !private ["Ps9AnyObject", "CGRectMake"]
+- !private ["Ps9AnyObject", "HTTPBody"]
+- !private ["Ps9AnyObject", "HTTPMethod"]
+- !private ["Ps9AnyObject", "NSMutableURLRequest"]
+- !private ["Ps9AnyObject", "NSURL"]
+- !private ["Ps9AnyObject", "NSURLSession"]
+- !private ["Ps9AnyObject", "NSURLSessionConfiguration"]
+- !private ["Ps9AnyObject", "NSUTF8StringEncoding"]
+- !private ["Ps9AnyObject", "PKPaymentAuthorizationStatus"]
+- !private ["Ps9AnyObject", "STPAPIClient"]
+- ["Ps9AnyObject", "STPPaymentCardTextField"]
+- !private ["Ps9AnyObject", "UIColor"]
+- !private ["Ps9AnyObject", "UIImage"]
+- !private ["Ps9AnyObject", "UITapGestureRecognizer"]
+- !private ["Ps9AnyObject", "addGestureRecognizer"]
+- !private ["Ps9AnyObject", "addSubview"]
+- !private ["Ps9AnyObject", "backgroundColor"]
+- !private ["Ps9AnyObject", "card"]
+- ["Ps9AnyObject", "createBackendChargeWithToken"]
+- !private ["Ps9AnyObject", "createTokenWithCard"]
+- !private ["Ps9AnyObject", "dataTaskWithRequest"]
+- !private ["Ps9AnyObject", "dataUsingEncoding"]
+- !private ["Ps9AnyObject", "delegate"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- ["Ps9AnyObject", "dismissKeyboard"]
+- !private ["Ps9AnyObject", "endEditing"]
+- !private ["Ps9AnyObject", "ephemeralSessionConfiguration"]
+- !private ["Ps9AnyObject", "frame"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "paymentCardTextFieldDidBeginEditingCVC"]
+- ["Ps9AnyObject", "paymentCardTextFieldDidBeginEditingExpiration"]
+- ["Ps9AnyObject", "paymentCardTextFieldDidBeginEditingNumber"]
+- ["Ps9AnyObject", "paymentCardTextFieldDidChange"]
+- ["Ps9AnyObject", "paymentTextField"]
+- !private ["Ps9AnyObject", "performSegueWithIdentifier"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "resume"]
+- ["Ps9AnyObject", "saveCard"]
+- !private ["Ps9AnyObject", "sharedClient"]
+- !private ["Ps9AnyObject", "view"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["PSo15CNKeyDescriptor", "dataUsingEncoding"]
+- !private ["Ps11CVarArgType", "CGRectGetWidth"]
+- !private ["Ps11CVarArgType", "CGRectMake"]
+- !private ["Ps11CVarArgType", "HTTPBody"]
+- !private ["Ps11CVarArgType", "HTTPMethod"]
+- !private ["Ps11CVarArgType", "NSMutableURLRequest"]
+- !private ["Ps11CVarArgType", "NSURL"]
+- !private ["Ps11CVarArgType", "NSURLSession"]
+- !private ["Ps11CVarArgType", "NSURLSessionConfiguration"]
+- !private ["Ps11CVarArgType", "NSUTF8StringEncoding"]
+- !private ["Ps11CVarArgType", "PKPaymentAuthorizationStatus"]
+- !private ["Ps11CVarArgType", "STPAPIClient"]
+- ["Ps11CVarArgType", "STPPaymentCardTextField"]
+- !private ["Ps11CVarArgType", "UIColor"]
+- !private ["Ps11CVarArgType", "UIImage"]
+- !private ["Ps11CVarArgType", "UITapGestureRecognizer"]
+- !private ["Ps11CVarArgType", "addGestureRecognizer"]
+- !private ["Ps11CVarArgType", "addSubview"]
+- !private ["Ps11CVarArgType", "backgroundColor"]
+- !private ["Ps11CVarArgType", "card"]
+- ["Ps11CVarArgType", "createBackendChargeWithToken"]
+- !private ["Ps11CVarArgType", "createTokenWithCard"]
+- !private ["Ps11CVarArgType", "dataTaskWithRequest"]
+- !private ["Ps11CVarArgType", "dataUsingEncoding"]
+- !private ["Ps11CVarArgType", "delegate"]
+- ["Ps11CVarArgType", "didReceiveMemoryWarning"]
+- ["Ps11CVarArgType", "dismissKeyboard"]
+- !private ["Ps11CVarArgType", "endEditing"]
+- !private ["Ps11CVarArgType", "ephemeralSessionConfiguration"]
+- !private ["Ps11CVarArgType", "frame"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "paymentCardTextFieldDidBeginEditingCVC"]
+- ["Ps11CVarArgType", "paymentCardTextFieldDidBeginEditingExpiration"]
+- ["Ps11CVarArgType", "paymentCardTextFieldDidBeginEditingNumber"]
+- ["Ps11CVarArgType", "paymentCardTextFieldDidChange"]
+- ["Ps11CVarArgType", "paymentTextField"]
+- !private ["Ps11CVarArgType", "performSegueWithIdentifier"]
+- !private ["Ps11CVarArgType", "print"]
+- !private ["Ps11CVarArgType", "resume"]
+- ["Ps11CVarArgType", "saveCard"]
+- !private ["Ps11CVarArgType", "sharedClient"]
+- !private ["Ps11CVarArgType", "view"]
+- ["Ps11CVarArgType", "viewDidLoad"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps10Comparable", "dataUsingEncoding"]
+- ["C5Vague24CreditCardViewController", "AnyObject"]
+- !private ["C5Vague24CreditCardViewController", "CGRectGetWidth"]
+- !private ["C5Vague24CreditCardViewController", "CGRectMake"]
+- !private ["C5Vague24CreditCardViewController", "NSMutableURLRequest"]
+- !private ["C5Vague24CreditCardViewController", "NSURL"]
+- !private ["C5Vague24CreditCardViewController", "NSURLSession"]
+- !private ["C5Vague24CreditCardViewController", "NSURLSessionConfiguration"]
+- !private ["C5Vague24CreditCardViewController", "NSUTF8StringEncoding"]
+- ["C5Vague24CreditCardViewController", "PKPaymentAuthorizationStatus"]
+- !private ["C5Vague24CreditCardViewController", "STPAPIClient"]
+- ["C5Vague24CreditCardViewController", "STPPaymentCardTextField"]
+- ["C5Vague24CreditCardViewController", "STPToken"]
+- !private ["C5Vague24CreditCardViewController", "UIColor"]
+- !private ["C5Vague24CreditCardViewController", "UIImage"]
+- !private ["C5Vague24CreditCardViewController", "UITapGestureRecognizer"]
+- !private ["C5Vague24CreditCardViewController", "Void"]
+- ["C5Vague24CreditCardViewController", "createBackendChargeWithToken"]
+- ["C5Vague24CreditCardViewController", "deinit"]
+- ["C5Vague24CreditCardViewController", "didReceiveMemoryWarning"]
+- ["C5Vague24CreditCardViewController", "dismissKeyboard"]
+- ["C5Vague24CreditCardViewController", "init"]
+- ["C5Vague24CreditCardViewController", "paymentCardTextFieldDidBeginEditingCVC"]
+- ["C5Vague24CreditCardViewController", "paymentCardTextFieldDidBeginEditingExpiration"]
+- ["C5Vague24CreditCardViewController", "paymentCardTextFieldDidBeginEditingNumber"]
+- ["C5Vague24CreditCardViewController", "paymentCardTextFieldDidChange"]
+- ["C5Vague24CreditCardViewController", "paymentTextField"]
+- !private ["C5Vague24CreditCardViewController", "performSegueWithIdentifier"]
+- !private ["C5Vague24CreditCardViewController", "print"]
+- ["C5Vague24CreditCardViewController", "saveCard"]
+- !private ["C5Vague24CreditCardViewController", "view"]
+- ["C5Vague24CreditCardViewController", "viewDidLoad"]
+- !private ["Ps28CustomDebugStringConvertible", "CGRectGetWidth"]
+- !private ["Ps28CustomDebugStringConvertible", "CGRectMake"]
+- !private ["Ps28CustomDebugStringConvertible", "HTTPBody"]
+- !private ["Ps28CustomDebugStringConvertible", "HTTPMethod"]
+- !private ["Ps28CustomDebugStringConvertible", "NSMutableURLRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "NSURL"]
+- !private ["Ps28CustomDebugStringConvertible", "NSURLSession"]
+- !private ["Ps28CustomDebugStringConvertible", "NSURLSessionConfiguration"]
+- !private ["Ps28CustomDebugStringConvertible", "NSUTF8StringEncoding"]
+- !private ["Ps28CustomDebugStringConvertible", "PKPaymentAuthorizationStatus"]
+- !private ["Ps28CustomDebugStringConvertible", "STPAPIClient"]
+- ["Ps28CustomDebugStringConvertible", "STPPaymentCardTextField"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "UIColor"]
+- !private ["Ps28CustomDebugStringConvertible", "UIImage"]
+- !private ["Ps28CustomDebugStringConvertible", "UITapGestureRecognizer"]
+- !private ["Ps28CustomDebugStringConvertible", "addGestureRecognizer"]
+- !private ["Ps28CustomDebugStringConvertible", "addSubview"]
+- !private ["Ps28CustomDebugStringConvertible", "backgroundColor"]
+- !private ["Ps28CustomDebugStringConvertible", "card"]
+- ["Ps28CustomDebugStringConvertible", "createBackendChargeWithToken"]
+- !private ["Ps28CustomDebugStringConvertible", "createTokenWithCard"]
+- !private ["Ps28CustomDebugStringConvertible", "dataTaskWithRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "dataUsingEncoding"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps28CustomDebugStringConvertible", "dismissKeyboard"]
+- !private ["Ps28CustomDebugStringConvertible", "endEditing"]
+- !private ["Ps28CustomDebugStringConvertible", "ephemeralSessionConfiguration"]
+- !private ["Ps28CustomDebugStringConvertible", "frame"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "paymentCardTextFieldDidBeginEditingCVC"]
+- ["Ps28CustomDebugStringConvertible", "paymentCardTextFieldDidBeginEditingExpiration"]
+- ["Ps28CustomDebugStringConvertible", "paymentCardTextFieldDidBeginEditingNumber"]
+- ["Ps28CustomDebugStringConvertible", "paymentCardTextFieldDidChange"]
+- ["Ps28CustomDebugStringConvertible", "paymentTextField"]
+- !private ["Ps28CustomDebugStringConvertible", "performSegueWithIdentifier"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "resume"]
+- ["Ps28CustomDebugStringConvertible", "saveCard"]
+- !private ["Ps28CustomDebugStringConvertible", "sharedClient"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "CGRectGetWidth"]
+- !private ["Ps23CustomStringConvertible", "CGRectMake"]
+- !private ["Ps23CustomStringConvertible", "HTTPBody"]
+- !private ["Ps23CustomStringConvertible", "HTTPMethod"]
+- !private ["Ps23CustomStringConvertible", "NSMutableURLRequest"]
+- !private ["Ps23CustomStringConvertible", "NSURL"]
+- !private ["Ps23CustomStringConvertible", "NSURLSession"]
+- !private ["Ps23CustomStringConvertible", "NSURLSessionConfiguration"]
+- !private ["Ps23CustomStringConvertible", "NSUTF8StringEncoding"]
+- !private ["Ps23CustomStringConvertible", "PKPaymentAuthorizationStatus"]
+- !private ["Ps23CustomStringConvertible", "STPAPIClient"]
+- ["Ps23CustomStringConvertible", "STPPaymentCardTextField"]
+- !private ["Ps23CustomStringConvertible", "UIColor"]
+- !private ["Ps23CustomStringConvertible", "UIImage"]
+- !private ["Ps23CustomStringConvertible", "UITapGestureRecognizer"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addGestureRecognizer"]
+- !private ["Ps23CustomStringConvertible", "addSubview"]
+- !private ["Ps23CustomStringConvertible", "backgroundColor"]
+- !private ["Ps23CustomStringConvertible", "card"]
+- ["Ps23CustomStringConvertible", "createBackendChargeWithToken"]
+- !private ["Ps23CustomStringConvertible", "createTokenWithCard"]
+- !private ["Ps23CustomStringConvertible", "dataTaskWithRequest"]
+- !private ["Ps23CustomStringConvertible", "dataUsingEncoding"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps23CustomStringConvertible", "dismissKeyboard"]
+- !private ["Ps23CustomStringConvertible", "endEditing"]
+- !private ["Ps23CustomStringConvertible", "ephemeralSessionConfiguration"]
+- !private ["Ps23CustomStringConvertible", "frame"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "paymentCardTextFieldDidBeginEditingCVC"]
+- ["Ps23CustomStringConvertible", "paymentCardTextFieldDidBeginEditingExpiration"]
+- ["Ps23CustomStringConvertible", "paymentCardTextFieldDidBeginEditingNumber"]
+- ["Ps23CustomStringConvertible", "paymentCardTextFieldDidChange"]
+- ["Ps23CustomStringConvertible", "paymentTextField"]
+- !private ["Ps23CustomStringConvertible", "performSegueWithIdentifier"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "resume"]
+- ["Ps23CustomStringConvertible", "saveCard"]
+- !private ["Ps23CustomStringConvertible", "sharedClient"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "CGRectGetWidth"]
+- !private ["Ps9Equatable", "CGRectMake"]
+- !private ["Ps9Equatable", "Failure"]
+- !private ["Ps9Equatable", "HTTPBody"]
+- !private ["Ps9Equatable", "HTTPMethod"]
+- !private ["Ps9Equatable", "NSMutableURLRequest"]
+- !private ["Ps9Equatable", "NSURL"]
+- !private ["Ps9Equatable", "NSURLSession"]
+- !private ["Ps9Equatable", "NSURLSessionConfiguration"]
+- !private ["Ps9Equatable", "NSUTF8StringEncoding"]
+- !private ["Ps9Equatable", "PKPaymentAuthorizationStatus"]
+- !private ["Ps9Equatable", "STPAPIClient"]
+- ["Ps9Equatable", "STPPaymentCardTextField"]
+- !private ["Ps9Equatable", "Success"]
+- !private ["Ps9Equatable", "UIColor"]
+- !private ["Ps9Equatable", "UIImage"]
+- !private ["Ps9Equatable", "UITapGestureRecognizer"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addGestureRecognizer"]
+- !private ["Ps9Equatable", "addSubview"]
+- !private ["Ps9Equatable", "backgroundColor"]
+- !private ["Ps9Equatable", "card"]
+- ["Ps9Equatable", "createBackendChargeWithToken"]
+- !private ["Ps9Equatable", "createTokenWithCard"]
+- !private ["Ps9Equatable", "dataTaskWithRequest"]
+- !private ["Ps9Equatable", "dataUsingEncoding"]
+- !private ["Ps9Equatable", "delegate"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- ["Ps9Equatable", "dismissKeyboard"]
+- !private ["Ps9Equatable", "endEditing"]
+- !private ["Ps9Equatable", "ephemeralSessionConfiguration"]
+- !private ["Ps9Equatable", "frame"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "paymentCardTextFieldDidBeginEditingCVC"]
+- ["Ps9Equatable", "paymentCardTextFieldDidBeginEditingExpiration"]
+- ["Ps9Equatable", "paymentCardTextFieldDidBeginEditingNumber"]
+- ["Ps9Equatable", "paymentCardTextFieldDidChange"]
+- ["Ps9Equatable", "paymentTextField"]
+- !private ["Ps9Equatable", "performSegueWithIdentifier"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "resume"]
+- ["Ps9Equatable", "saveCard"]
+- !private ["Ps9Equatable", "sharedClient"]
+- !private ["Ps9Equatable", "view"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps8Hashable", "CGRectGetWidth"]
+- !private ["Ps8Hashable", "CGRectMake"]
+- !private ["Ps8Hashable", "Failure"]
+- !private ["Ps8Hashable", "HTTPBody"]
+- !private ["Ps8Hashable", "HTTPMethod"]
+- !private ["Ps8Hashable", "NSMutableURLRequest"]
+- !private ["Ps8Hashable", "NSURL"]
+- !private ["Ps8Hashable", "NSURLSession"]
+- !private ["Ps8Hashable", "NSURLSessionConfiguration"]
+- !private ["Ps8Hashable", "NSUTF8StringEncoding"]
+- !private ["Ps8Hashable", "PKPaymentAuthorizationStatus"]
+- !private ["Ps8Hashable", "STPAPIClient"]
+- ["Ps8Hashable", "STPPaymentCardTextField"]
+- !private ["Ps8Hashable", "Success"]
+- !private ["Ps8Hashable", "UIColor"]
+- !private ["Ps8Hashable", "UIImage"]
+- !private ["Ps8Hashable", "UITapGestureRecognizer"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addGestureRecognizer"]
+- !private ["Ps8Hashable", "addSubview"]
+- !private ["Ps8Hashable", "backgroundColor"]
+- !private ["Ps8Hashable", "card"]
+- ["Ps8Hashable", "createBackendChargeWithToken"]
+- !private ["Ps8Hashable", "createTokenWithCard"]
+- !private ["Ps8Hashable", "dataTaskWithRequest"]
+- !private ["Ps8Hashable", "dataUsingEncoding"]
+- !private ["Ps8Hashable", "delegate"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- ["Ps8Hashable", "dismissKeyboard"]
+- !private ["Ps8Hashable", "endEditing"]
+- !private ["Ps8Hashable", "ephemeralSessionConfiguration"]
+- !private ["Ps8Hashable", "frame"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "paymentCardTextFieldDidBeginEditingCVC"]
+- ["Ps8Hashable", "paymentCardTextFieldDidBeginEditingExpiration"]
+- ["Ps8Hashable", "paymentCardTextFieldDidBeginEditingNumber"]
+- ["Ps8Hashable", "paymentCardTextFieldDidChange"]
+- ["Ps8Hashable", "paymentTextField"]
+- !private ["Ps8Hashable", "performSegueWithIdentifier"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "resume"]
+- ["Ps8Hashable", "saveCard"]
+- !private ["Ps8Hashable", "sharedClient"]
+- !private ["Ps8Hashable", "view"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- !private ["Ps14MirrorPathType", "dataUsingEncoding"]
+- !private ["PSo8NSCoding", "CGRectGetWidth"]
+- !private ["PSo8NSCoding", "CGRectMake"]
+- !private ["PSo8NSCoding", "HTTPBody"]
+- !private ["PSo8NSCoding", "HTTPMethod"]
+- !private ["PSo8NSCoding", "NSMutableURLRequest"]
+- !private ["PSo8NSCoding", "NSURL"]
+- !private ["PSo8NSCoding", "NSURLSession"]
+- !private ["PSo8NSCoding", "NSURLSessionConfiguration"]
+- !private ["PSo8NSCoding", "NSUTF8StringEncoding"]
+- !private ["PSo8NSCoding", "PKPaymentAuthorizationStatus"]
+- !private ["PSo8NSCoding", "STPAPIClient"]
+- ["PSo8NSCoding", "STPPaymentCardTextField"]
+- !private ["PSo8NSCoding", "UIColor"]
+- !private ["PSo8NSCoding", "UIImage"]
+- !private ["PSo8NSCoding", "UITapGestureRecognizer"]
+- !private ["PSo8NSCoding", "addGestureRecognizer"]
+- !private ["PSo8NSCoding", "addSubview"]
+- !private ["PSo8NSCoding", "backgroundColor"]
+- !private ["PSo8NSCoding", "card"]
+- ["PSo8NSCoding", "createBackendChargeWithToken"]
+- !private ["PSo8NSCoding", "dataUsingEncoding"]
+- !private ["PSo8NSCoding", "delegate"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "dismissKeyboard"]
+- !private ["PSo8NSCoding", "endEditing"]
+- !private ["PSo8NSCoding", "frame"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "paymentCardTextFieldDidBeginEditingCVC"]
+- ["PSo8NSCoding", "paymentCardTextFieldDidBeginEditingExpiration"]
+- ["PSo8NSCoding", "paymentCardTextFieldDidBeginEditingNumber"]
+- ["PSo8NSCoding", "paymentCardTextFieldDidChange"]
+- ["PSo8NSCoding", "paymentTextField"]
+- !private ["PSo8NSCoding", "performSegueWithIdentifier"]
+- !private ["PSo8NSCoding", "print"]
+- ["PSo8NSCoding", "saveCard"]
+- !private ["PSo8NSCoding", "view"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "HTTPBody"]
+- !private ["PSo9NSCopying", "HTTPMethod"]
+- !private ["PSo9NSCopying", "dataUsingEncoding"]
+- !private ["PSo9NSCopying", "ephemeralSessionConfiguration"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "resume"]
+- !private ["PSo26NSExtensionRequestHandling", "CGRectGetWidth"]
+- !private ["PSo26NSExtensionRequestHandling", "CGRectMake"]
+- !private ["PSo26NSExtensionRequestHandling", "NSMutableURLRequest"]
+- !private ["PSo26NSExtensionRequestHandling", "NSURL"]
+- !private ["PSo26NSExtensionRequestHandling", "NSURLSession"]
+- !private ["PSo26NSExtensionRequestHandling", "NSURLSessionConfiguration"]
+- !private ["PSo26NSExtensionRequestHandling", "NSUTF8StringEncoding"]
+- !private ["PSo26NSExtensionRequestHandling", "PKPaymentAuthorizationStatus"]
+- !private ["PSo26NSExtensionRequestHandling", "STPAPIClient"]
+- ["PSo26NSExtensionRequestHandling", "STPPaymentCardTextField"]
+- !private ["PSo26NSExtensionRequestHandling", "UIColor"]
+- !private ["PSo26NSExtensionRequestHandling", "UIImage"]
+- !private ["PSo26NSExtensionRequestHandling", "UITapGestureRecognizer"]
+- ["PSo26NSExtensionRequestHandling", "createBackendChargeWithToken"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "dismissKeyboard"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "paymentCardTextFieldDidBeginEditingCVC"]
+- ["PSo26NSExtensionRequestHandling", "paymentCardTextFieldDidBeginEditingExpiration"]
+- ["PSo26NSExtensionRequestHandling", "paymentCardTextFieldDidBeginEditingNumber"]
+- ["PSo26NSExtensionRequestHandling", "paymentCardTextFieldDidChange"]
+- ["PSo26NSExtensionRequestHandling", "paymentTextField"]
+- !private ["PSo26NSExtensionRequestHandling", "performSegueWithIdentifier"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "saveCard"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "HTTPBody"]
+- !private ["PSo16NSMutableCopying", "HTTPMethod"]
+- !private ["PSo16NSMutableCopying", "dataUsingEncoding"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo19NSMutableURLRequest", "HTTPBody"]
+- !private ["CSo19NSMutableURLRequest", "HTTPMethod"]
+- !private ["CSo19NSMutableURLRequest", "init"]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "CGRectGetWidth"]
+- !private ["CSo8NSObject", "CGRectMake"]
+- !private ["CSo8NSObject", "HTTPBody"]
+- !private ["CSo8NSObject", "HTTPMethod"]
+- !private ["CSo8NSObject", "NSMutableURLRequest"]
+- !private ["CSo8NSObject", "NSURL"]
+- !private ["CSo8NSObject", "NSURLSession"]
+- !private ["CSo8NSObject", "NSURLSessionConfiguration"]
+- !private ["CSo8NSObject", "NSUTF8StringEncoding"]
+- ["CSo8NSObject", "PKPaymentAuthorizationStatus"]
+- !private ["CSo8NSObject", "STPAPIClient"]
+- ["CSo8NSObject", "STPPaymentCardTextField"]
+- ["CSo8NSObject", "STPToken"]
+- !private ["CSo8NSObject", "UIColor"]
+- !private ["CSo8NSObject", "UIImage"]
+- !private ["CSo8NSObject", "UITapGestureRecognizer"]
+- !private ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "addGestureRecognizer"]
+- !private ["CSo8NSObject", "addSubview"]
+- !private ["CSo8NSObject", "backgroundColor"]
+- !private ["CSo8NSObject", "card"]
+- ["CSo8NSObject", "createBackendChargeWithToken"]
+- !private ["CSo8NSObject", "createTokenWithCard"]
+- !private ["CSo8NSObject", "dataTaskWithRequest"]
+- !private ["CSo8NSObject", "dataUsingEncoding"]
+- !private ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "dismissKeyboard"]
+- !private ["CSo8NSObject", "endEditing"]
+- !private ["CSo8NSObject", "ephemeralSessionConfiguration"]
+- !private ["CSo8NSObject", "frame"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "paymentCardTextFieldDidBeginEditingCVC"]
+- ["CSo8NSObject", "paymentCardTextFieldDidBeginEditingExpiration"]
+- ["CSo8NSObject", "paymentCardTextFieldDidBeginEditingNumber"]
+- ["CSo8NSObject", "paymentCardTextFieldDidChange"]
+- ["CSo8NSObject", "paymentTextField"]
+- !private ["CSo8NSObject", "performSegueWithIdentifier"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "resume"]
+- ["CSo8NSObject", "saveCard"]
+- !private ["CSo8NSObject", "sharedClient"]
+- !private ["CSo8NSObject", "view"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "CGRectGetWidth"]
+- !private ["PSo16NSObjectProtocol", "CGRectMake"]
+- !private ["PSo16NSObjectProtocol", "HTTPBody"]
+- !private ["PSo16NSObjectProtocol", "HTTPMethod"]
+- !private ["PSo16NSObjectProtocol", "NSMutableURLRequest"]
+- !private ["PSo16NSObjectProtocol", "NSURL"]
+- !private ["PSo16NSObjectProtocol", "NSURLSession"]
+- !private ["PSo16NSObjectProtocol", "NSURLSessionConfiguration"]
+- !private ["PSo16NSObjectProtocol", "NSUTF8StringEncoding"]
+- !private ["PSo16NSObjectProtocol", "PKPaymentAuthorizationStatus"]
+- !private ["PSo16NSObjectProtocol", "STPAPIClient"]
+- ["PSo16NSObjectProtocol", "STPPaymentCardTextField"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "UIImage"]
+- !private ["PSo16NSObjectProtocol", "UITapGestureRecognizer"]
+- !private ["PSo16NSObjectProtocol", "addGestureRecognizer"]
+- !private ["PSo16NSObjectProtocol", "addSubview"]
+- !private ["PSo16NSObjectProtocol", "backgroundColor"]
+- !private ["PSo16NSObjectProtocol", "card"]
+- ["PSo16NSObjectProtocol", "createBackendChargeWithToken"]
+- !private ["PSo16NSObjectProtocol", "createTokenWithCard"]
+- !private ["PSo16NSObjectProtocol", "dataTaskWithRequest"]
+- !private ["PSo16NSObjectProtocol", "dataUsingEncoding"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "dismissKeyboard"]
+- !private ["PSo16NSObjectProtocol", "endEditing"]
+- !private ["PSo16NSObjectProtocol", "ephemeralSessionConfiguration"]
+- !private ["PSo16NSObjectProtocol", "frame"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "paymentCardTextFieldDidBeginEditingCVC"]
+- ["PSo16NSObjectProtocol", "paymentCardTextFieldDidBeginEditingExpiration"]
+- ["PSo16NSObjectProtocol", "paymentCardTextFieldDidBeginEditingNumber"]
+- ["PSo16NSObjectProtocol", "paymentCardTextFieldDidChange"]
+- ["PSo16NSObjectProtocol", "paymentTextField"]
+- !private ["PSo16NSObjectProtocol", "performSegueWithIdentifier"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "resume"]
+- ["PSo16NSObjectProtocol", "saveCard"]
+- !private ["PSo16NSObjectProtocol", "sharedClient"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "HTTPBody"]
+- !private ["PSo14NSSecureCoding", "HTTPMethod"]
+- !private ["PSo14NSSecureCoding", "dataUsingEncoding"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "dataUsingEncoding"]
+- !private ["CSo5NSURL", "init"]
+- !private ["CSo12NSURLRequest", "HTTPBody"]
+- !private ["CSo12NSURLRequest", "HTTPMethod"]
+- !private ["CSo12NSURLRequest", "init"]
+- !private ["CSo12NSURLSession", "dataTaskWithRequest"]
+- !private ["CSo12NSURLSession", "init"]
+- !private ["CSo25NSURLSessionConfiguration", "ephemeralSessionConfiguration"]
+- !private ["CSo20NSURLSessionDataTask", "resume"]
+- !private ["CSo16NSURLSessionTask", "resume"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["Ps16OutputStreamType", "dataUsingEncoding"]
+- !private ["OSC28PKPaymentAuthorizationStatus", "Failure"]
+- !private ["OSC28PKPaymentAuthorizationStatus", "Success"]
+- !private ["Ps16RawRepresentable", "Failure"]
+- !private ["Ps16RawRepresentable", "Success"]
+- !private ["CSo12STPAPIClient", "createTokenWithCard"]
+- !private ["CSo12STPAPIClient", "sharedClient"]
+- !private ["CSo23STPPaymentCardTextField", "card"]
+- !private ["CSo23STPPaymentCardTextField", "delegate"]
+- !private ["CSo23STPPaymentCardTextField", "frame"]
+- ["CSo23STPPaymentCardTextField", "init"]
+- !private ["PSo31STPPaymentCardTextFieldDelegate", "CGRectGetWidth"]
+- !private ["PSo31STPPaymentCardTextFieldDelegate", "CGRectMake"]
+- !private ["PSo31STPPaymentCardTextFieldDelegate", "NSMutableURLRequest"]
+- !private ["PSo31STPPaymentCardTextFieldDelegate", "NSURL"]
+- !private ["PSo31STPPaymentCardTextFieldDelegate", "NSURLSession"]
+- !private ["PSo31STPPaymentCardTextFieldDelegate", "NSURLSessionConfiguration"]
+- !private ["PSo31STPPaymentCardTextFieldDelegate", "NSUTF8StringEncoding"]
+- !private ["PSo31STPPaymentCardTextFieldDelegate", "PKPaymentAuthorizationStatus"]
+- !private ["PSo31STPPaymentCardTextFieldDelegate", "STPAPIClient"]
+- ["PSo31STPPaymentCardTextFieldDelegate", "STPPaymentCardTextField"]
+- !private ["PSo31STPPaymentCardTextFieldDelegate", "UIColor"]
+- !private ["PSo31STPPaymentCardTextFieldDelegate", "UIImage"]
+- !private ["PSo31STPPaymentCardTextFieldDelegate", "UITapGestureRecognizer"]
+- !private ["PSo31STPPaymentCardTextFieldDelegate", "createBackendChargeWithToken"]
+- !private ["PSo31STPPaymentCardTextFieldDelegate", "dismissKeyboard"]
+- ["PSo31STPPaymentCardTextFieldDelegate", "paymentCardTextFieldDidBeginEditingCVC"]
+- ["PSo31STPPaymentCardTextFieldDelegate", "paymentCardTextFieldDidBeginEditingExpiration"]
+- ["PSo31STPPaymentCardTextFieldDelegate", "paymentCardTextFieldDidBeginEditingNumber"]
+- ["PSo31STPPaymentCardTextFieldDelegate", "paymentCardTextFieldDidChange"]
+- !private ["PSo31STPPaymentCardTextFieldDelegate", "paymentTextField"]
+- !private ["PSo31STPPaymentCardTextFieldDelegate", "performSegueWithIdentifier"]
+- !private ["PSo31STPPaymentCardTextFieldDelegate", "print"]
+- !private ["PSo31STPPaymentCardTextFieldDelegate", "view"]
+- ["PSo31STPPaymentCardTextFieldDelegate", ""]
+- !private ["V10ObjectiveC8Selector", "deinit"]
+- !private ["Ps10Streamable", "dataUsingEncoding"]
+- !private ["SS", "dataUsingEncoding"]
+- !private ["Ps30StringInterpolationConvertible", "dataUsingEncoding"]
+- !private ["Ps24StringLiteralConvertible", "dataUsingEncoding"]
+- !private ["PSo29UIAccessibilityIdentification", "addGestureRecognizer"]
+- !private ["PSo29UIAccessibilityIdentification", "addSubview"]
+- !private ["PSo29UIAccessibilityIdentification", "backgroundColor"]
+- !private ["PSo29UIAccessibilityIdentification", "card"]
+- !private ["PSo29UIAccessibilityIdentification", "delegate"]
+- !private ["PSo29UIAccessibilityIdentification", "endEditing"]
+- !private ["PSo29UIAccessibilityIdentification", "frame"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo12UIAppearance", "addGestureRecognizer"]
+- !private ["PSo12UIAppearance", "addSubview"]
+- !private ["PSo12UIAppearance", "backgroundColor"]
+- !private ["PSo12UIAppearance", "card"]
+- !private ["PSo12UIAppearance", "delegate"]
+- !private ["PSo12UIAppearance", "endEditing"]
+- !private ["PSo12UIAppearance", "frame"]
+- ["PSo12UIAppearance", "init"]
+- !private ["PSo21UIAppearanceContainer", "CGRectGetWidth"]
+- !private ["PSo21UIAppearanceContainer", "CGRectMake"]
+- !private ["PSo21UIAppearanceContainer", "NSMutableURLRequest"]
+- !private ["PSo21UIAppearanceContainer", "NSURL"]
+- !private ["PSo21UIAppearanceContainer", "NSURLSession"]
+- !private ["PSo21UIAppearanceContainer", "NSURLSessionConfiguration"]
+- !private ["PSo21UIAppearanceContainer", "NSUTF8StringEncoding"]
+- !private ["PSo21UIAppearanceContainer", "PKPaymentAuthorizationStatus"]
+- !private ["PSo21UIAppearanceContainer", "STPAPIClient"]
+- ["PSo21UIAppearanceContainer", "STPPaymentCardTextField"]
+- !private ["PSo21UIAppearanceContainer", "UIColor"]
+- !private ["PSo21UIAppearanceContainer", "UIImage"]
+- !private ["PSo21UIAppearanceContainer", "UITapGestureRecognizer"]
+- !private ["PSo21UIAppearanceContainer", "addGestureRecognizer"]
+- !private ["PSo21UIAppearanceContainer", "addSubview"]
+- !private ["PSo21UIAppearanceContainer", "backgroundColor"]
+- !private ["PSo21UIAppearanceContainer", "card"]
+- ["PSo21UIAppearanceContainer", "createBackendChargeWithToken"]
+- !private ["PSo21UIAppearanceContainer", "delegate"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "dismissKeyboard"]
+- !private ["PSo21UIAppearanceContainer", "endEditing"]
+- !private ["PSo21UIAppearanceContainer", "frame"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "paymentCardTextFieldDidBeginEditingCVC"]
+- ["PSo21UIAppearanceContainer", "paymentCardTextFieldDidBeginEditingExpiration"]
+- ["PSo21UIAppearanceContainer", "paymentCardTextFieldDidBeginEditingNumber"]
+- ["PSo21UIAppearanceContainer", "paymentCardTextFieldDidChange"]
+- ["PSo21UIAppearanceContainer", "paymentTextField"]
+- !private ["PSo21UIAppearanceContainer", "performSegueWithIdentifier"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- ["PSo21UIAppearanceContainer", "saveCard"]
+- !private ["PSo21UIAppearanceContainer", "view"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo7UIColor", "init"]
+- !private ["PSo18UIContentContainer", "CGRectGetWidth"]
+- !private ["PSo18UIContentContainer", "CGRectMake"]
+- !private ["PSo18UIContentContainer", "NSMutableURLRequest"]
+- !private ["PSo18UIContentContainer", "NSURL"]
+- !private ["PSo18UIContentContainer", "NSURLSession"]
+- !private ["PSo18UIContentContainer", "NSURLSessionConfiguration"]
+- !private ["PSo18UIContentContainer", "NSUTF8StringEncoding"]
+- !private ["PSo18UIContentContainer", "PKPaymentAuthorizationStatus"]
+- !private ["PSo18UIContentContainer", "STPAPIClient"]
+- ["PSo18UIContentContainer", "STPPaymentCardTextField"]
+- !private ["PSo18UIContentContainer", "UIColor"]
+- !private ["PSo18UIContentContainer", "UIImage"]
+- !private ["PSo18UIContentContainer", "UITapGestureRecognizer"]
+- ["PSo18UIContentContainer", "createBackendChargeWithToken"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "dismissKeyboard"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "paymentCardTextFieldDidBeginEditingCVC"]
+- ["PSo18UIContentContainer", "paymentCardTextFieldDidBeginEditingExpiration"]
+- ["PSo18UIContentContainer", "paymentCardTextFieldDidBeginEditingNumber"]
+- ["PSo18UIContentContainer", "paymentCardTextFieldDidChange"]
+- ["PSo18UIContentContainer", "paymentTextField"]
+- !private ["PSo18UIContentContainer", "performSegueWithIdentifier"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "saveCard"]
+- !private ["PSo18UIContentContainer", "view"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["CSo9UIControl", "card"]
+- !private ["CSo9UIControl", "delegate"]
+- !private ["CSo9UIControl", "frame"]
+- ["CSo9UIControl", "init"]
+- !private ["PSo17UICoordinateSpace", "addGestureRecognizer"]
+- !private ["PSo17UICoordinateSpace", "addSubview"]
+- !private ["PSo17UICoordinateSpace", "backgroundColor"]
+- !private ["PSo17UICoordinateSpace", "card"]
+- !private ["PSo17UICoordinateSpace", "delegate"]
+- !private ["PSo17UICoordinateSpace", "endEditing"]
+- !private ["PSo17UICoordinateSpace", "frame"]
+- ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo13UIDynamicItem", "addGestureRecognizer"]
+- !private ["PSo13UIDynamicItem", "addSubview"]
+- !private ["PSo13UIDynamicItem", "backgroundColor"]
+- !private ["PSo13UIDynamicItem", "card"]
+- !private ["PSo13UIDynamicItem", "delegate"]
+- !private ["PSo13UIDynamicItem", "endEditing"]
+- !private ["PSo13UIDynamicItem", "frame"]
+- ["PSo13UIDynamicItem", "init"]
+- !private ["PSo18UIFocusEnvironment", "CGRectGetWidth"]
+- !private ["PSo18UIFocusEnvironment", "CGRectMake"]
+- !private ["PSo18UIFocusEnvironment", "NSMutableURLRequest"]
+- !private ["PSo18UIFocusEnvironment", "NSURL"]
+- !private ["PSo18UIFocusEnvironment", "NSURLSession"]
+- !private ["PSo18UIFocusEnvironment", "NSURLSessionConfiguration"]
+- !private ["PSo18UIFocusEnvironment", "NSUTF8StringEncoding"]
+- !private ["PSo18UIFocusEnvironment", "PKPaymentAuthorizationStatus"]
+- !private ["PSo18UIFocusEnvironment", "STPAPIClient"]
+- ["PSo18UIFocusEnvironment", "STPPaymentCardTextField"]
+- !private ["PSo18UIFocusEnvironment", "UIColor"]
+- !private ["PSo18UIFocusEnvironment", "UIImage"]
+- !private ["PSo18UIFocusEnvironment", "UITapGestureRecognizer"]
+- !private ["PSo18UIFocusEnvironment", "addGestureRecognizer"]
+- !private ["PSo18UIFocusEnvironment", "addSubview"]
+- !private ["PSo18UIFocusEnvironment", "backgroundColor"]
+- !private ["PSo18UIFocusEnvironment", "card"]
+- ["PSo18UIFocusEnvironment", "createBackendChargeWithToken"]
+- !private ["PSo18UIFocusEnvironment", "delegate"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UIFocusEnvironment", "dismissKeyboard"]
+- !private ["PSo18UIFocusEnvironment", "endEditing"]
+- !private ["PSo18UIFocusEnvironment", "frame"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "paymentCardTextFieldDidBeginEditingCVC"]
+- ["PSo18UIFocusEnvironment", "paymentCardTextFieldDidBeginEditingExpiration"]
+- ["PSo18UIFocusEnvironment", "paymentCardTextFieldDidBeginEditingNumber"]
+- ["PSo18UIFocusEnvironment", "paymentCardTextFieldDidChange"]
+- ["PSo18UIFocusEnvironment", "paymentTextField"]
+- !private ["PSo18UIFocusEnvironment", "performSegueWithIdentifier"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- ["PSo18UIFocusEnvironment", "saveCard"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo19UIGestureRecognizer", "init"]
+- !private ["CSo7UIImage", "init"]
+- ["CSo11UIResponder", "AnyObject"]
+- !private ["CSo11UIResponder", "CGRectGetWidth"]
+- !private ["CSo11UIResponder", "CGRectMake"]
+- !private ["CSo11UIResponder", "NSMutableURLRequest"]
+- !private ["CSo11UIResponder", "NSURL"]
+- !private ["CSo11UIResponder", "NSURLSession"]
+- !private ["CSo11UIResponder", "NSURLSessionConfiguration"]
+- !private ["CSo11UIResponder", "NSUTF8StringEncoding"]
+- ["CSo11UIResponder", "PKPaymentAuthorizationStatus"]
+- !private ["CSo11UIResponder", "STPAPIClient"]
+- ["CSo11UIResponder", "STPPaymentCardTextField"]
+- ["CSo11UIResponder", "STPToken"]
+- !private ["CSo11UIResponder", "UIColor"]
+- !private ["CSo11UIResponder", "UIImage"]
+- !private ["CSo11UIResponder", "UITapGestureRecognizer"]
+- !private ["CSo11UIResponder", "Void"]
+- !private ["CSo11UIResponder", "addGestureRecognizer"]
+- !private ["CSo11UIResponder", "addSubview"]
+- !private ["CSo11UIResponder", "backgroundColor"]
+- !private ["CSo11UIResponder", "card"]
+- ["CSo11UIResponder", "createBackendChargeWithToken"]
+- !private ["CSo11UIResponder", "delegate"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "dismissKeyboard"]
+- !private ["CSo11UIResponder", "endEditing"]
+- !private ["CSo11UIResponder", "frame"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "paymentCardTextFieldDidBeginEditingCVC"]
+- ["CSo11UIResponder", "paymentCardTextFieldDidBeginEditingExpiration"]
+- ["CSo11UIResponder", "paymentCardTextFieldDidBeginEditingNumber"]
+- ["CSo11UIResponder", "paymentCardTextFieldDidChange"]
+- ["CSo11UIResponder", "paymentTextField"]
+- !private ["CSo11UIResponder", "performSegueWithIdentifier"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "saveCard"]
+- !private ["CSo11UIResponder", "view"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "CGRectGetWidth"]
+- !private ["PSo16UIStateRestoring", "CGRectMake"]
+- !private ["PSo16UIStateRestoring", "NSMutableURLRequest"]
+- !private ["PSo16UIStateRestoring", "NSURL"]
+- !private ["PSo16UIStateRestoring", "NSURLSession"]
+- !private ["PSo16UIStateRestoring", "NSURLSessionConfiguration"]
+- !private ["PSo16UIStateRestoring", "NSUTF8StringEncoding"]
+- !private ["PSo16UIStateRestoring", "PKPaymentAuthorizationStatus"]
+- !private ["PSo16UIStateRestoring", "STPAPIClient"]
+- ["PSo16UIStateRestoring", "STPPaymentCardTextField"]
+- !private ["PSo16UIStateRestoring", "UIColor"]
+- !private ["PSo16UIStateRestoring", "UIImage"]
+- !private ["PSo16UIStateRestoring", "UITapGestureRecognizer"]
+- ["PSo16UIStateRestoring", "createBackendChargeWithToken"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "dismissKeyboard"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "paymentCardTextFieldDidBeginEditingCVC"]
+- ["PSo16UIStateRestoring", "paymentCardTextFieldDidBeginEditingExpiration"]
+- ["PSo16UIStateRestoring", "paymentCardTextFieldDidBeginEditingNumber"]
+- ["PSo16UIStateRestoring", "paymentCardTextFieldDidChange"]
+- ["PSo16UIStateRestoring", "paymentTextField"]
+- !private ["PSo16UIStateRestoring", "performSegueWithIdentifier"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "saveCard"]
+- !private ["PSo16UIStateRestoring", "view"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo22UITapGestureRecognizer", "init"]
+- !private ["PSo18UITraitEnvironment", "CGRectGetWidth"]
+- !private ["PSo18UITraitEnvironment", "CGRectMake"]
+- !private ["PSo18UITraitEnvironment", "NSMutableURLRequest"]
+- !private ["PSo18UITraitEnvironment", "NSURL"]
+- !private ["PSo18UITraitEnvironment", "NSURLSession"]
+- !private ["PSo18UITraitEnvironment", "NSURLSessionConfiguration"]
+- !private ["PSo18UITraitEnvironment", "NSUTF8StringEncoding"]
+- !private ["PSo18UITraitEnvironment", "PKPaymentAuthorizationStatus"]
+- !private ["PSo18UITraitEnvironment", "STPAPIClient"]
+- ["PSo18UITraitEnvironment", "STPPaymentCardTextField"]
+- !private ["PSo18UITraitEnvironment", "UIColor"]
+- !private ["PSo18UITraitEnvironment", "UIImage"]
+- !private ["PSo18UITraitEnvironment", "UITapGestureRecognizer"]
+- !private ["PSo18UITraitEnvironment", "addGestureRecognizer"]
+- !private ["PSo18UITraitEnvironment", "addSubview"]
+- !private ["PSo18UITraitEnvironment", "backgroundColor"]
+- !private ["PSo18UITraitEnvironment", "card"]
+- ["PSo18UITraitEnvironment", "createBackendChargeWithToken"]
+- !private ["PSo18UITraitEnvironment", "delegate"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "dismissKeyboard"]
+- !private ["PSo18UITraitEnvironment", "endEditing"]
+- !private ["PSo18UITraitEnvironment", "frame"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "paymentCardTextFieldDidBeginEditingCVC"]
+- ["PSo18UITraitEnvironment", "paymentCardTextFieldDidBeginEditingExpiration"]
+- ["PSo18UITraitEnvironment", "paymentCardTextFieldDidBeginEditingNumber"]
+- ["PSo18UITraitEnvironment", "paymentCardTextFieldDidChange"]
+- ["PSo18UITraitEnvironment", "paymentTextField"]
+- !private ["PSo18UITraitEnvironment", "performSegueWithIdentifier"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- ["PSo18UITraitEnvironment", "saveCard"]
+- !private ["PSo18UITraitEnvironment", "view"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "addGestureRecognizer"]
+- !private ["CSo6UIView", "addSubview"]
+- !private ["CSo6UIView", "backgroundColor"]
+- !private ["CSo6UIView", "card"]
+- !private ["CSo6UIView", "delegate"]
+- !private ["CSo6UIView", "endEditing"]
+- !private ["CSo6UIView", "frame"]
+- ["CSo6UIView", "init"]
+- ["CSo16UIViewController", "AnyObject"]
+- !private ["CSo16UIViewController", "CGRectGetWidth"]
+- !private ["CSo16UIViewController", "CGRectMake"]
+- !private ["CSo16UIViewController", "NSMutableURLRequest"]
+- !private ["CSo16UIViewController", "NSURL"]
+- !private ["CSo16UIViewController", "NSURLSession"]
+- !private ["CSo16UIViewController", "NSURLSessionConfiguration"]
+- !private ["CSo16UIViewController", "NSUTF8StringEncoding"]
+- ["CSo16UIViewController", "PKPaymentAuthorizationStatus"]
+- !private ["CSo16UIViewController", "STPAPIClient"]
+- ["CSo16UIViewController", "STPPaymentCardTextField"]
+- ["CSo16UIViewController", "STPToken"]
+- !private ["CSo16UIViewController", "UIColor"]
+- !private ["CSo16UIViewController", "UIImage"]
+- !private ["CSo16UIViewController", "UITapGestureRecognizer"]
+- !private ["CSo16UIViewController", "Void"]
+- ["CSo16UIViewController", "createBackendChargeWithToken"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "dismissKeyboard"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "paymentCardTextFieldDidBeginEditingCVC"]
+- ["CSo16UIViewController", "paymentCardTextFieldDidBeginEditingExpiration"]
+- ["CSo16UIViewController", "paymentCardTextFieldDidBeginEditingNumber"]
+- ["CSo16UIViewController", "paymentCardTextFieldDidChange"]
+- ["CSo16UIViewController", "paymentTextField"]
+- !private ["CSo16UIViewController", "performSegueWithIdentifier"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "saveCard"]
+- !private ["CSo16UIViewController", "view"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps24_ColorLiteralConvertible", "init"]
+- !private ["Ps32_FileReferenceLiteralConvertible", "init"]
+- !private ["Ps24_ImageLiteralConvertible", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "dataUsingEncoding"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "addGestureRecognizer"]
+- !private ["Ps12_Reflectable", "addSubview"]
+- !private ["Ps12_Reflectable", "backgroundColor"]
+- !private ["Ps12_Reflectable", "card"]
+- !private ["Ps12_Reflectable", "dataUsingEncoding"]
+- !private ["Ps12_Reflectable", "delegate"]
+- !private ["Ps12_Reflectable", "endEditing"]
+- !private ["Ps12_Reflectable", "frame"]
+- ["Ps12_Reflectable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- !private "PSo15CNKeyDescriptor"
+- "Ps11CVarArgType"
+- !private "Ps10Comparable"
+- "C5Vague24CreditCardViewController"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- "Ps8Hashable"
+- !private "Ps14MirrorPathType"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- !private "CSo19NSMutableURLRequest"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo5NSURL"
+- !private "CSo12NSURLRequest"
+- !private "CSo12NSURLSession"
+- !private "CSo25NSURLSessionConfiguration"
+- !private "CSo20NSURLSessionDataTask"
+- !private "CSo16NSURLSessionTask"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- !private "Ps16OutputStreamType"
+- !private "OSC28PKPaymentAuthorizationStatus"
+- !private "Ps16RawRepresentable"
+- !private "CSo12STPAPIClient"
+- "CSo23STPPaymentCardTextField"
+- "PSo31STPPaymentCardTextFieldDelegate"
+- !private "V10ObjectiveC8Selector"
+- !private "Ps10Streamable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo7UIColor"
+- "PSo18UIContentContainer"
+- "CSo9UIControl"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "CSo19UIGestureRecognizer"
+- !private "CSo7UIImage"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- !private "CSo22UITapGestureRecognizer"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps24_ColorLiteralConvertible"
+- !private "Ps32_FileReferenceLiteralConvertible"
+- !private "Ps24_ImageLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/Akash/Desktop/Vague/Vague/Vague-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers/FirebaseServerValue.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers/FTransactionResult.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers/FMutableData.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers/FirebaseApp.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers/FQuery.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers/Firebase.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers/FEventType.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers/FDataSnapshot.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers/FConfig.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers/FAuthType.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers/FAuthData.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers/Firebase-umbrella.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/WatchConnectivity.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/WatchKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/Bolts.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFTask.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFURL_Internal.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFURL.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFMeasurementEvent_Internal.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkReturnToRefererView_Internal.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFAppLink_Internal.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Modules/module.modulemap"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSUICKeyChainStore.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSTMCacheBackgroundTaskManager.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSTMMemoryCache.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSTMDiskCache.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSTMCache.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSSTSResources.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSValidation.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSURLResponseSerialization.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSURLRequestSerialization.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSURLRequestRetryHandler.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSSerialization.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSReachability.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSURLSessionManager.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/NSError+AWSMTLModelException.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSMTLReflection.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCognitoIdentityResources.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCognitoIdentityModel.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCognitoIdentityService.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCognitoIdentity.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSSTSModel.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSSTSService.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSSTS.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSFMDatabaseQueue.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSFMDatabaseAdditions.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSFMDatabasePool.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSFMResultSet.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSFMDatabase.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSFMDB.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSGZIP.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSTaskCompletionSource.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSTask.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSExecutor.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCancellationTokenSource.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCancellationTokenRegistration.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCancellationToken.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSBoltsVersion.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSBolts.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSSignature.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSSynchronizedMutableDictionary.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSClientContext.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSLogging.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCategory.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSIdentityProvider.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCredentialsProvider.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/NSValueTransformer+AWSMTLInversionAdditions.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/NSObject+AWSMTLComparisonAdditions.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/NSDictionary+AWSMTLManipulationAdditions.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/NSArray+AWSMTLManipulationAdditions.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSMTLValueTransformer.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSMTLModel+NSCoding.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSMTLModel.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSMTLManagedObjectAdapter.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSMTLJSONAdapter.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSMantle.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSModel.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSNetworking.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSService.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSServiceEnum.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCore.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCore-umbrella.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/UIImage+Stripe.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPPaymentCardTextField.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPAPIClient+ApplePay.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/Stripe+ApplePay.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/StripeError.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/Stripe.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPToken.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPCardValidator.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPCardValidationState.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPCardParams.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPCardBrand.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPCard.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPFormEncodable.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPBankAccountParams.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPBankAccount.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPAPIResponseDecodable.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPAPIClient.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/Stripe-umbrella.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/PassKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Contacts.swiftmodule"
+interface-hash: "952b28710402a9aebcdf76628789510c"

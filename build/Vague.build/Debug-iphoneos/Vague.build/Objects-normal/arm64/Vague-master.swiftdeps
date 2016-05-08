@@ -1,7 +1,14 @@
 version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
-options: "0e9812b97298ebab0e8da681ecfb2b86"
-build_time: [514233103, 899167000]
+options: "7cd435ea5e53528aa8120b0a04fc8dd7"
+build_time: [516039048, 288910000]
 inputs:
-  "/Users/Akash/Desktop/Vague/Vague/iosViewController.swift": [514232392, 0]
-  "/Users/Akash/Desktop/Vague/iCloudManager.swift": [514231983, 0]
-  "/Users/Akash/Desktop/Vague/Vague/AppDelegate.swift": [514162029, 0]
+  "/Users/Akash/Desktop/Vague/Vague/SetGoalViewController.swift": [516037287, 0]
+  "/Users/Akash/Desktop/Vague/Vague/HealthDataViewController.swift": [516031587, 0]
+  "/Users/Akash/Desktop/Vague/Vague/LoginViewController.swift": [516031567, 0]
+  "/Users/Akash/Desktop/Vague/Vague/InitialViewController.swift": [516031684, 0]
+  "/Users/Akash/Desktop/Vague/iCloudManager.swift": [514235614, 0]
+  "/Users/Akash/Desktop/Vague/Vague/AskCreditCardViewController.swift": [515980702, 0]
+  "/Users/Akash/Desktop/Vague/Vague/DescriptionViewController.swift": [516006011, 0]
+  "/Users/Akash/Desktop/Vague/Vague/DashboardViewController.swift": [516036592, 0]
+  "/Users/Akash/Desktop/Vague/Vague/AppDelegate.swift": [516003914, 0]
+  "/Users/Akash/Desktop/Vague/Vague/CreditCardViewController.swift": [516004018, 0]

@@ -8,19 +8,19 @@ provides-member:
 provides-dynamic-lookup:
 - "motivationalQuotes"
 - "iCloudUpdated"
+- "setCountInIcloud"
 - "didReceiveMemoryWarning"
 - "count"
-- "setCountInIcloud"
 - "viewDidLoad"
 - "iCloud"
 depends-top-level:
-- "UIViewController"
 - "iCloudUpdateDelegate"
 - "iCloudManager"
-- "ViewController"
-- "UILabel"
 - "StringLiteralType"
+- "ViewController"
 - "String"
+- "UILabel"
+- "UIViewController"
 depends-member:
 - ["Ps9AnyObject", "count"]
 - ["Ps9AnyObject", "didReceiveMemoryWarning"]
@@ -32,7 +32,6 @@ depends-member:
 - ["Ps9AnyObject", "motivationalQuotes"]
 - ["Ps9AnyObject", "setCountInIcloud"]
 - !private ["Ps9AnyObject", "setiCloudData"]
-- !private ["Ps9AnyObject", "text"]
 - ["Ps9AnyObject", "viewDidLoad"]
 - ["Ps9AnyObject", ""]
 - ["Ps11CVarArgType", "count"]
@@ -45,7 +44,6 @@ depends-member:
 - ["Ps11CVarArgType", "motivationalQuotes"]
 - ["Ps11CVarArgType", "setCountInIcloud"]
 - !private ["Ps11CVarArgType", "setiCloudData"]
-- !private ["Ps11CVarArgType", "text"]
 - ["Ps11CVarArgType", "viewDidLoad"]
 - ["Ps11CVarArgType", ""]
 - ["Ps28CustomDebugStringConvertible", "count"]
@@ -58,7 +56,6 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "motivationalQuotes"]
 - ["Ps28CustomDebugStringConvertible", "setCountInIcloud"]
 - !private ["Ps28CustomDebugStringConvertible", "setiCloudData"]
-- !private ["Ps28CustomDebugStringConvertible", "text"]
 - ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
 - ["Ps28CustomDebugStringConvertible", ""]
 - ["Ps23CustomStringConvertible", "count"]
@@ -71,7 +68,6 @@ depends-member:
 - ["Ps23CustomStringConvertible", "motivationalQuotes"]
 - ["Ps23CustomStringConvertible", "setCountInIcloud"]
 - !private ["Ps23CustomStringConvertible", "setiCloudData"]
-- !private ["Ps23CustomStringConvertible", "text"]
 - ["Ps23CustomStringConvertible", "viewDidLoad"]
 - ["Ps23CustomStringConvertible", ""]
 - ["Ps9Equatable", "count"]
@@ -84,7 +80,6 @@ depends-member:
 - ["Ps9Equatable", "motivationalQuotes"]
 - ["Ps9Equatable", "setCountInIcloud"]
 - !private ["Ps9Equatable", "setiCloudData"]
-- !private ["Ps9Equatable", "text"]
 - ["Ps9Equatable", "viewDidLoad"]
 - ["Ps9Equatable", ""]
 - ["Ps8Hashable", "count"]
@@ -97,7 +92,6 @@ depends-member:
 - ["Ps8Hashable", "motivationalQuotes"]
 - ["Ps8Hashable", "setCountInIcloud"]
 - !private ["Ps8Hashable", "setiCloudData"]
-- !private ["Ps8Hashable", "text"]
 - ["Ps8Hashable", "viewDidLoad"]
 - ["Ps8Hashable", ""]
 - ["PSo8NSCoding", "count"]
@@ -108,7 +102,6 @@ depends-member:
 - ["PSo8NSCoding", "init"]
 - ["PSo8NSCoding", "motivationalQuotes"]
 - ["PSo8NSCoding", "setCountInIcloud"]
-- !private ["PSo8NSCoding", "text"]
 - ["PSo8NSCoding", "viewDidLoad"]
 - ["PSo8NSCoding", ""]
 - ["PSo26NSExtensionRequestHandling", "count"]
@@ -133,7 +126,6 @@ depends-member:
 - ["CSo8NSObject", "motivationalQuotes"]
 - ["CSo8NSObject", "setCountInIcloud"]
 - !private ["CSo8NSObject", "setiCloudData"]
-- !private ["CSo8NSObject", "text"]
 - ["CSo8NSObject", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", "count"]
 - ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
@@ -145,11 +137,8 @@ depends-member:
 - ["PSo16NSObjectProtocol", "motivationalQuotes"]
 - ["PSo16NSObjectProtocol", "setCountInIcloud"]
 - !private ["PSo16NSObjectProtocol", "setiCloudData"]
-- !private ["PSo16NSObjectProtocol", "text"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", ""]
-- !private ["PSo29UIAccessibilityIdentification", "text"]
-- !private ["PSo12UIAppearance", "text"]
 - ["PSo21UIAppearanceContainer", "count"]
 - ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
 - ["PSo21UIAppearanceContainer", "iCloud"]
@@ -158,7 +147,6 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "init"]
 - ["PSo21UIAppearanceContainer", "motivationalQuotes"]
 - ["PSo21UIAppearanceContainer", "setCountInIcloud"]
-- !private ["PSo21UIAppearanceContainer", "text"]
 - ["PSo21UIAppearanceContainer", "viewDidLoad"]
 - ["PSo21UIAppearanceContainer", ""]
 - ["PSo18UIContentContainer", "count"]
@@ -171,8 +159,6 @@ depends-member:
 - ["PSo18UIContentContainer", "setCountInIcloud"]
 - ["PSo18UIContentContainer", "viewDidLoad"]
 - ["PSo18UIContentContainer", ""]
-- !private ["PSo17UICoordinateSpace", "text"]
-- !private ["PSo13UIDynamicItem", "text"]
 - ["PSo18UIFocusEnvironment", "count"]
 - ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
 - ["PSo18UIFocusEnvironment", "iCloud"]
@@ -181,10 +167,8 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "init"]
 - ["PSo18UIFocusEnvironment", "motivationalQuotes"]
 - ["PSo18UIFocusEnvironment", "setCountInIcloud"]
-- !private ["PSo18UIFocusEnvironment", "text"]
 - ["PSo18UIFocusEnvironment", "viewDidLoad"]
 - ["PSo18UIFocusEnvironment", ""]
-- !private ["CSo7UILabel", "text"]
 - ["CSo11UIResponder", "String"]
 - ["CSo11UIResponder", "UILabel"]
 - ["CSo11UIResponder", "count"]
@@ -195,7 +179,6 @@ depends-member:
 - ["CSo11UIResponder", "init"]
 - ["CSo11UIResponder", "motivationalQuotes"]
 - ["CSo11UIResponder", "setCountInIcloud"]
-- !private ["CSo11UIResponder", "text"]
 - ["CSo11UIResponder", "viewDidLoad"]
 - ["PSo16UIStateRestoring", "count"]
 - ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
@@ -215,10 +198,8 @@ depends-member:
 - ["PSo18UITraitEnvironment", "init"]
 - ["PSo18UITraitEnvironment", "motivationalQuotes"]
 - ["PSo18UITraitEnvironment", "setCountInIcloud"]
-- !private ["PSo18UITraitEnvironment", "text"]
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
 - ["PSo18UITraitEnvironment", ""]
-- !private ["CSo6UIView", "text"]
 - ["CSo16UIViewController", "String"]
 - ["CSo16UIViewController", "UILabel"]
 - ["CSo16UIViewController", "count"]
@@ -243,11 +224,9 @@ depends-member:
 - ["C14Strict_Fitness14ViewController", "motivationalQuotes"]
 - ["C14Strict_Fitness14ViewController", "setCountInIcloud"]
 - ["C14Strict_Fitness14ViewController", "viewDidLoad"]
-- !private ["Ps12_Reflectable", "text"]
 - !private ["C14Strict_Fitness13iCloudManager", "getiCloudData"]
 - ["C14Strict_Fitness13iCloudManager", "init"]
 - !private ["C14Strict_Fitness13iCloudManager", "setiCloudData"]
-- !private ["P14Strict_Fitness20iCloudUpdateDelegate", "count"]
 - !private ["P14Strict_Fitness20iCloudUpdateDelegate", "iCloud"]
 - ["P14Strict_Fitness20iCloudUpdateDelegate", "iCloudManager"]
 - ["P14Strict_Fitness20iCloudUpdateDelegate", "iCloudUpdated"]
@@ -263,21 +242,14 @@ depends-nominal:
 - "PSo26NSExtensionRequestHandling"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
-- !private "PSo29UIAccessibilityIdentification"
-- !private "PSo12UIAppearance"
 - "PSo21UIAppearanceContainer"
 - "PSo18UIContentContainer"
-- !private "PSo17UICoordinateSpace"
-- !private "PSo13UIDynamicItem"
 - "PSo18UIFocusEnvironment"
-- !private "CSo7UILabel"
 - "CSo11UIResponder"
 - "PSo16UIStateRestoring"
 - "PSo18UITraitEnvironment"
-- !private "CSo6UIView"
 - "CSo16UIViewController"
 - "C14Strict_Fitness14ViewController"
-- !private "Ps12_Reflectable"
 - "C14Strict_Fitness13iCloudManager"
 - "P14Strict_Fitness20iCloudUpdateDelegate"
 depends-dynamic-lookup:

@@ -12,18 +12,28 @@
 		3802359A1CC318E6001C35E9 /* Pods_Vague_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 380235991CC318E6001C35E9 /* Pods_Vague_WatchKit_App.framework */; };
 		3802359B1CC31917001C35E9 /* Pods_Vague.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3547A2C79C60CBC967B227C7 /* Pods_Vague.framework */; };
 		3802359C1CC31917001C35E9 /* Pods_Vague.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3547A2C79C60CBC967B227C7 /* Pods_Vague.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		380CA09D1CDEAF530095B979 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380CA09C1CDEAF530095B979 /* InitialViewController.swift */; };
+		380E34DC1CD99290006BD0CD /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 380E34DB1CD99290006BD0CD /* FBSDKCoreKit.framework */; };
+		380E34DE1CD992A1006BD0CD /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 380E34DD1CD992A1006BD0CD /* FBSDKLoginKit.framework */; };
+		380E34E01CD992BC006BD0CD /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 380E34DF1CD992BC006BD0CD /* FBSDKShareKit.framework */; };
 		381E7D061CC3D11B0005E943 /* PushupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381E7D051CC3D11B0005E943 /* PushupViewController.swift */; };
 		381E7D081CC3D14C0005E943 /* CrunchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381E7D071CC3D14C0005E943 /* CrunchesViewController.swift */; };
+		382C87501CDF069E005501AF /* SetGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382C874F1CDF069E005501AF /* SetGoalViewController.swift */; };
 		385CDD711CBC4CB6001256BC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 385CDD701CBC4CB6001256BC /* Default-568h@2x.png */; };
 		38685EF41CC2FE4A00CC0BD0 /* iCloudManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E694B1CC2D497000FC8A4 /* iCloudManager.swift */; };
+		387A94A51CDEB3DD007A4EBE /* AskCreditCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387A94A41CDEB3DD007A4EBE /* AskCreditCardViewController.swift */; };
+		387A94A71CDEC85E007A4EBE /* HealthDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387A94A61CDEC85E007A4EBE /* HealthDataViewController.swift */; };
+		387A94A91CDECB44007A4EBE /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387A94A81CDECB44007A4EBE /* DescriptionViewController.swift */; };
 		387E693D1CC2D402000FC8A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E693C1CC2D402000FC8A4 /* AppDelegate.swift */; };
 		387E693F1CC2D402000FC8A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E693E1CC2D402000FC8A4 /* ViewController.swift */; };
 		387E69421CC2D402000FC8A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387E69401CC2D402000FC8A4 /* Main.storyboard */; };
 		387E69441CC2D403000FC8A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 387E69431CC2D403000FC8A4 /* Assets.xcassets */; };
 		387E694C1CC2D497000FC8A4 /* iCloudManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E694B1CC2D497000FC8A4 /* iCloudManager.swift */; };
 		387E694E1CC2D497000FC8A4 /* iCloudManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387E694B1CC2D497000FC8A4 /* iCloudManager.swift */; };
+		38922AF81CDF13600037253E /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38922AF71CDF13600037253E /* DashboardViewController.swift */; };
+		38A6CAD31CDC19A500B4F010 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A6CAD21CDC19A500B4F010 /* LoginViewController.swift */; };
+		38A6CAD51CDC19D800B4F010 /* CreditCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A6CAD41CDC19D800B4F010 /* CreditCardViewController.swift */; };
 		38A7F9521CB9920F002414B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A7F9511CB9920F002414B2 /* AppDelegate.swift */; };
-		38A7F9541CB9920F002414B2 /* iosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A7F9531CB9920F002414B2 /* iosViewController.swift */; };
 		38A7F9571CB9920F002414B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38A7F9551CB9920F002414B2 /* Main.storyboard */; };
 		38A7F9591CB9920F002414B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A7F9581CB9920F002414B2 /* Assets.xcassets */; };
 		38A7F95C1CB9920F002414B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38A7F95A1CB9920F002414B2 /* LaunchScreen.storyboard */; };
@@ -36,6 +46,9 @@
 		38A7F97D1CB9920F002414B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A7F97C1CB9920F002414B2 /* Assets.xcassets */; };
 		38A7F98D1CB99671002414B2 /* Sigma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A7F98C1CB99671002414B2 /* Sigma.swift */; };
 		38B18E331CC02148006EFDD4 /* featureVector.txt in Resources */ = {isa = PBXBuildFile; fileRef = 38B18E321CC02148006EFDD4 /* featureVector.txt */; };
+		38D82E4E1CDCAE6C00866226 /* PushupInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D82E4D1CDCAE6C00866226 /* PushupInterfaceController.swift */; };
+		38D82E501CDCAEB300866226 /* SquatsInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D82E4F1CDCAEB300866226 /* SquatsInterfaceController.swift */; };
+		38D82E521CDCAEBD00866226 /* CrunchesInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D82E511CDCAEBD00866226 /* CrunchesInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,9 +108,17 @@
 		3547A2C79C60CBC967B227C7 /* Pods_Vague.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vague.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		380235971CC318DE001C35E9 /* Pods_Vague_WatchKit_App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_Vague_WatchKit_App.framework; path = "Pods/../build/Debug-watchos/Pods_Vague_WatchKit_App.framework"; sourceTree = "<group>"; };
 		380235991CC318E6001C35E9 /* Pods_Vague_WatchKit_App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_Vague_WatchKit_App.framework; path = "Pods/../build/Debug-watchos/Pods_Vague_WatchKit_App.framework"; sourceTree = "<group>"; };
+		380CA09C1CDEAF530095B979 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		380E34DB1CD99290006BD0CD /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		380E34DD1CD992A1006BD0CD /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		380E34DF1CD992BC006BD0CD /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 		381E7D051CC3D11B0005E943 /* PushupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushupViewController.swift; sourceTree = "<group>"; };
 		381E7D071CC3D14C0005E943 /* CrunchesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrunchesViewController.swift; sourceTree = "<group>"; };
+		382C874F1CDF069E005501AF /* SetGoalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetGoalViewController.swift; sourceTree = "<group>"; };
 		385CDD701CBC4CB6001256BC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		387A94A41CDEB3DD007A4EBE /* AskCreditCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AskCreditCardViewController.swift; sourceTree = "<group>"; };
+		387A94A61CDEC85E007A4EBE /* HealthDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthDataViewController.swift; sourceTree = "<group>"; };
+		387A94A81CDECB44007A4EBE /* DescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
 		387E693A1CC2D402000FC8A4 /* Strict Fitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Strict Fitness.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		387E693C1CC2D402000FC8A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		387E693E1CC2D402000FC8A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,9 +128,11 @@
 		387E69491CC2D444000FC8A4 /* VagueTV.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = VagueTV.entitlements; sourceTree = "<group>"; };
 		387E694B1CC2D497000FC8A4 /* iCloudManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iCloudManager.swift; sourceTree = "<group>"; };
 		387F33121CB9F7F2001CFAFB /* Vague-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Vague-Bridging-Header.h"; path = "Vague/Vague-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		38922AF71CDF13600037253E /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		38A6CAD21CDC19A500B4F010 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		38A6CAD41CDC19D800B4F010 /* CreditCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardViewController.swift; sourceTree = "<group>"; };
 		38A7F94E1CB9920E002414B2 /* Vague.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vague.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38A7F9511CB9920F002414B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		38A7F9531CB9920F002414B2 /* iosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosViewController.swift; sourceTree = "<group>"; };
 		38A7F9561CB9920F002414B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38A7F9581CB9920F002414B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38A7F95B1CB9920F002414B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -127,6 +150,9 @@
 		38A7F97E1CB9920F002414B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38A7F98C1CB99671002414B2 /* Sigma.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sigma.swift; sourceTree = "<group>"; };
 		38B18E321CC02148006EFDD4 /* featureVector.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = featureVector.txt; sourceTree = "<group>"; };
+		38D82E4D1CDCAE6C00866226 /* PushupInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushupInterfaceController.swift; sourceTree = "<group>"; };
+		38D82E4F1CDCAEB300866226 /* SquatsInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquatsInterfaceController.swift; sourceTree = "<group>"; };
+		38D82E511CDCAEBD00866226 /* CrunchesInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrunchesInterfaceController.swift; sourceTree = "<group>"; };
 		38F573C61CC2F4DC005C7388 /* Vague.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Vague.entitlements; sourceTree = "<group>"; };
 		38F573C71CC2F4EE005C7388 /* Vague WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Vague WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 		8003E73DFE4496DA3D043FF9 /* Pods-Vague WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vague WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vague WatchKit App/Pods-Vague WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
@@ -156,7 +182,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				380E34E01CD992BC006BD0CD /* FBSDKShareKit.framework in Frameworks */,
 				3802359B1CC31917001C35E9 /* Pods_Vague.framework in Frameworks */,
+				380E34DC1CD99290006BD0CD /* FBSDKCoreKit.framework in Frameworks */,
+				380E34DE1CD992A1006BD0CD /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,12 +254,19 @@
 			children = (
 				38F573C61CC2F4DC005C7388 /* Vague.entitlements */,
 				38A7F9511CB9920F002414B2 /* AppDelegate.swift */,
-				38A7F9531CB9920F002414B2 /* iosViewController.swift */,
 				38A7F9551CB9920F002414B2 /* Main.storyboard */,
 				38A7F9581CB9920F002414B2 /* Assets.xcassets */,
 				38A7F95A1CB9920F002414B2 /* LaunchScreen.storyboard */,
 				38A7F95D1CB9920F002414B2 /* Info.plist */,
 				387F33121CB9F7F2001CFAFB /* Vague-Bridging-Header.h */,
+				38A6CAD21CDC19A500B4F010 /* LoginViewController.swift */,
+				38A6CAD41CDC19D800B4F010 /* CreditCardViewController.swift */,
+				380CA09C1CDEAF530095B979 /* InitialViewController.swift */,
+				387A94A41CDEB3DD007A4EBE /* AskCreditCardViewController.swift */,
+				387A94A61CDEC85E007A4EBE /* HealthDataViewController.swift */,
+				387A94A81CDECB44007A4EBE /* DescriptionViewController.swift */,
+				382C874F1CDF069E005501AF /* SetGoalViewController.swift */,
+				38922AF71CDF13600037253E /* DashboardViewController.swift */,
 			);
 			path = Vague;
 			sourceTree = "<group>";
@@ -257,6 +293,9 @@
 				38A7F97C1CB9920F002414B2 /* Assets.xcassets */,
 				38A7F97E1CB9920F002414B2 /* Info.plist */,
 				38A7F9741CB9920F002414B2 /* Supporting Files */,
+				38D82E4D1CDCAE6C00866226 /* PushupInterfaceController.swift */,
+				38D82E4F1CDCAEB300866226 /* SquatsInterfaceController.swift */,
+				38D82E511CDCAEBD00866226 /* CrunchesInterfaceController.swift */,
 			);
 			path = "Vague WatchKit Extension";
 			sourceTree = "<group>";
@@ -272,6 +311,9 @@
 		70481D2AB1244D3C2AAA8826 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				380E34DF1CD992BC006BD0CD /* FBSDKShareKit.framework */,
+				380E34DD1CD992A1006BD0CD /* FBSDKLoginKit.framework */,
+				380E34DB1CD99290006BD0CD /* FBSDKCoreKit.framework */,
 				380235991CC318E6001C35E9 /* Pods_Vague_WatchKit_App.framework */,
 				380235971CC318DE001C35E9 /* Pods_Vague_WatchKit_App.framework */,
 				3547A2C79C60CBC967B227C7 /* Pods_Vague.framework */,
@@ -394,6 +436,9 @@
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = 5AY899386Y;
 						SystemCapabilities = {
+							com.apple.OMC = {
+								enabled = 1;
+							};
 							com.apple.iCloud = {
 								enabled = 1;
 							};
@@ -571,9 +616,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38A7F9541CB9920F002414B2 /* iosViewController.swift in Sources */,
+				382C87501CDF069E005501AF /* SetGoalViewController.swift in Sources */,
+				387A94A71CDEC85E007A4EBE /* HealthDataViewController.swift in Sources */,
+				38A6CAD31CDC19A500B4F010 /* LoginViewController.swift in Sources */,
+				380CA09D1CDEAF530095B979 /* InitialViewController.swift in Sources */,
 				387E694C1CC2D497000FC8A4 /* iCloudManager.swift in Sources */,
+				387A94A51CDEB3DD007A4EBE /* AskCreditCardViewController.swift in Sources */,
+				387A94A91CDECB44007A4EBE /* DescriptionViewController.swift in Sources */,
+				38922AF81CDF13600037253E /* DashboardViewController.swift in Sources */,
 				38A7F9521CB9920F002414B2 /* AppDelegate.swift in Sources */,
+				38A6CAD51CDC19D800B4F010 /* CreditCardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -581,11 +633,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38D82E4E1CDCAE6C00866226 /* PushupInterfaceController.swift in Sources */,
 				380235951CC30CCB001C35E9 /* InterfaceController.swift in Sources */,
 				38685EF41CC2FE4A00CC0BD0 /* iCloudManager.swift in Sources */,
+				38D82E501CDCAEB300866226 /* SquatsInterfaceController.swift in Sources */,
 				38A7F97B1CB9920F002414B2 /* NotificationController.swift in Sources */,
 				38A7F9791CB9920F002414B2 /* ExtensionDelegate.swift in Sources */,
 				38A7F98D1CB99671002414B2 /* Sigma.swift in Sources */,
+				38D82E521CDCAEBD00866226 /* CrunchesInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -853,6 +908,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Vague/Vague.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Vague/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lab1.Vague;
@@ -870,6 +929,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Vague/Vague.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Vague/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lab1.Vague;

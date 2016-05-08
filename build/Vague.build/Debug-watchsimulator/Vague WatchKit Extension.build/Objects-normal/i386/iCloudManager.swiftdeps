@@ -10,20 +10,20 @@ provides-member:
 - ["C24Vague_WatchKit_Extension13iCloudManager", ""]
 provides-dynamic-lookup:
 - "setiCloudData"
-- "iCloudChanged"
 - "getiCloudData"
+- "iCloudChanged"
 depends-top-level:
-- "NSNotification"
-- !private "NSUbiquitousKeyValueStoreDidChangeExternallyNotification"
+- "NSObject"
+- !private "NSNotificationCenter"
+- !private "UnicodeScalarType"
 - "iCloudManager"
 - "iCloudUpdateDelegate"
-- !private "NSUbiquitousKeyValueStore"
-- !private "NSNotificationCenter"
-- "NSObject"
-- "Void"
-- !private "UnicodeScalarType"
-- "String"
 - !private "StringLiteralType"
+- !private "NSUbiquitousKeyValueStoreDidChangeExternallyNotification"
+- !private "NSUbiquitousKeyValueStore"
+- "NSNotification"
+- "String"
+- "Void"
 depends-member:
 - !private ["Ps9AnyObject", "NSNotificationCenter"]
 - !private ["Ps9AnyObject", "NSUbiquitousKeyValueStore"]

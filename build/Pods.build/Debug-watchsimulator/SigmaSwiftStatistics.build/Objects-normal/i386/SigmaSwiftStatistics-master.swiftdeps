@@ -1,5 +1,5 @@
 version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
 options: "ac07ae11391b49063d4d8f294f9af334"
-build_time: [514170345, 779666000]
+build_time: [515648029, 521492000]
 inputs:
   "/Users/Akash/Desktop/Vague/Pods/SigmaSwiftStatistics/SigmaSwiftStatistics/Sigma.swift": [513990383, 0]

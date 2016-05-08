@@ -7,12 +7,12 @@ provides-member:
 - ["C24Vague_WatchKit_Extension17ExtensionDelegate", ""]
 provides-dynamic-lookup:
 - "applicationWillResignActive"
-- "applicationDidBecomeActive"
 - "applicationDidFinishLaunching"
+- "applicationDidBecomeActive"
 depends-top-level:
+- "WKExtensionDelegate"
 - "ExtensionDelegate"
 - "NSObject"
-- "WKExtensionDelegate"
 depends-member:
 - ["Ps9AnyObject", "applicationDidBecomeActive"]
 - ["Ps9AnyObject", "applicationDidFinishLaunching"]

@@ -16,29 +16,99 @@
                         </label>
                         <group width="1" alignment="left" id="u7W-6a-gNG">
                             <items>
-                                <label alignment="left" text="Pushups" id="pc7-ej-2i5"/>
-                                <label alignment="right" text="Label" textAlignment="center" id="DPd-Al-XSo" userLabel="Label2"/>
+                                <label alignment="right" text="LabelA1" textAlignment="center" id="DPd-Al-XSo" userLabel="LabelA1"/>
+                                <button width="72" height="17.5" alignment="left" title="Pushups" id="2rL-mM-jb7">
+                                    <connections>
+                                        <action selector="pushupButton" destination="AgC-eL-Hgc" id="ZRR-Nn-ZI4"/>
+                                        <segue destination="aqh-pf-QzG" kind="push" identifier="showPushups" id="fBv-Uj-4rF"/>
+                                    </connections>
+                                </button>
                             </items>
                         </group>
                         <group width="1" alignment="left" id="0j6-UH-kWw">
                             <items>
-                                <label alignment="left" text="Crunches" id="esX-03-HRm"/>
-                                <label alignment="right" text="Label" id="UsK-tZ-WPl"/>
+                                <button width="78" height="18.5" alignment="left" title="Squats" id="Lih-f2-a5l">
+                                    <connections>
+                                        <action selector="squatbutton" destination="AgC-eL-Hgc" id="wwT-jU-v1a"/>
+                                        <segue destination="owH-kw-aac" kind="push" identifier="showsquats" id="K5F-RF-Vuq"/>
+                                    </connections>
+                                </button>
+                                <label alignment="right" text="LabelA2" id="UsK-tZ-WPl"/>
                             </items>
                         </group>
-                        <button width="1" alignment="left" title="End Workout" id="6i2-ia-r36">
+                        <group width="1" alignment="left" id="zGN-MV-9Pz">
+                            <items>
+                                <button width="81" height="18.5" alignment="left" title="Crunches" id="XFW-5t-lgM">
+                                    <connections>
+                                        <segue destination="zqf-5r-VfB" kind="push" id="j2f-ug-htk"/>
+                                    </connections>
+                                </button>
+                                <label alignment="right" text="LabelA3" textAlignment="right" id="5qa-cG-sZt"/>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="LabelA2" destination="UsK-tZ-WPl" id="0hX-7d-vKv"/>
+                        <outlet property="LabelA3" destination="5qa-cG-sZt" id="Pyj-hb-hyU"/>
+                        <outlet property="labelA1" destination="DPd-Al-XSo" id="XOB-sS-Tee"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="194" y="59"/>
+        </scene>
+        <!--Pushup Interface Controller-->
+        <scene sceneID="Cph-yj-zh7">
+            <objects>
+                <controller id="aqh-pf-QzG" customClass="PushupInterfaceController" customModule="Vague_WatchKit_Extension">
+                    <items>
+                        <label width="136" height="71" alignment="left" text="Label" id="gBZ-09-C6U">
+                            <fontDescription key="font" type="system" pointSize="60"/>
+                        </label>
+                        <button width="1" height="75.5" alignment="left" title="Start Workout" id="Isu-7w-8h5">
                             <connections>
-                                <action selector="stopButton" destination="AgC-eL-Hgc" id="Ea2-eo-rGA"/>
+                                <action selector="startWorkout" destination="aqh-pf-QzG" id="SSy-gP-fYr"/>
+                            </connections>
+                        </button>
+                        <button width="1" height="75.5" alignment="left" title="Stop Workout" id="u7h-gh-MfB">
+                            <connections>
+                                <action selector="stopWorkout" destination="aqh-pf-QzG" id="rKq-tk-lFZ"/>
+                                <segue destination="AgC-eL-Hgc" kind="push" id="iaC-YQ-Ut4"/>
                             </connections>
                         </button>
                     </items>
                     <connections>
-                        <outlet property="labelA2" destination="DPd-Al-XSo" id="FjR-wM-6tO"/>
-                        <outlet property="labelA3" destination="UsK-tZ-WPl" id="WKd-IU-rpA"/>
+                        <outlet property="label" destination="gBZ-09-C6U" id="myh-IQ-3hy"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="337"/>
+            <point key="canvasLocation" x="477" y="-294.5"/>
+        </scene>
+        <!--Squats Interface Controller-->
+        <scene sceneID="hyM-zB-sEG">
+            <objects>
+                <controller id="owH-kw-aac" customClass="SquatsInterfaceController" customModule="Vague_WatchKit_Extension">
+                    <items>
+                        <label width="136" height="77" alignment="left" text="Label" id="OBF-HN-T7H">
+                            <fontDescription key="font" type="system" pointSize="60"/>
+                        </label>
+                        <button width="1" height="75.5" alignment="left" title="Start Workout" id="USQ-Lb-tNt">
+                            <connections>
+                                <action selector="startWorkout" destination="owH-kw-aac" id="XOb-9Y-301"/>
+                            </connections>
+                        </button>
+                        <button width="1" height="75.5" alignment="left" title="Stop Workout" id="b2G-by-n7f">
+                            <connections>
+                                <action selector="startWorkout" destination="owH-kw-aac" id="wT9-Cw-7Hw"/>
+                                <segue destination="AgC-eL-Hgc" kind="push" id="hE1-96-qAy"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="label" destination="OBF-HN-T7H" id="RTw-pV-bSo"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="722" y="53.5"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
@@ -56,6 +126,32 @@
             </objects>
             <point key="canvasLocation" x="220" y="643"/>
         </scene>
+        <!--Crunches Interface Controller-->
+        <scene sceneID="Wh9-5J-KTo">
+            <objects>
+                <controller id="zqf-5r-VfB" customClass="CrunchesInterfaceController" customModule="Vague_WatchKit_Extension">
+                    <items>
+                        <label width="136" height="77" alignment="left" text="Label" id="AyD-dW-LhJ">
+                            <fontDescription key="font" type="system" pointSize="60"/>
+                        </label>
+                        <button width="1" height="75.5" alignment="left" title="Start Workout" id="rvm-bx-W9z">
+                            <connections>
+                                <action selector="startWorkout" destination="zqf-5r-VfB" id="lpg-IJ-NxU"/>
+                            </connections>
+                        </button>
+                        <button width="1" height="75.5" alignment="left" title="Stop Workout" id="fTr-Yr-xlh">
+                            <connections>
+                                <action selector="startWorkout" destination="zqf-5r-VfB" id="KGM-cA-JI3"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="label" destination="AyD-dW-LhJ" id="Ibd-xt-co8"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="477" y="354.5"/>
+        </scene>
         <!--Notification Controller-->
         <scene sceneID="ZPc-GJ-vnh">
             <objects>
@@ -64,4 +160,7 @@
             <point key="canvasLocation" x="468" y="643"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="hE1-96-qAy"/>
+    </inferredMetricsTieBreakers>
 </document>

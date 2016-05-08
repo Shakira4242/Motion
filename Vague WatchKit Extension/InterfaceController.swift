@@ -15,10 +15,11 @@ class InterfaceController: WKInterfaceController, iCloudUpdateDelegate, WCSessio
         motionManager.stopAccelerometerUpdates()
     }
     
-    @IBOutlet var labelA2: WKInterfaceLabel!
+    @IBOutlet var labelA1: WKInterfaceLabel!
     
-
-    @IBOutlet var labelA3: WKInterfaceLabel!
+    @IBOutlet var LabelA2: WKInterfaceLabel!
+    
+    @IBOutlet var LabelA3: WKInterfaceLabel!
     
     var session : WCSession!
     let motionManager = CMMotionManager()
@@ -26,6 +27,7 @@ class InterfaceController: WKInterfaceController, iCloudUpdateDelegate, WCSessio
     var array1 = [Double]()
     var counter = 0
     var crunchCounter = 0
+    var counted = false
     
     var iCloud = iCloudManager()
     
@@ -38,12 +40,27 @@ class InterfaceController: WKInterfaceController, iCloudUpdateDelegate, WCSessio
         }
     }
     
+    
     override func awakeWithContext(context: AnyObject?) {
-        motionManager.accelerometerUpdateInterval = 0.3
         
+        var dict = context as? NSDictionary
+        if dict != nil {
+            var segue = dict!["segue"]
+            var data = dict!["data"]! as? AnyObject!
+            self.labelA1.setText(String(data!["pushups"]!!))
+            self.LabelA2.setText(String(data!["squats"]!!))
+            self.LabelA3.setText(String(data!["crunches"]!!))
+            
+            let something = String(data!["crunches"]!!)
+            applicationDict["pushups"] = String(data!["pushups"]!!)
+            applicationDict["squats"] = String(data!["squats"]!!)
+            applicationDict["crunches"] = String(data!["crunches"]!!)
+        }
     }
     
     override func willActivate() {
+        
+        
         print("getting the contents of featureVector csv file")
         
         let bundle = NSBundle.mainBundle()
@@ -68,28 +85,35 @@ class InterfaceController: WKInterfaceController, iCloudUpdateDelegate, WCSessio
         
         print("was able to append to dataset")
         
-        if motionManager.accelerometerAvailable {
-            let handler = {(data: CMAccelerometerData?, error: NSError?) -> Void in
-                self.sample += 1
-                self.array1.append(Double(data!.acceleration.y))
-                print(Double(data!.acceleration.y),",",self.sample)
-                if(self.sample >= 10 && self.array1.count > 10){
-                    print(Sigma.average(self.array1)!,",",Sigma.median(self.array1)!,",",Sigma.max(self.array1)!,",",Sigma.min(self.array1)!,",",Sigma.max(self.array1)!-Sigma.min(self.array1)!,",",Sigma.standardDeviationSample(self.array1)!,",",Sigma.varianceSample(self.array1)!,",",1)
-                    if(self.KNN([Sigma.average(self.array1)!,Sigma.median(self.array1)!,Sigma.max(self.array1)!,Sigma.min(self.array1)!,Sigma.max(self.array1)!-Sigma.min(self.array1)!,Sigma.standardDeviationSample(self.array1)!,Sigma.varianceSample(self.array1)!],dataSet: dataSet,labels: labels,k: 19) == 1){
-                        sleep(1)
-                        self.counter += 1
-                        self.send(String(self.counter))
-                        self.array1 = []
-                        self.labelA2.setText(String(self.counter))
-                    }else{
-                        self.array1.removeFirst()
-                    }
-                }
-            }
-            motionManager.startAccelerometerUpdatesToQueue(NSOperationQueue.currentQueue()!, withHandler: handler)
-        }else {
-            labelA2.setText("not available")
-        }
+//        if motionManager.accelerometerAvailable {
+//            let handler = {(data: CMAccelerometerData?, error: NSError?) -> Void in
+//                self.sample += 1
+//                print(data?.timestamp)
+//                self.array1.append(Double(data!.acceleration.y))
+//                print(Double(data!.acceleration.y),",",self.sample)
+//                if(self.sample >= 10 && self.array1.count > 10){
+//                    print(Sigma.average(self.array1)!,",",Sigma.median(self.array1)!,",",Sigma.max(self.array1)!,",",Sigma.min(self.array1)!,",",Sigma.max(self.array1)!-Sigma.min(self.array1)!,",",Sigma.standardDeviationSample(self.array1)!,",",Sigma.varianceSample(self.array1)!,",",1)
+//                    if(self.KNN([Sigma.average(self.array1)!,Sigma.median(self.array1)!,Sigma.max(self.array1)!,Sigma.min(self.array1)!,Sigma.max(self.array1)!-Sigma.min(self.array1)!,Sigma.standardDeviationSample(self.array1)!,Sigma.varianceSample(self.array1)!],dataSet: dataSet,labels: labels,k: 19) == 1){
+//                        self.counted = true
+//                        self.counter += 1
+//                        self.send(String(self.counter))
+//                        self.array1 = []
+//                        self.labelA1.setText(String(self.counter))
+//                    }else{
+//                        self.array1.removeFirst()
+//                    }
+//                }
+//            }
+//            if(self.counted == true){
+//                motionManager.stopAccelerometerUpdates()
+//                pause()
+//                motionManager.startAccelerometerUpdates()
+//            }else{
+//                motionManager.startAccelerometerUpdatesToQueue(NSOperationQueue.currentQueue()!, withHandler: handler)
+//            }
+//        }else {
+//            labelA2.setText("not available")
+//        }
     }
     
     override func didDeactivate() {
@@ -163,9 +187,26 @@ class InterfaceController: WKInterfaceController, iCloudUpdateDelegate, WCSessio
     func setCountInIcloud(value: String!) {
         iCloud.setiCloudData("count",values: value)
     }
-
-    func send(count: String) {
-        let applicationDict = ["count":count]
+    
+    func session(session: WCSession, didReceiveApplicationContext applicationContext: [String : AnyObject]) {
+        let pushups = applicationContext["pushups"] as! String
+        let squats = applicationContext["squats"] as! String
+        let crunches = applicationContext["crunches"] as! String
+        self.applicationDict = ["pushups": pushups,"squats": squats,"crunches": crunches]
+        //Use this to update the UI instantaneously (otherwise, takes a little while)
+        dispatch_async(dispatch_get_main_queue()) {
+            self.labelA1.setText(pushups)
+            self.LabelA2.setText(squats)
+            self.LabelA3.setText(crunches)
+            self.send([pushups,squats,crunches])
+        }
+    }
+    
+    func send(count: [String]) {
+        var applicationDict = [String: String]()
+        applicationDict["pushups"] = count[0]
+        applicationDict["squats"] = count[1]
+        applicationDict["crunches"] = count[2]
         do {
             try session.updateApplicationContext(applicationDict)
         } catch {
@@ -173,6 +214,27 @@ class InterfaceController: WKInterfaceController, iCloudUpdateDelegate, WCSessio
         }
     }
     
-
+    @IBAction func pushupButton() {
+        contextForSegueWithIdentifier("showPushups")
+    }
+    
+    @IBAction func squatbutton() {
+        contextForSegueWithIdentifier("showsquats")
+    }
+    
+    
+    override func contextForSegueWithIdentifier(segueIdentifier: String) ->
+        AnyObject? {
+            if segueIdentifier == "hierarchical" {
+                return ["segue": "hierarchical",
+                        "data":"Passed through hierarchical navigation"]
+            } else if segueIdentifier == "pagebased" {
+                return ["segue": "pagebased",
+                        "data": "Passed through page-based navigation"]
+            } else {
+                return ["segue": "", "data": ["pushups": pushups, "squats": squats, "crunches": crunches]]
+            }
+    }
+    
 }
 

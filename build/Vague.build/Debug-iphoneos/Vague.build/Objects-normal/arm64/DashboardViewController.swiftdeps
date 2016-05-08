@@ -1,0 +1,952 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DashboardViewController"
+provides-nominal:
+- "C5Vague23DashboardViewController"
+provides-member:
+- ["C5Vague23DashboardViewController", ""]
+provides-dynamic-lookup:
+- "ref"
+- "viewDidLoad"
+- "didReceiveMemoryWarning"
+- "session"
+- "session"
+- "profile"
+- "name"
+depends-top-level:
+- !private "NSURL"
+- !private "NSData"
+- "Firebase"
+- "WCSession"
+- "AnyObject"
+- "WCSessionDelegate"
+- "UILabel"
+- !private "+"
+- !private "dispatch_async"
+- "UIViewController"
+- !private "dispatch_get_main_queue"
+- "DashboardViewController"
+- "StringLiteralType"
+- "String"
+- !private "!="
+- !private "print"
+- !private "UIImage"
+- "UIImageView"
+- !private "UIColor"
+depends-member:
+- ["Ps9AnyObject", "Firebase"]
+- !private ["Ps9AnyObject", "NSData"]
+- !private ["Ps9AnyObject", "NSURL"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "UIColor"]
+- !private ["Ps9AnyObject", "UIImage"]
+- !private ["Ps9AnyObject", "WCSession"]
+- !private ["Ps9AnyObject", "activateSession"]
+- !private ["Ps9AnyObject", "backgroundColor"]
+- !private ["Ps9AnyObject", "defaultSession"]
+- !private ["Ps9AnyObject", "deinit"]
+- !private ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "description"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "dispatch_async"]
+- !private ["Ps9AnyObject", "dispatch_get_main_queue"]
+- !private ["Ps9AnyObject", "image"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isSupported"]
+- ["Ps9AnyObject", "name"]
+- !private ["Ps9AnyObject", "objectForKey"]
+- !private ["Ps9AnyObject", "observeAuthEventWithBlock"]
+- !private ["Ps9AnyObject", "observeEventType"]
+- !private ["Ps9AnyObject", "print"]
+- ["Ps9AnyObject", "profile"]
+- ["Ps9AnyObject", "ref"]
+- ["Ps9AnyObject", "session"]
+- ["Ps9AnyObject", "sessionDidBecomeInactive"]
+- ["Ps9AnyObject", "sessionDidDeactivate"]
+- ["Ps9AnyObject", "sessionReachabilityDidChange"]
+- ["Ps9AnyObject", "sessionWatchStateDidChange"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "uid"]
+- !private ["Ps9AnyObject", "value"]
+- !private ["Ps9AnyObject", "view"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- ["Ps11CVarArgType", "Firebase"]
+- !private ["Ps11CVarArgType", "NSData"]
+- !private ["Ps11CVarArgType", "NSURL"]
+- !private ["Ps11CVarArgType", "String"]
+- !private ["Ps11CVarArgType", "UIColor"]
+- !private ["Ps11CVarArgType", "UIImage"]
+- !private ["Ps11CVarArgType", "WCSession"]
+- !private ["Ps11CVarArgType", "activateSession"]
+- !private ["Ps11CVarArgType", "backgroundColor"]
+- !private ["Ps11CVarArgType", "defaultSession"]
+- !private ["Ps11CVarArgType", "delegate"]
+- !private ["Ps11CVarArgType", "description"]
+- ["Ps11CVarArgType", "didReceiveMemoryWarning"]
+- !private ["Ps11CVarArgType", "dispatch_async"]
+- !private ["Ps11CVarArgType", "dispatch_get_main_queue"]
+- !private ["Ps11CVarArgType", "image"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "isSupported"]
+- ["Ps11CVarArgType", "name"]
+- !private ["Ps11CVarArgType", "observeAuthEventWithBlock"]
+- !private ["Ps11CVarArgType", "observeEventType"]
+- !private ["Ps11CVarArgType", "print"]
+- ["Ps11CVarArgType", "profile"]
+- ["Ps11CVarArgType", "ref"]
+- ["Ps11CVarArgType", "session"]
+- ["Ps11CVarArgType", "sessionDidBecomeInactive"]
+- ["Ps11CVarArgType", "sessionDidDeactivate"]
+- ["Ps11CVarArgType", "sessionReachabilityDidChange"]
+- ["Ps11CVarArgType", "sessionWatchStateDidChange"]
+- !private ["Ps11CVarArgType", "text"]
+- !private ["Ps11CVarArgType", "uid"]
+- !private ["Ps11CVarArgType", "value"]
+- !private ["Ps11CVarArgType", "view"]
+- ["Ps11CVarArgType", "viewDidLoad"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "subscript"]
+- !private ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "Firebase"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "NSData"]
+- !private ["Ps28CustomDebugStringConvertible", "NSURL"]
+- !private ["Ps28CustomDebugStringConvertible", "String"]
+- !private ["Ps28CustomDebugStringConvertible", "UIColor"]
+- !private ["Ps28CustomDebugStringConvertible", "UIImage"]
+- !private ["Ps28CustomDebugStringConvertible", "WCSession"]
+- !private ["Ps28CustomDebugStringConvertible", "activateSession"]
+- !private ["Ps28CustomDebugStringConvertible", "backgroundColor"]
+- !private ["Ps28CustomDebugStringConvertible", "defaultSession"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "description"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "dispatch_async"]
+- !private ["Ps28CustomDebugStringConvertible", "dispatch_get_main_queue"]
+- !private ["Ps28CustomDebugStringConvertible", "image"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isSupported"]
+- ["Ps28CustomDebugStringConvertible", "name"]
+- !private ["Ps28CustomDebugStringConvertible", "observeAuthEventWithBlock"]
+- !private ["Ps28CustomDebugStringConvertible", "observeEventType"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- ["Ps28CustomDebugStringConvertible", "profile"]
+- ["Ps28CustomDebugStringConvertible", "ref"]
+- ["Ps28CustomDebugStringConvertible", "session"]
+- ["Ps28CustomDebugStringConvertible", "sessionDidBecomeInactive"]
+- ["Ps28CustomDebugStringConvertible", "sessionDidDeactivate"]
+- ["Ps28CustomDebugStringConvertible", "sessionReachabilityDidChange"]
+- ["Ps28CustomDebugStringConvertible", "sessionWatchStateDidChange"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps28CustomDebugStringConvertible", "uid"]
+- !private ["Ps28CustomDebugStringConvertible", "value"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "Firebase"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "NSData"]
+- !private ["Ps23CustomStringConvertible", "NSURL"]
+- !private ["Ps23CustomStringConvertible", "String"]
+- !private ["Ps23CustomStringConvertible", "UIColor"]
+- !private ["Ps23CustomStringConvertible", "UIImage"]
+- !private ["Ps23CustomStringConvertible", "WCSession"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "activateSession"]
+- !private ["Ps23CustomStringConvertible", "backgroundColor"]
+- !private ["Ps23CustomStringConvertible", "defaultSession"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "description"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps23CustomStringConvertible", "dispatch_async"]
+- !private ["Ps23CustomStringConvertible", "dispatch_get_main_queue"]
+- !private ["Ps23CustomStringConvertible", "image"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isSupported"]
+- ["Ps23CustomStringConvertible", "name"]
+- !private ["Ps23CustomStringConvertible", "observeAuthEventWithBlock"]
+- !private ["Ps23CustomStringConvertible", "observeEventType"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- ["Ps23CustomStringConvertible", "profile"]
+- ["Ps23CustomStringConvertible", "ref"]
+- ["Ps23CustomStringConvertible", "session"]
+- ["Ps23CustomStringConvertible", "sessionDidBecomeInactive"]
+- ["Ps23CustomStringConvertible", "sessionDidDeactivate"]
+- ["Ps23CustomStringConvertible", "sessionReachabilityDidChange"]
+- ["Ps23CustomStringConvertible", "sessionWatchStateDidChange"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps23CustomStringConvertible", "uid"]
+- !private ["Ps23CustomStringConvertible", "value"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- ["C5Vague23DashboardViewController", "AnyObject"]
+- ["C5Vague23DashboardViewController", "Firebase"]
+- !private ["C5Vague23DashboardViewController", "NSData"]
+- !private ["C5Vague23DashboardViewController", "NSURL"]
+- ["C5Vague23DashboardViewController", "String"]
+- !private ["C5Vague23DashboardViewController", "UIColor"]
+- !private ["C5Vague23DashboardViewController", "UIImage"]
+- ["C5Vague23DashboardViewController", "UIImageView"]
+- ["C5Vague23DashboardViewController", "UILabel"]
+- ["C5Vague23DashboardViewController", "WCSession"]
+- ["C5Vague23DashboardViewController", "deinit"]
+- ["C5Vague23DashboardViewController", "didReceiveMemoryWarning"]
+- !private ["C5Vague23DashboardViewController", "dispatch_async"]
+- !private ["C5Vague23DashboardViewController", "dispatch_get_main_queue"]
+- ["C5Vague23DashboardViewController", "init"]
+- ["C5Vague23DashboardViewController", "name"]
+- !private ["C5Vague23DashboardViewController", "print"]
+- ["C5Vague23DashboardViewController", "profile"]
+- ["C5Vague23DashboardViewController", "ref"]
+- ["C5Vague23DashboardViewController", "session"]
+- ["C5Vague23DashboardViewController", "sessionDidBecomeInactive"]
+- ["C5Vague23DashboardViewController", "sessionDidDeactivate"]
+- ["C5Vague23DashboardViewController", "sessionReachabilityDidChange"]
+- ["C5Vague23DashboardViewController", "sessionWatchStateDidChange"]
+- !private ["C5Vague23DashboardViewController", "view"]
+- ["C5Vague23DashboardViewController", "viewDidLoad"]
+- !private ["Vs10Dictionary", "Index"]
+- !private ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Ps28DictionaryLiteralConvertible", "Index"]
+- !private ["Ps28DictionaryLiteralConvertible", "subscript"]
+- ["Ps9Equatable", "Firebase"]
+- !private ["Ps9Equatable", "NSData"]
+- !private ["Ps9Equatable", "NSURL"]
+- !private ["Ps9Equatable", "String"]
+- !private ["Ps9Equatable", "UIColor"]
+- !private ["Ps9Equatable", "UIImage"]
+- !private ["Ps9Equatable", "Value"]
+- !private ["Ps9Equatable", "WCSession"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "activateSession"]
+- !private ["Ps9Equatable", "backgroundColor"]
+- !private ["Ps9Equatable", "defaultSession"]
+- !private ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "description"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "dispatch_async"]
+- !private ["Ps9Equatable", "dispatch_get_main_queue"]
+- !private ["Ps9Equatable", "image"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isSupported"]
+- ["Ps9Equatable", "name"]
+- !private ["Ps9Equatable", "observeAuthEventWithBlock"]
+- !private ["Ps9Equatable", "observeEventType"]
+- !private ["Ps9Equatable", "print"]
+- ["Ps9Equatable", "profile"]
+- ["Ps9Equatable", "ref"]
+- ["Ps9Equatable", "session"]
+- ["Ps9Equatable", "sessionDidBecomeInactive"]
+- ["Ps9Equatable", "sessionDidDeactivate"]
+- ["Ps9Equatable", "sessionReachabilityDidChange"]
+- ["Ps9Equatable", "sessionWatchStateDidChange"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "uid"]
+- !private ["Ps9Equatable", "value"]
+- !private ["Ps9Equatable", "view"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps9ErrorType", "description"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["CSo9FAuthData", "deinit"]
+- !private ["CSo9FAuthData", "uid"]
+- !private ["CSo13FDataSnapshot", "value"]
+- !private ["OSC10FEventType", "Value"]
+- ["CSo6FQuery", "init"]
+- !private ["CSo6FQuery", "observeAuthEventWithBlock"]
+- !private ["CSo6FQuery", "observeEventType"]
+- ["CSo8Firebase", "init"]
+- !private ["CSo8Firebase", "observeAuthEventWithBlock"]
+- !private ["CSo8Firebase", "observeEventType"]
+- !private ["Ps13GeneratorType", "Element"]
+- ["Ps8Hashable", "Firebase"]
+- !private ["Ps8Hashable", "NSData"]
+- !private ["Ps8Hashable", "NSURL"]
+- !private ["Ps8Hashable", "String"]
+- !private ["Ps8Hashable", "UIColor"]
+- !private ["Ps8Hashable", "UIImage"]
+- !private ["Ps8Hashable", "Value"]
+- !private ["Ps8Hashable", "WCSession"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "activateSession"]
+- !private ["Ps8Hashable", "backgroundColor"]
+- !private ["Ps8Hashable", "defaultSession"]
+- !private ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "description"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "dispatch_async"]
+- !private ["Ps8Hashable", "dispatch_get_main_queue"]
+- !private ["Ps8Hashable", "image"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isSupported"]
+- ["Ps8Hashable", "name"]
+- !private ["Ps8Hashable", "observeAuthEventWithBlock"]
+- !private ["Ps8Hashable", "observeEventType"]
+- !private ["Ps8Hashable", "print"]
+- ["Ps8Hashable", "profile"]
+- ["Ps8Hashable", "ref"]
+- ["Ps8Hashable", "session"]
+- ["Ps8Hashable", "sessionDidBecomeInactive"]
+- ["Ps8Hashable", "sessionDidDeactivate"]
+- ["Ps8Hashable", "sessionReachabilityDidChange"]
+- ["Ps8Hashable", "sessionWatchStateDidChange"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "uid"]
+- !private ["Ps8Hashable", "value"]
+- !private ["Ps8Hashable", "view"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["Ps14MirrorPathType", "init"]
+- ["PSo8NSCoding", "Firebase"]
+- !private ["PSo8NSCoding", "NSData"]
+- !private ["PSo8NSCoding", "NSURL"]
+- !private ["PSo8NSCoding", "String"]
+- !private ["PSo8NSCoding", "UIColor"]
+- !private ["PSo8NSCoding", "UIImage"]
+- !private ["PSo8NSCoding", "WCSession"]
+- !private ["PSo8NSCoding", "backgroundColor"]
+- !private ["PSo8NSCoding", "description"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "dispatch_async"]
+- !private ["PSo8NSCoding", "dispatch_get_main_queue"]
+- !private ["PSo8NSCoding", "image"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "name"]
+- !private ["PSo8NSCoding", "print"]
+- ["PSo8NSCoding", "profile"]
+- ["PSo8NSCoding", "ref"]
+- ["PSo8NSCoding", "session"]
+- ["PSo8NSCoding", "sessionDidBecomeInactive"]
+- ["PSo8NSCoding", "sessionDidDeactivate"]
+- ["PSo8NSCoding", "sessionReachabilityDidChange"]
+- ["PSo8NSCoding", "sessionWatchStateDidChange"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "view"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "description"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["CSo6NSData", "init"]
+- !private ["CSo7NSError", "description"]
+- ["PSo26NSExtensionRequestHandling", "Firebase"]
+- !private ["PSo26NSExtensionRequestHandling", "NSData"]
+- !private ["PSo26NSExtensionRequestHandling", "NSURL"]
+- !private ["PSo26NSExtensionRequestHandling", "String"]
+- !private ["PSo26NSExtensionRequestHandling", "UIColor"]
+- !private ["PSo26NSExtensionRequestHandling", "UIImage"]
+- !private ["PSo26NSExtensionRequestHandling", "WCSession"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "dispatch_async"]
+- !private ["PSo26NSExtensionRequestHandling", "dispatch_get_main_queue"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "name"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "profile"]
+- ["PSo26NSExtensionRequestHandling", "ref"]
+- ["PSo26NSExtensionRequestHandling", "session"]
+- ["PSo26NSExtensionRequestHandling", "sessionDidBecomeInactive"]
+- ["PSo26NSExtensionRequestHandling", "sessionDidDeactivate"]
+- ["PSo26NSExtensionRequestHandling", "sessionReachabilityDidChange"]
+- ["PSo26NSExtensionRequestHandling", "sessionWatchStateDidChange"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Firebase"]
+- !private ["CSo8NSObject", "NSData"]
+- !private ["CSo8NSObject", "NSURL"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UIColor"]
+- !private ["CSo8NSObject", "UIImage"]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "WCSession"]
+- !private ["CSo8NSObject", "activateSession"]
+- !private ["CSo8NSObject", "backgroundColor"]
+- !private ["CSo8NSObject", "defaultSession"]
+- !private ["CSo8NSObject", "deinit"]
+- !private ["CSo8NSObject", "delegate"]
+- !private ["CSo8NSObject", "description"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "dispatch_async"]
+- !private ["CSo8NSObject", "dispatch_get_main_queue"]
+- !private ["CSo8NSObject", "image"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isSupported"]
+- ["CSo8NSObject", "name"]
+- !private ["CSo8NSObject", "observeAuthEventWithBlock"]
+- !private ["CSo8NSObject", "observeEventType"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "profile"]
+- ["CSo8NSObject", "ref"]
+- ["CSo8NSObject", "session"]
+- ["CSo8NSObject", "sessionDidBecomeInactive"]
+- ["CSo8NSObject", "sessionDidDeactivate"]
+- ["CSo8NSObject", "sessionReachabilityDidChange"]
+- ["CSo8NSObject", "sessionWatchStateDidChange"]
+- !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "uid"]
+- !private ["CSo8NSObject", "value"]
+- !private ["CSo8NSObject", "view"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "Firebase"]
+- !private ["PSo16NSObjectProtocol", "NSData"]
+- !private ["PSo16NSObjectProtocol", "NSURL"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "UIImage"]
+- !private ["PSo16NSObjectProtocol", "WCSession"]
+- !private ["PSo16NSObjectProtocol", "activateSession"]
+- !private ["PSo16NSObjectProtocol", "backgroundColor"]
+- !private ["PSo16NSObjectProtocol", "defaultSession"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "description"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "dispatch_async"]
+- !private ["PSo16NSObjectProtocol", "dispatch_get_main_queue"]
+- !private ["PSo16NSObjectProtocol", "image"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isSupported"]
+- ["PSo16NSObjectProtocol", "name"]
+- !private ["PSo16NSObjectProtocol", "observeAuthEventWithBlock"]
+- !private ["PSo16NSObjectProtocol", "observeEventType"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- ["PSo16NSObjectProtocol", "profile"]
+- ["PSo16NSObjectProtocol", "ref"]
+- ["PSo16NSObjectProtocol", "session"]
+- ["PSo16NSObjectProtocol", "sessionDidBecomeInactive"]
+- ["PSo16NSObjectProtocol", "sessionDidDeactivate"]
+- ["PSo16NSObjectProtocol", "sessionReachabilityDidChange"]
+- ["PSo16NSObjectProtocol", "sessionWatchStateDidChange"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "uid"]
+- !private ["PSo16NSObjectProtocol", "value"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "description"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo5NSURL", "init"]
+- !private ["Sq", "deinit"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["Ps16RawRepresentable", "Value"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "subscript"]
+- !private ["Vs5Slice", "Generator"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Ps10Streamable", "init"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "backgroundColor"]
+- !private ["PSo29UIAccessibilityIdentification", "image"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "backgroundColor"]
+- !private ["PSo12UIAppearance", "image"]
+- !private ["PSo12UIAppearance", "text"]
+- ["PSo21UIAppearanceContainer", "Firebase"]
+- !private ["PSo21UIAppearanceContainer", "NSData"]
+- !private ["PSo21UIAppearanceContainer", "NSURL"]
+- !private ["PSo21UIAppearanceContainer", "String"]
+- !private ["PSo21UIAppearanceContainer", "UIColor"]
+- !private ["PSo21UIAppearanceContainer", "UIImage"]
+- !private ["PSo21UIAppearanceContainer", "WCSession"]
+- !private ["PSo21UIAppearanceContainer", "backgroundColor"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "dispatch_async"]
+- !private ["PSo21UIAppearanceContainer", "dispatch_get_main_queue"]
+- !private ["PSo21UIAppearanceContainer", "image"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "name"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- ["PSo21UIAppearanceContainer", "profile"]
+- ["PSo21UIAppearanceContainer", "ref"]
+- ["PSo21UIAppearanceContainer", "session"]
+- ["PSo21UIAppearanceContainer", "sessionDidBecomeInactive"]
+- ["PSo21UIAppearanceContainer", "sessionDidDeactivate"]
+- ["PSo21UIAppearanceContainer", "sessionReachabilityDidChange"]
+- ["PSo21UIAppearanceContainer", "sessionWatchStateDidChange"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- !private ["PSo21UIAppearanceContainer", "view"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo7UIColor", "init"]
+- ["PSo18UIContentContainer", "Firebase"]
+- !private ["PSo18UIContentContainer", "NSData"]
+- !private ["PSo18UIContentContainer", "NSURL"]
+- !private ["PSo18UIContentContainer", "String"]
+- !private ["PSo18UIContentContainer", "UIColor"]
+- !private ["PSo18UIContentContainer", "UIImage"]
+- !private ["PSo18UIContentContainer", "WCSession"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "dispatch_async"]
+- !private ["PSo18UIContentContainer", "dispatch_get_main_queue"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "name"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "profile"]
+- ["PSo18UIContentContainer", "ref"]
+- ["PSo18UIContentContainer", "session"]
+- ["PSo18UIContentContainer", "sessionDidBecomeInactive"]
+- ["PSo18UIContentContainer", "sessionDidDeactivate"]
+- ["PSo18UIContentContainer", "sessionReachabilityDidChange"]
+- ["PSo18UIContentContainer", "sessionWatchStateDidChange"]
+- !private ["PSo18UIContentContainer", "view"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "backgroundColor"]
+- !private ["PSo17UICoordinateSpace", "image"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "backgroundColor"]
+- !private ["PSo13UIDynamicItem", "image"]
+- !private ["PSo13UIDynamicItem", "text"]
+- ["PSo18UIFocusEnvironment", "Firebase"]
+- !private ["PSo18UIFocusEnvironment", "NSData"]
+- !private ["PSo18UIFocusEnvironment", "NSURL"]
+- !private ["PSo18UIFocusEnvironment", "String"]
+- !private ["PSo18UIFocusEnvironment", "UIColor"]
+- !private ["PSo18UIFocusEnvironment", "UIImage"]
+- !private ["PSo18UIFocusEnvironment", "WCSession"]
+- !private ["PSo18UIFocusEnvironment", "backgroundColor"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "dispatch_async"]
+- !private ["PSo18UIFocusEnvironment", "dispatch_get_main_queue"]
+- !private ["PSo18UIFocusEnvironment", "image"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "name"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- ["PSo18UIFocusEnvironment", "profile"]
+- ["PSo18UIFocusEnvironment", "ref"]
+- ["PSo18UIFocusEnvironment", "session"]
+- ["PSo18UIFocusEnvironment", "sessionDidBecomeInactive"]
+- ["PSo18UIFocusEnvironment", "sessionDidDeactivate"]
+- ["PSo18UIFocusEnvironment", "sessionReachabilityDidChange"]
+- ["PSo18UIFocusEnvironment", "sessionWatchStateDidChange"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo7UIImage", "init"]
+- !private ["CSo11UIImageView", "image"]
+- !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "Firebase"]
+- !private ["CSo11UIResponder", "NSData"]
+- !private ["CSo11UIResponder", "NSURL"]
+- ["CSo11UIResponder", "String"]
+- !private ["CSo11UIResponder", "UIColor"]
+- !private ["CSo11UIResponder", "UIImage"]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "WCSession"]
+- !private ["CSo11UIResponder", "backgroundColor"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- !private ["CSo11UIResponder", "dispatch_async"]
+- !private ["CSo11UIResponder", "dispatch_get_main_queue"]
+- !private ["CSo11UIResponder", "image"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "name"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "profile"]
+- ["CSo11UIResponder", "ref"]
+- ["CSo11UIResponder", "session"]
+- ["CSo11UIResponder", "sessionDidBecomeInactive"]
+- ["CSo11UIResponder", "sessionDidDeactivate"]
+- ["CSo11UIResponder", "sessionReachabilityDidChange"]
+- ["CSo11UIResponder", "sessionWatchStateDidChange"]
+- !private ["CSo11UIResponder", "text"]
+- !private ["CSo11UIResponder", "view"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "Firebase"]
+- !private ["PSo16UIStateRestoring", "NSData"]
+- !private ["PSo16UIStateRestoring", "NSURL"]
+- !private ["PSo16UIStateRestoring", "String"]
+- !private ["PSo16UIStateRestoring", "UIColor"]
+- !private ["PSo16UIStateRestoring", "UIImage"]
+- !private ["PSo16UIStateRestoring", "WCSession"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "dispatch_async"]
+- !private ["PSo16UIStateRestoring", "dispatch_get_main_queue"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "name"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "profile"]
+- ["PSo16UIStateRestoring", "ref"]
+- ["PSo16UIStateRestoring", "session"]
+- ["PSo16UIStateRestoring", "sessionDidBecomeInactive"]
+- ["PSo16UIStateRestoring", "sessionDidDeactivate"]
+- ["PSo16UIStateRestoring", "sessionReachabilityDidChange"]
+- ["PSo16UIStateRestoring", "sessionWatchStateDidChange"]
+- !private ["PSo16UIStateRestoring", "view"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- ["PSo18UITraitEnvironment", "Firebase"]
+- !private ["PSo18UITraitEnvironment", "NSData"]
+- !private ["PSo18UITraitEnvironment", "NSURL"]
+- !private ["PSo18UITraitEnvironment", "String"]
+- !private ["PSo18UITraitEnvironment", "UIColor"]
+- !private ["PSo18UITraitEnvironment", "UIImage"]
+- !private ["PSo18UITraitEnvironment", "WCSession"]
+- !private ["PSo18UITraitEnvironment", "backgroundColor"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "dispatch_async"]
+- !private ["PSo18UITraitEnvironment", "dispatch_get_main_queue"]
+- !private ["PSo18UITraitEnvironment", "image"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "name"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- ["PSo18UITraitEnvironment", "profile"]
+- ["PSo18UITraitEnvironment", "ref"]
+- ["PSo18UITraitEnvironment", "session"]
+- ["PSo18UITraitEnvironment", "sessionDidBecomeInactive"]
+- ["PSo18UITraitEnvironment", "sessionDidDeactivate"]
+- ["PSo18UITraitEnvironment", "sessionReachabilityDidChange"]
+- ["PSo18UITraitEnvironment", "sessionWatchStateDidChange"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- !private ["PSo18UITraitEnvironment", "view"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "backgroundColor"]
+- !private ["CSo6UIView", "image"]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "Firebase"]
+- !private ["CSo16UIViewController", "NSData"]
+- !private ["CSo16UIViewController", "NSURL"]
+- ["CSo16UIViewController", "String"]
+- !private ["CSo16UIViewController", "UIColor"]
+- !private ["CSo16UIViewController", "UIImage"]
+- ["CSo16UIViewController", "UIImageView"]
+- ["CSo16UIViewController", "UILabel"]
+- ["CSo16UIViewController", "WCSession"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- !private ["CSo16UIViewController", "dispatch_async"]
+- !private ["CSo16UIViewController", "dispatch_get_main_queue"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "name"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "profile"]
+- ["CSo16UIViewController", "ref"]
+- ["CSo16UIViewController", "session"]
+- ["CSo16UIViewController", "sessionDidBecomeInactive"]
+- ["CSo16UIViewController", "sessionDidDeactivate"]
+- ["CSo16UIViewController", "sessionReachabilityDidChange"]
+- ["CSo16UIViewController", "sessionWatchStateDidChange"]
+- !private ["CSo16UIViewController", "view"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["CSo9WCSession", "activateSession"]
+- !private ["CSo9WCSession", "defaultSession"]
+- !private ["CSo9WCSession", "delegate"]
+- !private ["CSo9WCSession", "isSupported"]
+- ["PSo17WCSessionDelegate", "Firebase"]
+- !private ["PSo17WCSessionDelegate", "NSData"]
+- !private ["PSo17WCSessionDelegate", "NSURL"]
+- !private ["PSo17WCSessionDelegate", "String"]
+- !private ["PSo17WCSessionDelegate", "UIColor"]
+- !private ["PSo17WCSessionDelegate", "UIImage"]
+- !private ["PSo17WCSessionDelegate", "WCSession"]
+- !private ["PSo17WCSessionDelegate", "dispatch_async"]
+- !private ["PSo17WCSessionDelegate", "dispatch_get_main_queue"]
+- !private ["PSo17WCSessionDelegate", "name"]
+- !private ["PSo17WCSessionDelegate", "print"]
+- !private ["PSo17WCSessionDelegate", "profile"]
+- !private ["PSo17WCSessionDelegate", "ref"]
+- ["PSo17WCSessionDelegate", "session"]
+- ["PSo17WCSessionDelegate", "sessionDidBecomeInactive"]
+- ["PSo17WCSessionDelegate", "sessionDidDeactivate"]
+- ["PSo17WCSessionDelegate", "sessionReachabilityDidChange"]
+- ["PSo17WCSessionDelegate", "sessionWatchStateDidChange"]
+- !private ["PSo17WCSessionDelegate", "view"]
+- ["PSo17WCSessionDelegate", ""]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps24_ColorLiteralConvertible", "init"]
+- !private ["Ps32_FileReferenceLiteralConvertible", "init"]
+- !private ["Ps24_ImageLiteralConvertible", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "backgroundColor"]
+- !private ["Ps12_Reflectable", "image"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "subscript"]
+- !private ["Ps12_Reflectable", "text"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "C5Vague23DashboardViewController"
+- !private "Vs10Dictionary"
+- !private "Ps28DictionaryLiteralConvertible"
+- "Ps9Equatable"
+- !private "Ps9ErrorType"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "CSo9FAuthData"
+- !private "CSo13FDataSnapshot"
+- !private "OSC10FEventType"
+- "CSo6FQuery"
+- "CSo8Firebase"
+- !private "Ps13GeneratorType"
+- "Ps8Hashable"
+- "SQ"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "Ps14MirrorPathType"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo6NSData"
+- !private "CSo7NSError"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo5NSURL"
+- !private "Sq"
+- !private "Ps16OutputStreamType"
+- !private "Ps16RawRepresentable"
+- !private "Ps12SequenceType"
+- !private "Vs5Slice"
+- !private "Ps10Streamable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo7UIColor"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "CSo7UIImage"
+- !private "CSo11UIImageView"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "CSo9WCSession"
+- "PSo17WCSessionDelegate"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps24_ColorLiteralConvertible"
+- !private "Ps32_FileReferenceLiteralConvertible"
+- !private "Ps24_ImageLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+- !private "objectForKey"
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/Akash/Desktop/Vague/Vague/Vague-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers/FirebaseServerValue.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers/FTransactionResult.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers/FMutableData.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers/FirebaseApp.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers/FQuery.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers/Firebase.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers/FEventType.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers/FDataSnapshot.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers/FConfig.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers/FAuthType.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers/FAuthData.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Headers/Firebase-umbrella.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Firebase.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/WatchConnectivity.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/WatchKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/Bolts.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFTask.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFURL_Internal.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFURL.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFMeasurementEvent_Internal.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkReturnToRefererView_Internal.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFAppLink_Internal.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Bolts.framework/Modules/module.modulemap"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSUICKeyChainStore.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSTMCacheBackgroundTaskManager.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSTMMemoryCache.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSTMDiskCache.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSTMCache.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSSTSResources.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSValidation.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSURLResponseSerialization.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSURLRequestSerialization.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSURLRequestRetryHandler.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSSerialization.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSReachability.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSURLSessionManager.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/NSError+AWSMTLModelException.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSMTLReflection.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCognitoIdentityResources.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCognitoIdentityModel.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCognitoIdentityService.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCognitoIdentity.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSSTSModel.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSSTSService.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSSTS.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSFMDatabaseQueue.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSFMDatabaseAdditions.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSFMDatabasePool.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSFMResultSet.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSFMDatabase.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSFMDB.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSGZIP.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSTaskCompletionSource.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSTask.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSExecutor.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCancellationTokenSource.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCancellationTokenRegistration.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCancellationToken.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSBoltsVersion.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSBolts.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSSignature.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSSynchronizedMutableDictionary.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSClientContext.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSLogging.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCategory.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSIdentityProvider.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCredentialsProvider.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/NSValueTransformer+AWSMTLInversionAdditions.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/NSObject+AWSMTLComparisonAdditions.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/NSDictionary+AWSMTLManipulationAdditions.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/NSArray+AWSMTLManipulationAdditions.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSMTLValueTransformer.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSMTLModel+NSCoding.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSMTLModel.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSMTLManagedObjectAdapter.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSMTLJSONAdapter.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSMantle.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSModel.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSNetworking.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSService.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSServiceEnum.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCore.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Headers/AWSCore-umbrella.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/AWSCore.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/UIImage+Stripe.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPPaymentCardTextField.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPAPIClient+ApplePay.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/Stripe+ApplePay.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/StripeError.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/Stripe.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPToken.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPCardValidator.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPCardValidationState.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPCardParams.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPCardBrand.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPCard.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPFormEncodable.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPBankAccountParams.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPBankAccount.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPAPIResponseDecodable.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/STPAPIClient.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Headers/Stripe-umbrella.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-iphoneos/Stripe.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/PassKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Contacts.swiftmodule"
+interface-hash: "6ca2e7473c2b842d7ac01c09813dd3ae"

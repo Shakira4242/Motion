@@ -1,0 +1,158 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CrunchesInterfaceController"
+provides-nominal:
+- "C24Vague_WatchKit_Extension27CrunchesInterfaceController"
+provides-member:
+- ["C24Vague_WatchKit_Extension27CrunchesInterfaceController", ""]
+provides-dynamic-lookup:
+- "startWorkout"
+- "label"
+- "motionManager"
+- "goalPushups"
+- "willActivate"
+- "didDeactivate"
+- "awakeWithContext"
+depends-top-level:
+- "WKInterfaceController"
+- "WKInterfaceLabel"
+- "CMMotionManager"
+- "CrunchesInterfaceController"
+- "IntegerLiteralType"
+- "FloatLiteralType"
+- "AnyObject"
+depends-member:
+- ["Ps9AnyObject", "CMMotionManager"]
+- ["Ps9AnyObject", "awakeWithContext"]
+- ["Ps9AnyObject", "didDeactivate"]
+- ["Ps9AnyObject", "goalPushups"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "label"]
+- ["Ps9AnyObject", "motionManager"]
+- ["Ps9AnyObject", "startWorkout"]
+- ["Ps9AnyObject", "willActivate"]
+- ["Ps9AnyObject", ""]
+- ["CSo15CMMotionManager", "init"]
+- ["Ps11CVarArgType", "CMMotionManager"]
+- ["Ps11CVarArgType", "awakeWithContext"]
+- ["Ps11CVarArgType", "didDeactivate"]
+- ["Ps11CVarArgType", "goalPushups"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "label"]
+- ["Ps11CVarArgType", "motionManager"]
+- ["Ps11CVarArgType", "startWorkout"]
+- ["Ps11CVarArgType", "willActivate"]
+- ["Ps11CVarArgType", ""]
+- ["C24Vague_WatchKit_Extension27CrunchesInterfaceController", "AnyObject"]
+- ["C24Vague_WatchKit_Extension27CrunchesInterfaceController", "CMMotionManager"]
+- ["C24Vague_WatchKit_Extension27CrunchesInterfaceController", "WKInterfaceLabel"]
+- ["C24Vague_WatchKit_Extension27CrunchesInterfaceController", "awakeWithContext"]
+- ["C24Vague_WatchKit_Extension27CrunchesInterfaceController", "deinit"]
+- ["C24Vague_WatchKit_Extension27CrunchesInterfaceController", "didDeactivate"]
+- ["C24Vague_WatchKit_Extension27CrunchesInterfaceController", "goalPushups"]
+- ["C24Vague_WatchKit_Extension27CrunchesInterfaceController", "init"]
+- ["C24Vague_WatchKit_Extension27CrunchesInterfaceController", "label"]
+- ["C24Vague_WatchKit_Extension27CrunchesInterfaceController", "motionManager"]
+- ["C24Vague_WatchKit_Extension27CrunchesInterfaceController", "startWorkout"]
+- ["C24Vague_WatchKit_Extension27CrunchesInterfaceController", "willActivate"]
+- ["Ps28CustomDebugStringConvertible", "CMMotionManager"]
+- ["Ps28CustomDebugStringConvertible", "awakeWithContext"]
+- ["Ps28CustomDebugStringConvertible", "didDeactivate"]
+- ["Ps28CustomDebugStringConvertible", "goalPushups"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "label"]
+- ["Ps28CustomDebugStringConvertible", "motionManager"]
+- ["Ps28CustomDebugStringConvertible", "startWorkout"]
+- ["Ps28CustomDebugStringConvertible", "willActivate"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "CMMotionManager"]
+- ["Ps23CustomStringConvertible", "awakeWithContext"]
+- ["Ps23CustomStringConvertible", "didDeactivate"]
+- ["Ps23CustomStringConvertible", "goalPushups"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "label"]
+- ["Ps23CustomStringConvertible", "motionManager"]
+- ["Ps23CustomStringConvertible", "startWorkout"]
+- ["Ps23CustomStringConvertible", "willActivate"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "CMMotionManager"]
+- ["Ps9Equatable", "awakeWithContext"]
+- ["Ps9Equatable", "didDeactivate"]
+- ["Ps9Equatable", "goalPushups"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "label"]
+- ["Ps9Equatable", "motionManager"]
+- ["Ps9Equatable", "startWorkout"]
+- ["Ps9Equatable", "willActivate"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "CMMotionManager"]
+- ["Ps8Hashable", "awakeWithContext"]
+- ["Ps8Hashable", "didDeactivate"]
+- ["Ps8Hashable", "goalPushups"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "label"]
+- ["Ps8Hashable", "motionManager"]
+- ["Ps8Hashable", "startWorkout"]
+- ["Ps8Hashable", "willActivate"]
+- ["Ps8Hashable", ""]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "CMMotionManager"]
+- ["CSo8NSObject", "WKInterfaceLabel"]
+- ["CSo8NSObject", "awakeWithContext"]
+- ["CSo8NSObject", "didDeactivate"]
+- ["CSo8NSObject", "goalPushups"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "label"]
+- ["CSo8NSObject", "motionManager"]
+- ["CSo8NSObject", "startWorkout"]
+- ["CSo8NSObject", "willActivate"]
+- ["PSo16NSObjectProtocol", "CMMotionManager"]
+- ["PSo16NSObjectProtocol", "awakeWithContext"]
+- ["PSo16NSObjectProtocol", "didDeactivate"]
+- ["PSo16NSObjectProtocol", "goalPushups"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "label"]
+- ["PSo16NSObjectProtocol", "motionManager"]
+- ["PSo16NSObjectProtocol", "startWorkout"]
+- ["PSo16NSObjectProtocol", "willActivate"]
+- ["PSo16NSObjectProtocol", ""]
+- ["CSo21WKInterfaceController", "AnyObject"]
+- ["CSo21WKInterfaceController", "CMMotionManager"]
+- ["CSo21WKInterfaceController", "WKInterfaceLabel"]
+- ["CSo21WKInterfaceController", "awakeWithContext"]
+- ["CSo21WKInterfaceController", "didDeactivate"]
+- ["CSo21WKInterfaceController", "goalPushups"]
+- ["CSo21WKInterfaceController", "init"]
+- ["CSo21WKInterfaceController", "label"]
+- ["CSo21WKInterfaceController", "motionManager"]
+- ["CSo21WKInterfaceController", "startWorkout"]
+- ["CSo21WKInterfaceController", "willActivate"]
+- ["CSo21WKInterfaceController", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "CSo15CMMotionManager"
+- "Ps11CVarArgType"
+- "C24Vague_WatchKit_Extension27CrunchesInterfaceController"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "CSo21WKInterfaceController"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/WatchKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/CoreLocation.swiftmodule"
+- "/Users/Akash/Desktop/Vague/build/Debug-watchos/SigmaSwiftStatistics.framework/Modules/SigmaSwiftStatistics.swiftmodule/arm.swiftmodule"
+- "/Users/Akash/Desktop/Vague/build/Debug-watchos/SigmaSwiftStatistics.framework/Headers/SigmaSwiftStatistics-Swift.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-watchos/SigmaSwiftStatistics.framework/Headers/SigmaSwiftStatistics-umbrella.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-watchos/SigmaSwiftStatistics.framework/Modules/module.modulemap"
+interface-hash: "bb7646272148c06fe8022f2135b811dd"

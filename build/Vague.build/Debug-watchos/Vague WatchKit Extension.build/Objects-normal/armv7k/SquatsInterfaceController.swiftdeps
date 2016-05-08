@@ -1,0 +1,600 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SquatsInterfaceController"
+provides-nominal:
+- "C24Vague_WatchKit_Extension25SquatsInterfaceController"
+provides-member:
+- ["C24Vague_WatchKit_Extension25SquatsInterfaceController", ""]
+provides-dynamic-lookup:
+- "applicationDict"
+- "goalPushups"
+- "startWorkout"
+- "didDeactivate"
+- "label"
+- "awakeWithContext"
+- "willActivate"
+- "motionManager"
+depends-top-level:
+- !private "Void"
+- !private "-"
+- "String"
+- !private "BooleanLiteralType"
+- "FloatLiteralType"
+- !private "NSDictionary"
+- "UnicodeScalarType"
+- !private "NSOperationQueue"
+- "SquatsInterfaceController"
+- "WKInterfaceController"
+- "AnyObject"
+- !private "print"
+- !private "CMAccelerometerData"
+- !private "Array"
+- "WKInterfaceLabel"
+- !private "NSError"
+- "StringLiteralType"
+- !private "<"
+- "IntegerLiteralType"
+- !private "+="
+- !private "=="
+- !private "Double"
+- !private ">"
+- !private "!="
+- !private "sleep"
+- "CMMotionManager"
+- !private "&&"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- ["Ps9AnyObject", "CMMotionManager"]
+- !private ["Ps9AnyObject", "Double"]
+- !private ["Ps9AnyObject", "NSOperationQueue"]
+- ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "acceleration"]
+- !private ["Ps9AnyObject", "accelerometerAvailable"]
+- !private ["Ps9AnyObject", "accelerometerUpdateInterval"]
+- ["Ps9AnyObject", "applicationDict"]
+- ["Ps9AnyObject", "awakeWithContext"]
+- !private ["Ps9AnyObject", "currentQueue"]
+- !private ["Ps9AnyObject", "deinit"]
+- ["Ps9AnyObject", "didDeactivate"]
+- ["Ps9AnyObject", "goalPushups"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "label"]
+- ["Ps9AnyObject", "motionManager"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "setText"]
+- !private ["Ps9AnyObject", "sleep"]
+- !private ["Ps9AnyObject", "startAccelerometerUpdatesToQueue"]
+- ["Ps9AnyObject", "startWorkout"]
+- !private ["Ps9AnyObject", "subscript"]
+- ["Ps9AnyObject", "willActivate"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Element"]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "deinit"]
+- !private ["Sa", "init"]
+- !private ["Ps23ArrayLiteralConvertible", "Element"]
+- !private ["Ps23ArrayLiteralConvertible", "Generator"]
+- !private ["Ps23ArrayLiteralConvertible", "Index"]
+- !private ["Ps23ArrayLiteralConvertible", "SubSequence"]
+- !private ["Ps23ArrayLiteralConvertible", "_Element"]
+- !private ["Ps23ArrayLiteralConvertible", "init"]
+- !private ["Vs10ArraySlice", "Generator"]
+- !private ["Vs10ArraySlice", "Index"]
+- !private ["Ps22BidirectionalIndexType", "Distance"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "Distance"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["VSC14CMAcceleration", "x"]
+- !private ["VSC14CMAcceleration", "y"]
+- !private ["VSC14CMAcceleration", "z"]
+- !private ["CSo19CMAccelerometerData", "acceleration"]
+- !private ["CSo9CMLogItem", "acceleration"]
+- !private ["CSo15CMMotionManager", "accelerometerAvailable"]
+- !private ["CSo15CMMotionManager", "accelerometerUpdateInterval"]
+- ["CSo15CMMotionManager", "init"]
+- !private ["CSo15CMMotionManager", "startAccelerometerUpdatesToQueue"]
+- ["Ps11CVarArgType", "CMMotionManager"]
+- !private ["Ps11CVarArgType", "Distance"]
+- !private ["Ps11CVarArgType", "Double"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "NSOperationQueue"]
+- ["Ps11CVarArgType", "String"]
+- !private ["Ps11CVarArgType", "acceleration"]
+- !private ["Ps11CVarArgType", "accelerometerAvailable"]
+- !private ["Ps11CVarArgType", "accelerometerUpdateInterval"]
+- ["Ps11CVarArgType", "applicationDict"]
+- ["Ps11CVarArgType", "awakeWithContext"]
+- !private ["Ps11CVarArgType", "currentQueue"]
+- ["Ps11CVarArgType", "didDeactivate"]
+- ["Ps11CVarArgType", "goalPushups"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "label"]
+- ["Ps11CVarArgType", "motionManager"]
+- !private ["Ps11CVarArgType", "print"]
+- !private ["Ps11CVarArgType", "setText"]
+- !private ["Ps11CVarArgType", "sleep"]
+- !private ["Ps11CVarArgType", "startAccelerometerUpdatesToQueue"]
+- ["Ps11CVarArgType", "startWorkout"]
+- !private ["Ps11CVarArgType", "subscript"]
+- ["Ps11CVarArgType", "willActivate"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps14CollectionType", "Element"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "_Element"]
+- ["Ps14CollectionType", "init"]
+- !private ["Ps14CollectionType", "subscript"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "CMMotionManager"]
+- !private ["Ps28CustomDebugStringConvertible", "Double"]
+- !private ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "NSOperationQueue"]
+- ["Ps28CustomDebugStringConvertible", "String"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "acceleration"]
+- !private ["Ps28CustomDebugStringConvertible", "accelerometerAvailable"]
+- !private ["Ps28CustomDebugStringConvertible", "accelerometerUpdateInterval"]
+- ["Ps28CustomDebugStringConvertible", "applicationDict"]
+- ["Ps28CustomDebugStringConvertible", "awakeWithContext"]
+- !private ["Ps28CustomDebugStringConvertible", "currentQueue"]
+- ["Ps28CustomDebugStringConvertible", "didDeactivate"]
+- ["Ps28CustomDebugStringConvertible", "goalPushups"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "label"]
+- ["Ps28CustomDebugStringConvertible", "motionManager"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "setText"]
+- !private ["Ps28CustomDebugStringConvertible", "sleep"]
+- !private ["Ps28CustomDebugStringConvertible", "startAccelerometerUpdatesToQueue"]
+- ["Ps28CustomDebugStringConvertible", "startWorkout"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps28CustomDebugStringConvertible", "willActivate"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "CMMotionManager"]
+- !private ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "Double"]
+- !private ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "NSOperationQueue"]
+- ["Ps23CustomStringConvertible", "String"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "acceleration"]
+- !private ["Ps23CustomStringConvertible", "accelerometerAvailable"]
+- !private ["Ps23CustomStringConvertible", "accelerometerUpdateInterval"]
+- ["Ps23CustomStringConvertible", "applicationDict"]
+- ["Ps23CustomStringConvertible", "awakeWithContext"]
+- !private ["Ps23CustomStringConvertible", "currentQueue"]
+- ["Ps23CustomStringConvertible", "didDeactivate"]
+- ["Ps23CustomStringConvertible", "goalPushups"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "label"]
+- ["Ps23CustomStringConvertible", "motionManager"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "setText"]
+- !private ["Ps23CustomStringConvertible", "sleep"]
+- !private ["Ps23CustomStringConvertible", "startAccelerometerUpdatesToQueue"]
+- ["Ps23CustomStringConvertible", "startWorkout"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- ["Ps23CustomStringConvertible", "willActivate"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Vs10Dictionary", "init"]
+- !private ["Vs10Dictionary", "subscript"]
+- ["Ps28DictionaryLiteralConvertible", "init"]
+- !private ["Ps28DictionaryLiteralConvertible", "subscript"]
+- !private ["Sd", "init"]
+- ["Ps9Equatable", "CMMotionManager"]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "Double"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "NSOperationQueue"]
+- ["Ps9Equatable", "String"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "acceleration"]
+- !private ["Ps9Equatable", "accelerometerAvailable"]
+- !private ["Ps9Equatable", "accelerometerUpdateInterval"]
+- ["Ps9Equatable", "applicationDict"]
+- ["Ps9Equatable", "awakeWithContext"]
+- !private ["Ps9Equatable", "currentQueue"]
+- ["Ps9Equatable", "didDeactivate"]
+- ["Ps9Equatable", "goalPushups"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "label"]
+- ["Ps9Equatable", "motionManager"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "setText"]
+- !private ["Ps9Equatable", "sleep"]
+- !private ["Ps9Equatable", "startAccelerometerUpdatesToQueue"]
+- ["Ps9Equatable", "startWorkout"]
+- !private ["Ps9Equatable", "subscript"]
+- ["Ps9Equatable", "willActivate"]
+- ["Ps9Equatable", ""]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps23FloatLiteralConvertible", "init"]
+- !private ["Ps17FloatingPointType", "init"]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps13GeneratorType", "Element"]
+- ["Ps8Hashable", "CMMotionManager"]
+- !private ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "Double"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "NSOperationQueue"]
+- ["Ps8Hashable", "String"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "acceleration"]
+- !private ["Ps8Hashable", "accelerometerAvailable"]
+- !private ["Ps8Hashable", "accelerometerUpdateInterval"]
+- ["Ps8Hashable", "applicationDict"]
+- ["Ps8Hashable", "awakeWithContext"]
+- !private ["Ps8Hashable", "currentQueue"]
+- ["Ps8Hashable", "didDeactivate"]
+- ["Ps8Hashable", "goalPushups"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "label"]
+- ["Ps8Hashable", "motionManager"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "setText"]
+- !private ["Ps8Hashable", "sleep"]
+- !private ["Ps8Hashable", "startAccelerometerUpdatesToQueue"]
+- ["Ps8Hashable", "startWorkout"]
+- !private ["Ps8Hashable", "subscript"]
+- ["Ps8Hashable", "willActivate"]
+- ["Ps8Hashable", ""]
+- !private ["SQ", "deinit"]
+- !private ["Ps9Indexable", "Element"]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- ["Ps9Indexable", "init"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["Ps21IntegerArithmeticType", "Distance"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "Distance"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "init"]
+- !private ["Ps11IntegerType", "Distance"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "Distance"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["Ps21MutableCollectionType", "Element"]
+- !private ["Ps21MutableCollectionType", "Generator"]
+- !private ["Ps21MutableCollectionType", "Index"]
+- !private ["Ps21MutableCollectionType", "SubSequence"]
+- !private ["Ps21MutableCollectionType", "_Element"]
+- !private ["Ps21MutableCollectionType", "init"]
+- !private ["Ps16MutableIndexable", "Element"]
+- !private ["Ps16MutableIndexable", "Generator"]
+- !private ["Ps16MutableIndexable", "Index"]
+- !private ["Ps16MutableIndexable", "SubSequence"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "init"]
+- !private ["Ps16MutableSliceable", "Element"]
+- !private ["Ps16MutableSliceable", "Generator"]
+- !private ["Ps16MutableSliceable", "Index"]
+- !private ["Ps16MutableSliceable", "SubSequence"]
+- !private ["Ps16MutableSliceable", "_Element"]
+- !private ["Ps16MutableSliceable", "init"]
+- !private ["PSo8NSCoding", "acceleration"]
+- !private ["PSo8NSCoding", "subscript"]
+- !private ["PSo9NSCopying", "acceleration"]
+- !private ["PSo9NSCopying", "deinit"]
+- !private ["PSo9NSCopying", "subscript"]
+- !private ["CSo12NSDictionary", "deinit"]
+- !private ["CSo12NSDictionary", "subscript"]
+- !private ["PSo17NSFastEnumeration", "subscript"]
+- !private ["PSo16NSMutableCopying", "subscript"]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "CMAccelerometerData"]
+- ["CSo8NSObject", "CMMotionManager"]
+- !private ["CSo8NSObject", "Double"]
+- !private ["CSo8NSObject", "NSDictionary"]
+- !private ["CSo8NSObject", "NSError"]
+- !private ["CSo8NSObject", "NSOperationQueue"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "Void"]
+- ["CSo8NSObject", "WKInterfaceLabel"]
+- !private ["CSo8NSObject", "acceleration"]
+- !private ["CSo8NSObject", "accelerometerAvailable"]
+- !private ["CSo8NSObject", "accelerometerUpdateInterval"]
+- ["CSo8NSObject", "applicationDict"]
+- ["CSo8NSObject", "awakeWithContext"]
+- !private ["CSo8NSObject", "currentQueue"]
+- !private ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "didDeactivate"]
+- ["CSo8NSObject", "goalPushups"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "label"]
+- ["CSo8NSObject", "motionManager"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "setText"]
+- !private ["CSo8NSObject", "sleep"]
+- !private ["CSo8NSObject", "startAccelerometerUpdatesToQueue"]
+- ["CSo8NSObject", "startWorkout"]
+- !private ["CSo8NSObject", "subscript"]
+- ["CSo8NSObject", "willActivate"]
+- ["PSo16NSObjectProtocol", "CMMotionManager"]
+- !private ["PSo16NSObjectProtocol", "Double"]
+- !private ["PSo16NSObjectProtocol", "NSOperationQueue"]
+- ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "acceleration"]
+- !private ["PSo16NSObjectProtocol", "accelerometerAvailable"]
+- !private ["PSo16NSObjectProtocol", "accelerometerUpdateInterval"]
+- ["PSo16NSObjectProtocol", "applicationDict"]
+- ["PSo16NSObjectProtocol", "awakeWithContext"]
+- !private ["PSo16NSObjectProtocol", "currentQueue"]
+- ["PSo16NSObjectProtocol", "didDeactivate"]
+- ["PSo16NSObjectProtocol", "goalPushups"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "label"]
+- ["PSo16NSObjectProtocol", "motionManager"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "setText"]
+- !private ["PSo16NSObjectProtocol", "sleep"]
+- !private ["PSo16NSObjectProtocol", "startAccelerometerUpdatesToQueue"]
+- ["PSo16NSObjectProtocol", "startWorkout"]
+- !private ["PSo16NSObjectProtocol", "subscript"]
+- ["PSo16NSObjectProtocol", "willActivate"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["CSo16NSOperationQueue", "currentQueue"]
+- !private ["PSo14NSSecureCoding", "acceleration"]
+- !private ["PSo14NSSecureCoding", "subscript"]
+- !private ["Sq", "deinit"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["Ps21RandomAccessIndexType", "Distance"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Ps30RangeReplaceableCollectionType", "Element"]
+- !private ["Ps30RangeReplaceableCollectionType", "Generator"]
+- !private ["Ps30RangeReplaceableCollectionType", "Index"]
+- !private ["Ps30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["Ps30RangeReplaceableCollectionType", "_Element"]
+- !private ["Ps30RangeReplaceableCollectionType", "init"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "_Element"]
+- ["Ps12SequenceType", "init"]
+- !private ["Ps12SequenceType", "subscript"]
+- !private ["Ps17SignedIntegerType", "Distance"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "Distance"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "init"]
+- !private ["Vs5Slice", "Generator"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- ["C24Vague_WatchKit_Extension25SquatsInterfaceController", "AnyObject"]
+- !private ["C24Vague_WatchKit_Extension25SquatsInterfaceController", "CMAccelerometerData"]
+- ["C24Vague_WatchKit_Extension25SquatsInterfaceController", "CMMotionManager"]
+- !private ["C24Vague_WatchKit_Extension25SquatsInterfaceController", "Double"]
+- !private ["C24Vague_WatchKit_Extension25SquatsInterfaceController", "NSDictionary"]
+- !private ["C24Vague_WatchKit_Extension25SquatsInterfaceController", "NSError"]
+- !private ["C24Vague_WatchKit_Extension25SquatsInterfaceController", "NSOperationQueue"]
+- ["C24Vague_WatchKit_Extension25SquatsInterfaceController", "String"]
+- !private ["C24Vague_WatchKit_Extension25SquatsInterfaceController", "Void"]
+- ["C24Vague_WatchKit_Extension25SquatsInterfaceController", "WKInterfaceLabel"]
+- ["C24Vague_WatchKit_Extension25SquatsInterfaceController", "applicationDict"]
+- ["C24Vague_WatchKit_Extension25SquatsInterfaceController", "awakeWithContext"]
+- ["C24Vague_WatchKit_Extension25SquatsInterfaceController", "deinit"]
+- ["C24Vague_WatchKit_Extension25SquatsInterfaceController", "didDeactivate"]
+- ["C24Vague_WatchKit_Extension25SquatsInterfaceController", "goalPushups"]
+- ["C24Vague_WatchKit_Extension25SquatsInterfaceController", "init"]
+- ["C24Vague_WatchKit_Extension25SquatsInterfaceController", "label"]
+- ["C24Vague_WatchKit_Extension25SquatsInterfaceController", "motionManager"]
+- !private ["C24Vague_WatchKit_Extension25SquatsInterfaceController", "print"]
+- !private ["C24Vague_WatchKit_Extension25SquatsInterfaceController", "sleep"]
+- ["C24Vague_WatchKit_Extension25SquatsInterfaceController", "startWorkout"]
+- ["C24Vague_WatchKit_Extension25SquatsInterfaceController", "willActivate"]
+- !private ["Ps10Streamable", "init"]
+- !private ["Ps10Strideable", "Distance"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "init"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- ["CSo21WKInterfaceController", "AnyObject"]
+- !private ["CSo21WKInterfaceController", "CMAccelerometerData"]
+- ["CSo21WKInterfaceController", "CMMotionManager"]
+- !private ["CSo21WKInterfaceController", "Double"]
+- !private ["CSo21WKInterfaceController", "NSDictionary"]
+- !private ["CSo21WKInterfaceController", "NSError"]
+- !private ["CSo21WKInterfaceController", "NSOperationQueue"]
+- ["CSo21WKInterfaceController", "String"]
+- !private ["CSo21WKInterfaceController", "Void"]
+- ["CSo21WKInterfaceController", "WKInterfaceLabel"]
+- ["CSo21WKInterfaceController", "applicationDict"]
+- ["CSo21WKInterfaceController", "awakeWithContext"]
+- ["CSo21WKInterfaceController", "didDeactivate"]
+- ["CSo21WKInterfaceController", "goalPushups"]
+- ["CSo21WKInterfaceController", "init"]
+- ["CSo21WKInterfaceController", "label"]
+- ["CSo21WKInterfaceController", "motionManager"]
+- !private ["CSo21WKInterfaceController", "print"]
+- !private ["CSo21WKInterfaceController", "sleep"]
+- ["CSo21WKInterfaceController", "startWorkout"]
+- ["CSo21WKInterfaceController", "willActivate"]
+- ["CSo21WKInterfaceController", ""]
+- !private ["CSo16WKInterfaceLabel", "setText"]
+- !private ["CSo17WKInterfaceObject", "setText"]
+- !private ["Ps10_ArrayType", "Element"]
+- !private ["Ps10_ArrayType", "Generator"]
+- !private ["Ps10_ArrayType", "Index"]
+- !private ["Ps10_ArrayType", "SubSequence"]
+- !private ["Ps10_ArrayType", "_Element"]
+- !private ["Ps10_ArrayType", "init"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps31_BuiltinFloatLiteralConvertible", "init"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps19_CVarArgAlignedType", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps24_DestructorSafeContainer", "Element"]
+- !private ["Ps24_DestructorSafeContainer", "Generator"]
+- !private ["Ps24_DestructorSafeContainer", "Index"]
+- !private ["Ps24_DestructorSafeContainer", "SubSequence"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "Distance"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "Distance"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Distance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "Generator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps22_RandomAccessAmbiguity", "Distance"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Distance"]
+- !private ["Ps12_Reflectable", "Element"]
+- !private ["Ps12_Reflectable", "Generator"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "SubSequence"]
+- !private ["Ps12_Reflectable", "_Element"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "subscript"]
+- !private ["Ps18_SignedIntegerType", "Distance"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Vs10ArraySlice"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "VSC14CMAcceleration"
+- !private "CSo19CMAccelerometerData"
+- !private "CSo9CMLogItem"
+- "CSo15CMMotionManager"
+- "Ps11CVarArgType"
+- "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- "Ps28DictionaryLiteralConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps23FloatLiteralConvertible"
+- !private "Ps17FloatingPointType"
+- !private "Ps16ForwardIndexType"
+- !private "Ps13GeneratorType"
+- "Ps8Hashable"
+- !private "SQ"
+- "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Ps14MirrorPathType"
+- !private "Ps21MutableCollectionType"
+- !private "Ps16MutableIndexable"
+- !private "Ps16MutableSliceable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo12NSDictionary"
+- !private "PSo17NSFastEnumeration"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "CSo16NSOperationQueue"
+- !private "PSo14NSSecureCoding"
+- !private "Sq"
+- !private "Ps16OutputStreamType"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps30RangeReplaceableCollectionType"
+- "Ps12SequenceType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Vs5Slice"
+- "C24Vague_WatchKit_Extension25SquatsInterfaceController"
+- !private "Ps10Streamable"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- "CSo21WKInterfaceController"
+- !private "CSo16WKInterfaceLabel"
+- !private "CSo17WKInterfaceObject"
+- !private "Ps10_ArrayType"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps31_BuiltinFloatLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps19_CVarArgAlignedType"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/WatchKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/CoreLocation.swiftmodule"
+- "/Users/Akash/Desktop/Vague/build/Debug-watchos/SigmaSwiftStatistics.framework/Modules/SigmaSwiftStatistics.swiftmodule/arm.swiftmodule"
+- "/Users/Akash/Desktop/Vague/build/Debug-watchos/SigmaSwiftStatistics.framework/Headers/SigmaSwiftStatistics-Swift.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-watchos/SigmaSwiftStatistics.framework/Headers/SigmaSwiftStatistics-umbrella.h"
+- "/Users/Akash/Desktop/Vague/build/Debug-watchos/SigmaSwiftStatistics.framework/Modules/module.modulemap"
+interface-hash: "bc9d58404799d5e1499ecab5ba42722d"

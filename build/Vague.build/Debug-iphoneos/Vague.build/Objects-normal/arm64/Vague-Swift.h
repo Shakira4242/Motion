@@ -93,8 +93,10 @@ typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
-@import ObjectiveC;
+@import Stripe;
+@import PassKit;
 @import WatchConnectivity;
+@import ObjectiveC;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -102,6 +104,7 @@ typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 @class UIWindow;
 @class UIApplication;
 @class NSObject;
+@class NSURL;
 
 SWIFT_CLASS("_TtC5Vague11AppDelegate")
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
@@ -112,7 +115,107 @@ SWIFT_CLASS("_TtC5Vague11AppDelegate")
 - (void)applicationWillEnterForeground:(UIApplication * _Nonnull)application;
 - (void)applicationDidBecomeActive:(UIApplication * _Nonnull)application;
 - (void)applicationWillTerminate:(UIApplication * _Nonnull)application;
+- (BOOL)application:(UIApplication * _Nonnull)application openURL:(NSURL * _Nonnull)url sourceApplication:(NSString * _Nullable)sourceApplication annotation:(id _Nonnull)annotation;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSBundle;
+@class NSCoder;
+
+SWIFT_CLASS("_TtC5Vague27AskCreditCardViewController")
+@interface AskCreditCardViewController : UIViewController
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class STPPaymentCardTextField;
+@class STPToken;
+
+SWIFT_CLASS("_TtC5Vague24CreditCardViewController")
+@interface CreditCardViewController : UIViewController <STPPaymentCardTextFieldDelegate>
+@property (nonatomic, readonly, strong) STPPaymentCardTextField * _Nonnull paymentTextField;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (IBAction)saveCard:(id _Nonnull)sender;
+- (void)createBackendChargeWithToken:(STPToken * _Nonnull)token completion:(void (^ _Nonnull)(PKPaymentAuthorizationStatus))completion;
+- (void)dismissKeyboard;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class WCSession;
+@class Firebase;
+@class UILabel;
+@class UIImageView;
+
+SWIFT_CLASS("_TtC5Vague23DashboardViewController")
+@interface DashboardViewController : UIViewController <WCSessionDelegate>
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified name;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified profile;
+@property (nonatomic, strong) WCSession * _Null_unspecified session;
+@property (nonatomic, strong) Firebase * _Null_unspecified ref;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (void)session:(WCSession * _Nonnull)session didReceiveApplicationContext:(NSDictionary<NSString *, id> * _Nonnull)applicationContext;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC5Vague25DescriptionViewController")
+@interface DescriptionViewController : UIViewController
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UISwitch;
+@class UITextField;
+
+SWIFT_CLASS("_TtC5Vague24HealthDataViewController")
+@interface HealthDataViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UISwitch * _Null_unspecified sex;
+@property (nonatomic, strong) Firebase * _Null_unspecified ref;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified height;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified weight;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified Age;
+- (IBAction)submitData:(id _Nonnull)sender;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (void)dismissKeyboard;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC5Vague21InitialViewController")
+@interface InitialViewController : UIViewController
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class FBSDKLoginManager;
+
+SWIFT_CLASS("_TtC5Vague19LoginViewController")
+@interface LoginViewController : UIViewController
+@property (nonatomic, readonly, strong) Firebase * _Null_unspecified ref;
+@property (nonatomic, readonly, strong) FBSDKLoginManager * _Nonnull facebookLogin;
+- (IBAction)login:(id _Nonnull)sender;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface UIColor (SWIFT_EXTENSION(Vague))
+- (nonnull instancetype)initWithRed:(NSInteger)red green:(NSInteger)green blue:(NSInteger)blue;
+- (nonnull instancetype)initWithNetHex:(NSInteger)netHex;
 @end
 
 @class NSNotification;
@@ -125,20 +228,27 @@ SWIFT_CLASS("_TtC5Vague13iCloudManager")
 - (void)setiCloudData:(NSString * _Nonnull)key values:(NSString * _Nullable)values;
 @end
 
-@class WCSession;
-@class UILabel;
-@class NSBundle;
-@class NSCoder;
+@class UIPickerView;
 
-SWIFT_CLASS("_TtC5Vague17iosViewController")
-@interface iosViewController : UIViewController <WCSessionDelegate>
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified received;
-@property (nonatomic, strong) iCloudManager * _Nonnull iCloud;
+SWIFT_CLASS("_TtC5Vague21setGoalViewController")
+@interface setGoalViewController : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate, WCSessionDelegate>
+@property (nonatomic, weak) IBOutlet UIPickerView * _Null_unspecified picker;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified goalName;
 @property (nonatomic, strong) WCSession * _Null_unspecified session;
-- (void)iCloudUpdated;
-- (void)setCountInIcloud:(NSString * _Nonnull)value;
+@property (nonatomic, strong) Firebase * _Null_unspecified ref;
+@property (nonatomic, copy) NSArray<NSArray<NSString *> *> * _Nonnull pickerData;
+@property (nonatomic, copy) NSArray<NSNumber *> * _Nonnull position;
+@property (nonatomic, copy) NSDictionary<NSString *, NSString *> * _Nonnull applicationDict;
+- (IBAction)addGoal:(id _Nonnull)sender;
+- (NSInteger)numberOfComponentsInPickerView:(UIPickerView * _Nonnull)pickerView;
+- (NSInteger)pickerView:(UIPickerView * _Nonnull)pickerView numberOfRowsInComponent:(NSInteger)component;
+- (NSString * _Nonnull)pickerView:(UIPickerView * _Nonnull)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component;
+- (void)pickerView:(UIPickerView * _Nonnull)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified profile;
 - (void)viewDidLoad;
-- (void)viewWillAppear:(BOOL)animated;
+- (void)didReceiveMemoryWarning;
+- (void)dismissKeyboard;
+- (void)send:(NSArray<NSString *> * _Nonnull)count;
 - (void)session:(WCSession * _Nonnull)session didReceiveApplicationContext:(NSDictionary<NSString *, id> * _Nonnull)applicationContext;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;

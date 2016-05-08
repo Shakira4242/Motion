@@ -124,6 +124,7 @@ SWIFT_CLASS("_TtC24Vague_WatchKit_Extension19InterfaceController")
 @property (nonatomic, copy) NSArray<NSNumber *> * _Nonnull array1;
 @property (nonatomic) NSInteger counter;
 @property (nonatomic) NSInteger crunchCounter;
+@property (nonatomic) BOOL counted;
 @property (nonatomic, strong) iCloudManager * _Nonnull iCloud;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (void)awakeWithContext:(id _Nullable)context;

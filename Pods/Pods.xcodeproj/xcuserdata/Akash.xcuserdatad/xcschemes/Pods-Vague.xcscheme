@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '575FDEFF6C052EA2788193E1'
+               BlueprintIdentifier = '1694BE51A65B5571A89DDB49'
                BlueprintName = 'Pods-Vague'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_Vague.framework'>

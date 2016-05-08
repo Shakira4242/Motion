@@ -92,13 +92,28 @@ typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 # endif
 #endif
 #if defined(__has_feature) && __has_feature(modules)
-@import ObjectiveC;
 @import WatchKit;
+@import ObjectiveC;
 @import WatchConnectivity;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
+@class WKInterfaceLabel;
+@class CMMotionManager;
+
+SWIFT_CLASS("_TtC24Vague_WatchKit_Extension27CrunchesInterfaceController")
+@interface CrunchesInterfaceController : WKInterfaceController
+@property (nonatomic) NSInteger goalPushups;
+@property (nonatomic, strong) IBOutlet WKInterfaceLabel * _Null_unspecified label;
+- (IBAction)startWorkout;
+@property (nonatomic, readonly, strong) CMMotionManager * _Nonnull motionManager;
+- (void)awakeWithContext:(id _Nullable)context;
+- (void)willActivate;
+- (void)didDeactivate;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC24Vague_WatchKit_Extension17ExtensionDelegate")
 @interface ExtensionDelegate : NSObject <WKExtensionDelegate>
@@ -108,22 +123,23 @@ SWIFT_CLASS("_TtC24Vague_WatchKit_Extension17ExtensionDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class WKInterfaceLabel;
 @class WCSession;
-@class CMMotionManager;
 @class iCloudManager;
 
 SWIFT_CLASS("_TtC24Vague_WatchKit_Extension19InterfaceController")
 @interface InterfaceController : WKInterfaceController <WCSessionDelegate>
 - (IBAction)stopButton;
-@property (nonatomic, strong) IBOutlet WKInterfaceLabel * _Null_unspecified labelA2;
-@property (nonatomic, strong) IBOutlet WKInterfaceLabel * _Null_unspecified labelA3;
+@property (nonatomic, strong) IBOutlet WKInterfaceLabel * _Null_unspecified labelA1;
+@property (nonatomic, strong) IBOutlet WKInterfaceLabel * _Null_unspecified LabelA2;
+@property (nonatomic, strong) IBOutlet WKInterfaceLabel * _Null_unspecified LabelA3;
 @property (nonatomic, strong) WCSession * _Null_unspecified session;
+@property (nonatomic, copy) NSDictionary<NSString *, NSString *> * _Nonnull applicationDict;
 @property (nonatomic, readonly, strong) CMMotionManager * _Nonnull motionManager;
 @property (nonatomic) NSInteger sample;
 @property (nonatomic, copy) NSArray<NSNumber *> * _Nonnull array1;
 @property (nonatomic) NSInteger counter;
 @property (nonatomic) NSInteger crunchCounter;
+@property (nonatomic) BOOL counted;
 @property (nonatomic, strong) iCloudManager * _Nonnull iCloud;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (void)awakeWithContext:(id _Nullable)context;
@@ -133,7 +149,9 @@ SWIFT_CLASS("_TtC24Vague_WatchKit_Extension19InterfaceController")
 - (NSInteger)KNN:(NSArray<NSNumber *> * _Nonnull)newFeatureVector dataSet:(NSArray<NSArray<NSNumber *> *> * _Nonnull)dataSet labels:(NSArray<NSString *> * _Nonnull)labels k:(NSInteger)k;
 - (void)iCloudUpdated;
 - (void)setCountInIcloud:(NSString * _Null_unspecified)value;
-- (void)send:(NSString * _Nonnull)count;
+- (void)session:(WCSession * _Nonnull)session didReceiveApplicationContext:(NSDictionary<NSString *, id> * _Nonnull)applicationContext;
+- (void)send:(NSArray<NSString *> * _Nonnull)count;
+- (id _Nullable)contextForSegueWithIdentifier:(NSString * _Nonnull)segueIdentifier;
 @end
 
 
@@ -142,6 +160,40 @@ SWIFT_CLASS("_TtC24Vague_WatchKit_Extension22NotificationController")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (void)willActivate;
 - (void)didDeactivate;
+@end
+
+
+SWIFT_CLASS("_TtC24Vague_WatchKit_Extension25PushupInterfaceController")
+@interface PushupInterfaceController : WKInterfaceController <WCSessionDelegate>
+@property (nonatomic, copy) NSDictionary<NSString *, NSString *> * _Nonnull applicationDict;
+@property (nonatomic, strong) WCSession * _Null_unspecified session;
+@property (nonatomic, readonly, strong) CMMotionManager * _Nonnull motionManager;
+@property (nonatomic) NSInteger goalPushups;
+@property (nonatomic, strong) IBOutlet WKInterfaceLabel * _Null_unspecified label;
+@property (nonatomic) BOOL end;
+- (IBAction)stopWorkout;
+- (IBAction)startWorkout;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (void)awakeWithContext:(id _Nullable)context;
+- (void)willActivate;
+- (void)didDeactivate;
+- (void)session:(WCSession * _Nonnull)session applicationContext:(NSDictionary<NSString *, id> * _Nonnull)applicationContext;
+- (NSInteger)KNN:(NSArray<NSNumber *> * _Nonnull)newFeatureVector dataSet:(NSArray<NSArray<NSNumber *> *> * _Nonnull)dataSet labels:(NSArray<NSString *> * _Nonnull)labels k:(NSInteger)k;
+- (id _Nullable)contextForSegueWithIdentifier:(NSString * _Nonnull)segueIdentifier;
+@end
+
+
+SWIFT_CLASS("_TtC24Vague_WatchKit_Extension25SquatsInterfaceController")
+@interface SquatsInterfaceController : WKInterfaceController
+@property (nonatomic) NSInteger goalPushups;
+@property (nonatomic, copy) NSDictionary<NSString *, NSString *> * _Nonnull applicationDict;
+@property (nonatomic, strong) IBOutlet WKInterfaceLabel * _Null_unspecified label;
+- (IBAction)startWorkout;
+@property (nonatomic, readonly, strong) CMMotionManager * _Nonnull motionManager;
+- (void)awakeWithContext:(id _Nullable)context;
+- (void)willActivate;
+- (void)didDeactivate;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class NSNotification;
